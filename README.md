@@ -154,3 +154,32 @@
 - [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
+
+## Student Outcome
+
+Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+<div style="page-break-after: always;"></div>
+
+<div style="page-break-after: always;"></div>
+
+# Capitulo I: Introducción
+
+## 1.1. StartUp Profile
+
+### 1.1.1. Descripción de la StartUp
+
+
+
+---
+
+## Misión
+
+Nuestra misión es ....
+
+---
+
+## Visión
+
+Queremos que ElectroCorp ....
+
