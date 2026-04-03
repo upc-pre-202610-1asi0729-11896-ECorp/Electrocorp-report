@@ -17,3 +17,12 @@
 | :--------: | :------------------------------------ |
 | U20241e179 | Tavara Correa, Sebastian Oswaldo      |
 | U202418755 | Santiago Atanacio, Jairo Mathias      |
+
+</div>
+<div style="page-break-after: always;"></div>
+
+## Registro de Versiones del Informe
+
+| Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
+| :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+|   TB1   | .... | .....| .... |
