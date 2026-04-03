@@ -16,3 +16,4 @@
 | **Código** | **Apellidos y Nombres**               |
 | :--------: | :------------------------------------ |
 | U20241e179 | Tavara Correa, Sebastian Oswaldo      |
+| U202418755 | Santiago Atanacio, Jairo Mathias      |
