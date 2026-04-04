@@ -169,18 +169,25 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 ## 1.1. StartUp Profile
 
 ### 1.1.1. Descripción de la StartUp
-
-
+Es una startup de tecnologia enfocada en democratizar la domótica y la eficiencia energética para los hogares peruanos. 
+<br><br>
+Actualmente, convertir una casa tradicional en un "hogar inteligente" es percibido como un lujo costoso, que requiere modificar el cableado eléctrico, contratar
+técnicos especializados y lidiar con aplicaciones genéricas que no reflejan la realidad del consumo local. Además, los altos costos de energía eléctrica son una 
+preocupación constante para las familias.
+<br><br>
+Hemos desarrollado un ecosistema IoT (Internet de las Cosas) plug-and-play que se instala en minutos sobre los interruptores y enchufes existentes, sin necesidad de 
+romper paredes ni alterar la red eléctrica. A través de nuestra plataforma web y móvil, los usuarios pueden controlar sus electrodomésticos de forma remota, programar 
+horarios de encendido y monitorear su hogar en tiempo real.
 
 ---
 
 ## Misión
 
-Nuestra misión es ....
+Nuestra misión es brindar a las familias peruanas soluciones de domótica accesibles y de fácil instalación que les permitan tomar el control de su consumo eléctrico, optimizando su presupuesto mediante tecnología inteligente.
 
 ---
 
 ## Visión
 
-Queremos que ElectroCorp ....
+Queremos que ElectroCorp sea el referente en el Perú en gestión energética residencial, transformando los hogares tradicionales en espacios eficientes y sostenibles que alivien la economía familiar y contribuyan al cuidado del medio ambiente.
 
