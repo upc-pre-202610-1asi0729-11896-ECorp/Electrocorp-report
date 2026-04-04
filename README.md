@@ -187,3 +187,9 @@ Nuestra misión es brindar a las familias peruanas soluciones de domótica acces
 
 Queremos que ElectroCorp sea el referente en el Perú en gestión energética residencial, transformando los hogares tradicionales en espacios eficientes y sostenibles que alivien la economía familiar y contribuyan al cuidado del medio ambiente.
 
+### 1.1.2. Perfiles de integrantes del equipo
+| **Fotos ** | **Apellidos y Nombres**               |
+| :--------: | :------------------------------------ |
+| :--------: | Tavara Correa, Sebastian Oswaldo      |
+| :--------: | Santiago Atanacio, Jairo Mathias      |
+| :--------: | Cabrejos Chocco, Diego Alexander      |
