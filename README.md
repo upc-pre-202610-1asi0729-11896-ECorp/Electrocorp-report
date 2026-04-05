@@ -235,8 +235,19 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 ## Restricciones
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
+- Los hogares peruanos no cuentan con infraestructura eléctrica diseñada para la domótica, lo que encarece la modernización tecnológica.
+- Los usuarios no tienen acceso a soluciones simples y de bajo costo que les permitan controlar dispositivos eléctricos remotamente.
+- La oferta actual de dispositivos IoT en Perú se percibe como costosa, compleja y poco accesible para la clase media.
 #### 1.2.2.1 Lean UX Assumptions
+- Los usuarios prefieren soluciones fáciles de instalar que no requieran técnicos ni modificaciones en su infraestructura.
+- El precio accesible será un factor decisivo frente a marcas internacionales más costosas.
+- La conectividad Wi-Fi en los hogares urbanos peruanos es suficiente para garantizar el control remoto confiable.
+
 #### 1.2.2.1 Lean UX Hypothesis Statements
+- Creemos que, si ofrecemos un dispositivo IoT que no requiere modificar el cableado eléctrico, entonces los hogares peruanos lo adoptarán más rápido que otras soluciones de domótica.
+- Creemos que, si proporcionamos una aplicación móvil sencilla y en español, entonces los usuarios tendrán mayor confianza y usarán el sistema regularmente.
+- Creemos que, si demostramos que SmartHome Control reduce el consumo energético en hogares y pequeños negocios, entonces los clientes estarán dispuestos a pagar por el producto y recomendarlo.
+
 #### 1.2.2.1 Lean UX Canvas
 ## 1.3 Segmentos objetivo
 El proyecto busca atender a usuarios que requieren soluciones de automatización accesibles y no invasivas, con un enfoque en dos segmentos principales:
