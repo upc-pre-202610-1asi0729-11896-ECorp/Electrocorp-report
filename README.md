@@ -222,9 +222,9 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
-| Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/foto-carnet-sebastian-tavara.jpg"> | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
-| Santiago Atanacio, Jairo Mathias      |carrera| <img src="assets/Jairo_Santiago.png"> | Soy Jairo Mathias Santiago Atanacio, estudiante de 5to ciclo de Ingeniería de Software. Cuento con una base sólida en el desarrollo de algoritmos en C++ y la creación de interfaces web interactivas mediante HTML, CSS y JavaScript. Me apasiona transformar problemas complejos en soluciones de software eficientes y escalables. Mi enfoque combina la rigurosidad técnica con habilidades blandas como la proactividad y la empatía, lo que me permite integrarme fácilmente en equipos colaborativos bajo metodologías ágiles.
-| Cabrejos Chocco, Diego Alexander      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
+| Tavara Correa, Sebastian Oswaldo      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/foto-carnet-sebastian-tavara.jpg"> | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
+| Santiago Atanacio, Jairo Mathias      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Jairo_Santiago.png"> | Soy Jairo Mathias Santiago Atanacio, estudiante de 5to ciclo de Ingeniería de Software. Cuento con una base sólida en el desarrollo de algoritmos en C++ y la creación de interfaces web interactivas mediante HTML, CSS y JavaScript. Me apasiona transformar problemas complejos en soluciones de software eficientes y escalables. Mi enfoque combina la rigurosidad técnica con habilidades blandas como la proactividad y la empatía, lo que me permite integrarme fácilmente en equipos colaborativos bajo metodologías ágiles.
+| Cabrejos Chocco, Diego Alexander      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
 | Integrante 4      |carrera| foto | text
 | Integrante 5      |carrera| foto | text
 
@@ -287,7 +287,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td>
-    <td>text</td>
+    <td> Instalación no invasiva (sin técnicos ni obras civiles), monitoreo de consumo en Soles (S/) en tiempo real y una plataforma diseñada específicamente para la realidad del consumo eléctrico en Perú. </td>
     <td> - Variedad en productos que se adaptan a distintos aparatos y situaciones (no solo enchufes, también interruptores y relés). <br> -Precio accesible <br> -Soporte local y venta directa en Perú.</td>
     <td> -Marca reconocida a nivel mundial por su calidad y confiabilidad<br>-Integración directa con el ecosistema Xiaomi (atractivo para personas que cuenten con dispositivos Xiaomi).</td>
     <td> -Disponibilidad, hay tiendas fisicas a nivel nacional<br>-Facilidad de compra y confianza al ser una cadena de empresas conocida en Peru.<br>-Precios competitivos en relacion a productos similares</td>
@@ -295,14 +295,14 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   <tr>
     <td rowspan="2"><b>Perfil de Marketing</b></td>
     <td><b>Mercado objetivo</b></td>
-    <td>text</td>
+    <td> Familias de clase media en zonas urbanas con viviendas de más de 10 años de antigüedad y micro/pequeñas empresas (talleres, restaurantes) que buscan reducir costos operativos.</td>
     <td>-Personas interesadas en automatizar su vivienda a bajo precio y sin necesidad de conocimientos tecnicos.<br>- Personas jovenes y familias que buscan comodidad (encender/apagar)<br>- Emprendedores pequeños (restaurantes, oficinas, talleres).</td>
     <td>-Consumidores que ya tengan productos xiami, ya sea celulares, camaras, aspiradoras)<br>-Jovenes y familias que tengan alto uso de tecnologia y preferencia por marcas reconocidas<br>- Personas que valoran la calidad y seguridad certificada.</td>
     <td>-Familias que son clientes recurrentes de Promart ya se para compras del hogar.<br>- Personas que no tienen conocimiento en tecnologia y buscan algo facil de instalar.</td>
   </tr>
   <tr>
     <td><b>Estrategias de marketing</b></td>
-    <td>text.</td>
+    <td> Marketing de contenidos sobre ahorro energético, enfoque en la facilidad de autoinstalación ("Hazlo tú mismo") y presencia activa en canales digitales dirigidos a emprendedores y jefes de hogar.</td>
     <td>-Venta directa online en su tienda web.<br>- Marketing digital por medio de redes sociales (Facebook, Instagram).<br>- Estrategia de precios accesibles al consumidor.</td>
     <td>-Integracion de un dispositivo mas al ecosistema de Xiaomi<br>
 - Branding Fuerte, Xiaomi al ser una marca con reconocimiento global, hace transmitir confianza al cliente.</td>
@@ -314,21 +314,21 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   <tr>
     <td rowspan="3"><b>Perfil de Producto</b></td>
     <td><b>Productos y Servicios</b></td>
-    <td>text</td>
+    <td> Adaptadores IoT para interruptores y enchufes, aplicación móvil en español y plataforma web para programación de horarios y gestión de eficiencia energética. </td>
     <td>-Ofrece enchufes inteligentes, interruptores WIFI, relés, sensores, etc. También ofrece soporte técnico local, tutorías y asesoría de uso básico.</td>
     <td>Su producto principal es el enchufe inteligente compacto, se integra con la app “Xiaomi Home” y con el ecosistema Xiaomi</td>
     <td>-Encufhes inteligentes importados (marcas genéricas).</td>
   </tr>
   <tr>
     <td><b>Precios y Costos</b></td>
-    <td>text</td>
+    <td> Rango de precios accesible para la clase media (aprox. S/ 70 - S/ 120), posicionándose como una inversión de rápido retorno mediante el ahorro de luz.</td>
     <td> Enchufes desde S/ 60 – S/ 100</td>
     <td>Desde S/ 90 a S/ 130.</td>
     <td>Desde S/ 60  a S/ 100</td>
   </tr>
   <tr>
     <td><b>Canales de distribución (Web y/o móvil)</b></td>
-    <td>Plataforma web y app móvil.</td>
+    <td>-Plataforma web oficial.<br>-Aplicación móvil propia y posibles alianzas estratégicas con ferreterías locales.</td>
     <td>-Web Principal (sonoffperu.com)<br>
 - Distribución en redes sociales y Marketplace peruano</td>
     <td>
@@ -345,7 +345,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Fortalezas</b></td>
-    <td>text</td>
+    <td>-Instalación simple sin obra civil.<br>-Conocimiento profundo del mercado local (tarifas en Soles).<br> -Solución adaptada a infraestructura antigua.</td>
     <td>- Variedad de productos. <br>
     - Precios accesibles<br>
 - Soporte tecnico y garantia local<br>
@@ -360,7 +360,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Debilidades</b></td>
-    <td>text</td>
+    <td>-Marca nueva con presupuesto limitado para publicidad masiva frente a gigantes globales.</td>
     <td>- Depende de importacion (no produce localmente)</td>
     <td>
 - Precios más altos que competidores locales.<br>
@@ -372,7 +372,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Oportunidades</b></td>
-    <td>text</td>
+    <td>-Incremento constante de las tarifas eléctricas en el mercado peruano.<br> -Gran volumen de viviendas urbanas que necesitan modernización.</td>
     <td>
 - Mercado local con poca competencia especializada<br>
 - Posibilidad de diferenciarse ofreciendo instalación y soporte</td>
@@ -385,7 +385,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Amenazas</b></td>
-    <td>text</td>
+    <td>-Ingreso de nuevos dispositivos genéricos de bajo costo.<br> -Inestabilidad en los precios de componentes electrónicos y módulos Wi-Fi importados.</td>
     <td>
 - Competencia de marcas globales con mayor presupuesto de marketing<br>
 - Cambios en regulaciones eléctricas o certificaciones necesarias.</td>
@@ -397,7 +397,6 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
 - Clientes que buscan marcas con ecosistemas establecidos.</td>
   </tr>
 </table>
-
 ### 2.1.2 Estrategias y tácticas frente a competidores
 A partir del análisis competitivo realizado, se han definido las siguientes estrategias y tácticas para posicionar a ElectroCorp en el mercado peruano y afrontar las fortalezas de la competencia.
 
