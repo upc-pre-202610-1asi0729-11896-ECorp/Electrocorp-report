@@ -345,7 +345,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Fortalezas</b></td>
-    <td>-Instalación simple sin obra civil.<br>-Conocimiento profundo del mercado local (tarifas en Soles).<br> -Solución adaptada a infraestructura antigua.</td>
+    <td>- Instalación simple sin obra civil.<br>-Conocimiento profundo del mercado local (tarifas en Soles).<br> -Solución adaptada a infraestructura antigua.</td>
     <td>- Variedad de productos. <br>
     - Precios accesibles<br>
 - Soporte tecnico y garantia local<br>
@@ -360,7 +360,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Debilidades</b></td>
-    <td>-Marca nueva con presupuesto limitado para publicidad masiva frente a gigantes globales.</td>
+    <td>- Marca nueva con presupuesto limitado para publicidad masiva frente a gigantes globales.</td>
     <td>- Depende de importacion (no produce localmente)</td>
     <td>
 - Precios más altos que competidores locales.<br>
@@ -372,7 +372,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Oportunidades</b></td>
-    <td>-Incremento constante de las tarifas eléctricas en el mercado peruano.<br> -Gran volumen de viviendas urbanas que necesitan modernización.</td>
+    <td>- Incremento constante de las tarifas eléctricas en el mercado peruano.<br> -Gran volumen de viviendas urbanas que necesitan modernización.</td>
     <td>
 - Mercado local con poca competencia especializada<br>
 - Posibilidad de diferenciarse ofreciendo instalación y soporte</td>
@@ -385,7 +385,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Amenazas</b></td>
-    <td>-Ingreso de nuevos dispositivos genéricos de bajo costo.<br> -Inestabilidad en los precios de componentes electrónicos y módulos Wi-Fi importados.</td>
+    <td>- Ingreso de nuevos dispositivos genéricos de bajo costo.<br> -Inestabilidad en los precios de componentes electrónicos y módulos Wi-Fi importados.</td>
     <td>
 - Competencia de marcas globales con mayor presupuesto de marketing<br>
 - Cambios en regulaciones eléctricas o certificaciones necesarias.</td>
