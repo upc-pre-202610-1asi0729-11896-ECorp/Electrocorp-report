@@ -388,7 +388,55 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
 </table>
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
+A partir del análisis competitivo realizado, se han definido las siguientes estrategias y tácticas para posicionar a ElectroCorp en el mercado peruano y afrontar las fortalezas de la competencia.
 
+##### **1. Aprovechar la Fortaleza: Instalación No Invasiva y Enfoque en Hogares Peruanos**
+**Estrategia**
+
+Posicionarse como la única alternativa de automatización que no requiere modificaciones en el cableado eléctrico ni contratar técnicos especializados, diferenciándose de competidores como Sonoff que exigen instalaciones complejas.
+
+**Tácticas**
+
+- **Guías de Autoinstalación:** Producción de tutoriales en video enfocados en la instalación del sistema sobre interruptores y enchufes estándar de viviendas peruanas.
+- **Kits para Departamentos Alquilados:** Desarrollo de paquetes de dispositivos diseñados específicamente para usuarios que no tienen permiso para romper paredes o techos.
+- **Demostraciones en Tiendas Locales:** Realización de exhibiciones en ferreterías para mostrar que el hardware se instala en minutos sobre la red eléctrica existente.
+
+**Valor Añadido**
+
+- Eliminación de costos adicionales por contratación de electricistas o técnicos externos.
+- Facilidad para retirar los dispositivos y llevarlos a una nueva vivienda sin dejar daños en la infraestructura.
+
+##### **2.  Aprovechar la Oportunidad: Incremento de Tarifas Eléctricas y Necesidad de Ahorro**
+**Estrategia**
+
+Centrar la propuesta de valor en el control del presupuesto familiar mediante el monitoreo del consumo de energía en tiempo real y en moneda local (Soles).
+
+**Tácticas**
+
+- **Panel de Control en Soles:** Implementación de una interfaz en la aplicación que traduzca el consumo de Watts a Soles basándose en el pliego tarifario local.
+- **Sistema de Alertas de Presupuesto:** Configuración de notificaciones móviles que avisen al usuario cuando el consumo se acerque a un límite de gasto mensual establecido.
+- **Reportes de Consumo Real:** Generación de resúmenes semanales que identifiquen qué electrodomésticos generan el mayor gasto energético en el hogar.
+
+**Valor Añadido**
+
+- Gestión eficiente de la economía del hogar mediante información financiera clara y directa.
+- Capacidad de tomar acciones preventivas para reducir el monto del recibo de luz antes de que termine el mes.
+
+##### **3.  Afrontar la Amenaza: Presencia de Marcas Globales y Soluciones Genéricas**
+**Estrategia**
+
+Mitigar la desconfianza hacia los productos importados mediante la oferta de soporte técnico local y una plataforma adaptada a la realidad del consumo peruano.
+
+**Tácticas**
+
+- **Soporte Técnico por WhatsApp:** Establecimiento de un canal de atención directa en español para resolver dudas sobre la configuración inicial de la plataforma.
+- **Garantía de Reemplazo Inmediato:** Implementación de un servicio de cambio de hardware rápido en Lima ante cualquier falla de fábrica, evitando esperas de importación.
+- **Actualizaciones Basadas en el Usuario:** Desarrollo de nuevas funcionalidades en la plataforma web y móvil a partir de las sugerencias de los clientes locales.
+
+**Valor Añadido**
+
+- Respaldo y seguridad de una marca con presencia física y técnica en el país.
+- Reducción de la incertidumbre al configurar dispositivos inteligentes gracias al acompañamiento personalizado.
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas 
