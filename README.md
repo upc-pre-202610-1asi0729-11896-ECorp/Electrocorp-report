@@ -222,14 +222,17 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
-| Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | text
-| Santiago Atanacio, Jairo Mathias      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | text
+| Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
+| Santiago Atanacio, Jairo Mathias      |carrera| foto | text
 | Cabrejos Chocco, Diego Alexander      |carrera| foto | text
 | Integrante 4      |carrera| foto | text
 | Integrante 5      |carrera| foto | text
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
+## 5W & 2H
+## Objetivos
+## Restricciones
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
 #### 1.2.2.1 Lean UX Assumptions
@@ -239,7 +242,146 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 # Capitulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
 ### 2.1.1 Análisis Competitivo
+
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th colspan="6"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td>¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5"> Queremos saber cómo está posicionado cada posible competidor con nuestro producto, así podemos detectar ventajas competitivas y diferenciar nuestra propuesta de valor.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Nombre y logo de competidor</td>
+    <td><b>Smart <img src="" alt="Smart" width="120" height="120" /> </b></td>
+    <td><b> Sonoff Peru</b> <img src="" width="120" height="120" /> </td>
+    <td><b>Xiaomi Mi Smart Plug</b> <img src="" width="120" height="120" /> </td>
+    <td><b>Smart Plugs</b> <img src="Smart Plugs" width="120" height="120" /> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"><b>Perfil</b></td>
+    <td><b>Overview</b></td>
+    <td> text </td>
+    <td> Ofrece variedad en enchufes, interruptores, relés WIFI y dispositivos para automatización del hogar. Su funcionamiento es simple, se conecta directamente a la red electrica y se controla mediante la app eWeLink.</td>
+    <td>Es un enchufre inteligente que convierte cualquier dispositivo electrico en un aparato “inteligente”. Permitiendo asi: encender/apagar remotamente, programar horarios y controlar el consumo electrico desde la app llamada “Xiaomi Home”.</td>
+    <td>Promart entre muchos otros productos comercializa enchufes inteligentes (Smart Plugs) Con la funcion de poder encender/apagar remotamente, temporizador, conexion WIFI y control mediante la app.</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td>
+    <td>text</td>
+    <td> - Variedad en productos que se adaptan a distintos aparatos y situaciones (no solo enchufes, también interruptores y relés). <br> -Precio accesible <br> -Soporte local y venta directa en Perú.</td>
+    <td> -Marca reconocida a nivel mundial por su calidad y confiabilidad<br>-Integración directa con el ecosistema Xiaomi (atractivo para personas que cuenten con dispositivos Xiaomi).</td>
+    <td> -Disponibilidad, hay tiendas fisicas a nivel nacional<br>-Facilidad de compra y confianza al ser una cadena de empresas conocida en Peru.<br>-Precios competitivos en relacion a productos similares</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><b>Perfil de Marketing</b></td>
+    <td><b>Mercado objetivo</b></td>
+    <td>text</td>
+    <td>-Personas interesadas en automatizar su vivienda a bajo precio y sin necesidad de conocimientos tecnicos.<br>- Personas jovenes y familias que buscan comodidad (encender/apagar)<br>- Emprendedores pequeños (restaurantes, oficinas, talleres).</td>
+    <td>-Consumidores que ya tengan productos xiami, ya sea celulares, camaras, aspiradoras)<br>-Jovenes y familias que tengan alto uso de tecnologia y preferencia por marcas reconocidas<br>- Personas que valoran la calidad y seguridad certificada.</td>
+    <td>-Familias que son clientes recurrentes de Promart ya se para compras del hogar.<br>- Personas que no tienen conocimiento en tecnologia y buscan algo facil de instalar.</td>
+  </tr>
+  <tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>text.</td>
+    <td>-Venta directa online en su tienda web.<br>- Marketing digital por medio de redes sociales (Facebook, Instagram).<br>- Estrategia de precios accesibles al consumidor.</td>
+    <td>-Integracion de un dispositivo mas al ecosistema de Xiaomi<br>
+- Branding Fuerte, Xiaomi al ser una marca con reconocimiento global, hace transmitir confianza al cliente.</td>
+    <td>
+-Presencia de tiendas Promart a nivel nacional, lo que da confianza al cliente.<br>
+- Promociones y descuentos por temporadas.<br>
+- Estrategia de Conveniencia: facil de conseguir, comprar y devolver en casos de problemas.</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><b>Perfil de Producto</b></td>
+    <td><b>Productos y Servicios</b></td>
+    <td>text</td>
+    <td>-Ofrece enchufes inteligentes, interruptores WIFI, relés, sensores, etc. También ofrece soporte técnico local, tutorías y asesoría de uso básico.</td>
+    <td>Su producto principal es el enchufe inteligente compacto, se integra con la app “Xiaomi Home” y con el ecosistema Xiaomi</td>
+    <td>-Encufhes inteligentes importados (marcas genéricas).</td>
+  </tr>
+  <tr>
+    <td><b>Precios y Costos</b></td>
+    <td>text</td>
+    <td> Enchufes desde S/ 60 – S/ 100</td>
+    <td>Desde S/ 90 a S/ 130.</td>
+    <td>Desde S/ 60  a S/ 100</td>
+  </tr>
+  <tr>
+    <td><b>Canales de distribución (Web y/o móvil)</b></td>
+    <td>Plataforma web y app móvil.</td>
+    <td>-Web Principal (sonoffperu.com)<br>
+- Distribución en redes sociales y Marketplace peruano</td>
+    <td>
+-Tiendas Online Oficiales (ShopMi.pe, Linio, MercadoLibre)<br>
+-Tiendas fisicas (malls).</td>
+    <td>
+-Tiendas fisicas Promart. <br>
+-Tienda online Promart.pe<br>
+- App movil de Promart.</td>
+  </tr>
+  <tr>
+    <td rowspan="5"><b>Análisis SWOT</b></td>
+    <td colspan="5">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td><b>Fortalezas</b></td>
+    <td>text</td>
+    <td>- Variedad de productos. <br>
+    - Precios accesibles<br>
+- Soporte tecnico y garantia local<br>
+- Compatibilidad con ecosistemas como Google y Alexa</td>
+    <td>
+- Marca reconocida globalmente.<br>
+- Ecosistema bien consolidado<br>
+- Fuerte presencia en retail y e-commerce peruanos.</td>
+    <td>
+- Muchas tiendas fisicas en Peru.<br>
+- Disponibilidad inmediata y confianza en la compra.</td>
+  </tr>
+  <tr>
+    <td><b>Debilidades</b></td>
+    <td>text</td>
+    <td>- Depende de importacion (no produce localmente)</td>
+    <td>
+- Precios más altos que competidores locales.<br>
+- Dependencia del ecosistema Xiaomi.</td>
+    <td>
+- Productos genericos con poca diferenciacion.<br>
+- Sin ecosistema propio.<br>
+- Dependencia de proveedores externos.</td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>text</td>
+    <td>
+- Mercado local con poca competencia especializada<br>
+- Posibilidad de diferenciarse ofreciendo instalación y soporte</td>
+    <td>
+- Posibilidad de cross-selling para maximizar ganancias.<br>
+- Tendencia global hacia la domótica segura y certificada.</td>
+  <td>
+- Captar al consumidor no especializado que busca soluciones rápidas.<br>
+- Posibilidad de aliarse con marcas reconocidas para diferenciar su oferta.</td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>text</td>
+    <td>
+- Competencia de marcas globales con mayor presupuesto de marketing<br>
+- Cambios en regulaciones eléctricas o certificaciones necesarias.</td>
+    <td>
+- Productos genéricos más baratos que cumplen funciones similares<br>
+- Cambios en restricciones de importación o alzas en costos logísticos.</td>
+    <td>
+- Competidores Online que ofrecen más variedad.<br>
+- Clientes que buscan marcas con ecosistemas establecidos.</td>
+  </tr>
+</table>
+
 ### 2.1.2 Estrategias y tácticas frente a competidores
+
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas 
