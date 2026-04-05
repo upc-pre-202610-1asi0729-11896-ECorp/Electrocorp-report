@@ -251,6 +251,65 @@ La energía eléctrica, es uno de los recursos más importantes de nuestra socie
 - Creemos que, si demostramos que SmartHome Control reduce el consumo energético en hogares y pequeños negocios, entonces los clientes estarán dispuestos a pagar por el producto y recomendarlo.
 
 #### 1.2.2.1 Lean UX Canvas
+
+
+<table>  
+<tr>  
+<td>  
+<h2>Business Problem</h2>  
+- La mayoría de las soluciones de domótica requieren modificar la infraestructura eléctrica, lo que encarece su implementación.  <br>
+- Los hogares en el Perú no están diseñados para la automatización, generando barreras técnicas.  <br>
+- Existe poca accesibilidad a soluciones IoT económicas para familias de ingresos medios y bajos.
+</td>  
+<td>  
+<h2>Solutions</h2>  
+-   Módulo IoT "No-Neutro" ultracompacto: Un dispositivo basado en ESP32 y relé que sea lo suficientemente pequeño para caber en las cajas eléctricas estándar de las paredes peruanas sin requerir el cable neutro. <br>
+-   Interruptores _Plug & Play_: Placas de interruptores táctiles o físicos que ya traigan el módulo inteligente integrado y se instalen exactamente igual que un interruptor tradicional. <br>
+-  Kits de inicio pre-configurados:** Paquetes como "Kit Habitación" o "Kit Sala" donde los dispositivos ya vienen emparejados entre sí, listos para instalar sin configuraciones complejas.
+</td>  
+<td>  
+<h2>Business Outcomes</h2>  
+- Incrementar la adopción de hogares inteligentes en sectores urbanos y semiurbanos.  <br>
+- Reducir los costos energéticos en hogares y pequeños negocios mediante control eficiente. <br>  
+- Posicionar a SmartHome Control como solución peruana innovadora y accesible.
+</td>  
+</tr>  
+<tr>  
+<td>  
+<h2>Users</h2>  
+- Familias de clase media en zonas urbanas que buscan comodidad y ahorro energético. <br>
+- Propietarios de pequeños negocios y oficinas que desean optimizar consumo eléctrico.
+</td>  
+<td></td>  
+<td>  
+<h2>User Outcomes & Benefits</h2>  
+- Automatizar el control de luces y dispositivos sin hacer modificaciones costosas.  <br>
+- Gestionar sus electrodomésticos desde el celular o la computadora, en tiempo real.  <br>
+- Obtener reportes o alertas sobre el estado de los dispositivos para mayor seguridad y eficiencia.
+</td>  
+</tr>  
+<tr>  
+<td>  
+<h2>Hypotheses</h2>  
+- Creemos que los usuarios adoptarán la solución si no requiere modificar el cableado eléctrico. <br>
+- Creemos que la facilidad de instalación es clave para que las familias y negocios lo compren. <br>
+- Creemos que el ahorro energético y la comodidad serán los principales motivadores de compra.
+</td>  
+<td>  
+<h2>Experiment Ideas</h2>  
+- Simulación en Packet Tracer de la red IoT con aplicación de control remoto.  <br>
+- Prototipo físico con ESP32 para validar el funcionamiento en un foco o ventilador real. <br>
+- Prueba piloto con 10 usuarios (hogares y pequeños negocios) para recoger feedback sobre usabilidad y percepción de valor.
+</td>  
+<td>  
+<h2>Assumptions</h2>  
+- Los hogares peruanos cuentan con acceso suficiente a internet para el control remoto.  <br>
+- Los usuarios valoran más la simplicidad y el costo accesible que las funciones avanzadas de domótica.  <br>
+- - El mercado peruano está dispuesto a confiar en soluciones tecnológicas locales.
+</td>  
+</tr>  
+</table>
+
 ## 1.3 Segmentos objetivo
 El proyecto busca atender a usuarios que requieren soluciones de automatización accesibles y no invasivas, con un enfoque en dos segmentos principales:
 
