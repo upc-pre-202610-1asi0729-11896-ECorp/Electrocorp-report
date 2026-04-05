@@ -192,7 +192,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: |	 |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> |	 |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: |	 |
 
 
@@ -224,7 +224,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
 | Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
 | Santiago Atanacio, Jairo Mathias      |carrera| foto | text
-| Cabrejos Chocco, Diego Alexander      |carrera| foto | text
+| Cabrejos Chocco, Diego Alexander      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | text
 | Integrante 4      |carrera| foto | text
 | Integrante 5      |carrera| foto | text
 
