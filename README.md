@@ -272,7 +272,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td colspan="2">Nombre y logo de competidor</td>
-    <td><b>Smart <img src="" alt="Smart" width="120" height="120" /> </b></td>
+    <td><b>ElectroCorp <img src="assets/logo_electrocorp.jpeg" alt="Smart" width="120" height="120" /> </b></td>
     <td><b> Sonoff Peru</b> <img src="assets/sonoff.png" width="120" height="120" /> </td>
     <td><b>Xiaomi Mi Smart Plug</b> <img src="assets/xiaomi.png" width="120" height="120" /> </td>
     <td><b>Smart Plugs</b> <img src="assets/promart.png" width="120" height="120" /> </td>
