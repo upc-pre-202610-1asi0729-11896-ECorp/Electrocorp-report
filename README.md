@@ -450,6 +450,42 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 - Reducción de la incertidumbre al configurar dispositivos inteligentes gracias al acompañamiento personalizado.
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+##### Preguntas Generales
+
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene usted?
+- ¿En qué ciudad y distrito reside?
+- ¿A qué se dedica y cuál es su formación académica?
+- ¿Qué dispositivos electrónicos utiliza con mayor frecuencia (smartphone, laptop, otros)?  
+- ¿Qué aplicaciones o redes sociales utiliza para informarse sobre tecnología o mejoras para el hogar/negocio
+- ¿Qué marcas de tecnología o electrodomésticos prefiere por su confiabilidad?
+- ¿Se considera una persona que se adapta rápido a la tecnología o prefiere lo tradicional?
+##### Preguntas Específicas
+
+###### Segmento 1: Hogares urbanos con viviendas antiguas (mayor a 10 años de construcción)
+
+1. ¿Cómo es el estado de las instalaciones eléctricas en su hogar actualmente?
+2. ¿Qué tan seguido revisa su recibo de luz y qué siente al ver el monto final?
+3. ¿Ha intentado implementar soluciones de "hogar inteligente"?
+4. ¿Cuál es su mayor temor al pensar en contratar a un técnico para remodelar su casa?
+5. ¿Qué electrodoméstico le gustaría poder apagar desde su celular si olvida hacerlo al salir?
+6. ¿Cuánto tiempo estaría dispuesto a invertir en instalar una solución por su cuenta si no requiere herramientas?
+7. ¿Le interesaría ver su consumo de energía traducido a Soles en tiempo real?
+8. ¿Qué características buscaría en una aplicación para que sea fácil de usar para toda su familia?
+
+###### Segmento 2: Pequeños negocios y talleres en zonas urbanas
+
+1. ¿Qué equipos eléctricos son críticos para la operación diaria de su negocio o taller?
+2. ¿Cómo asegura que todos los equipos queden apagados al cerrar el local?
+3. ¿Qué impacto económico tiene el recibo de luz en la rentabilidad de su negocio o taller (bajo, moderado, crítico)?
+4. ¿Ha tenido problemas por dejar equipos encendidos accidentalmente después del horario de cierre?
+5. ¿Qué canales digitales utiliza para gestionar o promover su negocio actualmente?
+6. ¿Qué funciones le darían más tranquilidad: programar horarios de encendido o recibir alertas de sobrecosto?
+7. ¿Estaría dispuesto a invertir en una solución tecnológica que no requiera detener sus actividades para su instalación?
+8. ¿Cuánto valoraría contar con un reporte que identifique los puntos críticos de desperdicio de energía en su local?
+
+
 ### 2.2.2. Registro de entrevistas 
 ### 2.2.3. Análisis de entrevistas 
 ## 2.3. Needfinding
