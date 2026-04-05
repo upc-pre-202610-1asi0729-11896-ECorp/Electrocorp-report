@@ -223,7 +223,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
 | Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/foto-carnet-sebastian-tavara.jpg"> | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
-| Santiago Atanacio, Jairo Mathias      |carrera| foto | text
+| Santiago Atanacio, Jairo Mathias      |carrera| <img src="assets/Jairo_Santiago.png"> | Soy Jairo Mathias Santiago Atanacio, estudiante de la carrera de Ingeniería de Software, estoy cursando el 5to ciclo. Tengo conocimiento en c++, html, css y javascript. Me considero responsable, colaborador, empático y proactivo.
 | Cabrejos Chocco, Diego Alexander      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
 | Integrante 4      |carrera| foto | text
 | Integrante 5      |carrera| foto | text
@@ -273,9 +273,9 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   <tr>
     <td colspan="2">Nombre y logo de competidor</td>
     <td><b>Smart <img src="" alt="Smart" width="120" height="120" /> </b></td>
-    <td><b> Sonoff Peru</b> <img src="" width="120" height="120" /> </td>
-    <td><b>Xiaomi Mi Smart Plug</b> <img src="" width="120" height="120" /> </td>
-    <td><b>Smart Plugs</b> <img src="Smart Plugs" width="120" height="120" /> </td>
+    <td><b> Sonoff Peru</b> <img src="assets/sonoff.png" width="120" height="120" /> </td>
+    <td><b>Xiaomi Mi Smart Plug</b> <img src="assets/xiaomi.png" width="120" height="120" /> </td>
+    <td><b>Smart Plugs</b> <img src="assets/promart.png" width="120" height="120" /> </td>
   </tr>
   <tr>
     <td rowspan="2"><b>Perfil</b></td>
