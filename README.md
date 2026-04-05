@@ -223,7 +223,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
 | Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | text
-| Santiago Atanacio, Jairo Mathias      |carrera| foto | text
+| Santiago Atanacio, Jairo Mathias      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | text
 | Cabrejos Chocco, Diego Alexander      |carrera| foto | text
 | Integrante 4      |carrera| foto | text
 | Integrante 5      |carrera| foto | text
