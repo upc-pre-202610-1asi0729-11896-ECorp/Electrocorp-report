@@ -328,7 +328,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Canales de distribución (Web y/o móvil)</b></td>
-    <td>-Plataforma web oficial.<br>-Aplicación móvil propia y posibles alianzas estratégicas con ferreterías locales.</td>
+    <td>- Plataforma web oficial.<br>-Aplicación móvil propia y posibles alianzas estratégicas con ferreterías locales.</td>
     <td>-Web Principal (sonoffperu.com)<br>
 - Distribución en redes sociales y Marketplace peruano</td>
     <td>
