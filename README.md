@@ -345,7 +345,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Fortalezas</b></td>
-    <td>- Instalación simple sin obra civil.<br>-Conocimiento profundo del mercado local (tarifas en Soles).<br> - Solución adaptada a infraestructura antigua.</td>
+    <td>- Instalación simple sin obra civil.<br>- Conocimiento profundo del mercado local (tarifas en Soles).<br> - Solución adaptada a infraestructura antigua.</td>
     <td>- Variedad de productos. <br>
     - Precios accesibles<br>
 - Soporte tecnico y garantia local<br>
