@@ -230,6 +230,8 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
+La energía eléctrica, es uno de los recursos más importantes de nuestra sociedad actual, ayudándonos a desarrollar multiplicidad de tareas, ya sea en el hogar, escuelas, universidades, calles, empresas, trabajos, congreso, etc. Actualmente existen enchufes inteligentes que ayudan al gestionamiento de la energía eléctrica en casas de lujo, hoteles y demás zonas de alto prestigio y valor económico. Pero qué sucede con aquellas personas o familias que quieren gestionar su electricidad o controlar su energía en casa, pero que no cuentan con los recursos necesarios para poder costearse estos lujos.
+
 ## 5W & 2H
 ## Objetivos
 ## Restricciones
