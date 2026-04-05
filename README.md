@@ -287,7 +287,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   </tr>
   <tr>
     <td><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td>
-    <td> Instalación no invasiva (sin técnicos ni obras civiles), monitoreo de consumo en Soles (S/) en tiempo real y una plataforma diseñada específicamente para la realidad del consumo eléctrico en Perú. </td>
+    <td> - Instalación no invasiva (sin técnicos ni obras civiles).<br> - Monitoreo de consumo en Soles (S/) en tiempo real<br>- Una plataforma diseñada específicamente para la realidad del consumo eléctrico en Perú. </td>
     <td> - Variedad en productos que se adaptan a distintos aparatos y situaciones (no solo enchufes, también interruptores y relés). <br> -Precio accesible <br> -Soporte local y venta directa en Perú.</td>
     <td> -Marca reconocida a nivel mundial por su calidad y confiabilidad<br>-Integración directa con el ecosistema Xiaomi (atractivo para personas que cuenten con dispositivos Xiaomi).</td>
     <td> -Disponibilidad, hay tiendas fisicas a nivel nacional<br>-Facilidad de compra y confianza al ser una cadena de empresas conocida en Peru.<br>-Precios competitivos en relacion a productos similares</td>
@@ -295,14 +295,14 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   <tr>
     <td rowspan="2"><b>Perfil de Marketing</b></td>
     <td><b>Mercado objetivo</b></td>
-    <td> Familias de clase media en zonas urbanas con viviendas de más de 10 años de antigüedad y micro/pequeñas empresas (talleres, restaurantes) que buscan reducir costos operativos.</td>
+    <td>- Familias de clase media en zonas urbanas con viviendas de más de 10 años de antigüedad.<br>- Micro/pequeñas empresas (talleres, restaurantes) que buscan reducir costos operativos.</td>
     <td>-Personas interesadas en automatizar su vivienda a bajo precio y sin necesidad de conocimientos tecnicos.<br>- Personas jovenes y familias que buscan comodidad (encender/apagar)<br>- Emprendedores pequeños (restaurantes, oficinas, talleres).</td>
     <td>-Consumidores que ya tengan productos xiami, ya sea celulares, camaras, aspiradoras)<br>-Jovenes y familias que tengan alto uso de tecnologia y preferencia por marcas reconocidas<br>- Personas que valoran la calidad y seguridad certificada.</td>
     <td>-Familias que son clientes recurrentes de Promart ya se para compras del hogar.<br>- Personas que no tienen conocimiento en tecnologia y buscan algo facil de instalar.</td>
   </tr>
   <tr>
     <td><b>Estrategias de marketing</b></td>
-    <td> Marketing de contenidos sobre ahorro energético, enfoque en la facilidad de autoinstalación ("Hazlo tú mismo") y presencia activa en canales digitales dirigidos a emprendedores y jefes de hogar.</td>
+    <td>- Marketing de contenidos sobre ahorro energético.<br>- Enfoque en la facilidad de autoinstalación ("Hazlo tú mismo").<br>- Presencia activa en canales digitales dirigidos a emprendedores y jefes de hogar.</td>
     <td>-Venta directa online en su tienda web.<br>- Marketing digital por medio de redes sociales (Facebook, Instagram).<br>- Estrategia de precios accesibles al consumidor.</td>
     <td>-Integracion de un dispositivo mas al ecosistema de Xiaomi<br>
 - Branding Fuerte, Xiaomi al ser una marca con reconocimiento global, hace transmitir confianza al cliente.</td>
@@ -314,7 +314,7 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
   <tr>
     <td rowspan="3"><b>Perfil de Producto</b></td>
     <td><b>Productos y Servicios</b></td>
-    <td> Adaptadores IoT para interruptores y enchufes, aplicación móvil en español y plataforma web para programación de horarios y gestión de eficiencia energética. </td>
+    <td>- Adaptadores IoT para interruptores y enchufes, aplicación móvil en español y plataforma web para programación de horarios y gestión de eficiencia energética. </td>
     <td>-Ofrece enchufes inteligentes, interruptores WIFI, relés, sensores, etc. También ofrece soporte técnico local, tutorías y asesoría de uso básico.</td>
     <td>Su producto principal es el enchufe inteligente compacto, se integra con la app “Xiaomi Home” y con el ecosistema Xiaomi</td>
     <td>-Encufhes inteligentes importados (marcas genéricas).</td>
