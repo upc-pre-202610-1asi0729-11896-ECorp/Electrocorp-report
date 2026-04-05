@@ -241,8 +241,9 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 ## 1.3 Segmentos objetivo
 # Capitulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
+En este apartado, examinamos el ecosistema de soluciones existentes en el mercado peruano que ofrecen servicios de automatización residencial y gestión de dispositivos eléctricos. 
 ### 2.1.1 Análisis Competitivo
-
+A través de esta comparativa, buscamos determinar el valor diferencial de ElectroCorp frente a las alternativas globales. El análisis se enfoca en detectar necesidades no resueltas por las grandes marcas, especialmente en lo que respecta a la adaptabilidad a la infraestructura eléctrica peruana (instalación sin obra civil) y la interpretación financiera del consumo energético en moneda local.
 
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
