@@ -18,6 +18,7 @@
 | U20241e179 | Tavara Correa, Sebastian Oswaldo      |
 | U202418755 | Santiago Atanacio, Jairo Mathias      |
 | U20241e014 | Cabrejos Chocco, Diego Alexander      |
+| U20241e406 | Loa Rojas, Jean Franck                |
 
 ### Diciembre 2025
 </div>
