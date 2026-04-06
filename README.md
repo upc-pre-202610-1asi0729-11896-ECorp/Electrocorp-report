@@ -237,18 +237,75 @@ La energía eléctrica, es uno de los recursos más importantes de nuestra socie
 ## Restricciones
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
-- Los hogares peruanos no cuentan con infraestructura eléctrica diseñada para la domótica, lo que encarece la modernización tecnológica.
-- Los usuarios no tienen acceso a soluciones simples y de bajo costo que les permitan controlar dispositivos eléctricos remotamente.
-- La oferta actual de dispositivos IoT en Perú se percibe como costosa, compleja y poco accesible para la clase media.
+Los hogares urbanos y pequeños negocios en el Perú enfrentan grandes dificultades para modernizar su infraestructura eléctrica y adoptar tecnologías de domótica. Actualmente, convertir una vivienda tradicional en un "hogar inteligente" es percibido como un lujo costoso que requiere modificaciones invasivas en el cableado, la ruptura de paredes y la contratación de técnicos especializados. Esta situación limita el acceso a la tecnología y mantiene una preocupación constante por los altos costos de energía eléctrica, los cuales afectan directamente la economía de las familias de clase media y la rentabilidad de los nuevos emprendimientos.
+
+El problema central es que los propietarios y administradores carecen de una herramienta digital accesible y adaptada a la realidad de las viviendas con más de 10 años de antigüedad, que les permita monitorear y controlar el consumo de energía de manera sencilla. Las soluciones actuales en el mercado son complejas de configurar o utilizan aplicaciones genéricas que no reflejan el gasto real en moneda local (Soles). La ausencia de un control eficiente contribuye a desperdicios energéticos y sobrecostos significativos en los recibos de luz, representando una carga económica que impacta el presupuesto mensual de los usuarios.
+
+ElectroCorp responde a esta necesidad con un ecosistema IoT plug-and-play diseñado para instalarse en minutos sobre interruptores y enchufes existentes, sin necesidad de alterar la red eléctrica ni realizar obras civiles. A través de nuestra plataforma web y móvil intuitiva, facilitamos el control remoto de dispositivos, la programación de horarios y el monitoreo del consumo en tiempo real. Esto no solo democratiza el acceso a la domótica en el Perú, sino que empodera al usuario para optimizar su gasto energético y transformar su entorno en un espacio eficiente y sostenible.
+
 #### 1.2.2.1 Lean UX Assumptions
-- Los usuarios prefieren soluciones fáciles de instalar que no requieran técnicos ni modificaciones en su infraestructura.
-- El precio accesible será un factor decisivo frente a marcas internacionales más costosas.
-- La conectividad Wi-Fi en los hogares urbanos peruanos es suficiente para garantizar el control remoto confiable.
+
+###### ¿Quién es el usuario?
+
+Los usuarios de ElectroCorp se dividen en dos grupos principales. Primero, los usuarios residenciales, conformados por familias de clase media que viven en zonas urbanas con viviendas de infraestructura antigua y buscan reducir su gasto mensual de luz sin realizar obras civiles. Segundo, los usuarios comerciales, que incluyen dueños y administradores de pequeños negocios (talleres, oficinas y restaurantes) que necesitan optimizar sus costos operativos y asegurar que sus equipos eléctricos funcionen de manera eficiente y segura.
+
+###### ¿Dónde encaja nuestro producto, en su trabajo o en su vida?
+
+En el ámbito residencial, ElectroCorp se integra en la vida diaria y en la planificación financiera del hogar, permitiendo a los usuarios gestionar su entorno de manera remota y consciente. En el ámbito comercial, se convierte en una herramienta estratégica de gestión operativa que ayuda a los dueños de negocios a controlar el gasto energético de sus locales y mejorar la seguridad al finalizar la jornada laboral.
+
+###### ¿Qué problema resuelve nuestro producto?
+
+ElectroCorp soluciona la alta barrera de entrada a la domótica en el Perú, eliminando la necesidad de modificar el cableado eléctrico o realizar costosas remodelaciones. Resuelve la falta de visibilidad sobre el consumo energético real, permitiendo a los usuarios identificar qué dispositivos generan un gasto excesivo y tomar medidas preventivas para reducir el monto de sus recibos de luz en moneda local.
+
+###### ¿Cuándo y cómo se utiliza nuestro producto?
+
+La plataforma se utiliza de forma continua mediante el monitoreo en tiempo real desde dispositivos móviles o web. Los usuarios interactúan con ella principalmente al salir de casa o del negocio para verificar que todo esté apagado, al programar horarios automáticos para electrodomésticos de alto consumo (como termas o maquinaria) y al recibir notificaciones de alerta cuando se detectan picos de consumo inusuales.
+
+###### ¿Qué características son importantes?
+
+- Instalación física no invasiva (Plug & Play) sobre interruptores y enchufes existentes.
+
+- Monitoreo del consumo eléctrico traducido directamente a Soles (S/).
+
+- Control remoto y programación de horarios desde una interfaz web y móvil sencilla.
+
+- Sistema de alertas preventivas ante consumos elevados o dispositivos encendidos innecesariamente.
+
+- Interfaz en español diseñada para ser comprendida por usuarios sin conocimientos técnicos avanzados.
+
+###### ¿Cómo debe verse y comportarse nuestro producto?
+
+ElectroCorp debe proyectar una imagen de modernidad, eficiencia y simplicidad. La interfaz debe ser intuitiva y fluida, con indicadores visuales claros (gráficos de consumo) que faciliten la interpretación de los datos financieros. El comportamiento del sistema debe ser altamente confiable y seguro, transmitiendo al usuario la tranquilidad de tener el control total de su infraestructura eléctrica en la palma de su mano.
+
 
 #### 1.2.2.1 Lean UX Hypothesis Statements
-- Creemos que, si ofrecemos un dispositivo IoT que no requiere modificar el cableado eléctrico, entonces los hogares peruanos lo adoptarán más rápido que otras soluciones de domótica.
-- Creemos que, si proporcionamos una aplicación móvil sencilla y en español, entonces los usuarios tendrán mayor confianza y usarán el sistema regularmente.
-- Creemos que, si demostramos que SmartHome Control reduce el consumo energético en hogares y pequeños negocios, entonces los clientes estarán dispuestos a pagar por el producto y recomendarlo.
+
+###### Hipótesis 1:
+
+Creemos que al ofrecer dispositivos IoT que no requieren modificar el cableado eléctrico ni realizar obras civiles, lograremos una adopción masiva en hogares urbanos con infraestructura antigua. Esto será posible gracias a un sistema de instalación externa que se coloca sobre los interruptores existentes, eliminando la necesidad de técnicos especializados.
+
+**Business Outcome:** Alta penetración en el mercado de viviendas antiguas y reducción de barreras de entrada para nuevos clientes.  
+**Users:** Familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura.  
+**User Outcome:** Automatización inmediata del hogar sin costos de instalación profesional ni daños a la propiedad.  
+**Feature:** Hardware IoT plug-and-play adaptable a interruptores y enchufes tradicionales.
+
+###### Hipótesis 2:
+
+Consideramos que si proporcionamos una plataforma digital (web y móvil) intuitiva, en español y adaptada al contexto local, los usuarios tendrán mayor confianza y utilizarán el sistema de manera regular para gestionar sus hogares y negocios.
+
+**Business Outcome:** Incremento en la retención de usuarios activos y fidelización de marca mediante una experiencia de uso simplificada.  
+**Users:** Usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas.  
+**User Outcome:** Acceso sencillo y seguro al control de dispositivos eléctricos sin barreras de idioma o complejidad técnica.  
+**Feature:** Interfaz de usuario (UI) intuitiva con guías de configuración integradas en español.
+
+###### Hipótesis 3:
+
+Suponemos que al demostrar un ahorro tangible en el recibo de luz mediante el monitoreo del consumo en Soles (S/) en tiempo real, los clientes estarán dispuestos a pagar por el producto y recomendarlo activamente en su entorno.
+
+**Business Outcome:** Crecimiento sostenido de ventas basado en el retorno de inversión (ROI) positivo para el cliente y recomendaciones boca a boca.  
+**Users:** Jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía.  
+**User Outcome:** Reducción del gasto mensual de energía y optimización del presupuesto familiar o comercial. 
+**Feature:** Panel de monitoreo de consumo en tiempo real con conversión automática de Watts a Soles (S/).
 
 #### 1.2.2.1 Lean UX Canvas
 
@@ -291,21 +348,21 @@ La energía eléctrica, es uno de los recursos más importantes de nuestra socie
 <tr>  
 <td>  
 <h2>Hypotheses</h2>  
-- Creemos que los usuarios adoptarán la solución si no requiere modificar el cableado eléctrico. <br>
-- Creemos que la facilidad de instalación es clave para que las familias y negocios lo compren. <br>
-- Creemos que el ahorro energético y la comodidad serán los principales motivadores de compra.
+- Dispositivos sin obras facilitarán la adopción masiva en viviendas antiguas. <br>
+- Una app intuitiva en español generará mayor confianza y uso regular. <br>
+- Visualizar el ahorro económico en soles (S/) mediante el monitoreo en tiempo real motivará la compra.
 </td>  
 <td>  
-<h2>Experiment Ideas</h2>  
-- Simulación en Packet Tracer de la red IoT con aplicación de control remoto.  <br>
-- Prototipo físico con ESP32 para validar el funcionamiento en un foco o ventilador real. <br>
-- Prueba piloto con 10 usuarios (hogares y pequeños negocios) para recoger feedback sobre usabilidad y percepción de valor.
+<h2>What’s the most important thing we need to learn first?</h2>  
+- Validar la confianza del usuario en la seguridad del hardware no invasivo. <br>
+- Confirmar si el monitoreo en Soles (S/) es un factor decisivo de compra. <br>
+- Verificar la estabilidad de la conexión Wi-Fi en viviendas de infraestructura antigua.
 </td>  
 <td>  
-<h2>Assumptions</h2>  
-- Los hogares peruanos cuentan con acceso suficiente a internet para el control remoto.  <br>
-- Los usuarios valoran más la simplicidad y el costo accesible que las funciones avanzadas de domótica.  <br>
-- - El mercado peruano está dispuesto a confiar en soluciones tecnológicas locales.
+<h2>What’s the least amount of work we need to do to learn the next most important thing?</h2>  
+- Lanzar una Landing Page con video demostrativo y lista de espera.  <br>
+- Realizar entrevistas a profundidad con dueños de hogares y pequeñas empresas.  <br>
+- Crear un Mock-up interactivo del panel de control de ahorro en Soles.
 </td>  
 </tr>  
 </table>
@@ -458,7 +515,8 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
 - Clientes que buscan marcas con ecosistemas establecidos.</td>
   </tr>
 </table>
-### 2.1.2 Estrategias y tácticas frente a competidores
+
+### **2.1.2 Estrategias y tácticas frente a competidores**
 A partir del análisis competitivo realizado, se han definido las siguientes estrategias y tácticas para posicionar a ElectroCorp en el mercado peruano y afrontar las fortalezas de la competencia.
 
 ##### **1. Aprovechar la Fortaleza: Instalación No Invasiva y Enfoque en Hogares Peruanos**
