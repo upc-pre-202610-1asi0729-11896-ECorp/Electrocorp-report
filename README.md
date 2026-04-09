@@ -83,7 +83,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hyphotesis Statements](#1223-lean-ux-hyphotesis-statements)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hyphotesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation & Analysis]()
@@ -521,8 +521,8 @@ A través de esta comparativa, buscamos determinar el valor diferencial de Elect
     <td><b>Oportunidades</b></td>
     <td>- Incremento constante de las tarifas eléctricas en el mercado peruano.<br> - Gran volumen de viviendas urbanas que necesitan modernización.</td>
     <td>
-- Mercado local con poca competencia especializada<br>
-- Posibilidad de diferenciarse ofreciendo instalación y soporte</td>
+- Mercado local con poca competencia especializada.<br>
+- Posibilidad de diferenciarse ofreciendo instalación y soporte.</td>
     <td>
 - Posibilidad de cross-selling para maximizar ganancias.<br>
 - Tendencia global hacia la domótica segura y certificada.</td>
@@ -605,7 +605,7 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 - ¿En qué ciudad y distrito reside?
 - ¿A qué se dedica y cuál es su formación académica?
 - ¿Qué dispositivos electrónicos utiliza con mayor frecuencia (smartphone, laptop, otros)?  
-- ¿Qué aplicaciones o redes sociales utiliza para informarse sobre tecnología o mejoras para el hogar/negocio
+- ¿Qué aplicaciones o redes sociales utiliza para informarse sobre tecnología o mejoras para el hogar/negocio?
 - ¿Qué marcas de tecnología o electrodomésticos prefiere por su confiabilidad?
 - ¿Se considera una persona que se adapta rápido a la tecnología o prefiere lo tradicional?
 ##### Preguntas Específicas
