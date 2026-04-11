@@ -631,6 +631,20 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 
 
 ### 2.2.2. Registro de entrevistas 
+URL del video:
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+| N | Datos |Descripción |Imagen referencial
+|--|--|--|--|
+|  |  |
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+| N | Datos |Descripción |Imagen referencial
+|--|--|--|--|
+|1  | Nombre: Orlando<br>Apellido: Trinidad <br>Edad: 48<br>Distrito: La Victoria |Orlando representa a un microempresario tradicional, con una fuerte necesidad de:<br>- Controlar costos<br>- Reducir errores humanos<br>- Optimizar recursos energéticos<br><br>Tiene una mentalidad abierta hacia la tecnología, siempre que esta sea:<br>- Económicamente viable<br>- Fácil de implementar<br>- Orientada a resultados concretos (ahorro en dinero)|<img src="assets/seg2 - img1.png">
+
 ### 2.2.3. Análisis de entrevistas 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas 
