@@ -604,10 +604,7 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 - ¿Cuántos años tiene usted?
 - ¿En qué ciudad y distrito reside?
 - ¿A qué se dedica y cuál es su formación académica?
-- ¿Qué dispositivos electrónicos utiliza con mayor frecuencia (smartphone, laptop, otros)?  
-- ¿Qué aplicaciones o redes sociales utiliza para informarse sobre tecnología o mejoras para el hogar/negocio?
-- ¿Qué marcas de tecnología o electrodomésticos prefiere por su confiabilidad?
-- ¿Se considera una persona que se adapta rápido a la tecnología o prefiere lo tradicional?
+
 ##### Preguntas Específicas
 
 ###### Segmento 1: Hogares urbanos con viviendas antiguas (mayor a 10 años de construcción)
