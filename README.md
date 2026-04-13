@@ -657,6 +657,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
 |1  | Nombre: Orlando<br>Apellido: Trinidad <br>Edad: 48<br>Distrito: La Victoria |Orlando representa a un microempresario tradicional, con una fuerte necesidad de:<br>- Controlar costos<br>- Reducir errores humanos<br>- Optimizar recursos energéticos<br><br>Tiene una mentalidad abierta hacia la tecnología, siempre que esta sea:<br>- Económicamente viable<br>- Fácil de implementar<br>- Orientada a resultados concretos (ahorro en dinero)|<img src="assets/seg2 - img1.png">
+|2  | Nombre: Catherine<br>Apellido: Tejada <br>Edad: 39<br>Distrito: Villa el Salvador |Catherine representa a una microempresaria del sector textil, con una fuerte necesidad de:<br>- Controlar el gasto eléctrico de máquinas de coser y luces de vitrina.<br>- Garantizar el apagado total de ambos locales al finalizar la jornada.<br>- Predecir el costo del recibo para proteger su margen de ganancia.<br><br>Tiene una mentalidad abierta hacia la tecnología, siempre que esta sea:<br>- De instalación limpia para no ensuciar ni dañar telas delicada<br>- Fácil de entender, mostrando el ahorro directamente en Soles (S/).<br>- Capaz de gestionar ambas tiendas de forma remota desde su celular.|<img src="assets/seg2_entrevista2.png">
 
 ### 2.2.3. Análisis de entrevistas 
 ## 2.3. Needfinding
