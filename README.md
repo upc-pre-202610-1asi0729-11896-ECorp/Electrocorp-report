@@ -248,6 +248,8 @@ Sin embargo, estas soluciones tecnológicas están diseñadas y comercializadas 
 | ("How much") Cuánto | ¿Cuánto costará / Cuál es el impacto? | Se requiere mantener un costo de producción y venta significativamente menor al de la domótica invasiva tradicional, garantizando que el ahorro en la factura de luz justifique la inversión del usuario a corto plazo. |
 
 ## Objetivos
+Nuestro objetivo general es el diseñar, desarrollar e implementar un ecosistema de Internet de las Cosas (IoT) de arquitectura plug-and-play de facil entendimiento que permita a las familias y nuevo negocios en el Perú gestionar su consumo eléctrico de manera eficiente, optimizando su gasto económico y fomentando la sostenibilidad a través de una plataforma de software: una app y/o sitio web.
+
 ## Restricciones
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
