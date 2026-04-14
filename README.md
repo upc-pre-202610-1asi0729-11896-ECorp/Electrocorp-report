@@ -19,6 +19,7 @@
 | U202418755 | Santiago Atanacio, Jairo Mathias      |
 | U20241e014 | Cabrejos Chocco, Diego Alexander      |
 | U20241e406 | Loa Rojas, Jean Franck                |
+| U202318828 | Documet Romero, Timothy               |
 
 ### Diciembre 2025
 </div>
