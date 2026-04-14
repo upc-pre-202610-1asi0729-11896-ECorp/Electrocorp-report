@@ -663,7 +663,8 @@ Segmento 1: Hogares urbanos con viviendas antiguas
 
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
-|  |  |
+|1  | Nombre: Sonia<br>Apellido: Rojas <br>Edad: 48<br>Distrito: Ate |Sonia representa a una ama de casa tradicional con un grán interés:<br>- Controlar gastos involucrados en temas de energía <br>- Reducir el empleo humano en temas técnicos<br>- Reducir el tiempo de manutención de los artefactos tecnológicos<br>|<img src="assets/seg1 - img1.png">
+|2  | Nombre: Victor<br>Apellido: Loa <br>Edad: 59<br>Distrito: Ate |Victor representa a un taxista preocupado por:<br>- Tener correctamente conectados los artefactos y servicios de cableado<br>- Controlar la energía empleada en ciertos artefactos<br>- Conocer técnicos especializados en mejorar experiencias de usuario|<img src="assets/seg1 - img2.png">
 
 Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
