@@ -681,8 +681,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
 
 ### 2.2.3. Análisis de entrevistas 
-## 2.3. Needfinding
-### 2.3.1. User Personas 
+
 #### - Segmento 1: Hogares urbanos con viviendas antiguas
  Características objetivas del segmento
 #### - Segmento 2: Pequeños negocios y talleres en zonas urbanas.
@@ -738,6 +737,18 @@ el 100% acepta tecnología siempre que sea fácil de implementar, económica y n
 - Segmento en transición
 -- El 67% es tradicional (operativo)
 -- El 33% es moderno
+  
+## 2.3. Needfinding
+### 2.3.1. User Personas 
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+<img src="assets/User Persona - seg2 - Carlos Mendoza.png" alt="UserPersona Carlos Mendoza">
+
 ### 2.3.2. User Task Matrix 
 ### 2.3.3. User Journey Mapping 
 ### 2.3.4. Empathy Mapping
