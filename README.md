@@ -683,6 +683,61 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ### 2.2.3. Análisis de entrevistas 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas 
+#### - Segmento 1: Hogares urbanos con viviendas antiguas
+ Características objetivas del segmento
+#### - Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+Características objetivas del segmento
+- Rango edad: 39 -48 anios
+- Ubicacion: zonas urbanas (La Vcitoria y Villa el Salvador)
+- Tipo de negocio:
+-- 33% confecction textil.
+-- 33% lavanderia/tintereria
+-- 33% moda (vestidos de Quinceaniera)
+
+Infraestructura y equipos electricos
+
+- 100% dependen de maquinaria electrica critica
+- Tipos de equipos mas comunes:
+-- 66% Maquinas de confeccion.
+-- 33% Lavadoras.
+-- 100% Equipos complementarios (planchas, secadoras, iluminacion, ventilacion).
+- El consumo energetico es estructural, el negocio no puede operar sin electricidad.
+
+Impacto economico del uso de la energia
+
+- 100 % considera el costo electrico como "alto" o "critico"
+-- Orlando: "bastante critico"
+-- Katherine: "critico"
+-- Lourdes: aunque no lo dice explicito, su preocupación por incidentes y control lo respalda.
+
+Características subjetivas del segmento
+
+- 100% utiliza metodos manuales de control energetico
+-- Apagador por personal (66%)
+-- Uso de llave/palanca general (33%)
+- Consecuencia:
+-- 67% ha tenido problemas por descuidos
+-- Olvidos por personal (66%)
+-- Incidentes menores o riesgos (recalentamiento, consumo innecesario)
+
+Necesidades y motivaciones comunes:
+
+- Programacion automatica (67%)
+- Alertas (uso/consumo) (67%)
+- Reportes de consumo (100%)
+- Visualización del gasto energético en dinero (33%)
+
+Insights clave
+
+- Control vs Desorden
+el 100% necesita control energetico, pero actualmente depende de procesos manuales vulnerables.
+- Costo como driver principal
+el 100% toma decisiones basado en impacto económico, no en métricas técnicas.
+- Tecnologia pero simple
+el 100% acepta tecnología siempre que sea fácil de implementar, económica y no invasiva.
+- Segmento en transición
+-- El 67% es tradicional (operativo)
+-- El 33% es moderno
 ### 2.3.2. User Task Matrix 
 ### 2.3.3. User Journey Mapping 
 ### 2.3.4. Empathy Mapping
