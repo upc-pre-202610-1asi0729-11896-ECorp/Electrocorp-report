@@ -769,6 +769,13 @@ Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
 | Detectar errores o descuidos (equipos encendidos, fallas) | Mensual (baja) | Alta |
 
 ### 2.3.3. User Journey Mapping 
+
+Segmento 1:
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+<img src = "assets/UserJourneyMap - seg2.png" alt = "User Journey Map segmento 2">
+
 ### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming
 ## 2.5. Ubiquitous Language
