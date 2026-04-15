@@ -750,6 +750,24 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 <img src="assets/User Persona - seg2 - Carlos Mendoza.png" alt="UserPersona Carlos Mendoza">
 
 ### 2.3.2. User Task Matrix 
+
+Segmento 1: 
+
+Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
+
+| Tareas (Tasks) | Frecuencia | Importancia |
+|--|--|--|
+| Encender equipos al iniciar la jornada | Diario | Alta |
+| Operar maquinaria durante la producción | Diario | Alta |
+| Supervisar el uso correcto de equipos por el personal | Diario | Alta |
+| Apagar equipos al finalizar la jornada | Diario | Alta |
+| Verificar que todos los equipos estén apagados | Interdiario | Alta |
+| Coordinar con el personal sobre el uso de máquinas | Diario | Media |
+| Pagar el recibo de electricidad | Mensual | Alta |
+| Revisar el gasto eléctrico del negocio | Mensual | Alta |
+| Intentar identificar causas de alto consumo eléctrico | Mensual (baja) | Alta |
+| Detectar errores o descuidos (equipos encendidos, fallas) | Mensual (baja) | Alta |
+
 ### 2.3.3. User Journey Mapping 
 ### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming
