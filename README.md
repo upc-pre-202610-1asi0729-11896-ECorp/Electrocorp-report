@@ -799,7 +799,13 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 El wireframe define la estructura básica de la landing page en bloques principales:
-<img src="assets/">
+<img src="assets/LandingPageWireframe1.png">
+<img src="assets/LandingPageWireframe2.png">
+<img src="assets/LandingPageWireframe3.png">
+<img src="assets/LandingPageWireframe4.png">
+<img src="assets/LandingPageWireframe5.png">
+<img src="assets/LandingPageWireframe6.png">
+<img src="assets/LandingPageWireframe7.png">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
