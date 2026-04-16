@@ -784,6 +784,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 # Capitulo IV: Product Design
+
 ## 4.1. Style Guidelines
 
 En esta sección se detallan las bases visuales y comunicativas de ElectroCorp, orientadas a mantener una presentación consistente y profesional en todas las interfaces del ecosistema IoT.
@@ -892,6 +893,7 @@ Los botones son los elementos críticos para la toma de decisiones. Se definen t
 -   **Contraste y Legibilidad:** Nos aseguramos de que el texto claro (`#e0e6ed`) sobre el fondo oscuro cumpla con las pautas de accesibilidad WCAG, garantizando que usuarios con fatiga visual o en entornos de baja luz puedan leer los datos de consumo sin dificultad.
     
 -   **Navegación Asistida:** El sitio incluye un sistema de búsqueda inteligente que interpreta palabras clave del usuario (ej. "precios", "soporte") y lo desplaza automáticamente (`smooth scroll`) hacia la sección relevante, facilitando el uso a personas que prefieren no usar el menú tradicional.
+
 
 ## 4.2. Information Architecture
 
