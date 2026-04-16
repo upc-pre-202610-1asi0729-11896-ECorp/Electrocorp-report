@@ -785,9 +785,114 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ## 3.3. Product Backlog
 # Capitulo IV: Product Design
 ## 4.1. Style Guidelines
+
+En esta sección se detallan las bases visuales y comunicativas de ElectroCorp, orientadas a mantener una presentación consistente y profesional en todas las interfaces del ecosistema IoT.
+
 ### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
-## 4.2. Information Architecture
+
+**Branding:** 
+La identidad de ElectroCorp busca democratizar la domótica en el Perú. El uso de la mascota (el enchufe con capa de superhéroe) transmite que el usuario tiene el "poder" y el control sobre su consumo eléctrico de forma amigable y heroica.
+<br><br>
+FOTO DEL LOGO
+
+
+<br><br>
+**Typography:**
+La tipografía es el pilar de la comunicación digital en ElectroCorp. Hemos seleccionado una jerarquía basada en fuentes _sans-serif_ para asegurar que los datos de consumo (watts y costos) sean legibles en cualquier condición de iluminación de la interfaz.
+
+-   **Fuente Principal:** Se utiliza Roboto, tipografías de sistema diseñadas para interfaces de alta densidad de información.
+    
+-   **Jerarquía de Títulos:** Se aplica un peso de 600 (SemiBold) para transmitir solidez y autoridad en la gestión energética. El tamaño del título principal en el _Hero_ es de 3.5rem, asegurando un impacto visual inmediato.
+    
+-   **Cuerpo de Texto:** Se define en 1.1rem con un interlineado de 1.6, optimizando la lectura de párrafos largos en la descripción de la startup y testimonios.
+    
+<img src="assets/Typography.PNG">
+
+#### **Colors**
+
+La paleta de colores de **ElectroCorp** ha sido diseñada bajo una estética de "Modo Oscuro" (Dark Mode), que evoca tecnología avanzada y eficiencia operativa.
+
+<img src="assets/paleta_colores.PNG">
+
+#### **Spacing**
+
+El sistema de espaciado sigue una progresión lógica para mantener el orden y la limpieza visual, facilitando que el usuario no se sienta abrumado por los datos.
+
+-   **Secciones Principales:** Poseen un relleno (_padding_) de 80px en la parte superior e inferior con un margen lateral del 10*, creando un "respiro" visual necesario para separar los objetivos de los planes de servicio.
+    
+-   **Grillas (Grid Gap):** Se establece un espacio de 30px entre elementos del inventario y dispositivos, permitiendo una diferenciación clara entre cada unidad IoT.
+    
+-   **Separadores (hr):** Se utilizan líneas de 3px de alto y 60px de ancho en color azul eléctrico para indicar el fin de un concepto y el inicio de otro de forma minimalista.
+
+<img src="assets/spacing.PNG">
+
+
+#### **Dimensions (Tone of Voice)**
+
+El lenguaje de **ElectroCorp** ha sido calibrado para generar confianza en una audiencia que suele temer a los costos elevados de energía.
+
+-   **Enfoque:** **Formal pero Entusiasta**. Somos serios con la precisión de la medición (watts), pero entusiastas al invitar al usuario a la "Revolución Eléctrica".
+    
+-   **Lenguaje:** **Respetuoso y Profesional**. Evitamos términos excesivamente técnicos para que la microempresaria Elena o el gamer Ricardo comprendan el beneficio directo (ahorro de dinero) sin esfuerzo.
+    
+-   **Estilo de Comunicación:**
+    
+    -   **Sereno:** Transmitimos tranquilidad mediante la seguridad de que el usuario tiene el control total desde su app.
+        
+    -   **Heroico:** Usamos la narrativa de nuestra mascota (el enchufe con capa) para posicionar la tecnología como una aliada contra el desperdicio.
+
+
+### **4.1.2. Web Style Guidelines**
+
+En esta sección se establecen los estándares visuales, técnicos y de interacción aplicados a las interfaces web de ElectroCorp. El objetivo es garantizar una experiencia de usuario (UX) fluida, coherente y accesible que permita a familias y negocios peruanos gestionar su consumo energético con total confianza desde cualquier dispositivo.
+
+#### **1. Diseño Responsivo y Adaptabilidad**
+
+Priorizamos un enfoque Mobile-First para asegurar que el control de los dispositivos IoT sea efectivo en movimiento.
+
+-   **Adaptación Fluida:** El sitio utiliza un sistema de retícula flexible basado en _CSS Flexbox_ y _Media Queries_ que adapta el contenido automáticamente. En dispositivos de escritorio (desktop), se mantiene una estructura de 12 columnas con contenedores máximos de 1200px; mientras que en dispositivos móviles (smartphones), el contenido se reorganiza en una sola columna con márgenes laterales de 20px para facilitar la interacción táctil.
+    
+-   **Puntos de Ruptura (Breakpoints):** Se define un punto crítico en los 768px, donde la navegación cambia de una barra horizontal a un menú vertical optimizado, y las tarjetas de servicios (planes) pasan de una disposición en grilla (_grid_) a una lista vertical.
+    
+
+#### **2. Sistema de Layout y Patrones de Lectura**
+
+-   **Patrón en F:** En la landing page, aplicamos un patrón de escaneo visual en "F". Ubicamos el logotipo de ElectroCorp en la esquina superior izquierda (punto de entrada visual) y los llamados a la acción (CTA) en la parte superior derecha y centro del Hero para maximizar la conversión de usuarios interesados en los planes.
+    
+-   **Jerarquía Visual:** Utilizamos el contraste entre el fondo Deep Navy (`#0a0f18`) y el Electric Blue (`#00d2ff`) para dirigir la atención hacia los indicadores de ahorro y botones de compra.
+    
+
+#### **3. Elementos Visuales (Imágenes e Iconografía)**
+
+-   **Tratamiento de Imágenes:** Las imágenes ilustrativas (como el enchufe superhéroe) y fotografías de hardware deben estar optimizadas en formato WebP para garantizar una carga rápida (peso < 200kb). Se aplica una opacidad del 15% en las imágenes de fondo del Hero para no competir con la legibilidad del texto.
+    
+-   **Iconografía Funcional:** Implementamos la librería Font Awesome. Los íconos deben ser lineales y minimalistas, manteniendo un tamaño uniforme de 1.8rem en el footer y 20px en los botones de búsqueda y audio para asegurar consistencia visual.
+    
+
+#### **4. Componentes de Interacción (Botones y Estados)**
+
+Los botones son los elementos críticos para la toma de decisiones. Se definen tres categorías:
+
+-   **Botón Primario (Action):** Fondo Azul Eléctrico con texto negro. Utilizado para acciones principales como "Suscribirme" o "Empezar Gratis".
+    
+-   **Botón Secundario (Nav):** Enlaces con efecto _hover_ que activan un resplandor azul (`text-shadow`) y cambian a color blanco para confirmar la selección del usuario.
+    
+-   **Estados Visuales:** Cada elemento interactivo cuenta con estados claramente definidos (`default`, `hover`, `active`). Se aplica una transición suave de 0.3s para evitar cambios bruscos y mejorar la percepción de fluidez.
+    
+
+#### **5. Formularios y Entradas de Datos**
+
+-   **Claridad y Validación:** El formulario de suscripción y la barra de búsqueda central cuentan con bordes redondeados (30px) y _placeholders_ descriptivos.
+    
+-   **Feedback Inmediato:** Mediante JavaScript, se informa al usuario en tiempo real sobre el éxito de su suscripción o la falta de resultados en la búsqueda mediante alertas visuales y mensajes dinámicos, evitando la frustración ante errores de escritura.
+    
+
+#### **6. Accesibilidad y Estándares de Calidad**
+
+-   **Contraste y Legibilidad:** Nos aseguramos de que el texto claro (`#e0e6ed`) sobre el fondo oscuro cumpla con las pautas de accesibilidad WCAG, garantizando que usuarios con fatiga visual o en entornos de baja luz puedan leer los datos de consumo sin dificultad.
+    
+-   **Navegación Asistida:** El sitio incluye un sistema de búsqueda inteligente que interpreta palabras clave del usuario (ej. "precios", "soporte") y lo desplaza automáticamente (`smooth scroll`) hacia la sección relevante, facilitando el uso a personas que prefieren no usar el menú tradicional.
+
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags 
