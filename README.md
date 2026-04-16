@@ -893,11 +893,120 @@ Los botones son los elementos críticos para la toma de decisiones. Se definen t
     
 -   **Navegación Asistida:** El sitio incluye un sistema de búsqueda inteligente que interpreta palabras clave del usuario (ej. "precios", "soporte") y lo desplaza automáticamente (`smooth scroll`) hacia la sección relevante, facilitando el uso a personas que prefieren no usar el menú tradicional.
 
+## 4.2. Information Architecture
+
+En ElectroCorp, la arquitectura de la información se ha diseñado para facilitar la transición hacia un hogar inteligente de forma intuitiva y sin fricciones. El objetivo es que usuarios como Elena o Ricardo puedan gestionar su consumo eléctrico y controlar sus dispositivos IoT sin necesidad de conocimientos técnicos avanzados. Organizamos el contenido mediante una jerarquía visual clara en el Landing Page y sistemas de navegación que priorizan la eficiencia energética y el ahorro económico inmediato.
+
 ### 4.2.1. Organization Systems
+
+En ElectroCorp, aplicaremos diversos sistemas de organización para garantizar que la gestión del stock y el monitoreo de energía sean accesibles:
+
+-   **Organización Visual del Contenido (Jerárquica):** Utilizaremos este sistema para guiar al usuario desde el impacto inicial en el Hero hacia la toma de decisiones en la sección de Planes. La información fluye desde la propuesta de valor ("Domina el consumo de tu hogar") hacia los detalles técnicos (Sistemas I.O.T.) y la prueba social (Testimonios).
+    
+-   **Organización Secuencial (Step-by-step):** Este sistema se emplea rigurosamente en el proceso de instalación _plug-and-play_ de los enchufes y en el flujo de suscripción al boletín informativo. Cada paso está diseñado para evitar la sobrecarga cognitiva del usuario.
+    
+-   **Esquemas de Categorización de Contenido:**
+    
+    -   **Por Tópicos:** La información se agrupa en módulos lógicos como "Nuestros Planes", "Nuestros Objetivos" y "Sistemas I.O.T.".
+        
+    -   **Según Audiencia (Grupos de usuarios):** Segmentamos el contenido para dos perfiles principales: el usuario residencial (Plan Free para departamentos) y el corporativo/microempresario (Plan Enterprise para oficinas o negocios grandes).
+        
+    -   **Cronológico:** Se utiliza en la visualización de datos de consumo en tiempo real, permitiendo comparar el gasto energético actual frente a periodos pasados para identificar patrones de ahorro.
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de ElectroCorp utiliza términos directos y familiares para reducir la confusión en usuarios no técnicos.
+
+-   **Inicio:** Sección principal que presenta la misión de democratizar la domótica.
+    
+-   **Descripción:** Detalle del ecosistema IoT y la facilidad de instalación sin obras eléctricas.
+    
+-   **Objetivos:** Resumen de las metas de sostenibilidad y eficiencia económica.
+    
+-   **Planes:** Sección de tarifas donde se diferencian las opciones "Free" y "Enterprise".
+    
+-   **Enchufes Smart:** Galería técnica de los dispositivos de hardware disponibles.
+    
+-   **Soporte:** Canal de contacto y suscripción para asistencia técnica.
+    
+-   **Suscribirme al Boletín:** Llamado a la acción (CTA) claro para la captura de nuevos _leads_.
+
 ### 4.2.3. SEO Tags and Meta Tags 
+
+Para optimizar la visibilidad en buscadores y asegurar una correcta indexación de la plataforma de gestión energética, se aplican los siguientes metadatos:
+**Landing Page:**
+
+
+- **Título:**
+```html
+<title>ElectroCorp | Gestión Energética Inteligente</title>
+```
+    
+- **Descripción:**
+```html
+<meta name="description" content="Domótica accesible para hogares peruanos. Controla tus electrodomésticos y ahorra en tu recibo de luz con nuestros enchufes inteligentes plug-and-play."/>"/>
+```
+    
+- **Palabras clave (Keywords):**
+```html
+<meta name="keywords" content="ahorro energía, domótica Perú, enchufes inteligentes, IoT hogar, eficiencia eléctrica, ElectroCorp"/>"/>
+```
+- **Autor (author):**
+```
+<meta name="author" content="ElectroCorp Team" />
+```
+- **Copyright:**
+```
+<meta name="copyright" content="© ElectroCorp.app, 2026" />
+```
+
+**Web Application (Portal de Usuario):**
+
+- **Título:**
+```html
+<title>ElectroCorp Dashboard - Monitoreo en Tiempo Real</title>
+```
+- **Descripción:**
+```html
+<meta name="description" content="Panel de control para la gestión de dispositivos inteligentes y visualización de consumo eléctrico en tiempo real."/>"/>
+```
+- **Palabras clave (Keywords):**
+```html
+<meta name="keywords" content="consumo watts, control remoto enchufes, dashboard energético, smart home dashboard"/>"/>
+```
+- **Autor (author):**
+```
+<meta name="author" content="ElectroCorp Team" />
+```
+- **Copyright:**
+```
+<meta name="copyright" content="© ElectroCorp.app, 2026" />
+```
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de ElectroCorp está optimizado para la navegación rápida dentro del sitio de una sola página (SPA):
+
+-   **Búsqueda por Palabras Clave:** Un campo de búsqueda en el Hero permite al usuario ingresar términos como "planes", "hardware" o "misión".
+    
+-   **Buscador Inteligente :** El sistema utiliza un diccionario de términos ('gratis', 'precios', 'dispositivos') que activa un desplazamiento suave (_smooth scroll_) hacia la sección exacta donde se encuentra la información buscada.
+    
+-   **Feedback de Búsqueda:** En caso de no encontrar una coincidencia, el sistema proporciona alertas con sugerencias para guiar al usuario hacia términos válidos.
+
 ### 4.2.5. Navigation Systems
+
+Diseñamos la navegación para que sea persistente y minimice los clics del usuario:
+
+-   **Barra de Navegación Persistente (Sticky Header):** El menú superior permanece visible durante todo el recorrido, permitiendo saltar entre secciones como "Testimonios" o "Planes" en cualquier momento.
+    
+-   **Enlaces de Ancla (Anchor Links):** Facilitan el movimiento fluido a través del landing page mediante desplazamientos programados por ID.
+    
+-   **Botones de Acción Rápida (CTA):** Botones prominentes como "Empezar Gratis" dirigen directamente a los puntos de conversión.
+    
+-   **Control de Audio Global:** Un botón flotante permite gestionar la experiencia sonora de la plataforma, brindando un control total sobre el entorno multimedia sin interrumpir la navegación.
+    
+-   **Navegación Móvil:** Para pantallas pequeñas, implementamos un diseño responsivo que reorganiza los elementos del menú en una lista vertical accesible para una interacción táctil eficiente.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 El wireframe define la estructura básica de la landing page en bloques principales:
