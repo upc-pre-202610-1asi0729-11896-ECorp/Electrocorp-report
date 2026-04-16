@@ -798,6 +798,9 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+El wireframe define la estructura básica de la landing page en bloques principales:
+<img src="assets/">
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
