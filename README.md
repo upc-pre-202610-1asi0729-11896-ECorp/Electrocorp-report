@@ -682,9 +682,51 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
 ### 2.2.3. Análisis de entrevistas 
 
-#### - Segmento 1: Hogares urbanos con viviendas antiguas
- Características objetivas del segmento
-#### - Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+#### Segmento 1: Hogares urbanos con viviendas antiguas
+
+Características objetivas del segmento
+
+- Rango de edad: 48 - 59 años.
+- Ubicacion: 100% Lima
+- Nivel educativo: 100% secundaria completa
+- Ocupación: 
+-- 75% independientes
+-- 25% dependiente
+- El segmento esta compuesto por adultos de mediana a mayor edad, con nivel educativo y estabilidad laboral modera.
+<br>
+
+Infraestructura del hogar
+- 100% viviendas con mas de 10 años 
+- 100% consideran que sus instalaciones eléctricas están en buen estado.
+-- 25% menciona necesidad de mantenimiento
+- Existe una percepción de seguridad y conformidad con la infraestructura actual.
+
+Percepción del consumo
+- 25% percepción negativa (preocupados)
+- 75% percepción neutral/positiva
+
+Características subjetivas del segmento
+- 100% prácticos y orientados a lo funcional.
+- 100% conservadores en adopción tecnológica.
+- 75% confiados en su situación actual.
+- 25 % preocupados activamente por el consumo.
+
+Necesidades y motivaciones
+- Control remoto de dispositivos (100%)
+- Visualización del consumo en dinero (25%)
+
+Insights clave
+- Conformidad
+-- 75% esta conforme
+-- 25% esta preocupado.
+- Interés sin accion.
+-- 100% no usa la tecnología pero muestra interés en funciones.
+- Simplicidad ante todo
+-- el 100% pide facilidad de uso
+-- el 75% desconfía de técnicos	
+- Valor percibido en dinero
+-- El 100% quiere ver el consumo eléctrico en soles.
+#### Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 Características objetivas del segmento
 - Rango edad: 39 -48 anios
 - Ubicacion: zonas urbanas (La Vcitoria y Villa el Salvador)
