@@ -823,6 +823,111 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
 ## 3.1. User Stories
+EP-01: Instalación y configuración inicial
+
+Como usuario de un hogar o pequeño negocio, quiero instalar y configurar fácilmente mis dispositivos inteligentes sin alterar la infraestructura eléctrica existente, para comenzar a usar la solución de forma rápida, práctica y sin necesidad de asistencia técnica especializada.
+
+Incluye (alto nivel):
+
+Registro e inicio de sesión de usuarios.
+Asistente de instalación guiada paso a paso.
+Vinculación de enchufes e interruptores inteligentes.
+Detección y verificación del dispositivo conectado.
+Personalización inicial de nombres y ubicación de equipos.
+
+Por qué es un Epic:
+
+Es el primer punto de contacto entre el usuario y la solución.
+Involucra flujo de adopción, experiencia de usuario e integración con hardware IoT.
+Requiere coordinación entre app web/móvil, backend y dispositivos físicos.
+
+Estimación: 3–5 sprints de 2 semanas.
+
+EP-02: Control y automatización de dispositivos
+
+Como usuario de un hogar o negocio, quiero controlar y automatizar mis dispositivos eléctricos desde la plataforma, para mejorar la comodidad, optimizar el uso de energía y reducir acciones manuales repetitivas.
+
+Incluye (alto nivel):
+
+Encendido y apagado remoto de dispositivos.
+Programación de horarios por día y hora.
+Creación de rutinas o automatizaciones simples.
+Visualización del estado actual de cada dispositivo.
+Control centralizado desde un solo panel.
+
+Por qué es un Epic:
+
+Representa la funcionalidad principal de la domótica ofrecida.
+Requiere sincronización entre interfaz, lógica de negocio y dispositivos conectados.
+Tiene impacto directo en la utilidad diaria del sistema.
+Permite atender tanto necesidades domésticas como operativas en negocios pequeños.
+
+Estimación: 4–6 sprints de 2 semanas.
+
+EP-03: Monitoreo y ahorro de energía
+
+Como usuario que busca reducir su consumo eléctrico, quiero visualizar, analizar y comparar el consumo de mis dispositivos en tiempo real e histórico, para identificar oportunidades de ahorro y tomar decisiones informadas.
+
+Incluye (alto nivel):
+
+Monitoreo del consumo energético en tiempo real.
+Historial de consumo por periodos.
+Reportes gráficos por dispositivo o grupo.
+Alertas ante consumo inusual o excesivo.
+Recomendaciones básicas para mejorar la eficiencia energética.
+
+Por qué es un Epic:
+
+Requiere captura y procesamiento continuo de datos energéticos.
+Aporta el valor diferencial de la propuesta: ahorro y eficiencia.
+Implica visualización clara de información para usuarios no técnicos.
+Puede crecer hacia analítica avanzada y predicción de consumo.
+
+Estimación: 4–7 sprints de 2 semanas.
+
+EP-04: Seguridad, accesos y gestión de usuarios
+
+Como usuario administrador de un hogar o negocio, quiero controlar los accesos y permisos de quienes usan la plataforma, para mantener la seguridad, la trazabilidad y el uso adecuado de los dispositivos.
+
+Incluye (alto nivel):
+
+Creación de cuentas y autenticación de usuarios.
+Asignación de roles y permisos.
+Gestión de acceso para familiares o personal autorizado.
+Registro de actividad y cambios realizados.
+Protección contra accesos no autorizados.
+
+Por qué es un Epic:
+
+Es fundamental para garantizar confianza y control del sistema.
+Requiere manejo de autenticación, autorización y trazabilidad.
+Tiene relevancia especial en entornos compartidos como hogares y negocios.
+Refuerza la seguridad operativa de la plataforma IoT.
+
+Estimación: 3–5 sprints de 2 semanas.
+| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID)
+|--|--|--|--|--|
+| US-01|Registro inicial del usuario| Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos y acceder a sus funciones.| El usuario puede registrarse con correo y contraseña, el sistema valida campos obligatorios, se confirma el registro por mensaje o pantalla de éxito. | EP-01|
+| US-02| Emparejar dispositivo plug-and-play| Como usuario, quiero vincular un enchufe o interruptor inteligente desde la app para empezar a controlarlo sin ayuda técnica.| El sistema detecta el dispositivo, la app muestra confirmación de emparejamiento, el dispositivo queda visible en la lista principal.| EP-01|
+| US-03 | Asistente de instalación guiada | Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema sin modificar el cableado.| La guía muestra instrucciones ordenadas; incluye imágenes o mensajes simples, finaliza cuando el dispositivo queda operativo.| EP-01|
+| US-04| Nombrar dispositivos| Como usuario, quiero asignar nombres personalizados a mis dispositivos para identificarlos fácilmente. | El usuario puede editar el nombre, el cambio se guarda correctamente, el nombre se actualiza en toda la plataforma.  | EP-01 |
+| US-05 | Ver estado en tiempo real | Como usuario, quiero ver si un dispositivo está encendido o apagado para saber su estado actual. | La app muestra el estado actual, la información se actualiza al cambiar el dispositivo, el estado coincide con el dispositivo físico. | EP-02|
+| US-06| Encender y apagar remotamente| Como usuario, quiero controlar mis dispositivos desde el celular o la web para usarlos aunque no esté en casa o en el local.| El usuario puede activar y desactivar desde la interfaz, la acción se refleja en el dispositivo, el sistema confirma la ejecución.| EP-02 |
+| US-07 | Programar horarios de encendido| Como usuario, quiero programar horarios automáticos para reducir consumo y tener mayor comodidad.| El usuario puede crear una programación, puede indicar hora de inicio y fin, el sistema ejecuta la acción en el horario definido.| EP-02 |
+| US-08  | Crear rutinas automáticas| Como usuario, quiero definir rutinas como “siempre apagar a cierta hora” para automatizar tareas repetitivas.| La rutina puede activarse y desactivarse, el sistema ejecuta la acción configurada, el usuario puede editar o eliminar la rutina. | EP-02 |
+| US-09 | Ver consumo en tiempo real| Como usuario, quiero monitorear el consumo energético de mis dispositivos en tiempo real para entender cuánto gasto estoy generando. | El panel muestra el consumo actual, los datos se actualizan periódicamente, la información es visible de forma clara.| EP-03|
+| US-10 | Consultar historial de consumo| Como usuario, quiero revisar el historial de consumo por día, semana o mes para identificar patrones de uso. | El usuario puede elegir un rango de fechas, el sistema muestra datos históricos, la información se presenta de forma gráfica o resumida.| EP-03 |
+| US-11| Recibir alertas por alto consumo | Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal para evitar gastos innecesarios. | El sistema compara con un umbral definido, se envía una alerta al usuario; la alerta indica qué dispositivo generó el aviso. | EP-03|
+| US-12 | Ver recomendaciones de ahorro | Como usuario, quiero recibir sugerencias para ahorrar energía según mi consumo habitual.| El sistema genera recomendaciones, las sugerencias se basan en el uso registrado, el usuario puede verlas en su panel. | EP-03 |
+| US-13| Administrar múltiples dispositivos| Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla para gestionarlos fácilmente. | Se muestra una lista organizada, cada dispositivo tiene su estado, el usuario puede acceder al detalle de cada uno.| EP-04 |
+| US-14| Crear perfiles de acceso| Como usuario administrador, quiero dar acceso a otros miembros de la familia o empleados con permisos limitados.| El administrador puede crear usuarios, se pueden asignar permisos, cada perfil accede solo a funciones autorizadas.| EP-04 |
+| US-15 | Bloquear acceso no autorizado| Como usuario, quiero proteger mi cuenta para que nadie controle mis dispositivos sin permiso.| La app solicita autenticación, el sistema cierra sesión tras inactividad, se impide el acceso sin credenciales válidas. | EP-04|
+| US-16 | Registrar actividad de control| Como usuario administrador, quiero ver quién encendió, apagó o modificó una automatización para tener trazabilidad.| El sistema guarda fecha y hora, se registra el usuario que hizo el cambio, el historial puede consultarse en la plataforma.| EP-04|
+| US-17| Controlar equipos del negocio| Como dueño de negocio, quiero encender o apagar equipos del local desde mi móvil para ahorrar tiempo y energía.| El control puede realizarse remotamente, la acción se ejecuta correctamente, el sistema confirma el cambio.| EP-02  |
+| US-18 | Programar equipos por horario comercial  | Como dueño de negocio, quiero automatizar el encendido y apagado de equipos según el horario de atención.| Se puede configurar por días y horas, el sistema cumple el horario indicado, la programación puede editarse. | EP-02  |
+| US-19 | Revisar consumo por área o equipo| Como dueño de negocio, quiero identificar qué equipos consumen más energía para tomar decisiones de ahorro. | El sistema muestra el consumo por dispositivo, se puede comparar entre equipos, los datos están disponibles en reportes.| EP-03 |
+| US-20| Compartir acceso con personal autorizado | Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.| El administrador define permisos, el empleado solo ve dispositivos asignados, los cambios quedan registrados. | EP-04  |
+
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 # Capitulo IV: Product Design
