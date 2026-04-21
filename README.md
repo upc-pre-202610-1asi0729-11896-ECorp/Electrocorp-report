@@ -793,7 +793,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
 ### 2.3.2. User Task Matrix 
 
-Segmento 1: 
+Segmento 1: Hogares urbanos con viviendas antiguas
 
 | Tareas del usuario | Frecuencia | Importancia |
 |--|--|--|
@@ -822,7 +822,7 @@ Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
 
 ### 2.3.3. User Journey Mapping 
 
-Segmento 1:
+Segmento 1: Hogares urbanos con viviendas antiguas
 
 <img src = "assets/UserJourneyMap - seg1.png" alt = "User Journey Map segmento 1">
 
@@ -831,6 +831,13 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 <img src = "assets/UserJourneyMap - seg2.png" alt = "User Journey Map segmento 2">
 
 ### 2.3.4. Empathy Mapping
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+<img src = "assets/EmpathyMap - Seg1.png" alt = "EmpathyMap Segmento 1">
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
 ## 2.4. Big Picture Event Storming
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
