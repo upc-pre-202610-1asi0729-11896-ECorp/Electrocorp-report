@@ -785,7 +785,7 @@ el 100% acepta tecnología siempre que sea fácil de implementar, económica y n
 
 Segmento 1: Hogares urbanos con viviendas antiguas
 
-
+<img src="assets/User Persona - seg1 - Rosa Gutierrez.png" alt="UserPersona Rosa Gutierrez">
 
 Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
