@@ -795,6 +795,16 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
 Segmento 1: 
 
+| Tareas del usuario | Frecuencia | Importancia |
+|--|--|--|
+| Encender manualmente los dispositivos del hogar | Diario | Alta |
+| Apagar manualmente los dispositivos antes de salir o dormir | Diario | Alta |
+| Revisar el recibo de luz | Mensual | Alta |
+| Supervisar el uso de electrodomésticos en casa | Semanal | Media |
+| Ajustar el uso de aparatos según necesidad (uso básico) | Diario | Media |
+| Consultar sobre el consumo eléctrico | Mensual/semanal | Media |
+| Entender el monto de recibo de luz | Semanal | Alta |
+
 Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
 
 | Tareas (Tasks) | Frecuencia | Importancia |
