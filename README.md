@@ -838,6 +838,8 @@ Segmento 1: Hogares urbanos con viviendas antiguas
 
 Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
+<img src = "assets/EmpathyMap - Seg2.png" alt = "EmpathyMap Segmento 2">
+
 ## 2.4. Big Picture Event Storming
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
