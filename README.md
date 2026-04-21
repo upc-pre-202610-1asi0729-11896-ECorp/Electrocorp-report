@@ -824,6 +824,8 @@ Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
 
 Segmento 1:
 
+<img src = "assets/UserJourneyMap - seg1.png" alt = "User Journey Map segmento 1">
+
 Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
 <img src = "assets/UserJourneyMap - seg2.png" alt = "User Journey Map segmento 2">
