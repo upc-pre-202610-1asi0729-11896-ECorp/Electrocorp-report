@@ -841,6 +841,8 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 <img src = "assets/EmpathyMap - Seg2.png" alt = "EmpathyMap Segmento 2">
 
 ## 2.4. Big Picture Event Storming
+<img src = "assets/Big Picture Event Storming.png">
+
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
 ## 3.1. User Stories
