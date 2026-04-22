@@ -950,6 +950,7 @@ Estimación: 3–5 sprints de 2 semanas.
 | US-20| Compartir acceso con personal autorizado | Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.| El administrador define permisos, el empleado solo ve dispositivos asignados, los cambios quedan registrados. | EP-04  |
 
 ## 3.2. Impact Mapping
+<img src="assets/Impact Mapping.png">
 ## 3.3. Product Backlog
 # Capitulo IV: Product Design
 
