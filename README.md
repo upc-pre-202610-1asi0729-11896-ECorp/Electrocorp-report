@@ -1278,7 +1278,26 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 ### 4.6.2. Software Architecture Context Diagram
+En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del sistema, mostrándolo como el núcleo central rodeado por los usuarios principales y los sistemas de software externos con los que interactúa directamente para cumplir sus funciones de domótica y gestión energética.
+
+<img src="assets/context_level_diagram.png">
+
+El ecosistema de ElectroCorp se sitúa en el centro de la arquitectura, actuando como el orquestador de las interacciones. Los elementos que lo rodean son:
+
+-**ElectroCorp User (Actor Principal)**: Representa al usuario final (familias o dueños de negocios). Este interactúa con ElectroCorp para visualizar métricas de consumo en tiempo real, encender o apagar dispositivos remotamente y configurar rutinas horarias. También interactúa directamente con la pasarela de pagos para abonar su suscripción.
+
+-**ElectroCorp System (Sistema Principal):** Es la plataforma de software (Web y Móvil) que estamos desarrollando. Centraliza la lógica de negocio, gestiona el estado de los dispositivos y procesa las reglas de automatización.
+
+-**IoT Devices (Sistema Externo de Soporte):** Representa el hardware físico (los enchufes inteligentes plug-and-play). ElectroCorp se comunica con ellos para enviarles comandos de ejecución y, a su vez, recibe de ellos la telemetría del consumo en Watts.
+
+-**Payment Gateway (Sistema Externo de Soporte):** Sistema financiero de terceros (ej. Niubiz, Stripe) encargado de procesar los pagos de los planes de suscripción de manera segura, notificando a ElectroCorp sobre el éxito o fracaso de la transacción.
+
+-**Notification Service (Sistema Externo de Soporte):** Servicio de mensajería (ej. SendGrid o Firebase). ElectroCorp le delega el envío de correos electrónicos y notificaciones push, como las alertas de picos de voltaje o los reportes mensuales de eficiencia, para que lleguen finalmente al usuario.
+
+
 ### 4.6.3. Software Architecture Container Diagrams
+
+
 ### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
