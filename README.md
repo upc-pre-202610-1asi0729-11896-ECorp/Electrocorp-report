@@ -1370,6 +1370,9 @@ Derivados directamente de los subdominios del modelo de negocio, se han definido
 **-Database (MySQL):** Base de datos relacional centralizada (que podría desglosarse por microservicio en fases más avanzadas). Almacena de manera segura las credenciales de usuario, los estados de los dispositivos, las rutinas y la telemetría energética.
 
 ### 4.6.4. Software Architecture Components Diagrams
+
+<img src="assets/MonitoringComponentDiagram.png">
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ## 4.8. Database Design
