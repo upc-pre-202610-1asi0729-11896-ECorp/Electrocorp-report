@@ -1631,8 +1631,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
-
-  <!-- US12 -->
+  
   <tr>
     <td rowspan="2">US12</td>
     <td rowspan="2">Landing Page intuitiva</td>
@@ -1654,7 +1653,6 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td>Done</td>
   </tr>
 
-  <!-- US14 -->
   <tr>
     <td rowspan="2">US14</td>
     <td rowspan="2">Landing Page responsiva</td>
@@ -1677,9 +1675,16 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
 </table>
 
-
-
 #### 5.2.1.4. Development Evidence for Sprint Review
+En el presente sprint se logró desarrollar la primera versión del Landing Page de ElectroCorp, la cual presenta de manera clara el propósito de la plataforma y las problemáticas que busca resolver en el ámbito de la domótica y eficiencia energética. La información mostrada fue organizada de forma comprensible y acompañada de elementos visuales (Dark Mode) que refuerzan el mensaje. Asimismo, se consideró un diseño atractivo, responsivo e intuitivo que busca captar la atención de los usuarios y transmitir confianza en la solución propuesta.
+
+<p align="left" style="width: 95%; margin: 20px auto; font-family: Arial, sans-serif;">
+    <b>Link de commits del repositorio del landing page:</b> <br>
+    <a href="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main" target="_blank" style="color: #00d2ff;">
+        https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main
+    </a>
+</p>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
