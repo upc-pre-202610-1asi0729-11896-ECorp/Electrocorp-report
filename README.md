@@ -1428,7 +1428,7 @@ Envía mensajes estandarizados en formato JSON hacia el _Message Broker_ (Rabbit
             <b>Date</b>
         </td>
         <td>
-            10/04/2026         
+            19/04/2026         
         </td>
     </tr>
     <tr align="left">
@@ -1684,6 +1684,18 @@ En el presente sprint se logró desarrollar la primera versión del Landing Page
         https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main
     </a>
 </p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| Landing Page | main | `c324853` | feat(plataform): add plataform section | added platform section content | 19/04/2026 |
+| | main | `e88e22d` | feat(plataform): add plataform section and section head | added platform section and section head | 19/04/2026 |
+| | main | `0e78fe2` | feat(about): add contenido-web section | added contenido-web section | 19/04/2026 |
+| | main | `e0680a8` | feat(about): add desciption section | added description section | 19/04/2026 |
+| | main | `96414fb` | feat(about): add goals section | added goals section | 19/04/2026 |
+| | main | `5900f01` | feat(about): add service section | added service section | 19/04/2026 |
+| | main | `b7b6ca1` | feat(about): add reviews section | added reviews section | 19/04/2026 |
+| | main | `fe9c165` | feat(about): add contact and musical-background section | added contact and musical-background section | 19/04/2026 |
+| | main | `41e520b` | fix(head): fix html styles.css and scripts.js | fixed html styles.css and scripts.js | 19/04/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
