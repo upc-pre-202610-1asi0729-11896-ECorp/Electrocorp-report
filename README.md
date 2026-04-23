@@ -1340,7 +1340,7 @@ El ecosistema de ElectroCorp se sitúa en el centro de la arquitectura, actuando
 
 En esta sección se presenta el Diagrama de Contenedores (Container Diagram) correspondiente al Nivel 2 del Modelo C4 para ElectroCorp. Basado en los agregados definidos en el Design Level Event Storming, este diagrama muestra la arquitectura interna del sistema bajo un enfoque de Microservicios, detallando cómo se distribuyen las responsabilidades, las decisiones tecnológicas (Angular, Flutter, Spring Boot) y la interacción con sistemas externos y hardware IoT.
 
-<img src="assets/Container_Diagram.png">
+<img src="assets/ContainerDiagram.png">
 
 La arquitectura de ElectroCorp se divide en contenedores cliente (Frontends), una capa de enrutamiento y una capa de microservicios (Backend):
 
@@ -1359,8 +1359,11 @@ Derivados directamente de los subdominios del modelo de negocio, se han definido
 
 **-User Management API:** Gestiona el Registro de Usuario, la autenticación propia (verificando credenciales en la BD) y la interacción con la Pasarela de Pagos externa para las suscripciones.<br>
 **-Device Control API:** Encargada de la Operación y control de dispositivos. Gestiona el encendido/apagado manual, la configuración de horarios y envía los comandos directamente a los Dispositivos IoT mediante protocolos de red (ej. MQTT o HTTPS).<br>
-**-Energy Monitoring API:** Gestiona el Monitoreo de consumo. Recibe los pulsos de consumo eléctrico desde el hardware IoT, calcula el gasto acumulado y genera la proyección mensual del recibo de luz.<br>
-**-Alerts API:** Implementa el Sistema de alertas. Detecta anomalías (picos de voltaje, dispositivos desconectados, equipos olvidados) y se comunica con el Servicio de Notificaciones (ej. SendGrid o Firebase) para despachar correos o alertas push al usuario.
+**-Energy Monitoring API:** Procesa telemetría en tiempo real, detecta violaciones de picos de uso de energia y fin de horarios.<br>
+**-Notificaction Service API:** Servicio sin estado que activa alertas externas y registra el historial de notificaciones. <br>
+**-Message Broker:** Bus de eventos asíncrono para una entrega confiable de tareas de alerta. 
+
+
 
 **4. Persistencia de Datos:**
 
