@@ -1554,6 +1554,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     </tr>
 </table>
 
+#### 5.2.1.3. Sprint Backlog 1.
 <p style="text-align: justify; width: 90%; margin: 20px auto;">
     El primer objetivo del Sprint Backlog fue el establecer los cimientos del proyecto ElectroCorp centrando los esfuerzos en el diseño de la interfaz (UI/UX), la construcción total de la landing page, la definición de los Sprints en la herramienta de gestión y el desarrollo de documentación base. También se incluyeron tareas generales como configuración de repositorios, organización del equipo y avances del trabajo.
 </p>
@@ -1564,7 +1565,8 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <img src="assets/Tablero-Sprint1.png"></img>
 </p>
 
-#### 5.2.1.3. Sprint Backlog n. 
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
