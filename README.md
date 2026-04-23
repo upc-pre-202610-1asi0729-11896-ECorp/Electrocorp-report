@@ -658,7 +658,7 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 
 
 ### 2.2.2. Registro de entrevistas 
-URL del video:
+URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318828_upc_edu_pe/IQDU3UeTO_ZpS4S1jz04v8u-Ac14TANhydUiktFWcX_VEck?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BmEX0t
 
 Segmento 1: Hogares urbanos con viviendas antiguas
 
