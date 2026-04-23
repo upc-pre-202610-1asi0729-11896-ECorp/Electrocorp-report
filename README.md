@@ -1488,6 +1488,79 @@ Derivados directamente de los subdominios del modelo de negocio, se han definido
 </table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
+Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificacion de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborador y organizado para el avance del proyecto
+
+<p style="text-align: justify; width: 90%; margin: 20px auto;">
+    Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificación de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborativo y organizado para el avance del proyecto.
+</p>
+
+<table align="center" border="1" width="90%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Miembro del Equipo</b></td>
+        <td><b>Github Username</b></td>
+        <td><b>UI/UX</b></td>
+        <td><b>Landing Page</b></td>
+        <td><b>Sprint Planning</b></td>
+        <td><b>Documentation</b></td>
+        <td><b>Testing</b></td>
+    </tr>
+    <tr align="left">
+        <td>- Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Santiago Atanacio, Jairo Mathias</td>
+        <td align="center">Msa-ware</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">B</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
+    </tr>
+    <tr align="left">
+        <td>- Loa Rojas, Jean Franck</td>
+        <td align="center">JeanLoa</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Documet Romero, Timothy</td>
+        <td align="center">HiApple1</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+</table>
+
+<p style="text-align: justify; width: 90%; margin: 20px auto;">
+    El primer objetivo del Sprint Backlog fue el establecer los cimientos del proyecto ElectroCorp centrando los esfuerzos en el diseño de la interfaz (UI/UX), la construcción total de la landing page, la definición de los Sprints en la herramienta de gestión y el desarrollo de documentación base. También se incluyeron tareas generales como configuración de repositorios, organización del equipo y avances del trabajo.
+</p>
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/69ea69db3f7579b973a8f0d9/ATTIc10bfb6ee54361e0d44f1e36131317e252842AF0/sprint1-electrocorp" target="_blank">Tablero del Sprint 1 en Trello</a>
+    <br><br>
+    <img src="assets/UPC_logo_transparente.png"></img>
+</p>
+
 #### 5.2.1.3. Sprint Backlog n. 
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
