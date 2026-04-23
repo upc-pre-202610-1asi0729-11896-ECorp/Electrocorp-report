@@ -1558,7 +1558,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
 <p style="text-align: left; width: 90%; margin: 20px auto;">
     <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/69ea69db3f7579b973a8f0d9/ATTIc10bfb6ee54361e0d44f1e36131317e252842AF0/sprint1-electrocorp" target="_blank">Tablero del Sprint 1 en Trello</a>
     <br><br>
-    <img src="assets/UPC_logo_transparente.png"></img>
+    <img src="assets/Tablero-Sprint1.png"></img>
 </p>
 
 #### 5.2.1.3. Sprint Backlog n. 
