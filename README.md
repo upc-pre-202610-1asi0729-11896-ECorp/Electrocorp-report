@@ -1297,6 +1297,33 @@ El ecosistema de ElectroCorp se sitúa en el centro de la arquitectura, actuando
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+En esta sección se presenta el Diagrama de Contenedores (Container Diagram) correspondiente al Nivel 2 del Modelo C4 para ElectroCorp. Basado en los agregados definidos en el Design Level Event Storming, este diagrama muestra la arquitectura interna del sistema bajo un enfoque de Microservicios, detallando cómo se distribuyen las responsabilidades, las decisiones tecnológicas (Angular, Flutter, Spring Boot) y la interacción con sistemas externos y hardware IoT.
+
+<img src="assets/Container_Diagram.png">
+
+La arquitectura de ElectroCorp se divide en contenedores cliente (Frontends), una capa de enrutamiento y una capa de microservicios (Backend):
+
+**1. Aplicaciones Cliente:**
+
+**-Landing Page (Angular):** Punto de entrada informativo que detalla los planes y redirige a la aplicación principal. <br>
+**-Web Application (Angular):** Dashboard principal donde el usuario se autentica, visualiza métricas de consumo y configura automatizaciones.<br>
+**-Mobile Application (Flutter):** App móvil que provee control remoto y alertas en tiempo real al usuario.
+
+**2. Capa de Enrutamiento (API Gateway):**
+
+**-API Gateway (Spring Cloud Gateway):** Actúa como un único punto de entrada para las aplicaciones cliente. Recibe las peticiones JSON/HTTPS y las enruta dinámicamente al microservicio correspondiente, evitando que el frontend deba conocer las direcciones de cada servicio individual.
+
+**3. Capa de Microservicios (Backend en Java, Spring Boot):**
+Derivados directamente de los subdominios del modelo de negocio, se han definido los siguientes contenedores lógicos:
+
+**-User Management API:** Gestiona el Registro de Usuario, la autenticación propia (verificando credenciales en la BD) y la interacción con la Pasarela de Pagos externa para las suscripciones.<br>
+**-Device Control API:** Encargada de la Operación y control de dispositivos. Gestiona el encendido/apagado manual, la configuración de horarios y envía los comandos directamente a los Dispositivos IoT mediante protocolos de red (ej. MQTT o HTTPS).<br>
+**-Energy Monitoring API:** Gestiona el Monitoreo de consumo. Recibe los pulsos de consumo eléctrico desde el hardware IoT, calcula el gasto acumulado y genera la proyección mensual del recibo de luz.<br>
+**-Alerts API:** Implementa el Sistema de alertas. Detecta anomalías (picos de voltaje, dispositivos desconectados, equipos olvidados) y se comunica con el Servicio de Notificaciones (ej. SendGrid o Firebase) para despachar correos o alertas push al usuario.
+
+**4. Persistencia de Datos:**
+
+**-Database (MySQL):** Base de datos relacional centralizada (que podría desglosarse por microservicio en fases más avanzadas). Almacena de manera segura las credenciales de usuario, los estados de los dispositivos, las rutinas y la telemetría energética.
 
 ### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
