@@ -1435,7 +1435,17 @@ El diagrama de clases del frontend representa la estructura del lado cliente de 
 El diagrama de clases del backend representa el diseño orientado a objetos del lado servidor, implementado con Spring Boot. Incluye los controladores REST, los casos de uso de la aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y las entidades de base de datos. Este diagrama permite visualizar la arquitectura en capas del backend y las relaciones entre la lógica de negocio, la persistencia de datos y la exposición de servicios mediante la API.
 
 ## 4.8. Database Design
-### 4.8.1. Database Diagrams.
+
+### 4.8.1. Database Diagrams
+
+El diseño de base de datos de ElectroCorp está orientado al almacenamiento de la información necesaria para la gestión de dispositivos, la programación de rutinas y el monitoreo del consumo energético. De acuerdo con la implementación actual del sistema, la base de datos relacional incluye tres tablas principales: `devices`, `device_schedules` y `energy_readings`.
+
+La tabla `devices` almacena la información principal de cada dispositivo registrado, incluyendo su identificador, código, nombre, tipo, estado y referencia del propietario. La tabla `device_schedules` almacena las rutinas automáticas asociadas a cada dispositivo, como la hora de ejecución y si la acción programada consiste en encender o apagar el dispositivo. La tabla `energy_readings` almacena los registros de consumo energético generados por los dispositivos, incluyendo la cantidad medida y la fecha y hora de registro.
+
+Este diseño permite al sistema mantener la trazabilidad de los dispositivos registrados, persistir sus rutinas configuradas y almacenar el historial de consumo energético para fines de monitoreo y generación de reportes.
+
+![Database Diagram](assets/Database-Diagram.png)
+
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
