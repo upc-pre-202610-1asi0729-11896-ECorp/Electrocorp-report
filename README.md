@@ -1765,8 +1765,18 @@ Durante el Sprint 1, logramos consolidar la infraestructura de publicación del 
 
 Link del Landing Page: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/
   
-
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado en el diseño, desarrollo y despliegue de la Landing Page de ElectroCorp. Asegurando que la página cumpliera con los objetivos de conversión y comunicación de nuestra propuesta de valor (IoT plug-and-play). Asimismo, se registraron los avances en la gestión del repositorio de GitHub, evidenciados en los commits y métricas de colaboración que reflejan la participación del equipo.
+
+| Author | Task completed |
+| :--- | :--- |
+| **Cabrejos Chocce, Diego** | Integration of landing page sections, UI/UX core development, and interactive features (i18n, navigation). |
+| **Tavara Correa, Sebastian** | HTML5 semantic structuring and GitHub Pages deployment configuration. |
+| **Cabrejos Chocce, Diego** | Implementation of global CSS, Dark Mode styling, and Responsive Design adjustments. |
+| **Loa Rojas, Jean Franck** | Report documentation development and code refactoring. |
+| **Cabrejos Chocce, Diego** | Cross-browser testing, QA, and broken-link verification. |
+
+
 ### 5.2.2. Sprint 2 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
