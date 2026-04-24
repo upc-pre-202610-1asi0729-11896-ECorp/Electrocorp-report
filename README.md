@@ -42,7 +42,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
 
 #### Link del repositorio de la Landing Page:
 
@@ -50,7 +50,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Frontend:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
 
 #### Link del repositorio del Backend:
 
@@ -194,8 +194,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> Timothy Documet <br>TB1:<br> TP1: <br> TB2: <br> TF1:|	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> Timothy Documet <br>TB1:<br> TP1: <br> TB2: <br> TF1:|	 |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1: Realizo entrevistas clave para poder entender al usuario<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> Timothy Documet <br>TB1:<br> TP1: <br> TB2: <br> TF1:|	Sebastian Tavara <br> Fue muy interesante poder estar cerca al usuario y poder tener una mejor vision del problema al que nos enfrentabamos. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1: Analisis de entrevista, User Persona<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> Timothy Documet <br>TB1:<br> TP1: <br> TB2: <br> TF1:|	Sebastian Tavara <br> Ayudo muchisimo el crear el User Persona para poder modelar el modelo de cada segmento en una sola persona|
 
 
 # Capitulo I: Introducción
