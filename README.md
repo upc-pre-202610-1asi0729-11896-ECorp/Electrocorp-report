@@ -1318,6 +1318,9 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
+
+<img src="assets/designLevelEventStorming.png">
+
 ### 4.6.2. Software Architecture Context Diagram
 En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
 
