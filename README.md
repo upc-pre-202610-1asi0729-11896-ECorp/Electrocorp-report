@@ -1537,18 +1537,18 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
         <td>- Tavara Correa, Sebastian Oswaldo</td>
         <td align="center">SebastianTavara</td>
         <td align="center">C</td>
-        <td align="center">C</td>
+        <td align="center">-</td>
         <td align="center">B</td>
-        <td align="center">C</td>
+        <td align="center">-</td>
         <td align="center">C</td>
     </tr>
     <tr align="left">
         <td>- Santiago Atanacio, Jairo Mathias</td>
         <td align="center">Msa-ware</td>
         <td align="center">C</td>
-        <td align="center">C</td>
-        <td align="center">C</td>
-        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
         <td align="center">C</td>
     </tr>
     <tr align="left">
@@ -1564,19 +1564,19 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
         <td>- Loa Rojas, Jean Franck</td>
         <td align="center">JeanLoa</td>
         <td align="center">C</td>
-        <td align="center">C</td>
-        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
         <td align="center">B</td>
         <td align="center">C</td>
     </tr>
     <tr align="left">
         <td>- Documet Romero, Timothy</td>
         <td align="center">HiApple1</td>
-        <td align="center">C</td>
-        <td align="center">C</td>
         <td align="center">-</td>
-        <td align="center">C</td>
-        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
     </tr>
 </table>
 
