@@ -30,7 +30,7 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
+|   TB1   | 03/04/2026 |Tavara Correa, Sebastian Oswaldo; Santiago Atanacio, Jairo Mathias; Cabrejos Chocco, Diego Alexander; Loa Rojas, Jean Franck; Documet Romero, Timothy| Avance del trabajo: Completando el contenido del Documento, entre estos La Landing Page, la Applicacion Web, etc |
 |   TP1   |            |       |                                                            |
 |   TB2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
@@ -46,7 +46,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio de la Landing Page:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
 
 #### Link del repositorio del Frontend:
 
