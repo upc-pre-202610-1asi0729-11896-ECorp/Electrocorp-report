@@ -30,7 +30,7 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
+|   AV1   | 03/04/2026 |Tavara Correa, Sebastian Oswaldo; Santiago Atanacio, Jairo Mathias; Cabrejos Chocco, Diego Alexander; Loa Rojas, Jean Franck; Documet Romero, Timothy| Avance del trabajo: Completando el contenido del Documento, entre estos La Landing Page, la Applicacion Web, etc |
 |   TP1   |            |       |                                                            |
 |   AV2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
@@ -42,15 +42,15 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
 
 #### Link del repositorio de la Landing Page:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
 
 #### Link del repositorio del Frontend:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
 
 #### Link del repositorio del Backend:
 
@@ -194,8 +194,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1: Realizo entrevistas clave para poder entender al usuario<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> Timothy Documet <br>TB1:<br> TP1: <br> TB2: <br> TF1:|	Sebastian Tavara <br> Fue muy interesante poder estar cerca al usuario y poder tener una mejor vision del problema al que nos enfrentabamos. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1: Analisis de entrevista, User Persona<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: <br> Timothy Documet <br>TB1:<br> TP1: <br> TB2: <br> TF1:|	Sebastian Tavara <br> Ayudo muchisimo el crear el User Persona para poder modelar el modelo de cada segmento en una sola persona|
 
 
 # Capitulo I: Introducción
@@ -887,8 +887,9 @@ clave en nuestro proyecto.
 
 # Capitulo III: Requirements Specification
 
+
 ## 3.2. User Stories.
-En esta sección, profundizaremos en la definición y elaboración de las User Stories relacionadas con nuestro proyecto ElectroCorp. Las User Stories son una herramienta fundamental en el desarrollo de software y proyectos de diseño centrados en el usuario.
+En esta sección, profundizaremos en la definición y elaboración de las User Stories relacionadas con nuestro proyecto ElectroCorp.
 
 **EPICS**
 
@@ -908,46 +909,46 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 |**Epic/User Story ID**|**Título**|**Descripción**|**Criterio de aceptación**|**Relación (EPIC ID)**|
 | - | - | - | - | - |
-|**US-01**|Visualizar información de la startup|<p>Como usuario visitante, quiero acceder a la descripción y objetivos de la startup para entender el propósito de ElectroCorp.</p>|<p>**Escenario 1:** Visualizar descripción</p><p>Dado que navego en la página,</p><p>Cuando llego a la sección "Description",</p><p>Entonces leo sobre la democratización de la domótica.</p>|**EP-05**|
+|**US-01**|Visualizar información de la startup y testimonios|<p>Como usuario visitante, quiero acceder a la descripción de la empresa y leer opiniones de usuarios para confirmar la calidad del servicio.</p>|<p>**Escenario 1:** Información consolidada</p><p>Dado que navego en la página,</p><p>Cuando hago scroll por el contenido,</p><p>Entonces leo sobre la democratización de la domótica y los testimonios de clientes reales.</p>|**EP-05**|
 |**US-02**|Motor de búsqueda inteligente|<p>Como usuario visitante, quiero usar una barra de búsqueda para encontrar secciones de la página rápidamente.</p>|<p>**Escenario 1:** Búsqueda exitosa</p><p>Dado que busco información de costos,</p><p>Cuando escribo "precios" y doy clic a la lupa,</p><p>Entonces la página hace un scroll suave hacia "Our Plans".</p>|**EP-05**|
 |**US-03**|Cambio de idioma (ES/EN)|<p>Como usuario visitante, quiero poder cambiar el idioma de la página web para leerla en mi idioma nativo.</p>|<p>**Escenario 1:** Traducción dinámica</p><p>Dado que la página está en inglés,</p><p>Cuando doy clic al ícono del mundo (ES),</p><p>Entonces todos los textos cambian instantáneamente al español.</p>|**EP-05**|
-|**US-04**|Suscripción al boletín de noticias|<p>Como usuario visitante, quiero suscribirme al boletín para recibir consejos de ahorro y ofertas.</p>|<p>**Escenario 1:** Envío de formulario</p><p>Dado que ingreso mi email en la sección de contacto,</p><p>Cuando presiono "Submit",</p><p>Entonces aparece un mensaje de agradecimiento temporal y la caja se limpia.</p>|**EP-05**|
-|**US-05**|Controlar música de fondo|<p>Como usuario visitante, quiero poder reproducir o pausar la música de fondo de la web.</p>|<p>**Escenario 1:** Toggle de audio</p><p>Dado que hay un botón flotante de volumen,</p><p>Cuando hago clic en él,</p><p>Entonces la música de ElectroCorp.mp3 inicia o se pausa, cambiando su ícono.</p>|**EP-05**|
+|**US-04**|Suscripción al boletín de noticias|<p>Como usuario visitante, quiero suscribirme al boletín en un formulario para recibir consejos de ahorro y ofertas.</p>|<p>**Escenario 1:** Envío de formulario</p><p>Dado que ingreso mi email en la sección de contacto,</p><p>Cuando presiono "Submit",</p><p>Entonces aparece un mensaje de agradecimiento temporal y la caja se limpia.</p>|**EP-05**|
+|**US-05**|Interfaz interactiva (Menú y Audio)|<p>Como usuario visitante, quiero interactuar con un menú fluido y pausar/reproducir la música de fondo a mi gusto.</p>|<p>**Escenario 1:** Navegación y control</p><p>Dado que estoy en la web,</p><p>Cuando uso el Navbar dinámico o presiono el botón flotante de audio,</p><p>Entonces la página me redirige a la sección deseada o pausa la música (ElectroCorp.mp3).</p>|**EP-05**|
 |**US-06**|Comparar planes de servicio|<p>Como usuario visitante, quiero ver las diferencias entre el plan Free y Enterprise para elegir el adecuado.</p>|<p>**Escenario 1:** Tarjetas de precio</p><p>Dado que bajo a la sección "Pricing",</p><p>Cuando visualizo las tarjetas,</p><p>Entonces noto que el plan Enterprise está resaltado como premium.</p>|**EP-05**|
-|**US-07**|Visualizar testimonios|<p>Como usuario visitante, quiero leer opiniones de otros usuarios para confirmar la calidad del servicio.</p>|<p>**Escenario 1:** Leer reseñas</p><p>Dado que busco recomendaciones,</p><p>Cuando llego a la sección "Reviews",</p><p>Entonces veo 3 comentarios de usuarios reales y sus perfiles.</p>|**EP-05**|
-|**US-08**|Navegación fluida por Menú|<p>Como usuario visitante, quiero usar el menú superior para saltar directamente a cada sección.</p>|<p>**Escenario 1:** Clic en navegación</p><p>Dado que doy clic en "Smart Plugs" en el nav,</p><p>Cuando se procesa el clic,</p><p>Entonces el navegador baja directamente hacia la galería de dispositivos.</p>|**EP-05**|
-|**US-09**|Registro inicial del usuario|<p>Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos.</p>|<p>**Escenario 1:** Registro Exitoso</p><p>Dado que el usuario no tiene cuenta,</p><p>Cuando ingresa su email y contraseña,</p><p>Entonces el sistema crea la cuenta.</p>|**EP-01**|
-|**US-10**|Emparejar dispositivo|<p>Como usuario, quiero vincular un enchufe inteligente desde la app.</p>|<p>**Escenario 1:** Vinculación exitosa</p><p>Dado que el usuario está en "Agregar",</p><p>Cuando ingresa el código del equipo,</p><p>Entonces el equipo aparece en su lista.</p>|**EP-01**|
-|**US-11**|Asistente de instalación|<p>Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema.</p>|<p>**Escenario 1:** Tutorial de inicio</p><p>Dado que es el primer inicio de sesión,</p><p>Cuando el usuario entra a la app,</p><p>Entonces se muestra un tutorial de pasos básicos.</p>|**EP-01**|
-|**US-12**|Nombrar dispositivos|<p>Como usuario, quiero asignar nombres personalizados a mis dispositivos.</p>|<p>**Escenario 1:** Edición de nombre</p><p>Dado que el equipo fue vinculado,</p><p>Cuando el usuario edita el nombre a "Lámpara",</p><p>Entonces el nuevo nombre se guarda en la base de datos.</p>|**EP-01**|
-|**US-13**|Ver estado en tiempo real|<p>Como usuario, quiero ver si un dispositivo está encendido o apagado.</p>|<p>**Escenario 1:** Feedback visual</p><p>Dado que el usuario observa el dashboard,</p><p>Cuando un equipo cambia de estado físico,</p><p>Entonces el icono se actualiza en la app.</p>|**EP-02**|
-|**US-14**|Encender y apagar remotamente|<p>Como usuario, quiero controlar mis dispositivos desde el celular.</p>|<p>**Escenario 1:** Acción remota</p><p>Dado que el equipo está apagado,</p><p>Cuando el usuario hace clic en encender,</p><p>Entonces el dispositivo cambia a ON.</p>|**EP-02**|
-|**US-15**|Programar horarios de encendido|<p>Como usuario, quiero programar horarios automáticos.</p>|<p>**Escenario 1:** Creación de horario</p><p>Dado que el usuario selecciona un enchufe,</p><p>Cuando configura la hora de encendido,</p><p>Entonces el sistema respeta el horario diariamente.</p>|**EP-02**|
-|**US-16**|Crear rutinas automáticas|<p>Como usuario, quiero definir rutinas de automatización general.</p>|<p>**Escenario 1:** Rutina nocturna</p><p>Dado que el usuario crea una rutina "Dormir",</p><p>Cuando llega la hora programada,</p><p>Entonces todos los dispositivos seleccionados se apagan a la vez.</p>|**EP-02**|
-|**US-17**|Ver consumo en tiempo real|<p>Como usuario, quiero monitorear el consumo energético en vivo.</p>|<p>**Escenario 1:** Monitor de Watts</p><p>Dado que el enchufe está activo,</p><p>Cuando el usuario abre la gráfica,</p><p>Entonces visualiza los Watts consumidos actualizados.</p>|**EP-03**|
-|**US-18**|Consultar historial de consumo|<p>Como usuario, quiero revisar el historial de consumo por día o semana.</p>|<p>**Escenario 1:** Filtro de historial</p><p>Dado que el usuario está en reportes,</p><p>Cuando selecciona "Últimos 7 días",</p><p>Entonces se muestra un gráfico diario.</p>|**EP-03**|
-|**US-19**|Recibir alertas por alto consumo|<p>Como usuario, quiero recibir alertas por consumos inusuales de energía.</p>|<p>**Escenario 1:** Alerta en app</p><p>Dado que el límite es 500W,</p><p>Cuando se supera la cifra de manera sostenida,</p><p>Entonces aparece una notificación push.</p>|**EP-03**|
-|**US-20**|Ver recomendaciones de ahorro|<p>Como usuario, quiero recibir sugerencias para ahorrar energía.</p>|<p>**Escenario 1:** Tips inteligentes</p><p>Dado que el consumo es ineficiente en cierto horario,</p><p>Cuando revisa el panel de sugerencias,</p><p>Entonces el sistema recomienda crear nuevas rutinas.</p>|**EP-03**|
-|**US-21**|Administrar múltiples dispositivos|<p>Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla.</p>|<p>**Escenario 1:** Vista general</p><p>Dado que el usuario tiene 5 equipos,</p><p>Cuando ingresa al inicio,</p><p>Entonces visualiza las 5 tarjetas operables.</p>|**EP-04**|
-|**US-22**|Crear perfiles de acceso|<p>Como administrador, quiero dar acceso a familiares con permisos limitados.</p>|<p>**Escenario 1:** Rol de invitado</p><p>Dado que el administrador invita a un familiar,</p><p>Cuando este inicia sesión en su dispositivo,</p><p>Entonces solo puede apagar/encender equipos.</p>|**EP-04**|
-|**US-23**|Bloquear acceso no autorizado|<p>Como usuario, quiero proteger mi cuenta de extraños.</p>|<p>**Escenario 1:** Timeout por inactividad</p><p>Dado que la app web queda abierta sin interactuar,</p><p>Cuando pasan 30 minutos sin uso,</p><p>Entonces la sesión expira.</p>|**EP-04**|
-|**US-24**|Registrar actividad de control|<p>Como administrador, quiero ver quién controló un equipo.</p>|<p>**Escenario 1:** Log de auditoría</p><p>Dado que se ejecutó una acción,</p><p>Cuando se revisa el log de eventos,</p><p>Entonces se detalla el nombre del usuario y la hora.</p>|**EP-04**|
-|**US-25**|Controlar equipos del negocio|<p>Como dueño de negocio, quiero controlar equipos del local desde mi móvil.</p>|<p>**Escenario 1:** Control comercial</p><p>Dado que el dueño está en su domicilio,</p><p>Cuando apaga el grupo de luz del local,</p><p>Entonces se refleja instantáneamente en el negocio.</p>|**EP-02**|
-|**US-26**|Programar equipos por horario comercial|<p>Como dueño, quiero automatizar el local según el horario de atención.</p>|<p>**Escenario 1:** Automatización de horario</p><p>Dado que el horario es de 9am a 6pm,</p><p>Cuando se activa la rutina comercial,</p><p>Entonces los equipos siguen automáticamente el horario.</p>|**EP-02**|
-|**US-27**|Revisar consumo por área o equipo|<p>Como dueño, quiero identificar qué áreas consumen más.</p>|<p>**Escenario 1:** Desglose por zona</p><p>Dado que hay varios equipos registrados,</p><p>Cuando revisa el reporte corporativo,</p><p>Entonces visualiza un gráfico detallado por zonas.</p>|**EP-03**|
-|**US-28**|Compartir acceso con personal|<p>Como dueño, quiero permitir que empleados controlen ciertos equipos.</p>|<p>**Escenario 1:** Control limitado</p><p>Dado que un empleado de almacén entra a la app,</p><p>Cuando visualiza el dashboard principal,</p><p>Entonces solo ve el control de su área correspondiente.</p>|**EP-04**|
-|**US-29**|Pagar suscripción con tarjeta|<p>Como usuario, quiero ingresar mi tarjeta de forma segura para adquirir el plan Premium.</p>|<p>**Escenario 1:** Pasarela Stripe</p><p>Dado que el usuario elige el plan Enterprise,</p><p>Cuando ingresa sus datos válidos,</p><p>Entonces Stripe procesa exitosamente el cobro mensual.</p>|**EP-06**|
-|**US-30**|Cancelar suscripción Premium|<p>Como usuario, quiero anular mi suscripción para detener cobros.</p>|<p>**Escenario 1:** Detención de cobros</p><p>Dado que el usuario accede a configuración de facturación,</p><p>Cuando confirma la cancelación del servicio,</p><p>Entonces el plan se degrada a final de mes.</p>|**EP-06**|
-|**US-31**|Recibir alertas por correo|<p>Como usuario, quiero que el sistema me notifique a mi correo si algo inusual pasa con mi consumo.</p>|<p>**Escenario 1:** Despacho vía Mailchimp</p><p>Dado que hay un evento crítico registrado,</p><p>Cuando el backend lo procesa,</p><p>Entonces recibo un email de alerta inmediata.</p>|**EP-07**|
-|**US-32**|Recibir reporte mensual|<p>Como usuario, quiero recibir un resumen mensual en mi email para saber cuánto ahorré.</p>|<p>**Escenario 1:** Envío automatizado</p><p>Dado que es el último día del mes,</p><p>Cuando el cronjob se activa,</p><p>Entonces me envía un correo con mis estadísticas.</p>|**EP-07**|
-|**US-33**|Recuperar contraseña|<p>Como usuario, quiero poder restablecer mi contraseña si la olvido.</p>|<p>**Escenario 1:** Email de recuperación</p><p>Dado que el usuario hace clic en "Olvidé mi contraseña",</p><p>Cuando ingresa su email,</p><p>Entonces recibe un enlace seguro por tiempo limitado.</p>|**EP-04**|
-|**US-34**|Editar perfil de usuario|<p>Como usuario, quiero cambiar mis datos personales de perfil.</p>|<p>**Escenario 1:** Guardado de cambios</p><p>Dado que el usuario edita su nombre o teléfono,</p><p>Cuando da clic en guardar,</p><p>Entonces la información se actualiza en la base de datos MySQL.</p>|**EP-04**|
-|**US-35**|Eliminar cuenta|<p>Como usuario, quiero borrar definitivamente mi cuenta y datos.</p>|<p>**Escenario 1:** Purga de información</p><p>Dado que el usuario confirma la eliminación total,</p><p>Cuando el sistema procesa la solicitud,</p><p>Entonces sus datos se borran irreversiblemente.</p>|**EP-04**|
-|**US-36**|Configurar preferencias|<p>Como usuario, quiero elegir qué tipo de alertas me llegan.</p>|<p>**Escenario 1:** Switch de preferencias</p><p>Dado que el usuario apaga el interruptor de correos mensuales,</p><p>Cuando se guarda la preferencia,</p><p>Entonces su email es removido de la lista de envíos de resúmenes.</p>|**EP-07**|
-|**US-37**|Simular conexión de equipo|<p>Como desarrollador, quiero simular un dispositivo nuevo para pruebas de la plataforma.</p>|<p>**Escenario 1:** Inyección de dispositivo virtual</p><p>Dado que se dispara el evento simulador mediante API,</p><p>Cuando ocurre la validación,</p><p>Entonces el equipo aparece en la cuenta del usuario.</p>|**EP-01**|
-|**US-38**|Filtrar historial por fechas|<p>Como usuario, quiero establecer un rango de fechas para ver consumos pasados.</p>|<p>**Escenario 1:** Filtro de calendario</p><p>Dado que el usuario abre la herramienta de fechas,</p><p>Cuando selecciona desde y hasta,</p><p>Entonces la gráfica se redibuja excluyendo el resto de días.</p>|**EP-03**|
-|**US-39**|Exportar historial a Excel|<p>Como usuario corporativo, quiero descargar mis datos de consumo.</p>|<p>**Escenario 1:** Generación de CSV</p><p>Dado que se visualiza la tabla en pantalla,</p><p>Cuando se hace clic en Exportar,</p><p>Entonces el navegador descarga un archivo CSV estructurado.</p>|**EP-03**|
-|**US-40**|Agrupar dispositivos|<p>Como usuario, quiero agrupar mis enchufes por habitaciones.</p>|<p>**Escenario 1:** Operación masiva por grupo</p><p>Dado que el usuario ha creado el grupo "Iluminación Sala",</p><p>Cuando apaga el grupo,</p><p>Entonces todos los enchufes asignados a la sala se apagan simultáneamente.</p>|**EP-02**|
+|**US-07**|Registro inicial del usuario|<p>Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos.</p>|<p>**Escenario 1:** Registro Exitoso</p><p>Dado que el usuario no tiene cuenta,</p><p>Cuando ingresa su email y contraseña,</p><p>Entonces el sistema crea la cuenta.</p>|**EP-01**|
+|**US-08**|Emparejar dispositivo|<p>Como usuario, quiero vincular un enchufe inteligente desde la app.</p>|<p>**Escenario 1:** Vinculación exitosa</p><p>Dado que el usuario está en "Agregar",</p><p>Cuando ingresa el código del equipo,</p><p>Entonces el equipo aparece en su lista.</p>|**EP-01**|
+|**US-09**|Asistente de instalación|<p>Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema.</p>|<p>**Escenario 1:** Tutorial de inicio</p><p>Dado que es el primer inicio de sesión,</p><p>Cuando el usuario entra a la app,</p><p>Entonces se muestra un tutorial de pasos básicos.</p>|**EP-01**|
+|**US-10**|Nombrar dispositivos|<p>Como usuario, quiero asignar nombres personalizados a mis dispositivos.</p>|<p>**Escenario 1:** Edición de nombre</p><p>Dado que el equipo fue vinculado,</p><p>Cuando el usuario edita el nombre a "Lámpara",</p><p>Entonces el nuevo nombre se guarda en la base de datos.</p>|**EP-01**|
+|**US-11**|Ver estado en tiempo real|<p>Como usuario, quiero ver si un dispositivo está encendido o apagado.</p>|<p>**Escenario 1:** Feedback visual</p><p>Dado que el usuario observa el dashboard,</p><p>Cuando un equipo cambia de estado físico,</p><p>Entonces el icono se actualiza en la app.</p>|**EP-02**|
+|**US-12**|Encender y apagar remotamente|<p>Como usuario, quiero controlar mis dispositivos desde el celular.</p>|<p>**Escenario 1:** Acción remota</p><p>Dado que el equipo está apagado,</p><p>Cuando el usuario hace clic en encender,</p><p>Entonces el dispositivo cambia a ON.</p>|**EP-02**|
+|**US-13**|Programar horarios de encendido|<p>Como usuario, quiero programar horarios automáticos.</p>|<p>**Escenario 1:** Creación de horario</p><p>Dado que el usuario selecciona un enchufe,</p><p>Cuando configura la hora de encendido,</p><p>Entonces el sistema respeta el horario diariamente.</p>|**EP-02**|
+|**US-14**|Crear rutinas automáticas|<p>Como usuario, quiero definir rutinas de automatización general.</p>|<p>**Escenario 1:** Rutina nocturna</p><p>Dado que el usuario crea una rutina "Dormir",</p><p>Cuando llega la hora programada,</p><p>Entonces todos los dispositivos seleccionados se apagan a la vez.</p>|**EP-02**|
+|**US-15**|Ver consumo en tiempo real|<p>Como usuario, quiero monitorear el consumo energético en vivo.</p>|<p>**Escenario 1:** Monitor de Watts</p><p>Dado que el enchufe está activo,</p><p>Cuando el usuario abre la gráfica,</p><p>Entonces visualiza los Watts consumidos actualizados.</p>|**EP-03**|
+|**US-16**|Consultar historial de consumo|<p>Como usuario, quiero revisar el historial de consumo por día o semana.</p>|<p>**Escenario 1:** Filtro de historial</p><p>Dado que el usuario está en reportes,</p><p>Cuando selecciona "Últimos 7 días",</p><p>Entonces se muestra un gráfico diario.</p>|**EP-03**|
+|**US-17**|Recibir alertas por alto consumo|<p>Como usuario, quiero recibir alertas por consumos inusuales de energía.</p>|<p>**Escenario 1:** Alerta en app</p><p>Dado que el límite es 500W,</p><p>Cuando se supera la cifra de manera sostenida,</p><p>Entonces aparece una notificación push.</p>|**EP-03**|
+|**US-18**|Ver recomendaciones de ahorro|<p>Como usuario, quiero recibir sugerencias para ahorrar energía.</p>|<p>**Escenario 1:** Tips inteligentes</p><p>Dado que el consumo es ineficiente en cierto horario,</p><p>Cuando revisa el panel de sugerencias,</p><p>Entonces el sistema recomienda crear nuevas rutinas.</p>|**EP-03**|
+|**US-19**|Administrar múltiples dispositivos|<p>Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla.</p>|<p>**Escenario 1:** Vista general</p><p>Dado que el usuario tiene 5 equipos,</p><p>Cuando ingresa al inicio,</p><p>Entonces visualiza las 5 tarjetas operables.</p>|**EP-04**|
+|**US-20**|Crear perfiles de acceso|<p>Como administrador, quiero dar acceso a familiares con permisos limitados.</p>|<p>**Escenario 1:** Rol de invitado</p><p>Dado que el administrador invita a un familiar,</p><p>Cuando este inicia sesión en su dispositivo,</p><p>Entonces solo puede apagar/encender equipos.</p>|**EP-04**|
+|**US-21**|Bloquear acceso no autorizado|<p>Como usuario, quiero proteger mi cuenta de extraños.</p>|<p>**Escenario 1:** Timeout por inactividad</p><p>Dado que la app web queda abierta sin interactuar,</p><p>Cuando pasan 30 minutos sin uso,</p><p>Entonces la sesión expira.</p>|**EP-04**|
+|**US-22**|Registrar actividad de control|<p>Como administrador, quiero ver quién controló un equipo.</p>|<p>**Escenario 1:** Log de auditoría</p><p>Dado que se ejecutó una acción,</p><p>Cuando se revisa el log de eventos,</p><p>Entonces se detalla el nombre del usuario y la hora.</p>|**EP-04**|
+|**US-23**|Controlar equipos del negocio|<p>Como dueño de negocio, quiero controlar equipos del local desde mi móvil.</p>|<p>**Escenario 1:** Control comercial</p><p>Dado que el dueño está en su domicilio,</p><p>Cuando apaga el grupo de luz del local,</p><p>Entonces se refleja instantáneamente en el negocio.</p>|**EP-02**|
+|**US-24**|Programar equipos por horario comercial|<p>Como dueño, quiero automatizar el local según el horario de atención.</p>|<p>**Escenario 1:** Automatización de horario</p><p>Dado que el horario es de 9am a 6pm,</p><p>Cuando se activa la rutina comercial,</p><p>Entonces los equipos siguen automáticamente el horario.</p>|**EP-02**|
+|**US-25**|Revisar consumo por área o equipo|<p>Como dueño, quiero identificar qué áreas consumen más.</p>|<p>**Escenario 1:** Desglose por zona</p><p>Dado que hay varios equipos registrados,</p><p>Cuando revisa el reporte corporativo,</p><p>Entonces visualiza un gráfico detallado por zonas.</p>|**EP-03**|
+|**US-26**|Compartir acceso con personal|<p>Como dueño, quiero permitir que empleados controlen ciertos equipos.</p>|<p>**Escenario 1:** Control limitado</p><p>Dado que un empleado de almacén entra a la app,</p><p>Cuando visualiza el dashboard principal,</p><p>Entonces solo ve el control de su área correspondiente.</p>|**EP-04**|
+|**US-27**|Pagar suscripción con tarjeta|<p>Como usuario, quiero ingresar mi tarjeta de forma segura para adquirir el plan Premium.</p>|<p>**Escenario 1:** Pasarela Stripe</p><p>Dado que el usuario elige el plan Enterprise,</p><p>Cuando ingresa sus datos válidos,</p><p>Entonces Stripe procesa exitosamente el cobro mensual.</p>|**EP-06**|
+|**US-28**|Cancelar suscripción Premium|<p>Como usuario, quiero anular mi suscripción para detener cobros.</p>|<p>**Escenario 1:** Detención de cobros</p><p>Dado que el usuario accede a configuración de facturación,</p><p>Cuando confirma la cancelación del servicio,</p><p>Entonces el plan se degrada a final de mes.</p>|**EP-06**|
+|**US-29**|Recibir alertas por correo|<p>Como usuario, quiero que el sistema me notifique a mi correo si algo inusual pasa con mi consumo.</p>|<p>**Escenario 1:** Despacho vía Mailchimp</p><p>Dado que hay un evento crítico registrado,</p><p>Cuando el backend lo procesa,</p><p>Entonces recibo un email de alerta inmediata.</p>|**EP-07**|
+|**US-30**|Recibir reporte mensual|<p>Como usuario, quiero recibir un resumen mensual en mi email para saber cuánto ahorré.</p>|<p>**Escenario 1:** Envío automatizado</p><p>Dado que es el último día del mes,</p><p>Cuando el cronjob se activa,</p><p>Entonces me envía un correo con mis estadísticas.</p>|**EP-07**|
+|**US-31**|Recuperar contraseña|<p>Como usuario, quiero poder restablecer mi contraseña si la olvido.</p>|<p>**Escenario 1:** Email de recuperación</p><p>Dado que el usuario hace clic en "Olvidé mi contraseña",</p><p>Cuando ingresa su email,</p><p>Entonces recibe un enlace seguro por tiempo limitado.</p>|**EP-04**|
+|**US-32**|Editar perfil de usuario|<p>Como usuario, quiero cambiar mis datos personales de perfil.</p>|<p>**Escenario 1:** Guardado de cambios</p><p>Dado que el usuario edita su nombre o teléfono,</p><p>Cuando da clic en guardar,</p><p>Entonces la información se actualiza en la base de datos MySQL.</p>|**EP-04**|
+|**US-33**|Eliminar cuenta|<p>Como usuario, quiero borrar definitivamente mi cuenta y datos.</p>|<p>**Escenario 1:** Purga de información</p><p>Dado que el usuario confirma la eliminación total,</p><p>Cuando el sistema procesa la solicitud,</p><p>Entonces sus datos se borran irreversiblemente.</p>|**EP-04**|
+|**US-34**|Configurar preferencias|<p>Como usuario, quiero elegir qué tipo de alertas me llegan.</p>|<p>**Escenario 1:** Switch de preferencias</p><p>Dado que el usuario apaga el interruptor de correos mensuales,</p><p>Cuando se guarda la preferencia,</p><p>Entonces su email es removido de la lista de envíos de resúmenes.</p>|**EP-07**|
+|**US-35**|Simular conexión de equipo|<p>Como desarrollador, quiero simular un dispositivo nuevo para pruebas de la plataforma.</p>|<p>**Escenario 1:** Inyección de dispositivo virtual</p><p>Dado que se dispara el evento simulador mediante API,</p><p>Cuando ocurre la validación,</p><p>Entonces el equipo aparece en la cuenta del usuario.</p>|**EP-01**|
+|**US-36**|Filtrar historial por fechas|<p>Como usuario, quiero establecer un rango de fechas para ver consumos pasados.</p>|<p>**Escenario 1:** Filtro de calendario</p><p>Dado que el usuario abre la herramienta de fechas,</p><p>Cuando selecciona desde y hasta,</p><p>Entonces la gráfica se redibuja excluyendo el resto de días.</p>|**EP-03**|
+|**US-37**|Exportar historial a Excel|<p>Como usuario corporativo, quiero descargar mis datos de consumo.</p>|<p>**Escenario 1:** Generación de CSV</p><p>Dado que se visualiza la tabla en pantalla,</p><p>Cuando se hace clic en Exportar,</p><p>Entonces el navegador descarga un archivo CSV estructurado.</p>|**EP-03**|
+|**US-38**|Agrupar dispositivos|<p>Como usuario, quiero agrupar mis enchufes por habitaciones.</p>|<p>**Escenario 1:** Operación masiva por grupo</p><p>Dado que el usuario ha creado el grupo "Iluminación Sala",</p><p>Cuando apaga el grupo,</p><p>Entonces todos los enchufes asignados a la sala se apagan simultáneamente.</p>|**EP-02**|
+|**US-39**|Activar Modo Oscuro|<p>Como usuario, quiero activar un tema oscuro en mi dashboard para evitar la fatiga visual nocturna.</p>|<p>**Escenario 1:** Toggle Dark Mode</p><p>Dado que el usuario entra a configuraciones de UI,</p><p>Cuando activa el switch de Modo Oscuro,</p><p>Entonces los colores de la aplicación SPA cambian a la paleta Dark.</p>|**EP-05**|
+|**US-40**|Gestionar múltiples locales|<p>Como dueño de negocio, quiero gestionar distintas sucursales desde una sola cuenta centralizada.</p>|<p>**Escenario 1:** Selector de Sucursal</p><p>Dado que el usuario posee el plan Enterprise,</p><p>Cuando despliega el menú de ubicaciones superior,</p><p>Entonces puede saltar del "Local A" al "Local B" cambiando el dashboard.</p>|**EP-04**|
 
 <br><br>
 
@@ -955,25 +956,24 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 |**Technical story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Epica**|
 | - | - | - | - | - |
-|**TS-01**|Maquetación y Variables CSS|<p>**Como** desarrollador frontend</p><p>**Quiero** usar variables `:root` y flexbox</p><p>**Para** un diseño escalable (US-01).</p>|<p>**Escenario 1: Estructura HTML/CSS**</p><p>Dado el código base,</p><p>Cuando se renderiza,</p><p>Entonces los colores se extraen del `--main-blue`.</p>|**EP-05**|
+|**TS-01**|Maquetación y Responsive CSS|<p>**Como** desarrollador frontend</p><p>**Quiero** usar variables `:root` y media queries</p><p>**Para** un diseño escalable y móvil (US-01, US-06).</p>|<p>**Escenario 1: Estructura HTML/CSS**</p><p>Dado el código base de la landing,</p><p>Cuando se renderiza en 768px,</p><p>Entonces el diseño cambia de Flex-Row a Flex-Column.</p>|**EP-05**|
 |**TS-02**|Sistema de Traducción i18n|<p>**Como** desarrollador frontend</p><p>**Quiero** un diccionario JSON y JS DOM manipulation</p><p>**Para** cambiar idiomas al instante (US-03).</p>|<p>**Escenario 1: Función applyTranslations**</p><p>Dado que corre el JS,</p><p>Cuando se llama `toggleLanguage()`,</p><p>Entonces los atributos `data-i18n` cambian su texto.</p>|**EP-05**|
 |**TS-03**|Motor Búsqueda Inteligente|<p>**Como** desarrollador frontend</p><p>**Quiero** una función JS con diccionario de palabras clave</p><p>**Para** hacer scroll automático (US-02).</p>|<p>**Escenario 1: ScrollIntoView**</p><p>Dado que el evento listener recibe un "Enter",</p><p>Cuando el término existe en el array,</p><p>Entonces hace un `scrollIntoView({ behavior: 'smooth' })`.</p>|**EP-05**|
 |**TS-04**|Eventos de Formulario (Newsletter)|<p>**Como** desarrollador frontend</p><p>**Quiero** interceptar el submit con JS</p><p>**Para** mostrar mensajes sin recargar la web (US-04).</p>|<p>**Escenario 1: preventDefault()**</p><p>Dado el clic en Enviar,</p><p>Cuando corre el event listener,</p><p>Entonces usa `e.preventDefault()`, muestra un `div` y hace `.reset()`.</p>|**EP-05**|
-|**TS-05**|Controlador de Audio Global|<p>**Como** desarrollador frontend</p><p>**Quiero** instanciar un elemento `<audio>` con JavaScript</p><p>**Para** pausar/reproducir la música (US-05).</p>|<p>**Escenario 1: Audio Play/Pause**</p><p>Dado el clic en el botón flotante,</p><p>Cuando lee el estado del booleano,</p><p>Entonces usa el método `.play()` o `.pause()` y cambia su class de font-awesome.</p>|**EP-05**|
-|**TS-06**|Diseño Responsivo (Media Queries)|<p>**Como** desarrollador frontend</p><p>**Quiero** usar `@media (max-width: 768px)`</p><p>**Para** que el layout colapse en celulares.</p>|<p>**Escenario 1: Flex-direction**</p><p>Dado el redimensionamiento del navegador,</p><p>Cuando baja de 768px,</p><p>Entonces el header cambia su `flex-direction` a `column`.</p>|**EP-05**|
-|**TS-07**|Setup Spring Boot API|<p>**Como** backend developer</p><p>**Quiero** iniciar el servidor web Java</p><p>**Para** alojar los endpoints REST del sistema core.</p>|<p>**Escenario 1: Deploy inicial**</p><p>Dado el pom.xml con dependencias web,</p><p>Cuando compila el proyecto,</p><p>Entonces el contenedor Tomcat levanta en el puerto 8080.</p>|**EP-01**|
-|**TS-08**|Conexión JPA - MySQL|<p>**Como** Database Admin</p><p>**Quiero** crear entidades Java anotadas con `@Entity`</p><p>**Para** que JPA cree automáticamente las tablas en MySQL (US-09).</p>|<p>**Escenario 1: Data Source**</p><p>Dado el application.properties configurado,</p><p>Cuando inicia el contexto de Spring,</p><p>Entonces Hibernate realiza la migración DDL en el esquema MySQL.</p>|**EP-01**|
-|**TS-09**|Integración Stripe SDK|<p>**Como** backend developer</p><p>**Quiero** incorporar las librerías oficiales de Stripe</p><p>**Para** validar los tokens de pago de forma segura (US-29).</p>|<p>**Escenario 1: Charge API**</p><p>Dado un payload de pago válido,</p><p>Cuando invoca el método createCharge(),</p><p>Entonces Stripe retorna el id de transacción HTTP 200.</p>|**EP-06**|
-|**TS-10**|Integración Mailchimp REST|<p>**Como** backend developer</p><p>**Quiero** programar un servicio de RestTemplate</p><p>**Para** disparar emails automatizados (US-31).</p>|<p>**Escenario 1: Post Payload**</p><p>Dado que se dispara una alerta,</p><p>Cuando se construye el JSON del email,</p><p>Entonces hace un POST a la API de Mailchimp y se registra el envío.</p>|**EP-07**|
-|**TS-11**|Simulación Telemetría Cronjob|<p>**Como** backend developer</p><p>**Quiero** usar anotaciones `@Scheduled` en Spring Boot</p><p>**Para** inyectar falsos consumos eléctricos (US-37).</p>|<p>**Escenario 1: Tarea en background**</p><p>Dado el servidor en ejecución,</p><p>Cuando pasa el tiempo definido en el cron,</p><p>Entonces se insertan N registros aleatorios en la tabla de telemetría.</p>|**EP-03**|
-|**TS-12**|Endpoints CRUD Dispositivos|<p>**Como** backend developer</p><p>**Quiero** programar controladores `@RestController`</p><p>**Para** manejar el listado y actualización de enchufes (US-13).</p>|<p>**Escenario 1: GetMapping**</p><p>Dado el request a `/api/v1/devices`,</p><p>Cuando se procesa la solicitud,</p><p>Entonces devuelve un ResponseEntity con el JSON del listado.</p>|**EP-02**|
-|**TS-13**|Setup SPA y Rutas Protegidas|<p>**Como** frontend developer</p><p>**Quiero** iniciar el framework SPA (Angular/React)</p><p>**Para** construir el dashboard de monitoreo interno.</p>|<p>**Escenario 1: Router Guard**</p><p>Dado el acceso a `/dashboard`,</p><p>Cuando el token no existe,</p><p>Entonces el sistema redirige al `/login`.</p>|**EP-04**|
-|**TS-14**|Generación y Filtro de JWT|<p>**Como** fullstack developer</p><p>**Quiero** configurar Spring Security con un filtro JWT</p><p>**Para** autenticar cada petición HTTP (US-09).</p>|<p>**Escenario 1: Token Auth**</p><p>Dado el Bearer token en el Header,</p><p>Cuando pasa por el filtro de seguridad,</p><p>Entonces desencripta la firma y autoriza el request.</p>|**EP-04**|
-|**TS-15**|Implementación librería Chart.js|<p>**Como** frontend developer</p><p>**Quiero** usar la API de Chart.js con un Canvas</p><p>**Para** dibujar las barras de consumo de Watts (US-17).</p>|<p>**Escenario 1: Render del Canvas**</p><p>Dado el array numérico de la API,</p><p>Cuando se pasan como `datasets`,</p><p>Entonces Chart.js dibuja visualmente la progresión.</p>|**EP-03**|
-|**TS-16**|Cifrado de Contraseñas BCrypt|<p>**Como** backend developer</p><p>**Quiero** usar BCryptPasswordEncoder</p><p>**Para** no guardar las contraseñas en texto plano (US-09).</p>|<p>**Escenario 1: Hash**</p><p>Dado el formulario de registro,</p><p>Cuando llega la clave `123456`,</p><p>Entonces se guarda como un hash seguro tipo `$2a$10$...`.</p>|**EP-04**|
+|**TS-05**|Controlador de Menú y Audio|<p>**Como** desarrollador frontend</p><p>**Quiero** instanciar un navbar dinámico y un `<audio>`</p><p>**Para** interactuar con la vista y la música (US-05).</p>|<p>**Escenario 1: DOM Events**</p><p>Dado el clic en el botón de música o scroll,</p><p>Cuando cambian los estados booleanos,</p><p>Entonces JS ejecuta `.play()` o altera el background del Header.</p>|**EP-05**|
+|**TS-06**|Setup Spring Boot API|<p>**Como** backend developer</p><p>**Quiero** iniciar el servidor web Java</p><p>**Para** alojar los endpoints REST del sistema core.</p>|<p>**Escenario 1: Deploy inicial**</p><p>Dado el pom.xml con dependencias web,</p><p>Cuando compila el proyecto,</p><p>Entonces el contenedor Tomcat levanta en el puerto 8080.</p>|**EP-01**|
+|**TS-07**|Conexión JPA - MySQL|<p>**Como** Database Admin</p><p>**Quiero** crear entidades Java anotadas con `@Entity`</p><p>**Para** que JPA cree automáticamente las tablas en MySQL (US-07).</p>|<p>**Escenario 1: Data Source**</p><p>Dado el application.properties configurado,</p><p>Cuando inicia el contexto de Spring,</p><p>Entonces Hibernate realiza la migración DDL en el esquema MySQL.</p>|**EP-01**|
+|**TS-08**|Integración Stripe SDK|<p>**Como** backend developer</p><p>**Quiero** incorporar las librerías oficiales de Stripe</p><p>**Para** validar los tokens de pago de forma segura (US-27).</p>|<p>**Escenario 1: Charge API**</p><p>Dado un payload de pago válido,</p><p>Cuando invoca el método createCharge(),</p><p>Entonces Stripe retorna el id de transacción HTTP 200.</p>|**EP-06**|
+|**TS-09**|Integración Mailchimp REST|<p>**Como** backend developer</p><p>**Quiero** programar un servicio de RestTemplate</p><p>**Para** disparar emails automatizados (US-29).</p>|<p>**Escenario 1: Post Payload**</p><p>Dado que se dispara una alerta,</p><p>Cuando se construye el JSON del email,</p><p>Entonces hace un POST a la API de Mailchimp y se registra el envío.</p>|**EP-07**|
+|**TS-10**|Simulación Telemetría Cronjob|<p>**Como** backend developer</p><p>**Quiero** usar anotaciones `@Scheduled` en Spring Boot</p><p>**Para** inyectar falsos consumos eléctricos (US-35).</p>|<p>**Escenario 1: Tarea en background**</p><p>Dado el servidor en ejecución,</p><p>Cuando pasa el tiempo definido en el cron,</p><p>Entonces se insertan N registros aleatorios en la tabla de telemetría.</p>|**EP-03**|
+|**TS-11**|Endpoints CRUD Dispositivos|<p>**Como** backend developer</p><p>**Quiero** programar controladores `@RestController`</p><p>**Para** manejar el listado y actualización de enchufes (US-19).</p>|<p>**Escenario 1: GetMapping**</p><p>Dado el request a `/api/v1/devices`,</p><p>Cuando se procesa la solicitud,</p><p>Entonces devuelve un ResponseEntity con el JSON del listado.</p>|**EP-02**|
+|**TS-12**|Setup Angular SPA|<p>**Como** frontend developer</p><p>**Quiero** iniciar el framework SPA (Angular/React)</p><p>**Para** construir el dashboard de monitoreo interno.</p>|<p>**Escenario 1: Router Guard**</p><p>Dado el acceso a `/dashboard`,</p><p>Cuando el token no existe,</p><p>Entonces el sistema redirige al `/login`.</p>|**EP-04**|
+|**TS-13**|Generación y Filtro de JWT|<p>**Como** fullstack developer</p><p>**Quiero** configurar Spring Security con un filtro JWT</p><p>**Para** autenticar cada petición HTTP (US-07).</p>|<p>**Escenario 1: Token Auth**</p><p>Dado el Bearer token en el Header,</p><p>Cuando pasa por el filtro de seguridad,</p><p>Entonces desencripta la firma y autoriza el request.</p>|**EP-04**|
+|**TS-14**|Implementación librería Chart.js|<p>**Como** frontend developer</p><p>**Quiero** usar la API de Chart.js con un Canvas</p><p>**Para** dibujar las barras de consumo de Watts (US-15).</p>|<p>**Escenario 1: Render del Canvas**</p><p>Dado el array numérico de la API,</p><p>Cuando se pasan como `datasets`,</p><p>Entonces Chart.js dibuja visualmente la progresión.</p>|**EP-03**|
+|**TS-15**|Cifrado de Contraseñas BCrypt|<p>**Como** backend developer</p><p>**Quiero** usar BCryptPasswordEncoder</p><p>**Para** no guardar las contraseñas en texto plano (US-07).</p>|<p>**Escenario 1: Hash**</p><p>Dado el formulario de registro,</p><p>Cuando llega la clave `123456`,</p><p>Entonces se guarda como un hash seguro tipo `$2a$10$...`.</p>|**EP-04**|
+|**TS-16**|Modo Oscuro Angular UI|<p>**Como** frontend developer</p><p>**Quiero** crear un servicio Angular que modifique la clase del `body`</p><p>**Para** alternar las variables CSS globales (US-39).</p>|<p>**Escenario 1: Clase global**</p><p>Dado que el usuario presiona el switch,</p><p>Cuando el Subject cambia a `true`,</p><p>Entonces se añade la clase `.dark-theme` al document root.</p>|**EP-05**|
 
 <br><br>
-
 
 
 ## 3.2. Impact Mapping
@@ -983,46 +983,46 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 | # Orden | User Story ID | Título | Descripción | Story Points |
 |--|--|--|--|--|
-| 1 | US-01 | Visualizar información de la startup | Como visitante, quiero acceder a la descripción de ElectroCorp. | 2 |
+| 1 | US-01 | Visualizar info y testimonios | Como visitante, quiero acceder a la descripción de ElectroCorp. | 3 |
 | 2 | US-02 | Motor de búsqueda inteligente | Como visitante, quiero buscar por palabras clave y hacer scroll automático. | 5 |
 | 3 | US-03 | Cambio de idioma (ES/EN) | Como visitante, quiero cambiar el texto entero de la página mediante el DOM. | 5 |
-| 4 | US-04 | Suscripción al boletín de noticias | Como visitante, quiero llenar un input de email sin recargar la web. | 3 |
-| 5 | US-05 | Controlar música de fondo | Como visitante, quiero pausar/reproducir música con un botón flotante. | 3 |
+| 4 | US-04 | Suscripción al boletín | Como visitante, quiero llenar un input de email sin recargar la web. | 3 |
+| 5 | US-05 | Interfaz interactiva | Como visitante, quiero navegar fluído y pausar la música con un botón. | 3 |
 | 6 | US-06 | Comparar planes de servicio | Como visitante, quiero leer las diferencias del plan Free y Enterprise. | 2 |
-| 7 | US-07 | Visualizar testimonios | Como visitante, quiero leer recomendaciones de usuarios previos. | 2 |
-| 8 | US-08 | Navegación fluida por Menú | Como visitante, quiero acceder desde los botones superiores a las zonas. | 2 |
-| 9 | US-09 | Registro inicial del usuario | Como usuario, quiero crear una cuenta en la plataforma base de datos. | 5 |
-| 10 | US-10 | Emparejar dispositivo plug-and-play | Como usuario, quiero vincular mi enchufe inteligente simulado. | 8 |
-| 11 | US-11 | Asistente de instalación guiada | Como usuario, quiero un tutorial rápido para empezar. | 5 |
-| 12 | US-12 | Nombrar dispositivos | Como usuario, quiero asignarle un alias a mi equipo. | 2 |
-| 13 | US-13 | Ver estado en tiempo real | Como usuario, quiero verificar si mi foco virtual está ON u OFF. | 3 |
-| 14 | US-14 | Encender y apagar remotamente | Como usuario, quiero enviar señales de apagado por internet. | 5 |
-| 15 | US-15 | Programar horarios de encendido | Como usuario, quiero definir a qué hora se enciende mi luz. | 5 |
-| 16 | US-16 | Crear rutinas automáticas | Como usuario, quiero configurar grupos de acciones masivas. | 5 |
-| 17 | US-17 | Ver consumo en tiempo real | Como usuario, quiero ver una gráfica con el consumo de Watts vivo. | 5 |
-| 18 | US-18 | Consultar historial de consumo | Como usuario, quiero ver cómo varió mi consumo durante los 7 días. | 5 |
-| 19 | US-19 | Recibir alertas por alto consumo | Como usuario, quiero notificaciones si mis aparatos gastan demasiado. | 3 |
-| 20 | US-20 | Ver recomendaciones de ahorro | Como usuario, quiero leer pequeños tips basados en mis propios datos. | 5 |
-| 21 | US-21 | Administrar múltiples dispositivos | Como usuario, quiero ver la lista completa de lo que he enlazado. | 3 |
-| 22 | US-22 | Crear perfiles de acceso | Como administrador, quiero que otros en casa puedan apagar las luces. | 5 |
-| 23 | US-23 | Bloquear acceso no autorizado | Como usuario, quiero que la plataforma se cierre si me olvido abierta. | 3 |
-| 24 | US-24 | Registrar actividad de control | Como administrador, quiero revisar un registro de qué se prendió y a qué hora. | 3 |
-| 25 | US-25 | Controlar equipos del negocio | Como dueño, quiero gestionar mi pequeño local desde la casa. | 3 |
-| 26 | US-26 | Programar equipos por horario comercial | Como dueño, quiero que el local se active de 9 a 6 de forma automatizada. | 5 |
-| 27 | US-27 | Revisar consumo por área o equipo | Como dueño, quiero saber si un sector de la oficina consume más que el otro. | 5 |
-| 28 | US-28 | Compartir acceso con personal | Como dueño, quiero aislar los permisos de los empleados a sus sectores. | 5 |
-| 29 | US-29 | Pagar suscripción con tarjeta | Como usuario, quiero contratar el Enterprise plan con Stripe. | 8 |
-| 30 | US-30 | Cancelar suscripción Premium | Como usuario, quiero regresar al plan Free sin que me sigan cobrando. | 3 |
-| 31 | US-31 | Recibir alertas por correo | Como usuario, quiero que un pico de consumo me llegue al mail con Mailchimp. | 5 |
-| 32 | US-32 | Recibir reporte mensual | Como usuario, quiero que en fin de mes se manden mis estadísticas al mail. | 5 |
-| 33 | US-33 | Recuperar contraseña | Como usuario, quiero que se envíe un token de reset si no recuerdo mi clave. | 5 |
-| 34 | US-34 | Editar perfil de usuario | Como usuario, quiero rectificar mi número de contacto o nombre de perfil. | 2 |
-| 35 | US-35 | Eliminar cuenta | Como usuario, quiero un botón rojo para purgar absolutamente todos mis datos. | 3 |
-| 36 | US-36 | Configurar preferencias | Como usuario, quiero poder rechazar los boletines desde el menú de mi perfil. | 2 |
-| 37 | US-37 | Simular conexión de equipo | Como desarrollador, quiero inyectar equipos falsos para probar el sistema. | 5 |
-| 38 | US-38 | Filtrar historial por fechas | Como usuario, quiero un calendario de inicio y fin para sacar mis reportes. | 3 |
-| 39 | US-39 | Exportar historial a Excel | Como usuario corporativo, quiero bajar una tabla de mis métricas en formato CSV. | 3 |
-| 40 | US-40 | Agrupar dispositivos | Como usuario, quiero juntar varios enchufes en una etiqueta, como "Sala de estar". | 5 |
+| 7 | US-07 | Registro inicial del usuario | Como usuario, quiero crear una cuenta en la plataforma base de datos. | 5 |
+| 8 | US-08 | Emparejar dispositivo plug-and-play | Como usuario, quiero vincular mi enchufe inteligente simulado. | 8 |
+| 9 | US-09 | Asistente de instalación guiada | Como usuario, quiero un tutorial rápido para empezar. | 5 |
+| 10 | US-10 | Nombrar dispositivos | Como usuario, quiero asignarle un alias a mi equipo. | 2 |
+| 11 | US-11 | Ver estado en tiempo real | Como usuario, quiero verificar si mi foco virtual está ON u OFF. | 3 |
+| 12 | US-12 | Encender y apagar remotamente | Como usuario, quiero enviar señales de apagado por internet. | 5 |
+| 13 | US-13 | Programar horarios de encendido | Como usuario, quiero definir a qué hora se enciende mi luz. | 5 |
+| 14 | US-14 | Crear rutinas automáticas | Como usuario, quiero configurar grupos de acciones masivas. | 5 |
+| 15 | US-15 | Ver consumo en tiempo real | Como usuario, quiero ver una gráfica con el consumo de Watts vivo. | 5 |
+| 16 | US-16 | Consultar historial de consumo | Como usuario, quiero ver cómo varió mi consumo durante los 7 días. | 5 |
+| 17 | US-17 | Recibir alertas por alto consumo | Como usuario, quiero notificaciones si mis aparatos gastan demasiado. | 3 |
+| 18 | US-18 | Ver recomendaciones de ahorro | Como usuario, quiero leer pequeños tips basados en mis propios datos. | 5 |
+| 19 | US-19 | Administrar múltiples dispositivos | Como usuario, quiero ver la lista completa de lo que he enlazado. | 3 |
+| 20 | US-20 | Crear perfiles de acceso | Como administrador, quiero que otros en casa puedan apagar las luces. | 5 |
+| 21 | US-21 | Bloquear acceso no autorizado | Como usuario, quiero que la plataforma se cierre si me olvido abierta. | 3 |
+| 22 | US-22 | Registrar actividad de control | Como administrador, quiero revisar un registro de qué se prendió. | 3 |
+| 23 | US-23 | Controlar equipos del negocio | Como dueño, quiero gestionar mi pequeño local desde la casa. | 3 |
+| 24 | US-24 | Programar equipos por horario comercial | Como dueño, quiero que el local se active de 9 a 6 automatizado. | 5 |
+| 25 | US-25 | Revisar consumo por área o equipo | Como dueño, quiero saber si un sector de la oficina consume más luz. | 5 |
+| 26 | US-26 | Compartir acceso con personal | Como dueño, quiero aislar los permisos de los empleados a sus sectores. | 5 |
+| 27 | US-27 | Pagar suscripción con tarjeta | Como usuario, quiero contratar el Enterprise plan con Stripe. | 8 |
+| 28 | US-28 | Cancelar suscripción Premium | Como usuario, quiero regresar al plan Free sin que me sigan cobrando. | 3 |
+| 29 | US-29 | Recibir alertas por correo | Como usuario, quiero que un pico de consumo me llegue vía Mailchimp. | 5 |
+| 30 | US-30 | Recibir reporte mensual | Como usuario, quiero que en fin de mes se manden mis estadísticas al mail. | 5 |
+| 31 | US-31 | Recuperar contraseña | Como usuario, quiero que se envíe un token de reset a mi correo. | 5 |
+| 32 | US-32 | Editar perfil de usuario | Como usuario, quiero rectificar mi número de contacto o nombre de perfil. | 2 |
+| 33 | US-33 | Eliminar cuenta | Como usuario, quiero un botón rojo para purgar absolutamente todos mis datos. | 3 |
+| 34 | US-34 | Configurar preferencias | Como usuario, quiero poder rechazar los boletines desde mi perfil. | 2 |
+| 35 | US-35 | Simular conexión de equipo | Como desarrollador, quiero inyectar equipos falsos para probar el sistema. | 5 |
+| 36 | US-36 | Filtrar historial por fechas | Como usuario, quiero un calendario de inicio y fin para mis reportes. | 3 |
+| 37 | US-37 | Exportar historial a Excel | Como usuario corporativo, quiero bajar una tabla de mis métricas en CSV. | 3 |
+| 38 | US-38 | Agrupar dispositivos | Como usuario, quiero juntar varios enchufes bajo la etiqueta "Sala". | 5 |
+| 39 | US-39 | Activar Modo Oscuro | Como usuario, quiero activar tema oscuro para descansar mis ojos de noche. | 3 |
+| 40 | US-40 | Gestionar múltiples locales | Como dueño Enterprise, quiero saltar entre varias de mis tiendas. | 8 |
 
 
 
@@ -1393,31 +1393,6 @@ El diagrama de componentes del frontend muestra la organización de los módulos
 El diagrama de componentes del backend presenta la estructura interna del servidor desarrollado con Spring Boot. En él se distinguen los controladores REST, los casos de uso de la capa de aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y la base de datos. Esta representación permite visualizar la arquitectura en capas adoptada por el sistema, así como la manera en que los componentes del backend colaboran para procesar solicitudes, aplicar la lógica de negocio y persistir la información.
 
 
-#### Energy Monitoring Container
-Este contenedor se encarga de monitorear el consumo energético y detectar si es que se ha superado el limite energético definido por el usuario.
-
-<img src="assets/MonitoringComponentDiagram.png">
-
-Capa de presentación 
-- Telemetry REST Controller:
-Se encarga de exponer los endpoints bajo el estándar arquitectónico REST. Recibe y gestiona peticiones HTTP provenientes de la Web Application cuando el usuario requiere consultar su historial de consumo o visualizar métricas de gasto en la interfaz.
-- MQTT Telemetry Listener: Actúa como el punto de entrada para el hardware (IoT). Se suscribe a los tópicos del servidor MQTT para recibir de forma continua los pulsos de telemetría enviados por el modulo ESP32. Traduce esta carga útil de energía bruta y la envía hacia el interior del sistema.
-
-Capa de aplicación
-- Process Metrics Service: Recibe datos del MQTT Listener, este servicio solicita a la capa de dominio que aplique las reglas de negocio correspondiente y finalmente le ordena a la infraestructura que guarde el nuevo registro en la base de datos.
-- Schedule Watcher Service: Funciona como el supervisor activo del sistema. Mediante tareas programadas. Revisa el consumo actual frente a los limites definidos por el usuario. Si el Dominio dictamina que se ha violado una regla, este servicio coordina la emisión del evento de alerta hacia el exterior.
-
-Capa de dominio
-- Billing Domain Engine: Servicio de dominio responsable de las matemáticas del negocio. Contiene la lógica estricta para la conversión de medidas físicas (Vatios/Amperios) a valor monetario (Soles - S/), aplicando las reglas de las tarifas eléctricas vigentes según el perfil del hogar o local comercial.
-    
-- Energy Aggregate: Representa el modelo central del dominio. Agrupa las entidades y objetos de valor (Value Objects) que mantienen el estado del consumo. Posee la responsabilidad exclusiva de evaluar las reglas de negocio críticas, decidiendo cuándo un dispositivo cambia de estado o cuándo el consumo ha excedido formalmente el presupuesto permitido.
-
-Capa de infraestructura
-- Persistence Adapter:
-Se encarga de traducir los objetos del dominio a sentencias SQL para almacenar y recuperar de forma persistente la telemetría, los estados de los módulos y los límites presupuestales en MySQL.
-- Event Publisher Adapter:
-Envía mensajes estandarizados en formato JSON hacia el _Message Broker_ (RabbitMQ) cada vez que el sistema detecta una anomalía, garantizando la entrega segura del evento hacia el servicio de notificaciones.
-
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
@@ -1544,12 +1519,450 @@ Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi072
 
 <img src="assets/respositorio-landing.PNG"></img><br>
 
-Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website <br><br> 
+Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
 
-<img src="assets/repositorio-landing.PNG"></img><br>
+<img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.3 Source Code Style Guide & Conventions
+
+En esta sección del proyecto, nos enfocaremos en establecer un conjunto coherente de referencias y convenciones para el estilo de código y las convenciones de programación que usaremos para la creación de nuestra aplicación web ElectroCorp. Estas prácticas son cruciales para el desarrollo de la aplicación puesto a que garantizan la coherencia, la legibilidad y la calidad estructural del código. En consecuencia, nos facilitarán su mantenimiento y escalabilidad a lo largo del ciclo de vida del proyecto. 
+
+En este proyecto, se emplearán HTML, CSS, JavaScript y Java para desarrollar la plataforma web, mientras que Gherkin se utilizará en el proceso de prueba del programa. A continuación, se presentarán y explicarán las reglas y recomendaciones generales que se considerarán al utilizar estos lenguajes.
+
+**Nomenclatura en Inglés y uso de Minúsculas**
+
+Los términos utilizados para nombrar variables, objetos, elementos y funciones estarán en inglés y relacionados con la función o descripción de lo que representan. En el desarrollo web se evitará el uso de mayúsculas, ya que la combinación de mayúsculas y minúsculas puede afectar la legibilidad del código, según lo señalado por Google. Se dará preferencia al uso exclusivo de minúsculas para mejorar la legibilidad del código.
+
+Ejemplo: 
+```css
+.btn-s {}  /* Mala práctica, el nombre de esta clase no nos dice nada */
+
+.btn-start {} /* Buena práctica, el nombre de esta clase nos dice que representa al botón de inicio */
+```
+
+**Identación o Sangría**
+
+La indentación o sangría en el código es esencial para mejorar la legibilidad y comprensión del mismo. Proporciona una estructura visual clara que refleja la lógica del código, facilitando su mantenimiento y reduciendo la probabilidad de errores.
+
+Según Google para facilitar la lectura, se debe agregar dos espacios de sangría y no utilizar la tecla de tabulación, por lo que seguiremos esta práctica para nuestro proyecto.
+
+Ejemplos:
+
+**En HTML:**
+```html
+<ul class="device-list">
+  <li>Smart Plug</li>
+  <li>Smart Switch</li>
+  <li>Light Sensor</li>
+</ul>
+```
+
+**En CSS:**
+```css
+body {
+  background: #0a0f18;
+  color: #ffffff;
+}
+```
+
+**En JavaScript:**
+```javascript
+function calculateWatts(amps) {
+  return amps * 220;
+}
+```
+
+A continuación se mostrarán las reglas específicas para cada lenguaje que utilizaremos:
+
+<br><br>
+
+**HTML**
+
+Para nuestro proyecto utilizaremos HTML5, el estándar más reciente de HTML que ofrece una amplia gama de nuevas características y mejoras. A continuación se mostrarán las características y pautas que seguiremos para el desarrollo:
+
++ **Document Type**
+
+En nuestro proyecto, nos adherimos a las mejores prácticas recomendadas por Google al utilizar HTML. Por lo tanto, emplearemos la declaración de tipo de documento (DOCTYPE) específica de HTML5, que se define como `<!DOCTYPE html>`. 
+
++ **Semantics**
+
+Utilizaremos los elementos HTML para lo que han sido diseñados. Por ejemplo, emplearemos elementos de encabezado para encabezados, elementos de párrafo (`<p>`) para párrafos, elementos de anchor (`<a>`) para enlaces, y así sucesivamente, tal y como nos indica Google.
+
+Ejemplo:
+```html
+<div onclick="goToDashboard();">Go to Dashboard</div>
+
+<a href="dashboard/">Go to Dashboard</a>
+```
+
++ **Blank Lines**
+
+Para mejorar la legibilidad del código, W3Schools recomienda agregar líneas en blanco para separar bloques de código grandes o lógicos. Esta práctica ayuda a dividir visualmente el código en secciones más manejables y facilita la identificación de la estructura y la lógica del programa.
+
+```html
+<body>
+
+<h1>Control de Dispositivos</h1>
+
+<h2>Lámpara de Sala</h2>
+<p>Estado actual: Encendido. Consumo: 15W.</p>
+
+<h2>Aire Acondicionado</h2>
+<p>Estado actual: Apagado. Programado para las 18:00 hrs.</p>
+
+</body>
+```
+
++ **Multimedia Fallback**
+
+Es fundamental proporcionar contenido alternativo para elementos multimedia, como imágenes, videos y objetos animados a través de canvas. Esto implica utilizar texto alternativo (`alt`) significativo para las imágenes, videos y audios. Según Google, la inclusión de contenido alternativo es crucial por razones de accesibilidad y además es importante en caso de que estos objetos multimedia fallen al cargar. 
+
+Ejemplo:
+```html
+<img src="smart-plug.png">
+
+<img src="smart-plug.png" alt="Fotografía del enchufe inteligente de ElectroCorp.">
+```
+
++ **HTML Quotation Marks**
+
+Según las recomendaciones de Google, al citar los valores de los atributos en HTML, se deben utilizar comillas dobles ("") en lugar de comillas simples (''). Esta práctica es preferible ya que las comillas dobles son el estándar recomendado en la especificación de HTML.
+
+Ejemplo: 
+```html
+<a class='btn-login'>Sign in</a>
+
+<a class="btn-login">Sign in</a> 
+```
+
+<br><br>
+
+**CSS**
+
+Para nuestro proyecto, optaremos por CSS3, la versión más reciente de CSS que ofrece una amplia variedad de nuevas características y mejoras en comparación con las versiones anteriores. A continuación, se presentarán las características y directrices que seguiremos para el desarrollo:
+
++ **Property Name Stops**
+
+Para mantener la consistencia en el código CSS, se recomienda utilizar un espacio después de los dos puntos que siguen al nombre de la propiedad. Además, es importante utilizar un solo espacio entre la propiedad y el valor asignado a esa propiedad, tal y como nos indica Google.
+
+Ejemplo:
+```css
+/* Not recommended */
+h2 {
+  font-weight:bold;
+}
+
+/* Recommended */
+h2 {
+  font-weight: bold;
+}
+```
+
++ **Declaration Stops**
+
+Según las recomendaciones de Google, se debe utilizar un punto y coma (;) al final de cada declaración en CSS. Esto ayuda a mantener la consistencia y la extensibilidad del código.
+
+```css
+/* Not recommended */
+.box {
+  display: block;
+  width: 100px
+}
+
+/* Recommended */
+.box {
+  display: block;
+  width: 100px;
+}
+```
+
++ **Shorthand Properties**
+
+Se debe utilizar propiedades abreviadas (shorthand properties) siempre que sea posible en CSS. Google afirma que estas propiedades abreviadas, como font o margin, ofrecen una forma más concisa de definir múltiples valores en una sola declaración, incluso en casos donde solo se establece un valor de manera explícita.
+
+Ejemplo: 
+```css
+/* Not recommended */
+border-top-style: none;
+padding-bottom: 2em;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0;
+
+/* Recommended */
+border-top: 0;
+padding: 0 1em 2em;
+```
+
++ **CSS Quotation Marks**
+
+Google nos dice la recomendación de que se deben utilizar comillas simples ('') en lugar de comillas dobles ("") para selectores de atributos y valores de propiedades en CSS. No se deben utilizar comillas en valores de URI (`url()`).
+
+Ejemplo: 
+```css
+/* Not recommended */
+@import url("[https://fonts.googleapis.com/css?family=Roboto](https://fonts.googleapis.com/css?family=Roboto)");
+
+html {
+  font-family: "open sans", sans-serif;
+}
+
+/* Recommended */
+@import url([https://fonts.googleapis.com/css?family=Roboto](https://fonts.googleapis.com/css?family=Roboto));
+
+html {
+  font-family: 'open sans', sans-serif;
+}
+```
+
++ **Declaration Block Separation**
+
+Se debe utilizar un espacio entre el último selector y el bloque de declaración en CSS. Google indica que siempre se debe utilizar un solo espacio entre el último selector y la llave de apertura que inicia el bloque de declaración. La llave de apertura debe estar en la misma línea que el último selector en una regla dada.
+
+Ejemplo:
+```css
+/* Not recommended: missing space */
+.nav{
+  margin-bottom: 1em;
+}
+
+/* Not recommended: unnecessary line break */
+.nav
+{
+  margin-bottom: 1em;
+}
+
+/* Recommended */
+.nav {
+  margin-bottom: 1em;
+}
+```
+
+<br><br>
+
+**JAVASCRIPT**
+
+Para nuestro proyecto, seleccionaremos JavaScript, un lenguaje de programación fundamental para el desarrollo web. Se utiliza para agregar interactividad y dinamismo a las páginas web, permitiendo a los desarrolladores crear aplicaciones web complejas y altamente funcionales. Usaremos las siguientes indicaciones de JavaScript para nuestro proyecto:
+
++ **Spaces Around Operators**
+
+Según W3Schools, se recomienda siempre colocar espacios alrededor de los operadores (=, +, -, *, /) y después de las comas al escribir código JavaScript. Esto ayuda a mejorar la legibilidad y la claridad del código, facilitando su comprensión y mantenimiento.
+
+Ejemplo: 
+```javascript
+let totalWatts = wattsA + wattsB;
+const activeDevices = ["Lamp", "TV", "Fan"];
+```
+
++ **End of the simple declaration**
+
+Según W3Schools, siempre se debe terminar una declaración simple con un punto y coma (;) al escribir código JavaScript. Esto incluye la declaración de variables, asignaciones y declaraciones de objetos.
+
+Ejemplo:
+```javascript
+const devices = ["Lamp", "TV", "Fan"];
+
+const deviceProfile = {
+  id: "DEV-01",
+  name: "Living Room Light",
+  watts: 15,
+  status: "ON"
+};
+```
+
++ **General Rules for Complex Statements**
+
+Según la recomendación de W3Schools, para declaraciones complejas (compuestas) se deben seguir las siguientes pautas:
+
+1. Colocar la llave de apertura al final de la primera línea.
+2. Utilizar un espacio antes de la llave de apertura.
+3. Colocar la llave de cierre en una nueva línea, sin espacios previos.
+4. No terminar una declaración compleja con un punto y coma.
+
+Ejemplo:
+```javascript
+function calculateConsumption(watts) {
+  return watts * 24;
+}
+
+for (let i = 0; i < 5; i++) {
+  total += i;
+}
+
+if (time < 20) {
+  status = "Encendido";
+} else {
+  status = "Apagado";
+}
+```
+
++ **Object Rules**
+
+Según la recomendación de W3Schools, las reglas generales para definir objetos son las siguientes:
+
+1. Colocar la llave de apertura en la misma línea que el nombre del objeto.
+2. Utilizar dos puntos seguidos de un espacio entre cada propiedad y su valor.
+3. Utilizar comillas alrededor de los valores de cadena, pero no alrededor de los valores numéricos.
+4. No agregar una coma después del último par propiedad-valor.
+5. Colocar la llave de cierre en una nueva línea, sin espacios previos.
+6. Siempre terminar la definición del objeto con un punto y coma.
+
+Ejemplo:
+```javascript
+const deviceProfile = {
+  id: "DEV-01",
+  name: "Living Room Light",
+  watts: 15,
+  status: "ON"
+};
+```
+
+<br><br>
+
+**GHERKIN**
+
+Gherkin es un Lenguaje Específico de Dominio (DSL) diseñado para abordar problemas específicos al generar casos de validación de características en diversos escenarios. Este lenguaje se utiliza para describir el comportamiento deseado de un software de manera comprensible para personas no técnicas. Gherkin presenta varios elementos, entre los que se destacan Feature, Scenario, Example, Given, When y Then, los cuales son ampliamente utilizados para definir las características y los pasos de las pruebas de comportamiento.
+
+Las pautas a tener en cuenta al utilizar Gherkin en nuestro código incluyen:
+
+* **Discernible Given-When-Then Blocks**
+
+Según la sugerencia de Keiblinger, para facilitar la comprensión y la organización de los escenarios en Gherkin, se recomienda indentar los pasos que comienzan con "And" después de cada Given, When o Then. Esto permite distinguir claramente dónde termina un bloque y comienza otro, incluso en escenarios con múltiples pasos.
+
+Ejemplo de Sophie Keiblinger:
+```gherkin
+Scenario: Discernible Given-When-Then Blocks
+
+In order to quickly spot where one block ends and another one begins, you can indent the steps starting with “And”
+
+Given I need to prepare some data for my scenario
+  And this is more complex so I need a second step
+  And this is more complex so I need a third step
+When I trigger some action
+Then I can see the expected outcome
+  And this outcome also has a second step
+  And this outcome also has a third step
+```
+
+* **Steps with Tables**
+
+Keiblinger nos sugiere utilizar un colon (:) al final de los pasos que requieren más entrada de una tabla. Esto ayuda a hacer inmediatamente reconocible que se espera una tabla como parte de la entrada del paso.
+
+Ejemplo de Sophie Keiblinger:
+```gherkin
+Given I need to prepare the following data for my scenario:
+
+|  column 1  | column 2 |
+| necessary  |   data   |
+```
+
+* **Reducing Noise**
+
+Keiblinger sugiere utilizar valores por defecto para campos que el sistema requiere pero que no son pertinentes para el escenario en cuestión. Por ejemplo, al probar la validación del encendido de un equipo, no es necesario especificar la marca del router de internet del usuario. Esta inclusión no afecta al resultado del escenario. Esta práctica ayuda a simplificar los escenarios y a enfocarse en las características específicas que se están probando.
+
+Ejemplo:
+```gherkin
+When el visitante se acerque a la sección 'Comunícate con nosotros'
+```
+
+* **Newlines between scenarios and separator comments**
+
+Keiblinger nos dice que para mantener la claridad en los archivos de escenarios de Gherkin, especialmente cuando estos son extensos o contienen múltiples escenarios, se recomienda agregar dos líneas en blanco entre cada escenario. Esto ayuda a distinguir claramente dónde termina un escenario y comienza otro. Además, es común añadir un comentario separador para brindar una guía visual adicional y facilitar la navegación en el archivo.
+
+Ejemplo:
+```gherkin
+#-----------------------------------------------------------------------------------
+Scenario: Acceso a la historia de ElectroCorp
+        Given que soy un visitante de la landing page
+        When navegue por la página de inicio
+        And encuentre la sección titulada "¿Quiénes Somos?"
+        Then podré obtener información detallada sobre la historia de la startup.
+
+#-----------------------------------------------------------------------------------
+
+    Scenario: Acceso a las redes sociales de ElectroCorp
+        Given que el visitante se encuentra en la landing page
+        When el visitante de click en la etiqueta "Contáctanos"
+        And encuentre los botones con los logos de las redes sociales
+        And de click encima del botón con el logo de la red social que desee ver
+        Then el usuario será redireccionado a la red social que seleccionó previamente.
+```
+
+<br><br>
+
+**JAVA**
+
+Java es un lenguaje de programación versátil y potente, ampliamente utilizado en una variedad de aplicaciones. Ofrece una amplia gama de características y funcionalidades, como la portabilidad, la orientación a objetos y la robustez, lo que lo convierte en una opción popular para el desarrollo backend. Con Java, construiremos la API principal de ElectroCorp. A continuación, se presentarán las características y directrices que seguiremos para el desarrollo utilizando este lenguaje.
+
+* **Name Conventions**
+
+Para identificar una variable, método, función o clase, es importante utilizar nombres significativos que mejoren la legibilidad del código. A continuación, se detallan las convenciones para diferentes tipos de identificadores:
+
+Nombre de una clase: Debe comenzar con una letra mayúscula (PascalCase).
+Ejemplo:
+```java
+public class Device
+{
+}
+```
+
+Nombre de función o método: Debe comenzar con una letra minúscula (camelCase).
+Ejemplo:
+```java
+private int calculateWatts(int current, int voltage)
+{
+}
+```
+
+Nombre de variable: Debe comenzar con una letra minúscula (camelCase).
+Ejemplo:
+```java
+int totalConsumption = 100;
+```
+
+Nombre de final o constante: Debe estar en letras mayúsculas separadas por guiones bajos (UPPER_CASE).
+Ejemplo:
+```java
+public final int MAX_WATT_LIMIT = 2000;
+```
+
+* **Uso de paréntesis y llaves en las expresiones**
+
+Codecademy sugiere utilizar paréntesis y llaves para hacer las cláusulas en una expresión más evidentes. Esta práctica mejora la claridad y la legibilidad del código, especialmente en expresiones complejas como la que se mostrará a continuación:
+
+Ejemplo:
+```java
+if ((watts > limit) && (deviceStatus == true))
+{
+   // Ejecutar alerta
+}
+```
+
+* **Identación y espaciado**
+
+Codecademy recomienda seguir ciertos estándares para mejorar la legibilidad del código en Java. Esto incluye utilizar sangrías y asegurarse de que haya una sangría cada vez que se abre un nuevo bloque. Además, sugiere agregar espacios antes y después de las palabras clave y operadores para mejorar la claridad del código.
+
+Ejemplo:
+```java
+currentWatts = 15;
+voltage = 220;
+```
+
+* **Comment Style**
+
+Google nos recomienda utilizar comentarios con `//` y `/* */`. Es preferible evitar comentarios en varias líneas para explicaciones más largas dentro de la lógica, ya que los comentarios no están localizados y pueden dificultar la lectura del código. En su lugar, se sugiere incluir explicaciones más extensas en documentación externa y usar comentarios simples para métodos puntuales.
+
+Ejemplo:
+```java
+// Funcion que calcula el consumo total del dispositivo
+private int calculateWatts(int current, int voltage)
+{
+}
+```
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1 
@@ -1736,7 +2149,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <img src="assets/Tablero-Sprint1.png"></img>
 </p>
 
-<table align="center" border="1" width="95%" style="text-align:center">
+<table align="center" border="1" width="95%" style="text-align:center; border-collapse: collapse;">
   <tr>
     <td colspan="1"><b>Sprint #</b></td>
     <td colspan="8"><b>Sprint 1</b></td>
@@ -1756,12 +2169,13 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td><b>Student Code</b></td>
     <td><b>Status</b></td>
   </tr>
+
   <tr>
-    <td rowspan="2">US21</td>
-    <td rowspan="2">Visualizar página informativa</td>
+    <td rowspan="2">US-01</td>
+    <td rowspan="2">Visualizar información y testimonios</td>
     <td>T01</td>
-    <td>Maquetación HTML inicial</td>
-    <td>Diseñar la estructura base en HTML para la landing page.</td>
+    <td>Maquetación HTML de contenido</td>
+    <td>Estructurar en HTML5 las secciones de descripción, objetivos y testimonios de la startup.</td>
     <td>2</td>
     <td>Sebastian Tavara</td>
     <td>U20241e179</td>
@@ -1769,52 +2183,115 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
   <tr>
     <td>T02</td>
-    <td>Estilización general</td>
-    <td>Aplicar estilos CSS para definir la apariencia general.</td>
+    <td>Aplicar estilos CSS base</td>
+    <td>Configurar paleta de colores Dark Mode y tipografías para la sección informativa.</td>
     <td>2</td>
-     <td>Diego Cabrejos</td>
-    <td>U20241e014</td>
+    <td>Jairo Santiago</td>
+    <td>U202418755</td>
     <td>Done</td>
   </tr>
-  
+
   <tr>
-    <td rowspan="2">US22</td>
-    <td rowspan="2">Landing Page intuitiva</td>
+    <td rowspan="2">US-02</td>
+    <td rowspan="2">Motor de búsqueda inteligente</td>
     <td>T03</td>
-    <td>Diseño de navegación</td>
-    <td>Crear menú de navegación con enlaces funcionales.</td>
-    <td>4</td>
-     <td>Diego Cabrejos</td>
+    <td>Diseño de barra de búsqueda</td>
+    <td>Crear el layout del input y botón de búsqueda en el header de la web.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>T04</td>
-    <td>Personalización del Navbar</td>
-    <td>Aplicar diseño e identidad visual al menú de navegación.</td>
-    <td>4</td>
-     <td>Diego Cabrejos</td>
+    <td>Lógica JS de búsqueda</td>
+    <td>Implementar diccionario de palabras clave y smooth scroll hacia las secciones.</td>
+    <td>3</td>
+    <td>Diego Cabrejos</td>
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td rowspan="2">US23</td>
-    <td rowspan="2">Landing Page responsiva</td>
+    <td rowspan="2">US-03</td>
+    <td rowspan="2">Cambio de idioma (ES/EN)</td>
     <td>T05</td>
-    <td>Adaptar contenido principal</td>
-    <td>Aplicar media queries para que el contenido se adapte a distintos dispositivos.</td>
-    <td>4</td>
-     <td>Diego Cabrejos</td>
-    <td>U20241e014</td>
+    <td>Configuración de diccionario JSON/JS</td>
+    <td>Crear los arreglos de texto en inglés y español para la landing page.</td>
+    <td>3</td>
+    <td>Jean Loa</td>
+    <td>U20241e406</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>T06</td>
-    <td>Navbar adaptable</td>
-    <td>Hacer que el menú de navegación funcione correctamente en pantallas móviles.</td>
+    <td>Integración en el DOM</td>
+    <td>Crear la función JS que reemplace dinámicamente los textos al clickear el botón.</td>
     <td>2</td>
-     <td>Diego Cabrejos</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-04</td>
+    <td rowspan="2">Suscripción al boletín</td>
+    <td>T07</td>
+    <td>Diseño del formulario</td>
+    <td>Maquetar el input de email y el botón de submit en la sección final.</td>
+    <td>2</td>
+    <td>Jairo Santiago</td>
+    <td>U202418755</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T08</td>
+    <td>Validación de formulario JS</td>
+    <td>Interceptar el evento submit con preventDefault y mostrar alerta de éxito temporal.</td>
+    <td>2</td>
+    <td>Timothy Documet</td>
+    <td>U202318828</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-05</td>
+    <td rowspan="2">Interfaz interactiva (Menú y Audio)</td>
+    <td>T09</td>
+    <td>Creación de Navbar y Responsive</td>
+    <td>Configurar el menú pegadizo (sticky) y su adaptación a dispositivos móviles.</td>
+    <td>3</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T10</td>
+    <td>Botón flotante de audio</td>
+    <td>Configurar etiqueta de audio HTML y lógica JS para pausar/reproducir la música de fondo.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-06</td>
+    <td rowspan="2">Comparar planes de servicio</td>
+    <td>T11</td>
+    <td>Maquetación de tarjetas (Grid)</td>
+    <td>Construir la vista de los planes Free y Enterprise usando CSS Flexbox/Grid.</td>
+    <td>2</td>
+    <td>Jean Loa</td>
+    <td>U20241e406</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T12</td>
+    <td>Estilización del plan Premium</td>
+    <td>Agregar efectos hover, bordes brillantes y escala para destacar la tarjeta Enterprise.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
