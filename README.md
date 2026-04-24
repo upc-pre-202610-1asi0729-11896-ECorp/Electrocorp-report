@@ -1458,6 +1458,9 @@ https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion
 https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html 
 
 
+  +  **Java:**<br> Es un lenguaje de programación de alto nivel, robusto y orientado a objetos, diseñado para tener la menor cantidad posible de dependencias de implementación. Es ideal para aplicaciones empresariales, desarrollo de apps móviles (Android) y sistemas de escritorio. Se utilizará para gestionar la lógica de servidor y el procesamiento de datos del proyecto.<br>
+https://www.oracle.com/java/technologies/downloads/
+
 + **Software Testing**<br>
 Se refiere a la actividad de verificar y validar el software para garantizar su calidad y funcionamiento correcto. Involucra la ejecución de pruebas funcionales y no funcionales para identificar errores, defectos o problemas en el software antes de su lanzamiento. El objetivo es asegurar que el software sea confiable, robusto y cumpla con los requisitos y expectativas del usuario final.
 
@@ -1475,8 +1478,27 @@ https://pages.github.com/ <br>
     + **Markdown:**<br>Es un lenguaje de marcado ligero que permite escribir texto con un formato fácil de leer y escribir, que luego puede ser convertido a HTML u otros formatos de presentación. Es ampliamente utilizado para documentar proyectos de software debido a su simplicidad y versatilidad. Markdown permite agregar formato básico como encabezados, listas, enlaces e imágenes utilizando una sintaxis sencilla y fácil de recordar.<br>https://www.markdownguide.org/getting-started/<br><br>
 
 
-### 5.1.1. Software Development Environment Configuration
 ### 5.1.2. Source Code Management
+
+Para administrar el progreso del código de manera efectiva, hemos decidido adoptar la metodología Git Flow. Esta estrategia se enfoca en el uso de ramas para facilitar la gestión de archivos durante el proceso de programación. En resumen, Git Flow nos permite mantener una rama principal ('main') que contiene una versión estable del proyecto en un punto determinado. Al mismo tiempo, utilizamos otra rama de desarrollo para incorporar nuevas características al código base sin afectar la versión estable actual. Esto nos permite avanzar en el desarrollo de nuestra página de destino mientras realizamos pruebas relacionadas con las nuevas modificaciones introducidas en la rama de desarrollo.
+
+Además, hemos optado por utilizar GitHub debido a su función específica llamada GitHub Pages. Esta función permite la visualización eficiente del proyecto mediante la ejecución de archivos '.html' y la generación de un enlace web.
+
+En cuanto a nuestros archivos feature, creamos una nueva rama “feature/sprint-1” para cada nueva funcionalidad que deseamos agregar. Este enfoque modular y organizado asegura un desarrollo progresivo, ya que cada rama “feature/sprint-1” actúa como un espacio aislado para desarrollar y probar una característica específica antes de fusionarla con la rama de desarrollo.<br><br>
+
+Enlace de la Landing Page en GitHub Pages:https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/<br><br> 
+
+<img src="assets/landing-page-link-prueba1.PNG"></img><br>
+
+Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website <br><br> 
+
+<img src="assets/respositorio-landing.PNG"></img><br>
+
+Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website <br><br> 
+
+<img src="assets/repositorio-landing.PNG"></img><br>
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
