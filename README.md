@@ -30,9 +30,9 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 03/04/2026 |Tavara Correa, Sebastian Oswaldo; Santiago Atanacio, Jairo Mathias; Cabrejos Chocco, Diego Alexander; Loa Rojas, Jean Franck; Documet Romero, Timothy| Avance del trabajo: Completando el contenido del Documento, entre estos La Landing Page, la Applicacion Web, etc |
+|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
 |   TP1   |            |       |                                                            |
-|   TB2   |            |       |                                                            |
+|   AV2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
