@@ -1319,22 +1319,19 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 ### 4.6.2. Software Architecture Context Diagram
-En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del sistema, mostrándolo como el núcleo central rodeado por los usuarios principales y los sistemas de software externos con los que interactúa directamente para cumplir sus funciones de domótica y gestión energética.
+En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
 
-<img src="assets/context_level_diagram.png">
+<img src="assets/context-diagram.png">
 
-El ecosistema de ElectroCorp se sitúa en el centro de la arquitectura, actuando como el orquestador de las interacciones. Los elementos que lo rodean son:
+El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
 
--**ElectroCorp User (Actor Principal)**: Representa al usuario final (familias o dueños de negocios). Este interactúa con ElectroCorp para visualizar métricas de consumo en tiempo real, encender o apagar dispositivos remotamente y configurar rutinas horarias. También interactúa directamente con la pasarela de pagos para abonar su suscripción.
+**-ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. Su objetivo es monitorear su consumo de energía, configurar límites de presupuesto y establecer rutinas automáticas para sus dispositivos. Adicionalmente, el usuario interactúa con la pasarela de pagos para mantener activa su suscripción mensual y es el receptor final de las alertas del sistema.
 
--**ElectroCorp System (Sistema Principal):** Es la plataforma de software (Web y Móvil) que estamos desarrollando. Centraliza la lógica de negocio, gestiona el estado de los dispositivos y procesa las reglas de automatización.
+**-ElectroCorp System (Sistema Principal):** Es la plataforma integral de software (Web y Móvil) que centraliza la lógica de negocio. Para este alcance del proyecto, el sistema absorbe la responsabilidad de simular el comportamiento y la telemetría de los dispositivos IoT, orquestando las reglas de automatización y el cálculo de tarifas energéticas sin depender de hardware físico externo.
 
--**IoT Devices (Sistema Externo de Soporte):** Representa el hardware físico (los enchufes inteligentes plug-and-play). ElectroCorp se comunica con ellos para enviarles comandos de ejecución y, a su vez, recibe de ellos la telemetría del consumo en Watts.
+**-Stripe (Sistema Externo de Soporte):** Plataforma comercial externa utilizada como pasarela de pagos. ElectroCorp se comunica con este sistema para delegar el procesamiento seguro de las transacciones financieras y la gestión de las suscripciones de los usuarios.
 
--**Payment Gateway (Sistema Externo de Soporte):** Sistema financiero de terceros (ej. Niubiz, Stripe) encargado de procesar los pagos de los planes de suscripción de manera segura, notificando a ElectroCorp sobre el éxito o fracaso de la transacción.
-
--**Notification Service (Sistema Externo de Soporte):** Servicio de mensajería (ej. SendGrid o Firebase). ElectroCorp le delega el envío de correos electrónicos y notificaciones push, como las alertas de picos de voltaje o los reportes mensuales de eficiencia, para que lleguen finalmente al usuario.
-
+**-Mailchimp (Sistema Externo de Soporte):** Servicio comercial de envío de correos electrónicos. ElectroCorp le delega el despacho automatizado de reportes mensuales de consumo y la emisión de alertas críticas (por ejemplo, cuando el consumo simulado excede los límites configurados), asegurando que las notificaciones lleguen de manera confiable a la bandeja de entrada del usuario.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
