@@ -1695,14 +1695,21 @@ En el presente sprint se logró desarrollar la primera versión del Landing Page
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Durante el primer sprint, se lograron varios hitos importantes en el desarrollo del landing page de la StartUp ElectroCorp. Por lo consiguiente, presentamos un resumen de los logros alcanzados hasta la fecha: <br>
 
-Establecimiento de repositorios: Se crearon y configuraron repositorios en GitHub para gestionar el código y las pruebas, asegurando una correcta organización y control de versiones, ademas de separar en main y developer para evitar posibles errores. <br>
+- Establecimiento de repositorios: Se crearon y configuraron repositorios en GitHub para gestionar el código y las pruebas, asegurando una correcta organización y control de versiones, ademas de separar en main y developer para evitar posibles errores. <br>
 
 <img src="assets/Repositorios.png"></img><br>
+
+- Implementación del Landing Page: Se diseño y se estructuro la landing page de ElectroCorp implementando funcionalidades claves y asegurando que cumpla con lo dictado en la rubrica, como el agregarle un boton de traduccion de idioma y que este en ingles por defecto
+
+- Imágenes del Landing Page:
+  * Home
+    <img src="assets/LandingPageMockUps1.png"></img><br>
+  * f
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-### 5.2.1. Sprint 1 
+### 5.2.2. Sprint 2 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
 #### 5.2.X.3. Sprint Backlog n. 
