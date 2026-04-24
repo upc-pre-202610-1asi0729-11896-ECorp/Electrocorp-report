@@ -975,28 +975,49 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 <img src="assets/Impact Mapping.png">
 
 ## 3.3. Product Backlog
-| # Orden | User Story ID | Título | Descripcion | Story Points(1 / 2 / 3 / 5 / 8)
+
+| # Orden | User Story ID | Título | Descripción | Story Points(1 / 2 / 3 / 5 / 8) |
 |--|--|--|--|--|
-|1|US-03|Asistente de instalación guiada|Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema sin modificar el cableado.|8|
-|2|US-02|Emparejar dispositivo plug-and-play|Como usuario, quiero vincular un enchufe o interruptor inteligente desde la app para empezar a controlarlo sin ayuda técnica.|8|
-|3|US-06|Encender y apagar remotamente|Como usuario, quiero controlar mis dispositivos desde el celular o la web para usarlos aunque no esté en casa o en el local.|5|
-|4|US-05|Ver estado en tiempo real|Como usuario, quiero ver si un dispositivo está encendido o apagado para saber su estado actual.|3|
-|5|US-08|Crear rutinas automáticas|Como usuario, quiero definir rutinas como “apagar a cierta hora” para automatizar tareas repetitivas.|5|
-|6|US-07|Programar horarios de encendido|Como usuario, quiero programar horarios automáticos para reducir consumo y tener mayor comodidad.|5|
-|7|US-13|Administrar múltiples dispositivos|Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla para gestionarlos fácilmente.|5|
-|8|US-09|Ver consumo en tiempo real|Como usuario, quiero monitorear el consumo energético de mis dispositivos en tiempo real para entender cuánto gasto estoy generando.|5|
-|9|US-10|Consultar historial de consumo|Como usuario, quiero revisar el historial de consumo por día, semana o mes para identificar patrones de uso.|5|
-|10|US-11|Recibir alertas por alto consumo|Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal para evitar gastos innecesarios.|3|
-|11|US-12|Ver recomendaciones de ahorro|Como usuario, quiero recibir sugerencias para ahorrar energía según mi consumo habitual.|3|
-|12|US-17|Controlar equipos del negocio|Como dueño de negocio, quiero encender o apagar equipos del local desde mi móvil para ahorrar tiempo y energía.|5|
-|13|US-18|Programar equipos por horario comercial|Como dueño de negocio, quiero automatizar el encendido y apagado de equipos según el horario de atención.|5|
-|14|US-19|Revisar consumo por área o equipo|Como dueño de negocio, quiero identificar qué equipos consumen más energía para tomar decisiones de ahorro.|5|
-|15|US-14|Crear perfiles de acceso|Como usuario administrador, quiero dar acceso a otros miembros de la familia o empleados con permisos limitados.|5|
-|16|US-20|Compartir acceso con personal autorizado|Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.|5|
-|17|US-16|Registrar actividad de control|Como usuario administrador, quiero ver quién encendió, apagó o modificó una automatización para tener trazabilidad.|3|
-|18|US-01|Registro inicial del usuario|Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos y acceder a sus funciones.|3|
-|19|US-04|Nombrar dispositivos|Como usuario, quiero asignar nombres personalizados a mis dispositivos para identificarlos fácilmente.|2|
-|20|US-15|Bloquear acceso no autorizado|Como usuario, quiero proteger mi cuenta para que nadie controle mis dispositivos sin permiso.|5|
+| 1 | US-21 | Visualizar página informativa | Como visitante, quiero acceder a la landing page para conocer el producto. | 3 |
+| 2 | US-22 | Landing page intuitiva | Como visitante, quiero navegar fácilmente por las secciones. | 2 |
+| 3 | US-23 | Landing page responsiva | Como visitante, quiero que la página se adapte a mi celular. | 3 |
+| 4 | US-24 | Ver planes de suscripción | Como visitante, quiero comparar planes Basic y Pro. | 2 |
+| 5 | US-01 | Registro inicial del usuario | Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos. | 3 |
+| 6 | US-29 | Recuperar contraseña | Como usuario, quiero restablecer mi clave si la olvido. | 3 |
+| 7 | US-33 | Simular conexión de equipo | Como tester, quiero simular que un equipo se conecta. | 5 |
+| 8 | US-02 | Emparejar dispositivo | Como usuario, quiero vincular un enchufe inteligente desde la app. | 8 |
+| 9 | US-03 | Asistente de instalación | Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema. | 5 |
+| 10 | US-04 | Nombrar dispositivos | Como usuario, quiero asignar nombres personalizados a mis dispositivos. | 2 |
+| 11 | US-13 | Administrar múltiples equipos | Como usuario, quiero ver todos mis equipos en una sola pantalla. | 3 |
+| 12 | US-05 | Ver estado en tiempo real | Como usuario, quiero ver si un dispositivo está encendido o apagado. | 3 |
+| 13 | US-06 | Encender y apagar remotamente | Como usuario, quiero controlar mis dispositivos desde el celular. | 5 |
+| 14 | US-34 | Simular desconexión | Como usuario, quiero saber si un equipo perdió señal. | 3 |
+| 15 | US-07 | Programar horarios | Como usuario, quiero programar horarios automáticos. | 5 |
+| 16 | US-08 | Crear rutinas automáticas | Como usuario, quiero definir rutinas de apagado masivo. | 5 |
+| 17 | US-40 | Agrupar dispositivos | Como usuario, quiero agrupar mis enchufes por habitaciones. | 5 |
+| 18 | US-17 | Control de equipos de negocio | Como dueño de negocio, quiero apagar equipos remotamente. | 3 |
+| 19 | US-18 | Horario comercial | Como dueño de negocio, quiero automatizar el encendido según horario. | 5 |
+| 20 | US-09 | Ver consumo actual | Como usuario, quiero monitorear el consumo en tiempo real. | 5 |
+| 21 | US-10 | Consultar historial | Como usuario, quiero revisar el historial de consumo por día. | 5 |
+| 22 | US-35 | Filtro por fechas | Como usuario, quiero filtrar consumos por un rango de fechas. | 3 |
+| 23 | US-39 | Gasto proyectado en Soles | Como usuario, quiero ver un estimado de cobro en soles. | 5 |
+| 24 | US-19 | Consumo por área | Como dueño de negocio, quiero ver qué área consume más. | 5 |
+| 25 | US-36 | Exportación a Excel | Como usuario de negocio, quiero exportar mis datos a CSV. | 3 |
+| 26 | US-25 | Pagar con tarjeta (Stripe) | Como usuario, quiero pagar el plan Pro con mi tarjeta. | 8 |
+| 27 | US-26 | Cancelar suscripción Premium | Como usuario, quiero anular mi suscripción en cualquier momento. | 3 |
+| 28 | US-12 | Recomendaciones de ahorro | Como usuario, quiero recibir sugerencias para ahorrar. | 5 |
+| 29 | US-11 | Alertas por alto consumo | Como usuario, quiero alertas cuando un dispositivo consuma mucho. | 3 |
+| 30 | US-27 | Alertas vía Mailchimp | Como usuario, quiero alertas por correo ante picos inusuales. | 5 |
+| 31 | US-28 | Reporte mensual vía email | Como usuario, quiero mi resumen mensual en mi correo. | 5 |
+| 32 | US-32 | Preferencias de notificaciones | Como usuario, quiero elegir qué alertas recibir. | 2 |
+| 33 | US-37 | Acceso a FAQs | Como usuario, quiero leer las preguntas frecuentes. | 2 |
+| 34 | US-14 | Perfiles de acceso | Como administrador, quiero dar acceso a familiares. | 5 |
+| 35 | US-20 | Compartir acceso con personal | Como dueño, quiero que el personal controle solo ciertos equipos. | 3 |
+| 36 | US-15 | Bloquear acceso no autorizado | Como usuario, quiero proteger mi cuenta. | 3 |
+| 37 | US-16 | Registrar actividad | Como administrador, quiero ver quién controló un equipo. | 3 |
+| 38 | US-30 | Editar perfil | Como usuario, quiero cambiar mi foto y nombre de perfil. | 2 |
+| 39 | US-31 | Eliminar cuenta | Como usuario, quiero borrar mis datos definitivamente. | 3 |
+| 40 | US-38 | Cambio de idioma | Como usuario, quiero cambiar la web a inglés. | 5 |
 
 # Capitulo IV: Product Design
 
@@ -1664,7 +1685,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td><b>Status</b></td>
   </tr>
   <tr>
-    <td rowspan="2">US11</td>
+    <td rowspan="2">US21</td>
     <td rowspan="2">Visualizar página informativa</td>
     <td>T01</td>
     <td>Maquetación HTML inicial</td>
@@ -1685,9 +1706,9 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
   
   <tr>
-    <td rowspan="2">US12</td>
+    <td rowspan="2">US22</td>
     <td rowspan="2">Landing Page intuitiva</td>
-    <td>T01</td>
+    <td>T03</td>
     <td>Diseño de navegación</td>
     <td>Crear menú de navegación con enlaces funcionales.</td>
     <td>4</td>
@@ -1696,7 +1717,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td>Done</td>
   </tr>
   <tr>
-    <td>T02</td>
+    <td>T04</td>
     <td>Personalización del Navbar</td>
     <td>Aplicar diseño e identidad visual al menú de navegación.</td>
     <td>4</td>
@@ -1706,9 +1727,9 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
 
   <tr>
-    <td rowspan="2">US14</td>
+    <td rowspan="2">US23</td>
     <td rowspan="2">Landing Page responsiva</td>
-    <td>T01</td>
+    <td>T05</td>
     <td>Adaptar contenido principal</td>
     <td>Aplicar media queries para que el contenido se adapte a distintos dispositivos.</td>
     <td>4</td>
@@ -1717,7 +1738,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td>Done</td>
   </tr>
   <tr>
-    <td>T02</td>
+    <td>T06</td>
     <td>Navbar adaptable</td>
     <td>Hacer que el menú de navegación funcione correctamente en pantallas móviles.</td>
     <td>2</td>
