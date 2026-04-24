@@ -1316,6 +1316,8 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 ---
 
 ## 4.5. Web Applications Prototyping
+
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
 
@@ -1369,6 +1371,21 @@ La arquitectura se basa en una separación clara entre la lógica de presentaci�
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+Los siguientes diagramas de componentes representan la arquitectura de software del sistema ElectroCorp, diferenciando la vista del frontend y la vista del backend. Estos diagramas permiten identificar los principales componentes del sistema, así como sus responsabilidades y relaciones de interacción dentro de la solución.
+
+#### Frontend Components Diagram
+
+![Frontend Components Diagram](assets/components-diagram-Frontend.png)
+
+El diagrama de componentes del frontend muestra la organización de los módulos que conforman la interfaz web de ElectroCorp. En esta vista se incluyen los componentes relacionados con la autenticación, la gestión del estado de la aplicación, la internacionalización, la comunicación con la API y las distintas vistas funcionales, como dispositivos, rutinas, reportes, historial, notificaciones, tiempo real e insights energéticos. Este diagrama permite comprender cómo se estructura la capa cliente para ofrecer una experiencia interactiva, modular y reutilizable.
+
+#### Backend Components Diagram
+
+![Backend Components Diagram](assets/component-diagram-Backend.png)
+
+El diagrama de componentes del backend presenta la estructura interna del servidor desarrollado con Spring Boot. En él se distinguen los controladores REST, los casos de uso de la capa de aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y la base de datos. Esta representación permite visualizar la arquitectura en capas adoptada por el sistema, así como la manera en que los componentes del backend colaboran para procesar solicitudes, aplicar la lógica de negocio y persistir la información.
+
+
 #### Energy Monitoring Container
 Este contenedor se encarga de monitorear el consumo energético y detectar si es que se ha superado el limite energético definido por el usuario.
 
@@ -1395,7 +1412,23 @@ Se encarga de traducir los objetos del dominio a sentencias SQL para almacenar y
 Envía mensajes estandarizados en formato JSON hacia el _Message Broker_ (RabbitMQ) cada vez que el sistema detecta una anomalía, garantizando la entrega segura del evento hacia el servicio de notificaciones.
 
 ## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
+
+Los siguientes diagramas de clases presentan el diseño orientado a objetos del sistema ElectroCorp, separados en una vista de frontend y una vista de backend. Ambos diagramas se renderizan de forma online a partir de los archivos fuente PlantUML almacenados en el repositorio, utilizando la versión raw de GitHub.
+
+#### Frontend Class Diagram
+
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app/master/docs/class-diagram-frontend.puml)
+
+El diagrama de clases del frontend representa la estructura del lado cliente de la aplicación. Incluye los principales módulos relacionados con la autenticación, la internacionalización, el consumo de la API, las vistas de la interfaz de usuario, los modales, los gráficos y el estado compartido de la aplicación. Además, muestra cómo colaboran los componentes del frontend para ofrecer funcionalidades interactivas como la gestión de dispositivos, las rutinas, los reportes, las notificaciones, el historial y los insights energéticos.
+
+#### Backend Class Diagram
+
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app/master/docs/class-diagram-backend.puml)
+
+El diagrama de clases del backend representa el diseño orientado a objetos del lado servidor, implementado con Spring Boot. Incluye los controladores REST, los casos de uso de la aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y las entidades de base de datos. Este diagrama permite visualizar la arquitectura en capas del backend y las relaciones entre la lógica de negocio, la persistencia de datos y la exposición de servicios mediante la API.
+
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams.
 # Capitulo V: Product Implementation, Validation & Deployment
