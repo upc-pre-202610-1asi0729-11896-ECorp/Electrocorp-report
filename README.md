@@ -1776,6 +1776,12 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
 | **Loa Rojas, Jean Franck** | Report documentation development and code refactoring. |
 | **Cabrejos Chocce, Diego** | Cross-browser testing, QA, and broken-link verification. |
 
+* **Link de commits del repositorio del reporte:** [https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/commits/develop/README.md]
+* **Link de commits del repositorio del landing page:** [https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main/]
+
+  
+
+
 
 ### 5.2.2. Sprint 2 
 #### 5.2.X.1. Sprint Planning n
