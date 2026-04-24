@@ -1576,7 +1576,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
         <td align="center">-</td>
         <td align="center">-</td>
         <td align="center">-</td>
-        <td align="center">-</td>
+        <td align="center">C</td>
     </tr>
 </table>
 
