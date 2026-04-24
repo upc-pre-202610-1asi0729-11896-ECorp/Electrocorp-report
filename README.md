@@ -1779,8 +1779,11 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
 * **Link de commits del repositorio del reporte:** [https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/commits/develop/README.md]
 * **Link de commits del repositorio del landing page:** [https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main/]
 
-  
-
+   <img src="assets/Contributors.png"></img><br>
+   <img src="assets/Commits1.png"></img><br>
+   <img src="assets/Commits2.png"></img><br>
+   <img src="assets/Commits3.png"></img><br>
+   <img src="assets/Commits4.png"></img><br>
 
 
 ### 5.2.2. Sprint 2 
