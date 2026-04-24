@@ -1544,9 +1544,9 @@ Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi072
 
 <img src="assets/respositorio-landing.PNG"></img><br>
 
-Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website <br><br> 
+Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
 
-<img src="assets/repositorio-landing.PNG"></img><br>
+<img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
