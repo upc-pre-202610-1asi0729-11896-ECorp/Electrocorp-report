@@ -42,19 +42,15 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-report
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
 
 #### Link del repositorio del Website:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
 
-#### Link del repositorio de la Webapp:
+#### Link del repositorio de la APP:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp
-
-#### Link del repositorio del Platform:
-
-- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
 
 
 
