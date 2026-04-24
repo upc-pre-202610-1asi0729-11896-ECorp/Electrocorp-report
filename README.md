@@ -1525,6 +1525,444 @@ Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Pag
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.3 Source Code Style Guide & Conventions
+
+En esta sección del proyecto, nos enfocaremos en establecer un conjunto coherente de referencias y convenciones para el estilo de código y las convenciones de programación que usaremos para la creación de nuestra aplicación web ElectroCorp. Estas prácticas son cruciales para el desarrollo de la aplicación puesto a que garantizan la coherencia, la legibilidad y la calidad estructural del código. En consecuencia, nos facilitarán su mantenimiento y escalabilidad a lo largo del ciclo de vida del proyecto. 
+
+En este proyecto, se emplearán HTML, CSS, JavaScript y Java para desarrollar la plataforma web, mientras que Gherkin se utilizará en el proceso de prueba del programa. A continuación, se presentarán y explicarán las reglas y recomendaciones generales que se considerarán al utilizar estos lenguajes.
+
+**Nomenclatura en Inglés y uso de Minúsculas**
+
+Los términos utilizados para nombrar variables, objetos, elementos y funciones estarán en inglés y relacionados con la función o descripción de lo que representan. En el desarrollo web se evitará el uso de mayúsculas, ya que la combinación de mayúsculas y minúsculas puede afectar la legibilidad del código, según lo señalado por Google. Se dará preferencia al uso exclusivo de minúsculas para mejorar la legibilidad del código.
+
+Ejemplo: 
+```css
+.btn-s {}  /* Mala práctica, el nombre de esta clase no nos dice nada */
+
+.btn-start {} /* Buena práctica, el nombre de esta clase nos dice que representa al botón de inicio */
+```
+
+**Identación o Sangría**
+
+La indentación o sangría en el código es esencial para mejorar la legibilidad y comprensión del mismo. Proporciona una estructura visual clara que refleja la lógica del código, facilitando su mantenimiento y reduciendo la probabilidad de errores.
+
+Según Google para facilitar la lectura, se debe agregar dos espacios de sangría y no utilizar la tecla de tabulación, por lo que seguiremos esta práctica para nuestro proyecto.
+
+Ejemplos:
+
+**En HTML:**
+```html
+<ul class="device-list">
+  <li>Smart Plug</li>
+  <li>Smart Switch</li>
+  <li>Light Sensor</li>
+</ul>
+```
+
+**En CSS:**
+```css
+body {
+  background: #0a0f18;
+  color: #ffffff;
+}
+```
+
+**En JavaScript:**
+```javascript
+function calculateWatts(amps) {
+  return amps * 220;
+}
+```
+
+A continuación se mostrarán las reglas específicas para cada lenguaje que utilizaremos:
+
+<br><br>
+
+**HTML**
+
+Para nuestro proyecto utilizaremos HTML5, el estándar más reciente de HTML que ofrece una amplia gama de nuevas características y mejoras. A continuación se mostrarán las características y pautas que seguiremos para el desarrollo:
+
++ **Document Type**
+
+En nuestro proyecto, nos adherimos a las mejores prácticas recomendadas por Google al utilizar HTML. Por lo tanto, emplearemos la declaración de tipo de documento (DOCTYPE) específica de HTML5, que se define como `<!DOCTYPE html>`. 
+
++ **Semantics**
+
+Utilizaremos los elementos HTML para lo que han sido diseñados. Por ejemplo, emplearemos elementos de encabezado para encabezados, elementos de párrafo (`<p>`) para párrafos, elementos de anchor (`<a>`) para enlaces, y así sucesivamente, tal y como nos indica Google.
+
+Ejemplo:
+```html
+<div onclick="goToDashboard();">Go to Dashboard</div>
+
+<a href="dashboard/">Go to Dashboard</a>
+```
+
++ **Blank Lines**
+
+Para mejorar la legibilidad del código, W3Schools recomienda agregar líneas en blanco para separar bloques de código grandes o lógicos. Esta práctica ayuda a dividir visualmente el código en secciones más manejables y facilita la identificación de la estructura y la lógica del programa.
+
+```html
+<body>
+
+<h1>Control de Dispositivos</h1>
+
+<h2>Lámpara de Sala</h2>
+<p>Estado actual: Encendido. Consumo: 15W.</p>
+
+<h2>Aire Acondicionado</h2>
+<p>Estado actual: Apagado. Programado para las 18:00 hrs.</p>
+
+</body>
+```
+
++ **Multimedia Fallback**
+
+Es fundamental proporcionar contenido alternativo para elementos multimedia, como imágenes, videos y objetos animados a través de canvas. Esto implica utilizar texto alternativo (`alt`) significativo para las imágenes, videos y audios. Según Google, la inclusión de contenido alternativo es crucial por razones de accesibilidad y además es importante en caso de que estos objetos multimedia fallen al cargar. 
+
+Ejemplo:
+```html
+<img src="smart-plug.png">
+
+<img src="smart-plug.png" alt="Fotografía del enchufe inteligente de ElectroCorp.">
+```
+
++ **HTML Quotation Marks**
+
+Según las recomendaciones de Google, al citar los valores de los atributos en HTML, se deben utilizar comillas dobles ("") en lugar de comillas simples (''). Esta práctica es preferible ya que las comillas dobles son el estándar recomendado en la especificación de HTML.
+
+Ejemplo: 
+```html
+<a class='btn-login'>Sign in</a>
+
+<a class="btn-login">Sign in</a> 
+```
+
+<br><br>
+
+**CSS**
+
+Para nuestro proyecto, optaremos por CSS3, la versión más reciente de CSS que ofrece una amplia variedad de nuevas características y mejoras en comparación con las versiones anteriores. A continuación, se presentarán las características y directrices que seguiremos para el desarrollo:
+
++ **Property Name Stops**
+
+Para mantener la consistencia en el código CSS, se recomienda utilizar un espacio después de los dos puntos que siguen al nombre de la propiedad. Además, es importante utilizar un solo espacio entre la propiedad y el valor asignado a esa propiedad, tal y como nos indica Google.
+
+Ejemplo:
+```css
+/* Not recommended */
+h2 {
+  font-weight:bold;
+}
+
+/* Recommended */
+h2 {
+  font-weight: bold;
+}
+```
+
++ **Declaration Stops**
+
+Según las recomendaciones de Google, se debe utilizar un punto y coma (;) al final de cada declaración en CSS. Esto ayuda a mantener la consistencia y la extensibilidad del código.
+
+```css
+/* Not recommended */
+.box {
+  display: block;
+  width: 100px
+}
+
+/* Recommended */
+.box {
+  display: block;
+  width: 100px;
+}
+```
+
++ **Shorthand Properties**
+
+Se debe utilizar propiedades abreviadas (shorthand properties) siempre que sea posible en CSS. Google afirma que estas propiedades abreviadas, como font o margin, ofrecen una forma más concisa de definir múltiples valores en una sola declaración, incluso en casos donde solo se establece un valor de manera explícita.
+
+Ejemplo: 
+```css
+/* Not recommended */
+border-top-style: none;
+padding-bottom: 2em;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0;
+
+/* Recommended */
+border-top: 0;
+padding: 0 1em 2em;
+```
+
++ **CSS Quotation Marks**
+
+Google nos dice la recomendación de que se deben utilizar comillas simples ('') en lugar de comillas dobles ("") para selectores de atributos y valores de propiedades en CSS. No se deben utilizar comillas en valores de URI (`url()`).
+
+Ejemplo: 
+```css
+/* Not recommended */
+@import url("[https://fonts.googleapis.com/css?family=Roboto](https://fonts.googleapis.com/css?family=Roboto)");
+
+html {
+  font-family: "open sans", sans-serif;
+}
+
+/* Recommended */
+@import url([https://fonts.googleapis.com/css?family=Roboto](https://fonts.googleapis.com/css?family=Roboto));
+
+html {
+  font-family: 'open sans', sans-serif;
+}
+```
+
++ **Declaration Block Separation**
+
+Se debe utilizar un espacio entre el último selector y el bloque de declaración en CSS. Google indica que siempre se debe utilizar un solo espacio entre el último selector y la llave de apertura que inicia el bloque de declaración. La llave de apertura debe estar en la misma línea que el último selector en una regla dada.
+
+Ejemplo:
+```css
+/* Not recommended: missing space */
+.nav{
+  margin-bottom: 1em;
+}
+
+/* Not recommended: unnecessary line break */
+.nav
+{
+  margin-bottom: 1em;
+}
+
+/* Recommended */
+.nav {
+  margin-bottom: 1em;
+}
+```
+
+<br><br>
+
+**JAVASCRIPT**
+
+Para nuestro proyecto, seleccionaremos JavaScript, un lenguaje de programación fundamental para el desarrollo web. Se utiliza para agregar interactividad y dinamismo a las páginas web, permitiendo a los desarrolladores crear aplicaciones web complejas y altamente funcionales. Usaremos las siguientes indicaciones de JavaScript para nuestro proyecto:
+
++ **Spaces Around Operators**
+
+Según W3Schools, se recomienda siempre colocar espacios alrededor de los operadores (=, +, -, *, /) y después de las comas al escribir código JavaScript. Esto ayuda a mejorar la legibilidad y la claridad del código, facilitando su comprensión y mantenimiento.
+
+Ejemplo: 
+```javascript
+let totalWatts = wattsA + wattsB;
+const activeDevices = ["Lamp", "TV", "Fan"];
+```
+
++ **End of the simple declaration**
+
+Según W3Schools, siempre se debe terminar una declaración simple con un punto y coma (;) al escribir código JavaScript. Esto incluye la declaración de variables, asignaciones y declaraciones de objetos.
+
+Ejemplo:
+```javascript
+const devices = ["Lamp", "TV", "Fan"];
+
+const deviceProfile = {
+  id: "DEV-01",
+  name: "Living Room Light",
+  watts: 15,
+  status: "ON"
+};
+```
+
++ **General Rules for Complex Statements**
+
+Según la recomendación de W3Schools, para declaraciones complejas (compuestas) se deben seguir las siguientes pautas:
+
+1. Colocar la llave de apertura al final de la primera línea.
+2. Utilizar un espacio antes de la llave de apertura.
+3. Colocar la llave de cierre en una nueva línea, sin espacios previos.
+4. No terminar una declaración compleja con un punto y coma.
+
+Ejemplo:
+```javascript
+function calculateConsumption(watts) {
+  return watts * 24;
+}
+
+for (let i = 0; i < 5; i++) {
+  total += i;
+}
+
+if (time < 20) {
+  status = "Encendido";
+} else {
+  status = "Apagado";
+}
+```
+
++ **Object Rules**
+
+Según la recomendación de W3Schools, las reglas generales para definir objetos son las siguientes:
+
+1. Colocar la llave de apertura en la misma línea que el nombre del objeto.
+2. Utilizar dos puntos seguidos de un espacio entre cada propiedad y su valor.
+3. Utilizar comillas alrededor de los valores de cadena, pero no alrededor de los valores numéricos.
+4. No agregar una coma después del último par propiedad-valor.
+5. Colocar la llave de cierre en una nueva línea, sin espacios previos.
+6. Siempre terminar la definición del objeto con un punto y coma.
+
+Ejemplo:
+```javascript
+const deviceProfile = {
+  id: "DEV-01",
+  name: "Living Room Light",
+  watts: 15,
+  status: "ON"
+};
+```
+
+<br><br>
+
+**GHERKIN**
+
+Gherkin es un Lenguaje Específico de Dominio (DSL) diseñado para abordar problemas específicos al generar casos de validación de características en diversos escenarios. Este lenguaje se utiliza para describir el comportamiento deseado de un software de manera comprensible para personas no técnicas. Gherkin presenta varios elementos, entre los que se destacan Feature, Scenario, Example, Given, When y Then, los cuales son ampliamente utilizados para definir las características y los pasos de las pruebas de comportamiento.
+
+Las pautas a tener en cuenta al utilizar Gherkin en nuestro código incluyen:
+
+* **Discernible Given-When-Then Blocks**
+
+Según la sugerencia de Keiblinger, para facilitar la comprensión y la organización de los escenarios en Gherkin, se recomienda indentar los pasos que comienzan con "And" después de cada Given, When o Then. Esto permite distinguir claramente dónde termina un bloque y comienza otro, incluso en escenarios con múltiples pasos.
+
+Ejemplo de Sophie Keiblinger:
+```gherkin
+Scenario: Discernible Given-When-Then Blocks
+
+In order to quickly spot where one block ends and another one begins, you can indent the steps starting with “And”
+
+Given I need to prepare some data for my scenario
+  And this is more complex so I need a second step
+  And this is more complex so I need a third step
+When I trigger some action
+Then I can see the expected outcome
+  And this outcome also has a second step
+  And this outcome also has a third step
+```
+
+* **Steps with Tables**
+
+Keiblinger nos sugiere utilizar un colon (:) al final de los pasos que requieren más entrada de una tabla. Esto ayuda a hacer inmediatamente reconocible que se espera una tabla como parte de la entrada del paso.
+
+Ejemplo de Sophie Keiblinger:
+```gherkin
+Given I need to prepare the following data for my scenario:
+
+|  column 1  | column 2 |
+| necessary  |   data   |
+```
+
+* **Reducing Noise**
+
+Keiblinger sugiere utilizar valores por defecto para campos que el sistema requiere pero que no son pertinentes para el escenario en cuestión. Por ejemplo, al probar la validación del encendido de un equipo, no es necesario especificar la marca del router de internet del usuario. Esta inclusión no afecta al resultado del escenario. Esta práctica ayuda a simplificar los escenarios y a enfocarse en las características específicas que se están probando.
+
+Ejemplo:
+```gherkin
+When el visitante se acerque a la sección 'Comunícate con nosotros'
+```
+
+* **Newlines between scenarios and separator comments**
+
+Keiblinger nos dice que para mantener la claridad en los archivos de escenarios de Gherkin, especialmente cuando estos son extensos o contienen múltiples escenarios, se recomienda agregar dos líneas en blanco entre cada escenario. Esto ayuda a distinguir claramente dónde termina un escenario y comienza otro. Además, es común añadir un comentario separador para brindar una guía visual adicional y facilitar la navegación en el archivo.
+
+Ejemplo:
+```gherkin
+#-----------------------------------------------------------------------------------
+Scenario: Acceso a la historia de ElectroCorp
+        Given que soy un visitante de la landing page
+        When navegue por la página de inicio
+        And encuentre la sección titulada "¿Quiénes Somos?"
+        Then podré obtener información detallada sobre la historia de la startup.
+
+#-----------------------------------------------------------------------------------
+
+    Scenario: Acceso a las redes sociales de ElectroCorp
+        Given que el visitante se encuentra en la landing page
+        When el visitante de click en la etiqueta "Contáctanos"
+        And encuentre los botones con los logos de las redes sociales
+        And de click encima del botón con el logo de la red social que desee ver
+        Then el usuario será redireccionado a la red social que seleccionó previamente.
+```
+
+<br><br>
+
+**JAVA**
+
+Java es un lenguaje de programación versátil y potente, ampliamente utilizado en una variedad de aplicaciones. Ofrece una amplia gama de características y funcionalidades, como la portabilidad, la orientación a objetos y la robustez, lo que lo convierte en una opción popular para el desarrollo backend. Con Java, construiremos la API principal de ElectroCorp. A continuación, se presentarán las características y directrices que seguiremos para el desarrollo utilizando este lenguaje.
+
+* **Name Conventions**
+
+Para identificar una variable, método, función o clase, es importante utilizar nombres significativos que mejoren la legibilidad del código. A continuación, se detallan las convenciones para diferentes tipos de identificadores:
+
+Nombre de una clase: Debe comenzar con una letra mayúscula (PascalCase).
+Ejemplo:
+```java
+public class Device
+{
+}
+```
+
+Nombre de función o método: Debe comenzar con una letra minúscula (camelCase).
+Ejemplo:
+```java
+private int calculateWatts(int current, int voltage)
+{
+}
+```
+
+Nombre de variable: Debe comenzar con una letra minúscula (camelCase).
+Ejemplo:
+```java
+int totalConsumption = 100;
+```
+
+Nombre de final o constante: Debe estar en letras mayúsculas separadas por guiones bajos (UPPER_CASE).
+Ejemplo:
+```java
+public final int MAX_WATT_LIMIT = 2000;
+```
+
+* **Uso de paréntesis y llaves en las expresiones**
+
+Codecademy sugiere utilizar paréntesis y llaves para hacer las cláusulas en una expresión más evidentes. Esta práctica mejora la claridad y la legibilidad del código, especialmente en expresiones complejas como la que se mostrará a continuación:
+
+Ejemplo:
+```java
+if ((watts > limit) && (deviceStatus == true))
+{
+   // Ejecutar alerta
+}
+```
+
+* **Identación y espaciado**
+
+Codecademy recomienda seguir ciertos estándares para mejorar la legibilidad del código en Java. Esto incluye utilizar sangrías y asegurarse de que haya una sangría cada vez que se abre un nuevo bloque. Además, sugiere agregar espacios antes y después de las palabras clave y operadores para mejorar la claridad del código.
+
+Ejemplo:
+```java
+currentWatts = 15;
+voltage = 220;
+```
+
+* **Comment Style**
+
+Google nos recomienda utilizar comentarios con `//` y `/* */`. Es preferible evitar comentarios en varias líneas para explicaciones más largas dentro de la lógica, ya que los comentarios no están localizados y pueden dificultar la lectura del código. En su lugar, se sugiere incluir explicaciones más extensas en documentación externa y usar comentarios simples para métodos puntuales.
+
+Ejemplo:
+```java
+// Funcion que calcula el consumo total del dispositivo
+private int calculateWatts(int current, int voltage)
+{
+}
+```
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1 
