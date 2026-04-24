@@ -1730,12 +1730,14 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
   * Contact
     
     <img src="assets/LandingPageMockUps7.png"></img><br>
-
-  * Link: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/
   
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ### 5.2.2. Sprint 2 
 #### 5.2.X.1. Sprint Planning n
