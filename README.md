@@ -1321,7 +1321,7 @@ El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos c
 ### 4.6.2. Software Architecture Context Diagram
 En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
 
-<img src="assets/context-diagram.png">
+<img src="assets/Context-diagram.png">
 
 El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
 
