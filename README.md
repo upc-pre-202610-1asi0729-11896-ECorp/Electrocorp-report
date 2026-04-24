@@ -1338,36 +1338,34 @@ El ecosistema de ElectroCorp se sitúa en el centro de la arquitectura, actuando
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-En esta sección se presenta el Diagrama de Contenedores (Container Diagram) correspondiente al Nivel 2 del Modelo C4 para ElectroCorp. Basado en los agregados definidos en el Design Level Event Storming, este diagrama muestra la arquitectura interna del sistema bajo un enfoque de Microservicios, detallando cómo se distribuyen las responsabilidades, las decisiones tecnológicas (Angular, Flutter, Spring Boot) y la interacción con sistemas externos y hardware IoT.
+A continuación, se detalla el ecosistema técnico de ElectroCorp, destacando el flujo de información desde que el usuario solicita contenido estático hasta que se procesan las reglas de negocio y se persiste la información
 
-<img src="assets/ContainerDiagram.png">
+<img src="assets/container-diagram.png">
 
-La arquitectura de ElectroCorp se divide en contenedores cliente (Frontends), una capa de enrutamiento y una capa de microservicios (Backend):
+La arquitectura se basa en una separación clara entre la lógica de presentación y la lógica de negocio, estructurada de la siguiente manera:
 
-**1. Aplicaciones Cliente:**
+**1. Contenedores de Aplicación (Frontend):**
 
-**-Landing Page (Angular):** Punto de entrada informativo que detalla los planes y redirige a la aplicación principal. <br>
-**-Web Application (Angular):** Dashboard principal donde el usuario se autentica, visualiza métricas de consumo y configura automatizaciones.<br>
-**-Mobile Application (Flutter):** App móvil que provee control remoto y alertas en tiempo real al usuario.
+**-ElectroCorp Web App:** Actúa como el servidor de contenido estático (HTML, CSS y JS). Su única responsabilidad es entregar los archivos necesarios al navegador del usuario para inicializar la aplicación.
 
-**2. Capa de Enrutamiento (API Gateway):**
+**-ElectroCorp Single Page Application (SPA):** Desarrollada en Angular (TypeScript), es la aplicación que corre directamente en el cliente. Maneja el renderizado dinámico del dashboard, permitiendo que el usuario interactúe con las gráficas de consumo y configure sus dispositivos sin recargar la página.
 
-**-API Gateway (Spring Cloud Gateway):** Actúa como un único punto de entrada para las aplicaciones cliente. Recibe las peticiones JSON/HTTPS y las enruta dinámicamente al microservicio correspondiente, evitando que el frontend deba conocer las direcciones de cada servicio individual.
+**-ElectroCorp Mobile Application:** Construida en Flutter, ofrece una interfaz nativa para dispositivos móviles, consumiendo los mismos servicios que la versión web.
 
-**3. Capa de Microservicios (Backend en Java, Spring Boot):**
-Derivados directamente de los subdominios del modelo de negocio, se han definido los siguientes contenedores lógicos:
+**2. Contenedor de Lógica Central (Backend):**
 
-**-User Management API:** Gestiona el Registro de Usuario, la autenticación propia (verificando credenciales en la BD) y la interacción con la Pasarela de Pagos externa para las suscripciones.<br>
-**-Device Control API:** Encargada de la Operación y control de dispositivos. Gestiona el encendido/apagado manual, la configuración de horarios y envía los comandos directamente a los Dispositivos IoT mediante protocolos de red (ej. MQTT o HTTPS).<br>
-**-Energy Monitoring API:** Procesa telemetría en tiempo real, detecta violaciones de picos de uso de energia y fin de horarios.<br>
-**-Notificaction Service API:** Servicio sin estado que activa alertas externas y registra el historial de notificaciones. <br>
-**-Message Broker:** Bus de eventos asíncrono para una entrega confiable de tareas de alerta. 
+**-Backend API:** Es el núcleo del sistema, desarrollado en Java con Spring Boot. Implementa los principios de Domain-Driven Design (DDD) y expone endpoints REST. Se encarga de la autenticación de usuarios, la lógica de simulación de consumo energético y la coordinación de alertas.
 
+**3. Contenedores de Persistencia e Infraestructura:**
 
+**-Database (MySQL):** Motor de base de datos relacional encargado de la persistencia de perfiles, configuraciones de horarios y el histórico de telemetría de los enchufes inteligentes.
 
-**4. Persistencia de Datos:**
+**4. Interacciones con Sistemas Externos:**
 
-**-Database (MySQL):** Base de datos relacional centralizada (que podría desglosarse por microservicio en fases más avanzadas). Almacena de manera segura las credenciales de usuario, los estados de los dispositivos, las rutinas y la telemetría energética.
+**-Stripe (Payment Gateway):** Se integra con la Backend API mediante HTTPS/JSON para gestionar el flujo de pagos de suscripciones de manera segura.
+
+**-Mailchimp (Notification Service):** Servicio externo utilizado para el despacho de correos electrónicos transaccionales, como alertas de picos de voltaje o resúmenes de consumo mensual.
+
 
 ### 4.6.4. Software Architecture Components Diagrams
 
