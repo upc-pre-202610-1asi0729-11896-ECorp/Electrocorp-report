@@ -1702,9 +1702,37 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
 - Implementación del Landing Page: Se diseño y se estructuro la landing page de ElectroCorp implementando funcionalidades claves y asegurando que cumpla con lo dictado en la rubrica, como el agregarle un boton de traduccion de idioma y que este en ingles por defecto
 
 - Imágenes del Landing Page:
+  
   * Home
+    
     <img src="assets/LandingPageMockUps1.png"></img><br>
-  * f
+  
+  * Description:
+
+    <img src="assets/LandingPageMockUps2.png"></img><br>
+    
+  * Goals:
+
+    <img src="assets/LandingPageMockUps3.png"></img><br>
+    
+  * Pricing
+    
+    <img src="assets/LandingPageMockUps4.png"></img><br>
+ 
+  * Reviews
+
+    <img src="assets/LandingPageMockUps5.png"></img><br>
+    
+  * Smart Plugins
+    
+    <img src="assets/LandingPageMockUps6.png"></img><br>
+
+  * Contact
+    
+    <img src="assets/LandingPageMockUps7.png"></img><br>
+
+  * Link: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/
+  
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
