@@ -1393,31 +1393,6 @@ El diagrama de componentes del frontend muestra la organización de los módulos
 El diagrama de componentes del backend presenta la estructura interna del servidor desarrollado con Spring Boot. En él se distinguen los controladores REST, los casos de uso de la capa de aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y la base de datos. Esta representación permite visualizar la arquitectura en capas adoptada por el sistema, así como la manera en que los componentes del backend colaboran para procesar solicitudes, aplicar la lógica de negocio y persistir la información.
 
 
-#### Energy Monitoring Container
-Este contenedor se encarga de monitorear el consumo energético y detectar si es que se ha superado el limite energético definido por el usuario.
-
-<img src="assets/MonitoringComponentDiagram.png">
-
-Capa de presentación 
-- Telemetry REST Controller:
-Se encarga de exponer los endpoints bajo el estándar arquitectónico REST. Recibe y gestiona peticiones HTTP provenientes de la Web Application cuando el usuario requiere consultar su historial de consumo o visualizar métricas de gasto en la interfaz.
-- MQTT Telemetry Listener: Actúa como el punto de entrada para el hardware (IoT). Se suscribe a los tópicos del servidor MQTT para recibir de forma continua los pulsos de telemetría enviados por el modulo ESP32. Traduce esta carga útil de energía bruta y la envía hacia el interior del sistema.
-
-Capa de aplicación
-- Process Metrics Service: Recibe datos del MQTT Listener, este servicio solicita a la capa de dominio que aplique las reglas de negocio correspondiente y finalmente le ordena a la infraestructura que guarde el nuevo registro en la base de datos.
-- Schedule Watcher Service: Funciona como el supervisor activo del sistema. Mediante tareas programadas. Revisa el consumo actual frente a los limites definidos por el usuario. Si el Dominio dictamina que se ha violado una regla, este servicio coordina la emisión del evento de alerta hacia el exterior.
-
-Capa de dominio
-- Billing Domain Engine: Servicio de dominio responsable de las matemáticas del negocio. Contiene la lógica estricta para la conversión de medidas físicas (Vatios/Amperios) a valor monetario (Soles - S/), aplicando las reglas de las tarifas eléctricas vigentes según el perfil del hogar o local comercial.
-    
-- Energy Aggregate: Representa el modelo central del dominio. Agrupa las entidades y objetos de valor (Value Objects) que mantienen el estado del consumo. Posee la responsabilidad exclusiva de evaluar las reglas de negocio críticas, decidiendo cuándo un dispositivo cambia de estado o cuándo el consumo ha excedido formalmente el presupuesto permitido.
-
-Capa de infraestructura
-- Persistence Adapter:
-Se encarga de traducir los objetos del dominio a sentencias SQL para almacenar y recuperar de forma persistente la telemetría, los estados de los módulos y los límites presupuestales en MySQL.
-- Event Publisher Adapter:
-Envía mensajes estandarizados en formato JSON hacia el _Message Broker_ (RabbitMQ) cada vez que el sistema detecta una anomalía, garantizando la entrega segura del evento hacia el servicio de notificaciones.
-
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
