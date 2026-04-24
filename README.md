@@ -2149,7 +2149,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <img src="assets/Tablero-Sprint1.png"></img>
 </p>
 
-<table align="center" border="1" width="95%" style="text-align:center">
+<table align="center" border="1" width="95%" style="text-align:center; border-collapse: collapse;">
   <tr>
     <td colspan="1"><b>Sprint #</b></td>
     <td colspan="8"><b>Sprint 1</b></td>
@@ -2169,12 +2169,13 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <td><b>Student Code</b></td>
     <td><b>Status</b></td>
   </tr>
+
   <tr>
-    <td rowspan="2">US21</td>
-    <td rowspan="2">Visualizar página informativa</td>
+    <td rowspan="2">US-01</td>
+    <td rowspan="2">Visualizar información y testimonios</td>
     <td>T01</td>
-    <td>Maquetación HTML inicial</td>
-    <td>Diseñar la estructura base en HTML para la landing page.</td>
+    <td>Maquetación HTML de contenido</td>
+    <td>Estructurar en HTML5 las secciones de descripción, objetivos y testimonios de la startup.</td>
     <td>2</td>
     <td>Sebastian Tavara</td>
     <td>U20241e179</td>
@@ -2182,52 +2183,115 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
   <tr>
     <td>T02</td>
-    <td>Estilización general</td>
-    <td>Aplicar estilos CSS para definir la apariencia general.</td>
+    <td>Aplicar estilos CSS base</td>
+    <td>Configurar paleta de colores Dark Mode y tipografías para la sección informativa.</td>
     <td>2</td>
-     <td>Diego Cabrejos</td>
-    <td>U20241e014</td>
+    <td>Jairo Santiago</td>
+    <td>U202418755</td>
     <td>Done</td>
   </tr>
-  
+
   <tr>
-    <td rowspan="2">US22</td>
-    <td rowspan="2">Landing Page intuitiva</td>
+    <td rowspan="2">US-02</td>
+    <td rowspan="2">Motor de búsqueda inteligente</td>
     <td>T03</td>
-    <td>Diseño de navegación</td>
-    <td>Crear menú de navegación con enlaces funcionales.</td>
-    <td>4</td>
-     <td>Diego Cabrejos</td>
+    <td>Diseño de barra de búsqueda</td>
+    <td>Crear el layout del input y botón de búsqueda en el header de la web.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>T04</td>
-    <td>Personalización del Navbar</td>
-    <td>Aplicar diseño e identidad visual al menú de navegación.</td>
-    <td>4</td>
-     <td>Diego Cabrejos</td>
+    <td>Lógica JS de búsqueda</td>
+    <td>Implementar diccionario de palabras clave y smooth scroll hacia las secciones.</td>
+    <td>3</td>
+    <td>Diego Cabrejos</td>
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td rowspan="2">US23</td>
-    <td rowspan="2">Landing Page responsiva</td>
+    <td rowspan="2">US-03</td>
+    <td rowspan="2">Cambio de idioma (ES/EN)</td>
     <td>T05</td>
-    <td>Adaptar contenido principal</td>
-    <td>Aplicar media queries para que el contenido se adapte a distintos dispositivos.</td>
-    <td>4</td>
-     <td>Diego Cabrejos</td>
-    <td>U20241e014</td>
+    <td>Configuración de diccionario JSON/JS</td>
+    <td>Crear los arreglos de texto en inglés y español para la landing page.</td>
+    <td>3</td>
+    <td>Jean Loa</td>
+    <td>U20241e406</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>T06</td>
-    <td>Navbar adaptable</td>
-    <td>Hacer que el menú de navegación funcione correctamente en pantallas móviles.</td>
+    <td>Integración en el DOM</td>
+    <td>Crear la función JS que reemplace dinámicamente los textos al clickear el botón.</td>
     <td>2</td>
-     <td>Diego Cabrejos</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-04</td>
+    <td rowspan="2">Suscripción al boletín</td>
+    <td>T07</td>
+    <td>Diseño del formulario</td>
+    <td>Maquetar el input de email y el botón de submit en la sección final.</td>
+    <td>2</td>
+    <td>Jairo Santiago</td>
+    <td>U202418755</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T08</td>
+    <td>Validación de formulario JS</td>
+    <td>Interceptar el evento submit con preventDefault y mostrar alerta de éxito temporal.</td>
+    <td>2</td>
+    <td>Timothy Documet</td>
+    <td>U202318828</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-05</td>
+    <td rowspan="2">Interfaz interactiva (Menú y Audio)</td>
+    <td>T09</td>
+    <td>Creación de Navbar y Responsive</td>
+    <td>Configurar el menú pegadizo (sticky) y su adaptación a dispositivos móviles.</td>
+    <td>3</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T10</td>
+    <td>Botón flotante de audio</td>
+    <td>Configurar etiqueta de audio HTML y lógica JS para pausar/reproducir la música de fondo.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-06</td>
+    <td rowspan="2">Comparar planes de servicio</td>
+    <td>T11</td>
+    <td>Maquetación de tarjetas (Grid)</td>
+    <td>Construir la vista de los planes Free y Enterprise usando CSS Flexbox/Grid.</td>
+    <td>2</td>
+    <td>Jean Loa</td>
+    <td>U20241e406</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T12</td>
+    <td>Estilización del plan Premium</td>
+    <td>Agregar efectos hover, bordes brillantes y escala para destacar la tarjeta Enterprise.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
     <td>U20241e014</td>
     <td>Done</td>
   </tr>
