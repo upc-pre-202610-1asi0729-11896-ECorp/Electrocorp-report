@@ -2339,13 +2339,14 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
 </table>
 
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 En el presente sprint se logró desarrollar la primera versión del Landing Page de ElectroCorp, la cual presenta de manera clara el propósito de la plataforma y las problemáticas que busca resolver en el ámbito de la domótica y eficiencia energética. La información mostrada fue organizada de forma comprensible y acompañada de elementos visuales (Dark Mode) que refuerzan el mensaje. Asimismo, se consideró un diseño atractivo, responsivo e intuitivo que busca captar la atención de los usuarios y transmitir confianza en la solución propuesta.
 
 <p align="left" style="width: 95%; margin: 20px auto; font-family: Arial, sans-serif;">
     <b>Link de commits del repositorio del landing page:</b> <br>
-    <a href="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main" target="_blank" style="color: #00d2ff;">
-        https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main
+    <a href="https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/CodeCommits/?before=90c27441144ccfecc76f4483a635522409e317de+35" target="_blank" style="color: #00d2ff;">
+       https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main
     </a>
 </p>
 
@@ -2360,6 +2361,7 @@ En el presente sprint se logró desarrollar la primera versión del Landing Page
 | | main | `b7b6ca1` | feat(about): add reviews section | added reviews section | 19/04/2026 |
 | | main | `fe9c165` | feat(about): add contact and musical-background section | added contact and musical-background section | 19/04/2026 |
 | | main | `41e520b` | fix(head): fix html styles.css and scripts.js | fixed html styles.css and scripts.js | 19/04/2026 |
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Durante el primer sprint, se lograron varios hitos importantes en el desarrollo del landing page de la StartUp ElectroCorp. Por lo consiguiente, presentamos un resumen de los logros alcanzados hasta la fecha: <br>
