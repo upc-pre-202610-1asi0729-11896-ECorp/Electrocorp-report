@@ -1843,8 +1843,8 @@ En el presente sprint se logró desarrollar la primera versión del Landing Page
 
 <p align="left" style="width: 95%; margin: 20px auto; font-family: Arial, sans-serif;">
     <b>Link de commits del repositorio del landing page:</b> <br>
-    <a href="https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/CodeCommits/?before=90c27441144ccfecc76f4483a635522409e317de+35" target="_blank" style="color: #00d2ff;">
-       https://github.com/1ASI0730-2610-20177-Nex/LandingPage/commits/main
+    <a href="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main" target="_blank" style="color: #00d2ff;">
+        https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main
     </a>
 </p>
 
