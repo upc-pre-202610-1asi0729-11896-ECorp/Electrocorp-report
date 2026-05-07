@@ -1581,33 +1581,31 @@ Los siguientes diagramas de clases presentan el diseño orientado a objetos del 
 
 #### Frontend Class Diagram
 
-![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app/master/docs/class-diagram-frontend.puml)
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/frontend-class-diagram.puml)
 
-El diagrama de clases del frontend representa la estructura del lado cliente de la aplicación. Incluye los principales módulos relacionados con la autenticación, la internacionalización, el consumo de la API, las vistas de la interfaz de usuario, los modales, los gráficos y el estado compartido de la aplicación. Además, muestra cómo colaboran los componentes del frontend para ofrecer funcionalidades interactivas como la gestión de dispositivos, las rutinas, los reportes, las notificaciones, el historial y los insights energéticos.
+El diagrama de clases del frontend representa la estructura interna de la webapp de ElectroCorp, organizada por bounded contexts. Cada módulo conecta sus vistas y componentes con stores de Pinia, servicios de aplicación, endpoints de infraestructura, ensambladores y modelos de dominio.
+
+La conexión principal sigue el flujo: las vistas invocan acciones del store, el store utiliza facades para coordinar la lógica de aplicación, las facades consumen endpoints de infraestructura, y los responses recibidos desde la API son transformados en entidades de dominio mediante assemblers. Esta estructura permite mantener una separación clara entre presentación, aplicación, infraestructura y dominio, facilitando la futura conexión con el backend real de ElectroCorp Platform.
 
 #### Backend Class Diagram
 
-![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app/master/docs/class-diagram-backend.puml)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/backend-class-diagram.puml)
 
-El diagrama de clases del backend representa el diseño orientado a objetos del lado servidor, implementado con Spring Boot. Incluye los controladores REST, los casos de uso de la aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y las entidades de base de datos. Este diagrama permite visualizar la arquitectura en capas del backend y las relaciones entre la lógica de negocio, la persistencia de datos y la exposición de servicios mediante la API.
+El diagrama de clases del backend representa la arquitectura propuesta para ElectroCorp Platform, planteada como una aplicación Spring Boot organizada por bounded contexts y capas. El diseño contempla módulos como IAM, Device Control, Energy Monitoring, Notifications y Billing.
+
+Cada bounded context se estructura mediante controladores REST, servicios de aplicación, entidades de dominio, repositorios, adaptadores de persistencia, entidades JPA y mappers. Esta organización permite separar responsabilidades entre la capa de presentación de API, la lógica de aplicación, el modelo de dominio y la infraestructura de persistencia.
+
+El flujo principal parte desde los controladores REST, los cuales reciben requests y delegan la ejecución a servicios de aplicación. Estos servicios coordinan la lógica del caso de uso, interactúan con entidades de dominio y consumen interfaces de repositorio. Finalmente, los adaptadores de persistencia implementan dichas interfaces utilizando Spring Data JPA y transforman la información entre entidades de dominio, entidades JPA y DTOs de respuesta.
 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
 
-El presente diagrama de base de datos define el modelo de persistencia relacional para el sistema **ElectroCorp**, estructurado estrictamente bajo los principios de *Domain-Driven Design* (DDD) y alineado a los *Bounded Contexts* descubiertos durante el *Event Storming*.
+El diagrama de base de datos de ElectroCorp representa las principales entidades necesarias para el funcionamiento de la plataforma. Se incluyen entidades relacionadas con la gestión de usuarios, perfiles de acceso, permisos, dispositivos inteligentes, rutinas automáticas, lecturas de consumo energético, alertas, planes de servicio y suscripciones.
 
-La arquitectura de datos se divide en cinco contextos principales para garantizar el bajo acoplamiento y la escalabilidad del sistema:
+La estructura permite modelar la relación entre usuarios y dispositivos, así como el registro de lecturas energéticas generadas por cada dispositivo. Además, contempla la gestión de rutinas programadas, alertas asociadas al consumo o estado de los equipos, y la administración de planes de suscripción. Este diseño está alineado con una futura implementación backend en Spring Boot, donde las entidades podrán persistirse en una base de datos relacional.
 
-* **Registro de usuario:** Gestiona la seguridad y autenticación (`Account`) de forma independiente a la información del perfil y ubicación de la vivienda del cliente (`User`).
-* **Selección de plan:** Administra el catálogo de servicios (`Plan`), el estado del servicio mensual contratado (`Subscription`) y el historial de transacciones procesadas (`Payment`).
-* **Operación y control de dispositivos:** Centraliza el inventario físico (`Device`), las programaciones de encendido/apagado (`Routine`) y los parámetros de configuración definidos por el usuario, como la tarifa eléctrica y los límites de consumo diarios (`EnergyConfiguration`).
-* **Monitoreo de consumo:** Soporta la alta transaccionalidad de la telemetría y pulsos de energía (`EnergyReading`), calcula históricos y proyecciones de recibos (`ConsumptionSummary`), y registra las metas de ahorro definidas (`SavingsGoal`).
-* **Servicio de notificaciones:** Gestiona el registro de alertas (`Alert`) derivadas de los eventos críticos del sistema, tales como picos de voltaje, equipos olvidados encendidos, límites diarios excedidos o dispositivos desconectados.
-
-Toda la estructura utiliza identificadores universales (`UUID`) para sus llaves primarias y foráneas, asegurando la integridad referencial de los datos y preparando la base de datos para una futura arquitectura orientada a microservicios.
-
-![Database Diagram](assets/database-diagram.png)
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/database-diagram.puml)
 
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
