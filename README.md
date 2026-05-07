@@ -885,7 +885,7 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 <img src = "assets/EmpathyMap - Seg2.png" alt = "EmpathyMap Segmento 2">
 
 ## 2.4. Big Picture Event Storming
-<img src = "assets/Big Picture Event Storming.png">
+<img src = "assets/Big-Picture-Event-Storming.png">
 
 ## 2.5. Ubiquitous Language
 
@@ -1319,11 +1319,165 @@ El wireframe define la estructura básica de la landing page en bloques principa
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
+Los siguientes wireframes representan la estructura de baja fidelidad de las principales vistas de la aplicación web de **ElectroCorp**. Estos diseños permiten visualizar la distribución general de los componentes, la jerarquía de información y el flujo de navegación antes de aplicar estilos visuales finales.
 
+---
+
+![Wireframe-Login](assets/Webapp-Wireframe-Login.png)
+
+**Login:**  
+Este wireframe muestra la pantalla de inicio de sesión de la aplicación web. Incluye los campos principales para ingresar correo electrónico y contraseña, así como las acciones para iniciar sesión o dirigirse al registro de una nueva cuenta. Esta vista funciona como punto de acceso inicial al sistema.
+
+---
+
+![Wireframe-Register](assets/Webapp-Wireframe-Register.png)
+
+**Register:**  
+Este wireframe representa la pantalla de registro de usuarios. Presenta los campos necesarios para crear una cuenta, como nombre completo, correo electrónico y contraseña. Además, incluye una opción para volver al login en caso el usuario ya tenga una cuenta registrada.
+
+---
+
+![Wireframe-Home](assets/Webapp-Wireframe-Home.png)
+
+**Home:**  
+Este wireframe corresponde al dashboard principal de ElectroCorp. En esta vista se organiza la información general del usuario, como dispositivos conectados, consumo actual, alertas pendientes y estado de suscripción. También se incluyen accesos rápidos hacia las funcionalidades principales de la aplicación.
+
+---
+
+![Wireframe-About](assets/Webapp-Wireframe-About.png)
+
+**About:**  
+Este wireframe muestra la sección informativa de la plataforma. Su objetivo es presentar una descripción breve de ElectroCorp, explicando su propósito como solución para monitoreo energético, gestión de dispositivos, configuración de rutinas y recepción de alertas.
+
+---
+
+![Wireframe-Devices](assets/Webapp-Wireframe-Devices.png)
+
+**Devices:**  
+Este wireframe representa la vista de control de dispositivos inteligentes. Incluye un formulario para agregar nuevos dispositivos y un área destinada a listar los equipos registrados. Esta sección permite organizar la administración de enchufes, luces e interruptores inteligentes desde una sola interfaz.
+
+---
+
+![Wireframe-Routines](assets/Webapp-Wireframe-Routines.png)
+
+**Routines:**  
+Este wireframe corresponde al módulo de rutinas automáticas. Presenta un formulario para crear automatizaciones y una lista de rutinas registradas. Su finalidad es permitir que el usuario programe acciones como encender o apagar dispositivos en horarios definidos.
+
+---
+
+![Wireframe-Energy](assets/Webapp-Wireframe-Energy.png)
+
+**Energy:**  
+Este wireframe muestra la vista de monitoreo de consumo energético. Incluye indicadores clave como watts totales, promedio y pico máximo, además de filtros por fecha y un gráfico para visualizar el comportamiento del consumo. Esta sección facilita el análisis inicial de los datos energéticos.
+
+---
+
+![Wireframe-History](assets/Webapp-Wireframe-History.png)
+
+**History:**  
+Este wireframe representa el historial de consumo energético. La vista contiene una tabla con registros organizados por dispositivo, consumo en watts, fecha y estado. También incluye una opción para exportar los datos en formato CSV, lo que permite generar reportes o análisis externos.
+
+---
+
+![Wireframe-Plans](assets/Webapp-Wireframe-Plans.png)
+
+**Plans:**  
+Este wireframe presenta la pantalla de planes de servicio. Se muestran diferentes opciones de suscripción con sus precios y características principales. Esta vista permite comparar planes y seleccionar una alternativa adecuada para las necesidades del usuario.
+
+---
+
+![Wireframe-Alerts](assets/Webapp-Wireframe-Alerts.png)
+
+**Alerts:**  
+Este wireframe corresponde al centro de alertas de ElectroCorp. Incluye un resumen de alertas no leídas, un formulario para crear nuevas notificaciones y una lista de alertas relacionadas con consumo elevado, sugerencias de automatización y reportes mensuales.
+
+---
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+El siguiente wireflow representa el flujo de navegación principal de la aplicación web de **ElectroCorp**. Este diagrama permite visualizar cómo el usuario se desplaza entre las pantallas principales del sistema, partiendo desde el proceso de autenticación hasta el acceso a los módulos funcionales de la plataforma.
+
+![Webapp-Wireflow](assets/Webapp-Wireflow.png)
+
+**Web Application Wireflow:**  
+El flujo inicia en la pantalla de **Login**, desde donde el usuario puede iniciar sesión o acceder al formulario de **Register** para crear una nueva cuenta. Una vez autenticado, el usuario ingresa al **Home Dashboard**, que funciona como el punto central de navegación de la aplicación.
+
+Desde el dashboard principal, el usuario puede acceder a las secciones de **About**, **Devices**, **Routines**, **Energy**, **History**, **Plans** y **Alerts**. Cada una de estas vistas representa un módulo funcional del sistema y mantiene una navegación de retorno hacia el dashboard o mediante el menú superior. Esta estructura permite que la experiencia de usuario sea clara, centralizada y coherente con los objetivos de la plataforma.
 
 ### 4.4.3. Web Applications Mock-ups
+
+Los siguientes mock-ups representan la versión de mayor fidelidad de las interfaces web de **ElectroCorp**. A diferencia de los wireframes, estos diseños incorporan colores, tipografía, estilos visuales y una distribución más cercana a la implementación final desarrollada en la aplicación.
+
+---
+
+![Mockup-Login](assets/Webapp-Mockup-Login.png)
+
+**Login:**  
+Este mock-up muestra la pantalla final de inicio de sesión. Presenta una interfaz moderna con soporte para cambio de idioma y modo visual. La vista permite que el usuario acceda a la plataforma mediante correo electrónico y contraseña, manteniendo una experiencia clara y directa.
+
+---
+
+![Mockup-Register](assets/Webapp-Mockup-Register.png)
+
+**Register:**  
+Este mock-up representa la pantalla de registro final. La interfaz permite crear una cuenta nueva ingresando nombre completo, correo electrónico y contraseña. Además, mantiene una navegación sencilla hacia el login para usuarios que ya poseen una cuenta.
+
+---
+
+![Mockup-Home](assets/Webapp-Mockup-Home.png)
+
+**Home:**  
+Este mock-up presenta el dashboard principal de la aplicación. Se muestran tarjetas resumen sobre dispositivos conectados, consumo actual, alertas pendientes y suscripción. También incluye accesos rápidos hacia módulos importantes como control de dispositivos, consumo energético, historial, alertas y planes.
+
+---
+
+![Mockup-About](assets/Webapp-Mockup-About.png)
+
+**About:**  
+Este mock-up corresponde a la sección informativa de ElectroCorp. La vista resume el propósito de la plataforma, explicando que permite monitorear consumo energético, gestionar dispositivos inteligentes, configurar rutinas automáticas y recibir alertas.
+
+---
+
+![Mockup-Devices](assets/Webapp-Mockup-Devices.png)
+
+**Devices:**  
+Este mock-up muestra el módulo de gestión de dispositivos inteligentes. Permite agregar nuevos equipos mediante un formulario y visualizar el estado general de los dispositivos registrados. Además, presenta métricas como total de dispositivos, dispositivos activos y consumo actual.
+
+---
+
+![Mockup-Routines](assets/Webapp-Mockup-Routines.png)
+
+**Routines:**  
+Este mock-up representa la vista de rutinas automáticas. El usuario puede crear nuevas rutinas, seleccionar dispositivos, definir una acción y establecer un horario. También se muestra una lista de rutinas existentes con opciones para activarlas, desactivarlas o eliminarlas.
+
+---
+
+![Mockup-Energy](assets/Webapp-Mockup-Energy.png)
+
+**Energy:**  
+Este mock-up corresponde al módulo de monitoreo energético. Presenta indicadores como watts totales, promedio y pico máximo. También incluye filtros por fecha y un gráfico de barras que permite analizar visualmente el historial de consumo energético.
+
+---
+
+![Mockup-History](assets/Webapp-Mockup-History.png)
+
+**History:**  
+Este mock-up muestra la vista de historial de consumo. La pantalla presenta una tabla con lecturas energéticas registradas, indicando dispositivo, consumo, fecha y estado. También incluye una opción para exportar la información en formato CSV.
+
+---
+
+![Mockup-Plans](assets/Webapp-Mockup-Plans.png)
+
+**Plans:**  
+Este mock-up representa la vista de planes de servicio. Se presentan tres opciones de suscripción con sus respectivos precios y características. Esta sección permite comparar los planes disponibles y seleccionar una opción acorde al uso del sistema.
+
+---
+
+![Mockup-Alerts](assets/Webapp-Mockup-Alerts.png)
+
+**Alerts:**  
+Este mock-up muestra el centro de alertas de la aplicación. Incluye un contador de alertas sin leer, un formulario para crear nuevas alertas y una lista de notificaciones clasificadas por nivel. Esta sección permite al usuario supervisar eventos importantes relacionados con consumo energético y automatización.
+
+---
 
 ![Mockp-Center](assets/Application-Web-MockUp-Center.png)
 
@@ -1360,9 +1514,18 @@ Este mockup presenta recomendaciones inteligentes generadas a partir del anális
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
+El siguiente diagrama de flujo de usuario representa el recorrido principal que realiza una persona al interactuar con la aplicación web de **ElectroCorp**. Este flujo inicia cuando el usuario accede a la plataforma y debe decidir si ya cuenta con una cuenta registrada. En caso no la tenga, puede dirigirse al proceso de registro para crear una nueva cuenta; si ya posee credenciales, continúa hacia la pantalla de inicio de sesión.
 
-![UserFlowDiagram](assets/UserFlowDiagram.png)
+![Webapp-Userflow](assets/Webapp-Userflow.png)
+
+**Web Application User Flow:**  
+El flujo principal comienza con el acceso del usuario a la aplicación web. Luego, el sistema evalúa si el usuario cuenta con una cuenta existente. Si no tiene una cuenta, se dirige al módulo de **Register**, donde puede crearla y posteriormente iniciar sesión. Si ya posee una cuenta, accede directamente al módulo de **Login**.
+
+Después del inicio de sesión, se valida si las credenciales ingresadas son correctas. Si los datos no son válidos, el sistema muestra un mensaje de error y permite que el usuario vuelva a intentar el acceso. Si las credenciales son correctas, el usuario ingresa al **Home Dashboard**, que funciona como el punto central de navegación de la plataforma.
+
+Desde el dashboard, el usuario puede acceder a los principales módulos funcionales de ElectroCorp: **About**, **Devices**, **Routines**, **Energy**, **History**, **Plans** y **Alerts**. Cada módulo permite realizar acciones específicas, como gestionar dispositivos, crear rutinas automáticas, visualizar métricas de consumo, revisar historial energético, comparar planes de servicio y atender alertas del sistema.
+
+Finalmente, el flujo contempla la acción de **Logout**, mediante la cual el usuario puede cerrar sesión de forma segura. De esta manera, el diagrama permite comprender tanto el recorrido principal como los escenarios alternativos de autenticación, navegación y salida de la aplicación.
 
 ---
 
