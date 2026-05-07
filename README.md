@@ -21,7 +21,7 @@
 | U20241e406 | Loa Rojas, Jean Franck                |
 | U202318828 | Documet Romero, Timothy               |
 
-### Diciembre 2025
+### Mayo 2026
 </div>
 <div style="page-break-after: always;"></div>
 
@@ -43,25 +43,71 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 #### Link del repositorio del Reporte:
 
 - https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
 
 #### Link del repositorio de la Landing Page:
 
 - https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
 
-#### Link del repositorio del Frontend:
+#### Link del repositorio de la APP:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-webapp
 
-#### Link del repositorio del Backend:
 
-- 
 
 ### **Entrega TB1:**
 Durante esta entrega se elaboraron los capítulos 1 al 5 del informe. La redacción fue dividida equitativamente entre los integrantes del equipo, quienes se encargaron de desarrollar sus respectivas secciones de manera paralela. Cada miembro subió sus contribuciones directamente al repositorio de GitHub, asegurando así un seguimiento claro de los avances y la colaboración conjunta.
 
 
+Durante esta entrega se elaboraron los capítulos 1 al 5 del informe. La redacción fue dividida equitativamente entre los integrantes del equipo, quienes se encargaron de desarrollar sus respectivas secciones de manera paralela. Cada miembro subió sus contribuciones directamente al repositorio de GitHub, asegurando así un seguimiento claro de los avances y la colaboración conjunta.
+
+
 
 ##### Participación por integrante:
+
+- Tavara Correa, Sebastian Oswaldo: Desarrollo de los capitulos 1, 2, 3 y 4.      <br>
+- Santiago Atanacio, Jairo Mathias: Desarrollo de los capitulos 1, 2, 4 y 5. 
+- Cabrejos Chocco, Diego Alexander: Desarrollo de los capitulos 2,4, 5 y landing page.  
+- Loa Rojas, Jean Franck: Desarrollo de los capitulos 1, 2, 4 y Aplicación web.
+- Documet Romero, Timothy: Desarrollo de capitulo 1.    
+
++ **Evidencias de colaboración y commits - Github:**
+    * **Análiticos de colaboración** <br><br>
+        + **Pulse Image of Github Insights**
+        <div align="center"><img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/top-commiters.PNG?raw=true"></div><br><br>
+
+
+        + **Contributors Image of Github Insights**
+        <div align="center"><img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/commits.PNG?raw=true"></div><br><br>
+
+
+    * **Commits**
+
+         A continuación se muestran algunos commits realizados en este entrega de TB1.
+
+        + **Sebastian Tavara**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/sebastian-commits.PNG?raw=true" >
+            </div><br>
+
+        + **Jairo Santiago**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/jairo-commits.PNG?raw=true">
+            </div><br>
+
+        + **Diego Cabrejos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/diego-commits.PNG?raw=true">
+            </div><br>
+        + **Jean Loa**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/jean-commits.PNG?raw=true">
+            </div><br>
+        + **Timothy Documet**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/timothy-commits.PNG?raw=true">
+            </div><br><br>
 
 - Tavara Correa, Sebastian Oswaldo: Desarrollo de los capitulos 1, 2, 3 y 4.      <br>
 - Santiago Atanacio, Jairo Mathias: Desarrollo de los capitulos 1, 2, 4 y 5. 
@@ -702,7 +748,7 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 
 
 ### 2.2.2. Registro de entrevistas 
-URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318828_upc_edu_pe/IQDU3UeTO_ZpS4S1jz04v8u-Ac14TANhydUiktFWcX_VEck?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BmEX0t
+URL del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318828_upc_edu_pe/IQDU3UeTO_ZpS4S1jz04v8u-Ac14TANhydUiktFWcX_VEck?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BmEX0t](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e179_upc_edu_pe/IQDqFhKvmWPjTaD9o5B1WZKpAbqMxXwnXlRLJkqneWyPcoo?e=EHoJjH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Segmento 1: Hogares urbanos con viviendas antiguas
 
@@ -1603,11 +1649,13 @@ El flujo principal parte desde los controladores REST, los cuales reciben reques
 
 ### 4.8.1. Database Diagrams
 
-El diagrama de base de datos de ElectroCorp representa las principales entidades necesarias para el funcionamiento de la plataforma. Se incluyen entidades relacionadas con la gestión de usuarios, perfiles de acceso, permisos, dispositivos inteligentes, rutinas automáticas, lecturas de consumo energético, alertas, planes de servicio y suscripciones.
+El diseño de base de datos de ElectroCorp está orientado al almacenamiento de la información necesaria para la gestión de dispositivos, la programación de rutinas y el monitoreo del consumo energético. De acuerdo con la implementación actual del sistema, la base de datos relacional incluye tres tablas principales: `devices`, `device_schedules` y `energy_readings`.
 
-La estructura permite modelar la relación entre usuarios y dispositivos, así como el registro de lecturas energéticas generadas por cada dispositivo. Además, contempla la gestión de rutinas programadas, alertas asociadas al consumo o estado de los equipos, y la administración de planes de suscripción. Este diseño está alineado con una futura implementación backend en Spring Boot, donde las entidades podrán persistirse en una base de datos relacional.
+La tabla `devices` almacena la información principal de cada dispositivo registrado, incluyendo su identificador, código, nombre, tipo, estado y referencia del propietario. La tabla `device_schedules` almacena las rutinas automáticas asociadas a cada dispositivo, como la hora de ejecución y si la acción programada consiste en encender o apagar el dispositivo. La tabla `energy_readings` almacena los registros de consumo energético generados por los dispositivos, incluyendo la cantidad medida y la fecha y hora de registro.
 
-![Database Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/database-diagram.puml)
+Este diseño permite al sistema mantener la trazabilidad de los dispositivos registrados, persistir sus rutinas configuradas y almacenar el historial de consumo energético para fines de monitoreo y generación de reportes.
+
+![Database Diagram](assets/Database-Diagram.png)
 
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -2483,6 +2531,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
   </tr>
 </table>
 
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 En el presente sprint se logró desarrollar la primera versión del Landing Page de ElectroCorp, la cual presenta de manera clara el propósito de la plataforma y las problemáticas que busca resolver en el ámbito de la domótica y eficiencia energética. La información mostrada fue organizada de forma comprensible y acompañada de elementos visuales (Dark Mode) que refuerzan el mensaje. Asimismo, se consideró un diseño atractivo, responsivo e intuitivo que busca captar la atención de los usuarios y transmitir confianza en la solución propuesta.
 
@@ -2504,6 +2553,7 @@ En el presente sprint se logró desarrollar la primera versión del Landing Page
 | | main | `b7b6ca1` | feat(about): add reviews section | added reviews section | 19/04/2026 |
 | | main | `fe9c165` | feat(about): add contact and musical-background section | added contact and musical-background section | 19/04/2026 |
 | | main | `41e520b` | fix(head): fix html styles.css and scripts.js | fixed html styles.css and scripts.js | 19/04/2026 |
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Durante el primer sprint, se lograron varios hitos importantes en el desarrollo del landing page de la StartUp ElectroCorp. Por lo consiguiente, presentamos un resumen de los logros alcanzados hasta la fecha: <br>
