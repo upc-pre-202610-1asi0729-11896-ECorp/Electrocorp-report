@@ -1457,13 +1457,19 @@ El diagrama de clases del backend representa el diseño orientado a objetos del 
 
 ### 4.8.1. Database Diagrams
 
-El diseño de base de datos de ElectroCorp está orientado al almacenamiento de la información necesaria para la gestión de dispositivos, la programación de rutinas y el monitoreo del consumo energético. De acuerdo con la implementación actual del sistema, la base de datos relacional incluye tres tablas principales: `devices`, `device_schedules` y `energy_readings`.
+El presente diagrama de base de datos define el modelo de persistencia relacional para el sistema **ElectroCorp**, estructurado estrictamente bajo los principios de *Domain-Driven Design* (DDD) y alineado a los *Bounded Contexts* descubiertos durante el *Event Storming*.
 
-La tabla `devices` almacena la información principal de cada dispositivo registrado, incluyendo su identificador, código, nombre, tipo, estado y referencia del propietario. La tabla `device_schedules` almacena las rutinas automáticas asociadas a cada dispositivo, como la hora de ejecución y si la acción programada consiste en encender o apagar el dispositivo. La tabla `energy_readings` almacena los registros de consumo energético generados por los dispositivos, incluyendo la cantidad medida y la fecha y hora de registro.
+La arquitectura de datos se divide en cinco contextos principales para garantizar el bajo acoplamiento y la escalabilidad del sistema:
 
-Este diseño permite al sistema mantener la trazabilidad de los dispositivos registrados, persistir sus rutinas configuradas y almacenar el historial de consumo energético para fines de monitoreo y generación de reportes.
+* **Registro de usuario:** Gestiona la seguridad y autenticación (`Account`) de forma independiente a la información del perfil y ubicación de la vivienda del cliente (`User`).
+* **Selección de plan:** Administra el catálogo de servicios (`Plan`), el estado del servicio mensual contratado (`Subscription`) y el historial de transacciones procesadas (`Payment`).
+* **Operación y control de dispositivos:** Centraliza el inventario físico (`Device`), las programaciones de encendido/apagado (`Routine`) y los parámetros de configuración definidos por el usuario, como la tarifa eléctrica y los límites de consumo diarios (`EnergyConfiguration`).
+* **Monitoreo de consumo:** Soporta la alta transaccionalidad de la telemetría y pulsos de energía (`EnergyReading`), calcula históricos y proyecciones de recibos (`ConsumptionSummary`), y registra las metas de ahorro definidas (`SavingsGoal`).
+* **Servicio de notificaciones:** Gestiona el registro de alertas (`Alert`) derivadas de los eventos críticos del sistema, tales como picos de voltaje, equipos olvidados encendidos, límites diarios excedidos o dispositivos desconectados.
 
-![Database Diagram](assets/Database-Diagram.png)
+Toda la estructura utiliza identificadores universales (`UUID`) para sus llaves primarias y foráneas, asegurando la integridad referencial de los datos y preparando la base de datos para una futura arquitectura orientada a microservicios.
+
+![Database Diagram](assets/database-diagram.png)
 
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
