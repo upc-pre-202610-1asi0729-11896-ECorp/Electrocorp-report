@@ -1499,6 +1499,13 @@ Finalmente, el flujo contempla la acción de **Logout**, mediante la cual el usu
 
 ## 4.5. Web Applications Prototyping
 
+En esta sección se presenta el prototipo funcional de la aplicación web de **ElectroCorp**, incluyendo la integración entre la webapp y el servicio temporal `electrocorp-platform`. El video muestra el flujo general de uso de la plataforma, desde el acceso del usuario hasta la navegación por los principales módulos del sistema.
+
+El prototipo permite validar visualmente la experiencia de usuario, la navegación entre vistas, el consumo de datos desde la Fake API desplegada en Render y la separación entre frontend y plataforma de datos. Asimismo, evidencia el avance funcional de módulos como autenticación, dashboard principal, gestión de dispositivos, rutinas, monitoreo energético, historial, planes y alertas.
+
+**Video de presentación del prototipo:**  
+[Ver video del prototipo de ElectroCorp](https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCP8SBS3IW5S5o6jAGWF7XLAfQNWdWKiPXAHFVbyPx7g6s?e=eU1usI)
+
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
