@@ -51,6 +51,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 #### Link del repositorio de la APP:
 
 - https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
 
 
 
