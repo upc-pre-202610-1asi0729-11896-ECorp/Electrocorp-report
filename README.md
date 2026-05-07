@@ -52,7 +52,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio de la APP:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-webapp
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
+- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
 
 
 
@@ -1649,13 +1650,11 @@ El flujo principal parte desde los controladores REST, los cuales reciben reques
 
 ### 4.8.1. Database Diagrams
 
-El diseño de base de datos de ElectroCorp está orientado al almacenamiento de la información necesaria para la gestión de dispositivos, la programación de rutinas y el monitoreo del consumo energético. De acuerdo con la implementación actual del sistema, la base de datos relacional incluye tres tablas principales: `devices`, `device_schedules` y `energy_readings`.
+El diagrama de base de datos de ElectroCorp representa las principales entidades necesarias para el funcionamiento de la plataforma. Se incluyen entidades relacionadas con la gestión de usuarios, perfiles de acceso, permisos, dispositivos inteligentes, rutinas automáticas, lecturas de consumo energético, alertas, planes de servicio y suscripciones.
 
-La tabla `devices` almacena la información principal de cada dispositivo registrado, incluyendo su identificador, código, nombre, tipo, estado y referencia del propietario. La tabla `device_schedules` almacena las rutinas automáticas asociadas a cada dispositivo, como la hora de ejecución y si la acción programada consiste en encender o apagar el dispositivo. La tabla `energy_readings` almacena los registros de consumo energético generados por los dispositivos, incluyendo la cantidad medida y la fecha y hora de registro.
+La estructura permite modelar la relación entre usuarios y dispositivos, así como el registro de lecturas energéticas generadas por cada dispositivo. Además, contempla la gestión de rutinas programadas, alertas asociadas al consumo o estado de los equipos, y la administración de planes de suscripción. Este diseño está alineado con una futura implementación backend en Spring Boot, donde las entidades podrán persistirse en una base de datos relacional.
 
-Este diseño permite al sistema mantener la trazabilidad de los dispositivos registrados, persistir sus rutinas configuradas y almacenar el historial de consumo energético para fines de monitoreo y generación de reportes.
-
-![Database Diagram](assets/Database-Diagram.png)
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/database-diagram.puml)
 
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
