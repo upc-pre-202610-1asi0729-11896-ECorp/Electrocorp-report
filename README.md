@@ -1530,7 +1530,7 @@ El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
 
 A continuación, se detalla el ecosistema técnico de ElectroCorp, destacando el flujo de información desde que el usuario solicita contenido estático hasta que se procesan las reglas de negocio y se persiste la información
 
-<img src="assets/container-diagram.png">
+<img src="assets/ContainerDiagram.png">
 
 La arquitectura se basa en una separación clara entre la lógica de presentación y la lógica de negocio, estructurada de la siguiente manera:
 
@@ -1569,7 +1569,7 @@ El diagrama de componentes del frontend muestra la organización de los módulos
 
 #### Backend Components Diagram
 
-![Backend Components Diagram](assets/component-diagram-Backend.png)
+![Backend Components Diagram](assets/components-diagram-Backend.png)
 
 El diagrama de componentes del backend presenta la estructura interna del servidor desarrollado con Spring Boot. En él se distinguen los controladores REST, los casos de uso de la capa de aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y la base de datos. Esta representación permite visualizar la arquitectura en capas adoptada por el sistema, así como la manera en que los componentes del backend colaboran para procesar solicitudes, aplicar la lógica de negocio y persistir la información.
 
