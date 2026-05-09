@@ -42,18 +42,19 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-report
 
-#### Link del repositorio de la Landing Page:
+#### Link del repositorio del Website:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website
 
-#### Link del repositorio de la APP:
+#### Link del repositorio de la Webapp:
 
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
-- https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-app
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp
+
+#### Link del repositorio del Platform:
+
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform
 
 
 
@@ -1744,15 +1745,15 @@ Además, hemos optado por utilizar GitHub debido a su función específica llama
 
 En cuanto a nuestros archivos feature, creamos una nueva rama “feature/sprint-1” para cada nueva funcionalidad que deseamos agregar. Este enfoque modular y organizado asegura un desarrollo progresivo, ya que cada rama “feature/sprint-1” actúa como un espacio aislado para desarrollar y probar una característica específica antes de fusionarla con la rama de desarrollo.<br><br>
 
-Enlace de la Landing Page en GitHub Pages:https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/<br><br> 
+Enlace de la Landing Page en GitHub Pages: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/<br><br> 
 
 <img src="assets/landing-page-link-prueba-1.PNG"></img><br>
 
-Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website <br><br> 
+Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website <br><br> 
 
 <img src="assets/respositorio-landing.PNG"></img><br>
 
-Repositorio GitHub de los archivos feature: Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
+Repositorio GitHub de los archivos feature: https://github.com/upc-pre-202610-1asi0729-11896-ecorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
 
 <img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
