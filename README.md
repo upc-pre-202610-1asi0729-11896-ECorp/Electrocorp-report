@@ -1535,7 +1535,7 @@ El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
 
 A continuación, se detalla el ecosistema técnico de ElectroCorp, destacando el flujo de información desde que el usuario solicita contenido estático hasta que se procesan las reglas de negocio y se persiste la información
 
-<img src="assets/ContainerDiagram.png">
+<img src="assets/container-diagram.png">
 
 La arquitectura se basa en una separación clara entre la lógica de presentación y la lógica de negocio, estructurada de la siguiente manera:
 
