@@ -2155,110 +2155,60 @@ private int calculateWatts(int current, int voltage)
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1 
 #### 5.2.1.1. Sprint Planning 1
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr align="left">
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr>
+        <td><b>Sprint #</b></td>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+        <td><b>Date</b></td>
+        <td>2026-04-19</td>
+    </tr>
+    <tr>
+        <td><b>Time</b></td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr>
+        <td><b>Location</b></td>
+        <td>Modalidad Remota por Whatsapp</td>
+    </tr>
+    <tr>
+        <td><b>Prepared By</b></td>
+        <td>Cabrejos Chocce, Diego Alexander</td>
+    </tr>
+    <tr>
+        <td><b>Attendees (to planning meeting)</b></td>
+        <td>Tavara Correa, Sebastian Oswaldo / Santiago Atanacio, Jairo Mathias / Cabrejos Chocce, Diego Alexander / Loa Rojas, Jean Franck / Documet Romero, Timothy</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td>No aplica. Al ser el primer Sprint del proyecto, los esfuerzos se enfocaron en la creación de repositorios, configuración del entorno y definición inicial del Product Backlog.</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td>No aplica. El equipo acordó establecer canales de comunicación diarios para asegurar la correcta integración de las tareas iniciales.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 1 Goal</b></td>
         <td>
-            <b>Sprint #</b>
-        </td>
-        <td>
-            <b>Sprint 1</b>           
+            <b>Our focus is on</b> desarrollar y desplegar la primera versión funcional de la Landing Page de ElectroCorp en Github Pages.<br><br>
+            <b>We believe it delivers</b> una comunicación clara de nuestra propuesta de valor (ecosistema IoT plug-and-play) a los visitantes, generando interés y prospectos.<br><br>
+            <b>This will be confirmed when</b> los usuarios puedan navegar fluidamente por las secciones informativas, visualizar testimonios, interactuar con el cambio de idiomas y suscribirse al boletín.
         </td>
     </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
+    <tr>
+        <td><b>Sprint 1 Velocity</b></td>
+        <td>36</td>
     </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            19/04/2026         
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            11:00         
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Modalidad Remota por Whatsapp
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            ElectroCorp Team    
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Attendees (to planning meeting)</b>
-        </td>
-        <td>
-            - Tavara Correa, Sebastian Oswaldo <br>
-            - Santiago Atanacio, Jairo Mathias <br>
-            - Cabrejos Chocco, Diego Alexander  <br>
-            - Loa Rojas, Jean Franck <br>
-            - Documet Romero, Timothy <br>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog  
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>SPRINT GOAL & USER STORIES</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 1 Goal</b>
-        </td>
-        <td>
-            El objetivo para este Sprint 1, es el desarrollar una landing page para ElectroCorp que cumpla con los requisitos dictados en la guía, garantizando una experiencia de usuario (UX) fluida y un diseño visual atractivo (Dark Mode), que comunique eficazmente nuestra propuesta de valor: democratizar la domótica en los hogares peruanos mediante un ecosistema IoT plug-and-play que permite gestionar el consumo eléctrico en tiempo real, reduciendo los altos costos de los recibos de luz y fomentando la eficiencia energética 
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 1 Velocity</b>
-        </td>
-        <td>
-            8
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            8
-        </td>
+    <tr>
+        <td><b>Sum of Story Points</b></td>
+        <td>36</td>
     </tr>
 </table>
 
