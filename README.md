@@ -1563,66 +1563,190 @@ El prototipo permite validar visualmente la experiencia de usuario, la navegaci�
 <img src="assets/designLevelEventStorming.png">
 
 ### 4.6.2. Software Architecture Context Diagram
-En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
 
-<img src="assets/Context-diagram.png">
+En esta sección se presenta el Diagrama de Contexto correspondiente al Nivel 1 del modelo C4 para la arquitectura de ElectroCorp. Este diagrama permite visualizar el ecosistema general de la solución, identificando al usuario principal, el sistema ElectroCorp y los servicios externos que complementan sus funcionalidades.
 
-El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
+<img src="assets/context-diagram.png">
 
-**-ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. Su objetivo es monitorear su consumo de energía, configurar límites de presupuesto y establecer rutinas automáticas para sus dispositivos. Adicionalmente, el usuario interactúa con la pasarela de pagos para mantener activa su suscripción mensual y es el receptor final de las alertas del sistema.
+El entorno del sistema ElectroCorp se compone de los siguientes elementos principales:
 
-**-ElectroCorp System (Sistema Principal):** Es la plataforma integral de software (Web y Móvil) que centraliza la lógica de negocio. Para este alcance del proyecto, el sistema absorbe la responsabilidad de simular el comportamiento y la telemetría de los dispositivos IoT, orquestando las reglas de automatización y el cálculo de tarifas energéticas sin depender de hardware físico externo.
+**- ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. El usuario utiliza ElectroCorp para gestionar dispositivos inteligentes, configurar rutinas automáticas, monitorear el consumo energético, revisar reportes, definir metas energéticas, recibir alertas, gestionar su suscripción y solicitar soporte o mantenimiento técnico.
 
-**-Stripe (Sistema Externo de Soporte):** Plataforma comercial externa utilizada como pasarela de pagos. ElectroCorp se comunica con este sistema para delegar el procesamiento seguro de las transacciones financieras y la gestión de las suscripciones de los usuarios.
+**- ElectroCorp System (Sistema Principal):** Es la plataforma central del proyecto. Integra las funcionalidades principales relacionadas con autenticación, planes y facturación, control de dispositivos, monitoreo energético, gestión de sedes, reportes, metas, notificaciones, soporte y mantenimiento. Para el alcance del proyecto, el sistema simula el comportamiento y la información de dispositivos inteligentes mediante una API y una base de datos, sin depender de hardware físico real.
 
-**-Mailchimp (Sistema Externo de Soporte):** Servicio comercial de envío de correos electrónicos. ElectroCorp le delega el despacho automatizado de reportes mensuales de consumo y la emisión de alertas críticas (por ejemplo, cuando el consumo simulado excede los límites configurados), asegurando que las notificaciones lleguen de manera confiable a la bandeja de entrada del usuario.
+**- Stripe (Sistema Externo de Soporte):** Servicio externo utilizado como pasarela de pagos. ElectroCorp se comunica con Stripe para procesar pagos de suscripciones y operaciones relacionadas con la facturación de los usuarios.
+
+**- Mailchimp (Sistema Externo de Soporte):** Servicio externo utilizado para el envío de correos electrónicos. ElectroCorp delega en Mailchimp el despacho de notificaciones, alertas críticas y reportes relacionados con el consumo energético del usuario.
+
+En conjunto, este diagrama evidencia que ElectroCorp actúa como el sistema principal que centraliza la experiencia del usuario, mientras se apoya en servicios externos para resolver procesos especializados como pagos y notificaciones.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-A continuación, se detalla el ecosistema técnico de ElectroCorp, destacando el flujo de información desde que el usuario solicita contenido estático hasta que se procesan las reglas de negocio y se persiste la información
+A continuación, se presenta el Diagrama de Contenedores correspondiente al Nivel 2 del modelo C4. Este diagrama detalla los principales contenedores técnicos que conforman ElectroCorp y muestra el flujo general desde la interacción del usuario hasta el procesamiento de la información en el backend y la persistencia de datos.
 
 <img src="assets/container-diagram.png">
 
-La arquitectura se basa en una separación clara entre la lógica de presentación y la lógica de negocio, estructurada de la siguiente manera:
+La arquitectura de ElectroCorp se basa en una separación clara entre presentación, aplicación cliente, lógica de negocio, persistencia y servicios externos. Los contenedores principales son los siguientes:
 
-**1. Contenedores de Aplicación (Frontend):**
+**1. Contenedores de Aplicación Frontend**
 
-**-ElectroCorp Web App:** Actúa como el servidor de contenido estático (HTML, CSS y JS). Su única responsabilidad es entregar los archivos necesarios al navegador del usuario para inicializar la aplicación.
+**- Landing Page:** Representa la página pública de presentación de ElectroCorp. Su finalidad es mostrar información general del producto, beneficios, planes y llamadas a la acción. Desde esta página, el usuario puede dirigirse hacia la aplicación principal.
 
-**-ElectroCorp Single Page Application (SPA):** Desarrollada en Angular (TypeScript), es la aplicación que corre directamente en el cliente. Maneja el renderizado dinámico del dashboard, permitiendo que el usuario interactúe con las gráficas de consumo y configure sus dispositivos sin recargar la página.
+**- ElectroCorp Single Page Application (SPA):** Representa la aplicación cliente desarrollada con Angular. Se denomina SPA porque permite navegar entre distintas vistas sin recargar completamente la página. Desde esta aplicación, el usuario interactúa con funcionalidades como dispositivos, rutinas, energía, historial, sedes, reportes, metas, alertas, planes, soporte y mantenimiento.
 
-**-ElectroCorp Mobile Application:** Construida en Flutter, ofrece una interfaz nativa para dispositivos móviles, consumiendo los mismos servicios que la versión web.
+**- ElectroCorp Web App:** Representa el contenedor funcional web que conecta la aplicación frontend con los servicios de backend. En el flujo definido para la arquitectura, el usuario puede ingresar directamente a la SPA o llegar desde la Landing Page; posteriormente, la SPA se comunica con la Web App y esta consume los servicios de la API.
 
-**2. Contenedor de Lógica Central (Backend):**
+**2. Contenedor de Lógica Central Backend**
 
-**-Backend API:** Es el núcleo del sistema, desarrollado en Java con Spring Boot. Implementa los principios de Domain-Driven Design (DDD) y expone endpoints REST. Se encarga de la autenticación de usuarios, la lógica de simulación de consumo energético y la coordinación de alertas.
+**- ElectroCorp API:** Es el núcleo de la solución backend, desarrollado en Java con Spring Boot. Implementa la lógica de negocio organizada bajo principios de Domain-Driven Design. La API expone servicios REST para los bounded contexts de IAM, Billing, Device Control, Energy Monitoring, Notifications, Workplace, Reporting y Service Management.
 
-**3. Contenedores de Persistencia e Infraestructura:**
+**3. Contenedor de Persistencia**
 
-**-Database (MySQL):** Motor de base de datos relacional encargado de la persistencia de perfiles, configuraciones de horarios y el histórico de telemetría de los enchufes inteligentes.
+**- ElectroCorp Database:** Es la base de datos relacional encargada de almacenar la información principal del sistema. Contiene datos de usuarios, perfiles de acceso, dispositivos, rutinas, planes, suscripciones, pagos, facturas, sedes, ambientes, asignaciones, lecturas energéticas, reportes, metas, alertas, reglas de alerta, preferencias de notificación, tickets de soporte y tickets de mantenimiento.
 
-**4. Interacciones con Sistemas Externos:**
+**4. Servicios Externos**
 
-**-Stripe (Payment Gateway):** Se integra con la Backend API mediante HTTPS/JSON para gestionar el flujo de pagos de suscripciones de manera segura.
+**- Stripe:** Servicio externo utilizado para procesar pagos y suscripciones de forma segura.
 
-**-Mailchimp (Notification Service):** Servicio externo utilizado para el despacho de correos electrónicos transaccionales, como alertas de picos de voltaje o resúmenes de consumo mensual.
+**- Mailchimp:** Servicio externo utilizado para enviar notificaciones, reportes y alertas críticas por correo electrónico.
 
+El flujo principal de la arquitectura queda representado de la siguiente forma: el usuario puede acceder directamente a la SPA o pasar primero por la Landing Page; la Landing Page redirige hacia la SPA; la SPA interactúa con la Web App; la Web App consume la API; y la API se comunica con la base de datos y con servicios externos como Stripe y Mailchimp.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Los siguientes diagramas de componentes representan la arquitectura de software del sistema ElectroCorp, diferenciando la vista del frontend y la vista del backend. Estos diagramas permiten identificar los principales componentes del sistema, así como sus responsabilidades y relaciones de interacción dentro de la solución.
+Los siguientes diagramas de componentes representan la arquitectura interna de ElectroCorp a nivel frontend. Estos diagramas permiten observar cómo la aplicación se organiza modularmente por bounded contexts, separando responsabilidades de presentación, aplicación, dominio e infraestructura.
 
-#### Frontend Components Diagram
+Para una mejor comprensión, los diagramas se han dividido en tres tipos:
 
-![Frontend Components Diagram](assets/components-diagram-Frontend.png)
+- **Tipo 1:** Diagrama general de componentes de toda la aplicación frontend.
+- **Tipo 2:** Diagramas de componentes por bounded context.
+- **Tipo 3:** Diagramas de componentes enfocados en la capa de presentación de cada bounded context.
 
-El diagrama de componentes del frontend muestra la organización de los módulos que conforman la interfaz web de ElectroCorp. En esta vista se incluyen los componentes relacionados con la autenticación, la gestión del estado de la aplicación, la internacionalización, la comunicación con la API y las distintas vistas funcionales, como dispositivos, rutinas, reportes, historial, notificaciones, tiempo real e insights energéticos. Este diagrama permite comprender cómo se estructura la capa cliente para ofrecer una experiencia interactiva, modular y reutilizable.
+#### 4.6.4.1. Frontend Components Diagram - Type 1: General Application View
 
-#### Backend Components Diagram
+![Frontend General Components Diagram](assets/frontend-general-components.png)
 
-![Backend Components Diagram](assets/components-diagram-Backend.png)
+El diagrama general de componentes del frontend muestra la estructura global de la aplicación web de ElectroCorp. En esta vista se observa cómo el usuario interactúa con el `App Layout`, el sistema de rutas y el `Language Switcher`, además de cómo la aplicación organiza sus funcionalidades en bounded contexts.
 
-El diagrama de componentes del backend presenta la estructura interna del servidor desarrollado con Spring Boot. En él se distinguen los controladores REST, los casos de uso de la capa de aplicación, las entidades y objetos de valor del dominio, los repositorios, los adaptadores de persistencia y la base de datos. Esta representación permite visualizar la arquitectura en capas adoptada por el sistema, así como la manera en que los componentes del backend colaboran para procesar solicitudes, aplicar la lógica de negocio y persistir la información.
+Los módulos principales considerados son `Shared`, `IAM`, `Billing`, `Device Control`, `Energy Monitoring`, `Notifications`, `Workplace`, `Reporting` y `Service Management`. Cada uno de estos módulos representa una sección funcional de la aplicación y se comunica con servicios de infraestructura encargados de consumir la API backend.
+
+Este diagrama evidencia que la aplicación frontend mantiene una arquitectura modular, donde cada bounded context encapsula sus responsabilidades y utiliza elementos compartidos como servicios de sesión, preferencias de interfaz, base API service, base assembler y componentes comunes.
+
+#### 4.6.4.2. Frontend Components Diagram - Type 2: Bounded Context Design
+
+Los diagramas de componentes de Tipo 2 detallan el diseño interno de cada bounded context. En estos diagramas se muestra la relación entre las capas de presentación, aplicación, dominio e infraestructura.
+
+##### Shared Components Diagram
+
+![Frontend Shared Components Diagram](assets/frontend-shared-components.png)
+
+El módulo `Shared` funciona como un kernel compartido dentro del frontend. Contiene componentes comunes como `App Layout`, `Footer` y `Language Switcher`, además de servicios transversales como `Auth Session Service`, `UI Preferences Service`, guards, servicios base de API y ensambladores base. Su propósito es evitar duplicidad y proporcionar funcionalidades reutilizables a los demás bounded contexts.
+
+##### IAM Components Diagram
+
+![Frontend IAM Components Diagram](assets/frontend-iam-components.png)
+
+El bounded context `IAM` se encarga de la autenticación, registro, gestión de sesión y perfiles de acceso. Su capa de presentación contiene las páginas de login y registro, mientras que su capa de aplicación utiliza un facade para coordinar los casos de uso. La infraestructura se comunica con la API mediante servicios especializados y transforma los datos usando assemblers.
+
+##### Billing Components Diagram
+
+![Frontend Billing Components Diagram](assets/frontend-billing-components.png)
+
+El bounded context `Billing` gestiona planes, suscripciones, pagos e invoices. Este módulo permite visualizar planes disponibles, suscribirse, cancelar una suscripción, procesar pagos simulados y revisar el resumen de facturación. Además, incorpora entidades como `Plan`, `Subscription`, `Payment` e `Invoice`, junto con servicios de dominio para políticas de suscripción y permisos según el plan contratado.
+
+##### Device Control Components Diagram
+
+![Frontend Device Control Components Diagram](assets/frontend-device-components.png)
+
+El bounded context `Device Control` administra dispositivos, rutinas y grupos de dispositivos. Su facade coordina la carga, creación, actualización y eliminación de dispositivos y rutinas. También se apoya en servicios de dominio para calcular consumo activo y detectar conflictos entre rutinas programadas.
+
+##### Energy Monitoring Components Diagram
+
+![Frontend Energy Monitoring Components Diagram](assets/frontend-energy-monitoring-components.png)
+
+El bounded context `Energy Monitoring` se encarga de mostrar lecturas energéticas, métricas, historial y gráficos de consumo. Este módulo permite observar el comportamiento energético de los dispositivos y, en función del plan del usuario, habilitar funcionalidades como historial energético, analítica avanzada y exportación de datos.
+
+##### Notifications Components Diagram
+
+![Frontend Notifications Components Diagram](assets/frontend-notification-components.png)
+
+El bounded context `Notifications` administra alertas, reglas de alerta y preferencias de notificación. Permite listar alertas, marcar alertas como leídas, configurar reglas y aplicar criterios de prioridad. Este módulo se relaciona con el monitoreo energético, ya que ciertas lecturas pueden activar alertas según las reglas configuradas.
+
+##### Workplace Components Diagram
+
+![Frontend Workplace Components Diagram](assets/frontend-workplace-components.png)
+
+El bounded context `Workplace` gestiona sedes, ambientes y asignaciones de dispositivos. Permite organizar los dispositivos dentro de ubicaciones físicas como hogares, oficinas, tiendas o almacenes. Su diseño facilita visualizar la distribución de ambientes, cobertura de asignaciones y sedes con mayor actividad.
+
+##### Reporting Components Diagram
+
+![Frontend Reporting Components Diagram](assets/frontend-reporting-components.png)
+
+El bounded context `Reporting` gestiona reportes de consumo y metas energéticas. Este módulo muestra indicadores como consumo total, picos máximos, reportes críticos, progreso promedio de metas y metas completadas. También permite organizar la información para analizar la evolución del consumo energético.
+
+##### Service Management Components Diagram
+
+![Frontend Service Management Components Diagram](assets/frontend-service-management-components.png)
+
+El bounded context `Service Management` administra tickets de soporte y tickets de mantenimiento. Permite visualizar solicitudes de ayuda, casos críticos, tasa de resolución, mantenimientos pendientes y mantenimientos completados. Su objetivo es dar soporte operativo al usuario y controlar incidencias relacionadas con el sistema o los dispositivos.
+
+#### 4.6.4.3. Frontend Components Diagram - Type 3: Presentation Layer Design
+
+Los diagramas de componentes de Tipo 3 se enfocan específicamente en la capa de presentación de cada bounded context. Estos diagramas permiten visualizar cómo se organizan las páginas, componentes visuales, pipes de traducción y facades consumidos desde la interfaz.
+
+##### Shared Presentation Components Diagram
+
+![Frontend Shared Presentation Components Diagram](assets/frontend-presentation-shared-components.png)
+
+La capa de presentación de `Shared` incluye el layout principal, el componente de cambio de idioma, el footer y páginas generales como Home, About y Not Found. Esta capa proporciona la estructura visual común de toda la aplicación y permite que los demás módulos se rendericen mediante el sistema de rutas.
+
+##### IAM Presentation Components Diagram
+
+![Frontend IAM Presentation Components Diagram](assets/frontend-presentation-iam-components.png)
+
+La capa de presentación de `IAM` contiene las páginas de login y registro. Estas páginas construyen los DTOs correspondientes y llaman al `IAM Facade` para ejecutar los casos de uso de autenticación y creación de cuenta. También utiliza traducciones para soportar los idiomas disponibles en la aplicación.
+
+##### Billing Presentation Components Diagram
+
+![Frontend Billing Presentation Components Diagram](assets/frontend-presentation-billing-components.png)
+
+La capa de presentación de `Billing` contiene la página de planes, tarjetas de plan y formulario de pago. Desde esta vista, el usuario puede ver su plan activo, seleccionar un nuevo plan, confirmar un pago simulado y revisar sus facturas. La página se comunica con el `Billing Facade`, que proporciona los datos y acciones necesarias.
+
+##### Device Control Presentation Components Diagram
+
+![Frontend Device Control Presentation Components Diagram](assets/frontend-presentation-device-components.png)
+
+La capa de presentación de `Device Control` contiene las páginas de dispositivos y rutinas, además de componentes como listas y tarjetas de dispositivos. Su objetivo es mostrar el estado de los dispositivos, permitir acciones como encender o apagar, y gestionar rutinas automáticas.
+
+##### Energy Monitoring Presentation Components Diagram
+
+![Frontend Energy Monitoring Presentation Components Diagram](assets/frontend-presentation-energy-monitoring-components.png)
+
+La capa de presentación de `Energy Monitoring` contiene las páginas de dashboard energético e historial. También incluye componentes de métricas y gráficos, los cuales permiten visualizar el consumo total, consumo promedio, picos máximos y evolución histórica.
+
+##### Notifications Presentation Components Diagram
+
+![Frontend Notifications Presentation Components Diagram](assets/frontend-presentation-notification-components.png)
+
+La capa de presentación de `Notifications` incluye la página de alertas y el listado de alertas. Esta vista permite observar alertas ordenadas por prioridad, revisar notificaciones pendientes y ejecutar acciones como marcar alertas como leídas.
+
+##### Workplace Presentation Components Diagram
+
+![Frontend Workplace Presentation Components Diagram](assets/frontend-presentation-workplace-components.png)
+
+La capa de presentación de `Workplace` contiene la página de gestión de sedes y ambientes. Esta vista muestra KPIs, insights operativos, distribución de sedes, ambientes registrados y estado de asignaciones de dispositivos. Utiliza el `Workplace Facade` para obtener y calcular la información mostrada.
+
+##### Reporting Presentation Components Diagram
+
+![Frontend Reporting Presentation Components Diagram](assets/frontend-presentation-reporting-components.png)
+
+La capa de presentación de `Reporting` contiene las páginas de reportes y metas. La página de reportes muestra análisis de consumo, tendencias y reportes críticos, mientras que la página de metas muestra progreso, estado de metas y métricas de seguimiento energético.
+
+##### Service Management Presentation Components Diagram
+
+![Frontend Service Management Presentation Components Diagram](assets/frontend-presentation-service-management-components.png)
+
+La capa de presentación de `Service Management` contiene las páginas de soporte y mantenimiento. La página de soporte muestra tickets, casos críticos y tasa de resolución. La página de mantenimiento muestra atenciones pendientes, mantenimientos completados y una línea de tiempo de mantenimientos técnicos.
 
 
 ## 4.7. Software Object-Oriented Design
