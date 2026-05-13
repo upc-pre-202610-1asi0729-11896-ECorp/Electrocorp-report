@@ -1348,23 +1348,116 @@ Diseñamos la navegación para que sea persistente y minimice los clics del usua
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
-El wireframe define la estructura básica de la landing page en bloques principales:
-<img src="assets/LandingPageWireframe1.png">
-<img src="assets/LandingPageWireframe2.png">
-<img src="assets/LandingPageWireframe3.png">
-<img src="assets/LandingPageWireframe4.png">
-<img src="assets/LandingPageWireframe5.png">
-<img src="assets/LandingPageWireframe6.png">
-<img src="assets/LandingPageWireframe7.png">
+
+El wireframe de la landing page representa la estructura base de la interfaz antes de aplicar estilos visuales finales. Estos wireframes permiten identificar la distribución de los elementos principales, la jerarquía de contenido, la navegación entre secciones y la organización de los bloques informativos dentro de la página.
+
+En esta propuesta se consideran las principales secciones de la landing page: inicio, planes, preguntas frecuentes, enchufes inteligentes, reseñas, descripción del proyecto, objetivos, equipo, dirección y soporte. Cada wireframe mantiene una baja fidelidad visual, priorizando la ubicación de los componentes sobre los colores, imágenes o detalles gráficos finales.
+
+**Home / Inicio:**  
+Presenta la estructura principal de bienvenida, incluyendo el encabezado de navegación, el mensaje principal, el botón de acceso al dashboard, una promoción inicial y una barra de búsqueda para consultas del usuario.
+
+<img src="assets/LandingPage-Wireframe-Home.png">
+
+**Pricing / Planes:**  
+Muestra la distribución de los planes de suscripción en tarjetas comparativas. Se incluyen los precios, beneficios principales y botones de selección de plan.
+
+<img src="assets/LandingPage-Wireframe-Pricing.png">
+
+**FAQ / Preguntas frecuentes:**  
+Define la estructura de preguntas desplegables para resolver dudas comunes sobre consumo eléctrico, ahorro energético y uso de enchufes inteligentes.
+
+<img src="assets/LandingPage-Wireframe-FAQ.png">
+
+**Smart Plugs / Enchufes inteligentes:**  
+Representa la sección visual destinada a mostrar el uso de enchufes inteligentes en distintos contextos, mediante dos bloques de imagen principales.
+
+<img src="assets/LandingPage-Wireframe-SmartPlugs.png">
+
+**Reviews / Reseñas:**  
+Organiza las opiniones de clientes en tarjetas tipo carrusel, incluyendo imagen, nombre, tipo de usuario y comentario.
+
+<img src="assets/LandingPage-Wireframe-Reviews.png">
+
+**Description / Descripción:**  
+Presenta la sección informativa donde se explica el problema, la propuesta de solución y el valor del ecosistema IoT de ElectroCorp.Web.
+
+<img src="assets/LandingPage-Wireframe-Description.png">
+
+**Goals / Objetivos:**  
+Muestra la estructura destinada a explicar los objetivos del proyecto, acompañada de imágenes referenciales sobre automatización y monitoreo energético.
+
+<img src="assets/LandingPage-Wireframe-Goals.png">
+
+**About us / Sobre nosotros:**  
+Define la distribución de las tarjetas del equipo de desarrollo, mostrando los nombres, roles y responsabilidades de cada integrante.
+
+<img src="assets/LandingPage-Wireframe-About.png">
+
+**Direction / Dirección:**  
+Estructura la sección de ubicación, incluyendo una tarjeta con información de contacto y un bloque destinado al mapa de ubicación.
+
+<img src="assets/LandingPage-Wireframe-Direction.png">
+
+**Support / Soporte:**  
+Presenta la sección final de suscripción y contacto, junto con el pie de página, enlaces sociales y copyright.
+
+<img src="assets/LandingPage-Wireframe-Support.png">
 
 ### 4.3.2. Landing Page Mock-up
-<img src="assets/LandingPageMockUps1.png">
-<img src="assets/LandingPageMockUps2.png">
-<img src="assets/LandingPageMockUps3.png">
-<img src="assets/LandingPageMockUps4.png">
-<img src="assets/LandingPageMockUps5.png">
-<img src="assets/LandingPageMockUps6.png">
-<img src="assets/LandingPageMockUps7.png">
+
+El mock-up de la landing page representa la versión visual de alta fidelidad del sitio web ElectroCorp.Web. A diferencia del wireframe, esta etapa incorpora colores, tipografía, imágenes, botones, tarjetas, fondos, sombras y elementos visuales finales que permiten observar una aproximación cercana al producto terminado.
+
+La propuesta visual utiliza una estética tecnológica basada en tonos oscuros, acentos celestes y elementos relacionados con electricidad, automatización e Internet de las Cosas. El objetivo del diseño es transmitir modernidad, confianza y facilidad de uso para usuarios interesados en controlar y reducir su consumo eléctrico.
+
+**Home / Inicio:**  
+El mock-up inicial presenta el mensaje principal de la plataforma, resaltando el control del consumo eléctrico del hogar y el beneficio de ahorro energético. También incluye el botón de acceso al dashboard, una promoción para nuevos usuarios y una barra de búsqueda.
+
+<img src="assets/LandingPage-Mockup-Home.png">
+
+**Pricing / Planes:**  
+Esta sección muestra los planes Starter, Professional y Enterprise con una presentación visual comparativa. El plan Professional se destaca como recomendado para guiar la decisión del usuario.
+
+<img src="assets/LandingPage-Mockup-Pricing.png">
+
+**FAQ / Preguntas frecuentes:**  
+El mock-up de preguntas frecuentes utiliza tarjetas desplegables con diseño oscuro y bordes sutiles, manteniendo una lectura clara y ordenada.
+
+<img src="assets/LandingPage-Mockup-FAQ.png">
+
+**Smart Plugs / Enchufes inteligentes:**  
+Esta sección muestra imágenes del uso de enchufes inteligentes en el hogar y en espacios de trabajo, reforzando la idea de monitoreo y control energético en tiempo real.
+
+<img src="assets/LandingPage-Mockup-SmartPlugs.png">
+
+**Reviews / Reseñas:**  
+El mock-up de reseñas presenta testimonios de usuarios mediante tarjetas visuales con fotografías, nombres, tipo de cliente y comentarios sobre la utilidad de la plataforma.
+
+<img src="assets/LandingPage-Mockup-Reviews.png">
+
+**Description / Descripción:**  
+La sección de descripción explica el enfoque de la startup, el problema del alto costo de automatización del hogar y la solución basada en un ecosistema IoT plug-and-play.
+
+<img src="assets/LandingPage-Mockup-Description.png">
+
+**Goals / Objetivos:**  
+El mock-up de objetivos presenta la meta principal del proyecto: facilitar el control del consumo eléctrico mediante una plataforma comprensible, accesible y orientada al ahorro.
+
+<img src="assets/LandingPage-Mockup-Goals.png">
+
+**About us / Sobre nosotros:**  
+Esta sección muestra al equipo de desarrollo de ElectroCorp.Web mediante tarjetas individuales con nombre, orientación técnica y responsabilidades dentro del proyecto.
+
+<img src="assets/LandingPage-Mockup-About.png">
+
+**Direction / Dirección:**  
+El mock-up de dirección incluye la información de contacto, ubicación de referencia y un mapa integrado para ubicar la sede principal del proyecto.
+
+<img src="assets/LandingPage-Mockup-Direction.png">
+
+**Support / Soporte:**  
+La sección final permite al usuario suscribirse para recibir novedades, consejos de ahorro y actualizaciones del producto. También incluye el footer con redes sociales y derechos reservados.
+
+<img src="assets/LandingPage-Mockup-Support.png">
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
