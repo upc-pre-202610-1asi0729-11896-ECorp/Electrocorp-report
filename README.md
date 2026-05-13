@@ -3066,10 +3066,89 @@ https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/commit
   </tr>
 </table>
 
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint.
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este Sprint logramos consolidar la primera interacción real y conectada de la plataforma ElectroCorp, logrando avances significativos en dos frentes simultáneos:
+
+**1. Frontend Web Application (SPA):**
+Desplegamos la primera versión interactiva de nuestra aplicación web. Los usuarios ahora pueden visualizar y navegar de manera fluida (gracias al sistema de enrutamiento) por los formularios de inicio de sesión (Login) y creación de cuenta (Register). Una vez dentro, pueden acceder a la maqueta interactiva del Dashboard principal (Home), el cual incluye las tarjetas de resumen energético, gestión de dispositivos y soporte para la alternancia de temas de interfaz (Dark Mode).
+
+**2. Landing Page (Actualizaciones):**
+Mejoramos la experiencia del usuario visitante integrando soporte para un tercer idioma (Portugués) en nuestro sistema i18n. Además, simplificamos el flujo de compra en la sección de planes de servicio, adecuando su estilo visual para que mantenga consistencia con la nueva Web App. Finalmente, depuramos las maquetas HTML obsoletas (login, register, dashboard) del sitio estático para reemplazarlas por redirecciones directas (rutas) hacia la Single Page Application (SPA). Los HTML obsoletos fueron reutilizados para hacer los formularios de la Web App
+
+**Video Demostrativo del Sprint 2:**
+En el siguiente video se ilustra y explica la navegación entre el Landing Page actualizado (mostrando el cambio a portugués y el nuevo flujo de planes) y la nueva Web Application, demostrando el flujo de ruteo hacia el Login, Register y el Dashboard principal.
+
+Link del video: https://youtu.be/PX_vQbidnJg
+
+Imagenes del Web App:
+
+ * Login
+    
+    <img src="assets/Webapp-Mockup_Login.png"></img><br>
+  
+  * Register:
+
+    <img src="assets/Webapp-Mockup_Register.png"></img><br>
+    
+  * Planes desde Landing:
+
+    <img src="assets/Webapp-Mockup_Plans.png"></img><br>
+
+  * Planes:
+
+    <img src="assets/Webapp-Mock_Ups_Planesr.png"></img><br>
+
+
+Imágenes del Landing Page Actualizada:
+  
+  * Home
+    
+    <img src="assets/LandingPageMockUps2.1.png"></img><br>
+  
+  * Pricing:
+
+    <img src="assets/LandingPageMockUps2.2.png"></img><br>
+    
+  * FAQ:
+
+    <img src="assets/LandingPageMockUps2.3.png"></img><br>
+    
+  * Smart Plugs:
+    
+    <img src="assets/LandingPageMockUps2.4.png"></img><br>
+ 
+  * Reviews:
+
+    <img src="assets/LandingPageMockUps2.5.png"></img><br>
+    
+  * Description:
+    
+    <img src="assets/LandingPageMockUps2.6.png"></img><br>
+
+  * Goals:
+    
+    <img src="assets/LandingPageMockUps2.7.png"></img><br>
+
+  * About Us:
+    
+    <img src="assets/LandingPageMockUps2.8.png"></img><br>
+
+  * Direction:
+    
+    <img src="assets/LandingPageMockUps2.9.png"></img><br>
+    
+  * Support:
+    
+    <img src="assets/LandingPageMockUps2.10.png"></img><br>
+    
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
 ### 5.2.1. Sprint n 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
