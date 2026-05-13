@@ -1712,8 +1712,6 @@ Repositorio GitHub de los archivos feature: https://github.com/upc-pre-202610-1a
 <img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
 
-### 5.1.3. Source Code Style Guide & Conventions
-
 ### 5.1.3 Source Code Style Guide & Conventions
 
 En esta sección del proyecto, nos enfocaremos en establecer un conjunto coherente de referencias y convenciones para el estilo de código y las convenciones de programación que usaremos para la creación de nuestra aplicación web ElectroCorp. Estas prácticas son cruciales para el desarrollo de la aplicación puesto a que garantizan la coherencia, la legibilidad y la calidad estructural del código. En consecuencia, nos facilitarán su mantenimiento y escalabilidad a lo largo del ciclo de vida del proyecto. 
@@ -2220,14 +2218,14 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
 </p>
 
 <table align="center" border="1" width="90%" style="text-align:center; border-collapse: collapse;">
-    <tr align="center">
-        <td><b>Miembro del Equipo</b></td>
-        <td><b>Github Username</b></td>
-        <td><b>UI/UX</b></td>
-        <td><b>Landing Page</b></td>
-        <td><b>Sprint Planning</b></td>
-        <td><b>Documentation</b></td>
-        <td><b>Testing</b></td>
+   <tr align="center">
+        <td><b>Team Member (Last Name, First Name)</b></td>
+        <td><b>GitHub Username</b></td>
+        <td><b>UI/UX Design <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Landing Page Dev <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Sprint Planning <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Documentation <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Testing <br> Leader (L) / Collaborator (C)</b></td>
     </tr>
     <tr align="left">
         <td>- Tavara Correa, Sebastian Oswaldo</td>
