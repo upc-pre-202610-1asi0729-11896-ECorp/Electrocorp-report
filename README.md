@@ -1614,17 +1614,16 @@ El flujo principal de la arquitectura queda representado de la siguiente forma: 
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Los siguientes diagramas de componentes representan la arquitectura interna de ElectroCorp a nivel frontend. Estos diagramas permiten observar cómo la aplicación se organiza modularmente por bounded contexts, separando responsabilidades de presentación, aplicación, dominio e infraestructura.
+Los siguientes diagramas de componentes representan la arquitectura interna de ElectroCorp a nivel frontend y backend. Estos diagramas permiten observar cómo la aplicación se organiza modularmente por bounded contexts, separando responsabilidades entre presentación, aplicación, dominio e infraestructura en el frontend, y entre aplicación, dominio e infraestructura en el backend.
 
-Para una mejor comprensión, los diagramas se han dividido en tres tipos:
+Para una mejor comprensión, los diagramas se han dividido en dos grupos principales:
 
-- **Tipo 1:** Diagrama general de componentes de toda la aplicación frontend.
-- **Tipo 2:** Diagramas de componentes por bounded context.
-- **Tipo 3:** Diagramas de componentes enfocados en la capa de presentación de cada bounded context.
+- **Frontend Components Diagrams:** muestran la organización interna de la aplicación web Angular, incluyendo la vista general, los bounded contexts y la capa de presentación.
+- **Backend Components Diagrams:** muestran la organización interna del backend Java, incluyendo una vista general y el diseño específico de cada bounded context.
 
-#### 4.6.4.1. Frontend Components Diagram - Type 1: General Application View
+#### 4.6.4.1. ElectroCorp - Frontend General Components Diagram
 
-![Frontend General Components Diagram](assets/frontend-general-components.png)
+![ElectroCorp - Frontend General Components Diagram](assets/frontend-general-components.png)
 
 El diagrama general de componentes del frontend muestra la estructura global de la aplicación web de ElectroCorp. En esta vista se observa cómo el usuario interactúa con el `App Layout`, el sistema de rutas y el `Language Switcher`, además de cómo la aplicación organiza sus funcionalidades en bounded contexts.
 
@@ -1632,121 +1631,207 @@ Los módulos principales considerados son `Shared`, `IAM`, `Billing`, `Device Co
 
 Este diagrama evidencia que la aplicación frontend mantiene una arquitectura modular, donde cada bounded context encapsula sus responsabilidades y utiliza elementos compartidos como servicios de sesión, preferencias de interfaz, base API service, base assembler y componentes comunes.
 
-#### 4.6.4.2. Frontend Components Diagram - Type 2: Bounded Context Design
+#### 4.6.4.2. ElectroCorp - Frontend Bounded Context Components Diagrams
 
-Los diagramas de componentes de Tipo 2 detallan el diseño interno de cada bounded context. En estos diagramas se muestra la relación entre las capas de presentación, aplicación, dominio e infraestructura.
+Los siguientes diagramas detallan el diseño interno de cada bounded context del frontend. En ellos se observa la relación entre las capas de presentación, aplicación, dominio e infraestructura.
 
-##### Shared Components Diagram
+##### ElectroCorp - Shared Frontend Components Diagram
 
-![Frontend Shared Components Diagram](assets/frontend-shared-components.png)
+![ElectroCorp - Shared Frontend Components Diagram](assets/frontend-shared-components.png)
 
-El módulo `Shared` funciona como un kernel compartido dentro del frontend. Contiene componentes comunes como `App Layout`, `Footer` y `Language Switcher`, además de servicios transversales como `Auth Session Service`, `UI Preferences Service`, guards, servicios base de API y ensambladores base. Su propósito es evitar duplicidad y proporcionar funcionalidades reutilizables a los demás bounded contexts.
+El bounded context `Shared` funciona como un kernel compartido dentro del frontend. Contiene componentes comunes como `App Layout`, `Footer` y `Language Switcher`, además de servicios transversales como `Auth Session Service`, `UI Preferences Service`, guards, servicios base de API y ensambladores base. Su propósito es evitar duplicidad y proporcionar funcionalidades reutilizables a los demás bounded contexts.
 
-##### IAM Components Diagram
+##### ElectroCorp - IAM Frontend Components Diagram
 
-![Frontend IAM Components Diagram](assets/frontend-iam-components.png)
+![ElectroCorp - IAM Frontend Components Diagram](assets/frontend-iam-components.png)
 
 El bounded context `IAM` se encarga de la autenticación, registro, gestión de sesión y perfiles de acceso. Su capa de presentación contiene las páginas de login y registro, mientras que su capa de aplicación utiliza un facade para coordinar los casos de uso. La infraestructura se comunica con la API mediante servicios especializados y transforma los datos usando assemblers.
 
-##### Billing Components Diagram
+##### ElectroCorp - Billing Frontend Components Diagram
 
-![Frontend Billing Components Diagram](assets/frontend-billing-components.png)
+![ElectroCorp - Billing Frontend Components Diagram](assets/frontend-billing-components.png)
 
-El bounded context `Billing` gestiona planes, suscripciones, pagos e invoices. Este módulo permite visualizar planes disponibles, suscribirse, cancelar una suscripción, procesar pagos simulados y revisar el resumen de facturación. Además, incorpora entidades como `Plan`, `Subscription`, `Payment` e `Invoice`, junto con servicios de dominio para políticas de suscripción y permisos según el plan contratado.
+El bounded context `Billing` gestiona planes, suscripciones, pagos e invoices. Este módulo permite visualizar planes disponibles, suscribirse, cancelar una suscripción, procesar pagos simulados y revisar el resumen de facturación. Además, incorpora entidades como `Plan`, `Subscription`, `Payment` e `Invoice`, junto con servicios de aplicación e infraestructura para mantener la información sincronizada con la API.
 
-##### Device Control Components Diagram
+##### ElectroCorp - Device Control Frontend Components Diagram
 
-![Frontend Device Control Components Diagram](assets/frontend-device-components.png)
+![ElectroCorp - Device Control Frontend Components Diagram](assets/frontend-device-control-components.png)
 
-El bounded context `Device Control` administra dispositivos, rutinas y grupos de dispositivos. Su facade coordina la carga, creación, actualización y eliminación de dispositivos y rutinas. También se apoya en servicios de dominio para calcular consumo activo y detectar conflictos entre rutinas programadas.
+El bounded context `Device Control` administra dispositivos, rutinas y grupos de dispositivos. Su facade coordina la carga, creación, actualización y eliminación de dispositivos y rutinas. También se apoya en modelos de dominio para representar el estado de los dispositivos, las rutinas automáticas y la agrupación de elementos inteligentes.
 
-##### Energy Monitoring Components Diagram
+##### ElectroCorp - Energy Monitoring Frontend Components Diagram
 
-![Frontend Energy Monitoring Components Diagram](assets/frontend-energy-monitoring-components.png)
+![ElectroCorp - Energy Monitoring Frontend Components Diagram](assets/frontend-energy-monitoring-components.png)
 
-El bounded context `Energy Monitoring` se encarga de mostrar lecturas energéticas, métricas, historial y gráficos de consumo. Este módulo permite observar el comportamiento energético de los dispositivos y, en función del plan del usuario, habilitar funcionalidades como historial energético, analítica avanzada y exportación de datos.
+El bounded context `Energy Monitoring` se encarga de mostrar lecturas energéticas, métricas, historial y gráficos de consumo. Este módulo permite observar el comportamiento energético de los dispositivos y, en función de las lecturas registradas, presentar información relevante para el análisis de consumo.
 
-##### Notifications Components Diagram
+##### ElectroCorp - Notification Frontend Components Diagram
 
-![Frontend Notifications Components Diagram](assets/frontend-notification-components.png)
+![ElectroCorp - Notification Frontend Components Diagram](assets/frontend-notification-components.png)
 
 El bounded context `Notifications` administra alertas, reglas de alerta y preferencias de notificación. Permite listar alertas, marcar alertas como leídas, configurar reglas y aplicar criterios de prioridad. Este módulo se relaciona con el monitoreo energético, ya que ciertas lecturas pueden activar alertas según las reglas configuradas.
 
-##### Workplace Components Diagram
+##### ElectroCorp - Workplace Frontend Components Diagram
 
-![Frontend Workplace Components Diagram](assets/frontend-workplace-components.png)
+![ElectroCorp - Workplace Frontend Components Diagram](assets/frontend-workplace-components.png)
 
 El bounded context `Workplace` gestiona sedes, ambientes y asignaciones de dispositivos. Permite organizar los dispositivos dentro de ubicaciones físicas como hogares, oficinas, tiendas o almacenes. Su diseño facilita visualizar la distribución de ambientes, cobertura de asignaciones y sedes con mayor actividad.
 
-##### Reporting Components Diagram
+##### ElectroCorp - Reporting Frontend Components Diagram
 
-![Frontend Reporting Components Diagram](assets/frontend-reporting-components.png)
+![ElectroCorp - Reporting Frontend Components Diagram](assets/frontend-reporting-components.png)
 
-El bounded context `Reporting` gestiona reportes de consumo y metas energéticas. Este módulo muestra indicadores como consumo total, picos máximos, reportes críticos, progreso promedio de metas y metas completadas. También permite organizar la información para analizar la evolución del consumo energético.
+El bounded context `Reporting` gestiona reportes de consumo y metas energéticas. Este módulo muestra indicadores como consumo total, picos máximos, reportes críticos, progreso promedio de metas y metas completadas. Además, permite generar reportes a partir de lecturas energéticas y crear metas asociadas al usuario autenticado.
 
-##### Service Management Components Diagram
+##### ElectroCorp - Service Management Frontend Components Diagram
 
-![Frontend Service Management Components Diagram](assets/frontend-service-management-components.png)
+![ElectroCorp - Service Management Frontend Components Diagram](assets/frontend-service-management-components.png)
 
 El bounded context `Service Management` administra tickets de soporte y tickets de mantenimiento. Permite visualizar solicitudes de ayuda, casos críticos, tasa de resolución, mantenimientos pendientes y mantenimientos completados. Su objetivo es dar soporte operativo al usuario y controlar incidencias relacionadas con el sistema o los dispositivos.
 
-#### 4.6.4.3. Frontend Components Diagram - Type 3: Presentation Layer Design
+#### 4.6.4.3. ElectroCorp - Frontend Presentation Components Diagrams
 
-Los diagramas de componentes de Tipo 3 se enfocan específicamente en la capa de presentación de cada bounded context. Estos diagramas permiten visualizar cómo se organizan las páginas, componentes visuales, pipes de traducción y facades consumidos desde la interfaz.
+Los siguientes diagramas se enfocan específicamente en la capa de presentación de cada bounded context del frontend. Estos diagramas permiten visualizar cómo se organizan las páginas, componentes visuales, pipes de traducción y facades consumidos desde la interfaz.
 
-##### Shared Presentation Components Diagram
+##### ElectroCorp - Shared Frontend Components Diagram Presentation
 
-![Frontend Shared Presentation Components Diagram](assets/frontend-presentation-shared-components.png)
+![ElectroCorp - Shared Frontend Components Diagram Presentation](assets/frontend-presentation-shared-components.png)
 
 La capa de presentación de `Shared` incluye el layout principal, el componente de cambio de idioma, el footer y páginas generales como Home, About y Not Found. Esta capa proporciona la estructura visual común de toda la aplicación y permite que los demás módulos se rendericen mediante el sistema de rutas.
 
-##### IAM Presentation Components Diagram
+##### ElectroCorp - IAM Frontend Components Diagram Presentation
 
-![Frontend IAM Presentation Components Diagram](assets/frontend-presentation-iam-components.png)
+![ElectroCorp - IAM Frontend Components Diagram Presentation](assets/frontend-presentation-iam-components.png)
 
 La capa de presentación de `IAM` contiene las páginas de login y registro. Estas páginas construyen los DTOs correspondientes y llaman al `IAM Facade` para ejecutar los casos de uso de autenticación y creación de cuenta. También utiliza traducciones para soportar los idiomas disponibles en la aplicación.
 
-##### Billing Presentation Components Diagram
+##### ElectroCorp - Billing Frontend Components Diagram Presentation
 
-![Frontend Billing Presentation Components Diagram](assets/frontend-presentation-billing-components.png)
+![ElectroCorp - Billing Frontend Components Diagram Presentation](assets/frontend-presentation-billing-components.png)
 
 La capa de presentación de `Billing` contiene la página de planes, tarjetas de plan y formulario de pago. Desde esta vista, el usuario puede ver su plan activo, seleccionar un nuevo plan, confirmar un pago simulado y revisar sus facturas. La página se comunica con el `Billing Facade`, que proporciona los datos y acciones necesarias.
 
-##### Device Control Presentation Components Diagram
+##### ElectroCorp - Device Control Frontend Components Diagram Presentation
 
-![Frontend Device Control Presentation Components Diagram](assets/frontend-presentation-device-components.png)
+![ElectroCorp - Device Control Frontend Components Diagram Presentation](assets/frontend-presentation-device-control-components.png)
 
 La capa de presentación de `Device Control` contiene las páginas de dispositivos y rutinas, además de componentes como listas y tarjetas de dispositivos. Su objetivo es mostrar el estado de los dispositivos, permitir acciones como encender o apagar, y gestionar rutinas automáticas.
 
-##### Energy Monitoring Presentation Components Diagram
+##### ElectroCorp - Energy Monitoring Frontend Components Diagram Presentation
 
-![Frontend Energy Monitoring Presentation Components Diagram](assets/frontend-presentation-energy-monitoring-components.png)
+![ElectroCorp - Energy Monitoring Frontend Components Diagram Presentation](assets/frontend-presentation-energy-monitoring-components.png)
 
 La capa de presentación de `Energy Monitoring` contiene las páginas de dashboard energético e historial. También incluye componentes de métricas y gráficos, los cuales permiten visualizar el consumo total, consumo promedio, picos máximos y evolución histórica.
 
-##### Notifications Presentation Components Diagram
+##### ElectroCorp - Notification Frontend Components Diagram Presentation
 
-![Frontend Notifications Presentation Components Diagram](assets/frontend-presentation-notification-components.png)
+![ElectroCorp - Notification Frontend Components Diagram Presentation](assets/frontend-presentation-notification-components.png)
 
 La capa de presentación de `Notifications` incluye la página de alertas y el listado de alertas. Esta vista permite observar alertas ordenadas por prioridad, revisar notificaciones pendientes y ejecutar acciones como marcar alertas como leídas.
 
-##### Workplace Presentation Components Diagram
+##### ElectroCorp - Workplace Frontend Components Diagram Presentation
 
-![Frontend Workplace Presentation Components Diagram](assets/frontend-presentation-workplace-components.png)
+![ElectroCorp - Workplace Frontend Components Diagram Presentation](assets/frontend-presentation-workplace-components.png)
 
 La capa de presentación de `Workplace` contiene la página de gestión de sedes y ambientes. Esta vista muestra KPIs, insights operativos, distribución de sedes, ambientes registrados y estado de asignaciones de dispositivos. Utiliza el `Workplace Facade` para obtener y calcular la información mostrada.
 
-##### Reporting Presentation Components Diagram
+##### ElectroCorp - Reporting Frontend Components Diagram Presentation
 
-![Frontend Reporting Presentation Components Diagram](assets/frontend-presentation-reporting-components.png)
+![ElectroCorp - Reporting Frontend Components Diagram Presentation](assets/frontend-presentation-reporting-components.png)
 
 La capa de presentación de `Reporting` contiene las páginas de reportes y metas. La página de reportes muestra análisis de consumo, tendencias y reportes críticos, mientras que la página de metas muestra progreso, estado de metas y métricas de seguimiento energético.
 
-##### Service Management Presentation Components Diagram
+##### ElectroCorp - Service Management Frontend Components Diagram Presentation
 
-![Frontend Service Management Presentation Components Diagram](assets/frontend-presentation-service-management-components.png)
+![ElectroCorp - Service Management Frontend Components Diagram Presentation](assets/frontend-presentation-service-management-components.png)
 
 La capa de presentación de `Service Management` contiene las páginas de soporte y mantenimiento. La página de soporte muestra tickets, casos críticos y tasa de resolución. La página de mantenimiento muestra atenciones pendientes, mantenimientos completados y una línea de tiempo de mantenimientos técnicos.
+
+#### 4.6.4.4. ElectroCorp - Backend General Components Diagram
+
+![ElectroCorp - Backend General Components Diagram](assets/backend-general-components.png)
+
+El diagrama general de componentes del backend muestra la estructura global de la API de ElectroCorp. En esta vista se observa cómo el frontend consume los endpoints REST del backend y cómo la aplicación se organiza internamente mediante bounded contexts.
+
+Los módulos principales considerados son `Shared`, `IAM`, `Billing`, `Device Control`, `Energy Monitoring`, `Notifications`, `Workplace`, `Reporting` y `Service Management`. Cada bounded context encapsula sus casos de uso, entidades de dominio, value objects, servicios de dominio, repositorios e integraciones necesarias.
+
+Este diagrama evidencia que el backend mantiene una arquitectura modular basada en DDD, donde los contextos se apoyan en un kernel compartido y en una capa de persistencia para almacenar la información del sistema. Además, contempla integraciones externas como servicios de pago y notificaciones.
+
+#### 4.6.4.5. ElectroCorp - Backend Bounded Context Components Diagrams
+
+Los siguientes diagramas detallan el diseño interno de cada bounded context del backend. A diferencia del frontend, en el backend no se incluyen diagramas separados de interfaces o capa de presentación, ya que el enfoque está en los componentes de aplicación, dominio e infraestructura.
+
+##### ElectroCorp - Shared Backend Components Diagram
+
+![ElectroCorp - Shared Backend Components Diagram](assets/backend-shared-components.png)
+
+El bounded context `Shared` del backend contiene elementos reutilizables por los demás módulos, como `Base Entity`, entidades auditables, value objects generales, excepciones de dominio, servicios transversales, configuración de persistencia, configuración de seguridad y manejo global de excepciones.
+
+Este módulo permite mantener consistencia entre los contextos y evita duplicar lógica común relacionada con identidad de entidades, auditoría, validaciones generales y acceso a infraestructura compartida.
+
+##### ElectroCorp - IAM Backend Components Diagram
+
+![ElectroCorp - IAM Backend Components Diagram](assets/backend-iam-components.png)
+
+El bounded context `IAM` del backend se encarga de la gestión de usuarios, perfiles de acceso, autenticación y reglas de seguridad. Incluye servicios de aplicación para registrar usuarios, autenticar credenciales y asignar perfiles.
+
+En la capa de dominio se consideran entidades como `User Account` y `Access Profile`, además de value objects como `Email Address`, `Password Hash` y `User Status`. La infraestructura se encarga de persistir usuarios y perfiles, así como de cifrar contraseñas y generar tokens de autenticación.
+
+##### ElectroCorp - Billing Backend Components Diagram
+
+![ElectroCorp - Billing Backend Components Diagram](assets/backend-billing-components.png)
+
+El bounded context `Billing` del backend gestiona planes, suscripciones, pagos e invoices. Sus servicios de aplicación coordinan la suscripción a planes, cancelación de suscripciones y procesamiento de pagos.
+
+En el dominio se consideran entidades como `Plan`, `Subscription`, `Payment` e `Invoice`, junto con value objects como `Money`, `Plan Code`, `Subscription Status` y `Payment Status`. La infraestructura se encarga de persistir la información de facturación y conectarse con un proveedor externo de pagos.
+
+##### ElectroCorp - Device Control Backend Components Diagram
+
+![ElectroCorp - Device Control Backend Components Diagram](assets/backend-device-control-components.png)
+
+El bounded context `Device Control` del backend administra dispositivos, rutinas y grupos de dispositivos. Sus servicios de aplicación permiten registrar dispositivos, actualizar estados, crear rutinas y organizar dispositivos en grupos.
+
+En el dominio se consideran entidades como `Device`, `Routine` y `Device Group`, además de value objects como `Device Status`, `Device Type`, `Power Rating` y `Schedule`. También se incluyen servicios de dominio para validar conflictos de rutinas y estimar consumo activo.
+
+##### ElectroCorp - Energy Monitoring Backend Components Diagram
+
+![ElectroCorp - Energy Monitoring Backend Components Diagram](assets/backend-energy-monitoring-components.png)
+
+El bounded context `Energy Monitoring` del backend gestiona lecturas energéticas, consultas históricas y cálculos de métricas. Sus servicios de aplicación permiten registrar lecturas, filtrar información por fecha y calcular indicadores para dashboards.
+
+En el dominio se considera la entidad `Energy Reading`, junto con value objects como `Watts`, `Reading Timestamp` y `Consumption Level`. Además, se incluyen servicios de dominio para analizar lecturas, detectar picos y agregar valores de consumo.
+
+##### ElectroCorp - Notification Backend Components Diagram
+
+![ElectroCorp - Notification Backend Components Diagram](assets/backend-notification-components.png)
+
+El bounded context `Notifications` del backend administra alertas, reglas de alerta y preferencias de notificación. Sus servicios de aplicación permiten crear alertas, marcarlas como leídas y actualizar preferencias de usuario.
+
+En el dominio se consideran entidades como `Alert`, `Alert Rule` y `Notification Preference`, junto con value objects como `Alert Priority`, `Alert Status` y `Notification Channel`. La infraestructura se encarga de persistir la información y conectarse con servicios externos de correo o notificación.
+
+##### ElectroCorp - Workplace Backend Components Diagram
+
+![ElectroCorp - Workplace Backend Components Diagram](assets/backend-workplace-components.png)
+
+El bounded context `Workplace` del backend gestiona sedes, ambientes y asignaciones de dispositivos. Sus servicios de aplicación permiten crear ubicaciones, registrar ambientes y asignar dispositivos a espacios específicos.
+
+En el dominio se consideran entidades como `Location`, `Room` y `Device Assignment`, además de value objects como `Address`, `Room Name` y `Assignment Status`. Este contexto facilita organizar físicamente los dispositivos dentro del entorno del usuario.
+
+##### ElectroCorp - Reporting Backend Components Diagram
+
+![ElectroCorp - Reporting Backend Components Diagram](assets/backend-reporting-components.png)
+
+El bounded context `Reporting` del backend gestiona reportes de consumo y metas energéticas. Sus servicios de aplicación permiten generar reportes por rango de fechas, crear metas y consultar información histórica.
+
+En el dominio se consideran entidades como `Consumption Report` y `Energy Goal`, junto con value objects como `Report Period`, `Watt Summary`, `Goal Progress` y `Recommendation`. Además, se incluyen servicios de dominio para generar reportes, validar metas y construir recomendaciones de ahorro energético.
+
+##### ElectroCorp - Service Management Backend Components Diagram
+
+![ElectroCorp - Service Management Backend Components Diagram](assets/backend-service-management-components.png)
+
+El bounded context `Service Management` del backend administra tickets de soporte y tickets de mantenimiento. Sus servicios de aplicación permiten crear tickets, programar mantenimientos y actualizar estados de atención.
+
+En el dominio se consideran entidades como `Support Ticket` y `Maintenance Ticket`, además de value objects como `Ticket Priority`, `Ticket Status`, `Maintenance Status` y `Scheduled Date`. Este contexto permite controlar incidencias, solicitudes de ayuda y revisiones técnicas relacionadas con el sistema o los dispositivos.
 
 
 ## 4.7. Software Object-Oriented Design
