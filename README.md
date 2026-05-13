@@ -1969,8 +1969,6 @@ Repositorio GitHub de los archivos feature: https://github.com/upc-pre-202610-1a
 <img src="assets/repositorio-acceptance-test.PNG"></img><br>
 
 
-### 5.1.3. Source Code Style Guide & Conventions
-
 ### 5.1.3 Source Code Style Guide & Conventions
 
 En esta sección del proyecto, nos enfocaremos en establecer un conjunto coherente de referencias y convenciones para el estilo de código y las convenciones de programación que usaremos para la creación de nuestra aplicación web ElectroCorp. Estas prácticas son cruciales para el desarrollo de la aplicación puesto a que garantizan la coherencia, la legibilidad y la calidad estructural del código. En consecuencia, nos facilitarán su mantenimiento y escalabilidad a lo largo del ciclo de vida del proyecto. 
@@ -2412,110 +2410,60 @@ private int calculateWatts(int current, int voltage)
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1 
 #### 5.2.1.1. Sprint Planning 1
-<table align="center" border="1" width="90%" style="text-align:center;">
-    <tr align="left">
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr>
+        <td><b>Sprint #</b></td>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+        <td><b>Date</b></td>
+        <td>2026-04-19</td>
+    </tr>
+    <tr>
+        <td><b>Time</b></td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr>
+        <td><b>Location</b></td>
+        <td>Modalidad Remota por Whatsapp</td>
+    </tr>
+    <tr>
+        <td><b>Prepared By</b></td>
+        <td>Cabrejos Chocce, Diego Alexander</td>
+    </tr>
+    <tr>
+        <td><b>Attendees (to planning meeting)</b></td>
+        <td>Tavara Correa, Sebastian Oswaldo / Santiago Atanacio, Jairo Mathias / Cabrejos Chocce, Diego Alexander / Loa Rojas, Jean Franck / Documet Romero, Timothy</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td>No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog.</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td>No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 1 Goal</b></td>
         <td>
-            <b>Sprint #</b>
-        </td>
-        <td>
-            <b>Sprint 1</b>           
+            <b>Our focus is on</b> desarrollar y desplegar la primera versión funcional de la Landing Page de ElectroCorp en Github Pages.<br><br>
+            <b>We believe it delivers</b> una comunicación clara de nuestra propuesta de valor (ecosistema IoT plug-and-play) a los visitantes, generando interés y prospectos.<br><br>
+            <b>This will be confirmed when</b> los usuarios puedan navegar fluidamente por las secciones informativas, visualizar testimonios, interactuar con el cambio de idiomas y suscribirse al boletín.
         </td>
     </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
+    <tr>
+        <td><b>Sprint 1 Velocity</b></td>
+        <td>36</td>
     </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            19/04/2026         
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            11:00         
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Modalidad Remota por Whatsapp
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            ElectroCorp Team    
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Attendees (to planning meeting)</b>
-        </td>
-        <td>
-            - Tavara Correa, Sebastian Oswaldo <br>
-            - Santiago Atanacio, Jairo Mathias <br>
-            - Cabrejos Chocco, Diego Alexander  <br>
-            - Loa Rojas, Jean Franck <br>
-            - Documet Romero, Timothy <br>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog  
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b> <br>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>SPRINT GOAL & USER STORIES</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 1 Goal</b>
-        </td>
-        <td>
-            El objetivo para este Sprint 1, es el desarrollar una landing page para ElectroCorp que cumpla con los requisitos dictados en la guía, garantizando una experiencia de usuario (UX) fluida y un diseño visual atractivo (Dark Mode), que comunique eficazmente nuestra propuesta de valor: democratizar la domótica en los hogares peruanos mediante un ecosistema IoT plug-and-play que permite gestionar el consumo eléctrico en tiempo real, reduciendo los altos costos de los recibos de luz y fomentando la eficiencia energética 
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 1 Velocity</b>
-        </td>
-        <td>
-            8
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            8
-        </td>
+    <tr>
+        <td><b>Sum of Story Points</b></td>
+        <td>36</td>
     </tr>
 </table>
 
@@ -2527,21 +2475,21 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
 </p>
 
 <table align="center" border="1" width="90%" style="text-align:center; border-collapse: collapse;">
-    <tr align="center">
-        <td><b>Miembro del Equipo</b></td>
-        <td><b>Github Username</b></td>
-        <td><b>UI/UX</b></td>
-        <td><b>Landing Page</b></td>
-        <td><b>Sprint Planning</b></td>
-        <td><b>Documentation</b></td>
-        <td><b>Testing</b></td>
+   <tr align="center">
+        <td><b>Team Member (Last Name, First Name)</b></td>
+        <td><b>GitHub Username</b></td>
+        <td><b>UI/UX Design <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Landing Page Dev <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Sprint Planning <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Documentation <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Testing <br> Leader (L) / Collaborator (C)</b></td>
     </tr>
     <tr align="left">
         <td>- Tavara Correa, Sebastian Oswaldo</td>
         <td align="center">SebastianTavara</td>
         <td align="center">C</td>
         <td align="center">-</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
         <td align="center">-</td>
         <td align="center">C</td>
     </tr>
@@ -2557,11 +2505,11 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <tr align="left">
         <td>- Cabrejos Chocce, Diego Alexander</td>
         <td align="center">MOTOX-357</td>
-        <td align="center">B</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
+        <td align="center">L</td>
         <td align="center">C</td>
         <td align="center">C</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
     </tr>
     <tr align="left">
         <td>- Loa Rojas, Jean Franck</td>
@@ -2569,13 +2517,13 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
         <td align="center">C</td>
         <td align="center">-</td>
         <td align="center">-</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
         <td align="center">C</td>
     </tr>
     <tr align="left">
         <td>- Documet Romero, Timothy</td>
         <td align="center">HiApple1</td>
-        <td align="center">-</td>
+        <td align="center">C</td>
         <td align="center">-</td>
         <td align="center">-</td>
         <td align="center">-</td>
@@ -2775,36 +2723,50 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
 
 - Implementación del Landing Page: Se diseño y se estructuro la landing page de ElectroCorp implementando funcionalidades claves y asegurando que cumpla con lo dictado en la rubrica, como el agregarle un boton de traduccion de idioma y que este en ingles por defecto
 
+- Video Representativo de la Landing Page https://youtu.be/7O6qqLJjxF4
+
 - Imágenes del Landing Page:
   
   * Home
     
     <img src="assets/LandingPageMockUps1.png"></img><br>
   
-  * Description:
+  * Pricing:
 
     <img src="assets/LandingPageMockUps2.png"></img><br>
     
-  * Goals:
+  * FAQ:
 
     <img src="assets/LandingPageMockUps3.png"></img><br>
     
-  * Pricing
+  * Smart Plugs:
     
     <img src="assets/LandingPageMockUps4.png"></img><br>
  
-  * Reviews
+  * Reviews:
 
     <img src="assets/LandingPageMockUps5.png"></img><br>
     
-  * Smart Plugins
+  * Description:
     
     <img src="assets/LandingPageMockUps6.png"></img><br>
 
-  * Contact
+  * Goals
     
     <img src="assets/LandingPageMockUps7.png"></img><br>
-  
+
+  * About Us
+    
+    <img src="assets/LandingPageMockUps8.png"></img><br>
+
+  * Direction
+    
+    <img src="assets/LandingPageMockUps9.png"></img><br>
+
+  * Support
+    
+    <img src="assets/LandingPageMockUps10.png"></img><br>
+    
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
@@ -2834,7 +2796,7 @@ Se ejecutaron pruebas de funcionalidad para verificar la correcta carga del siti
 
 Durante el Sprint 1, logramos consolidar la infraestructura de publicación del proyecto mediante la implementación de GitHub Pages. Este flujo de trabajo no solo optimizó el despliegue, sino que estableció un ciclo de integración continua eficiente, dejando el camino preparado para escalar la aplicación web de manera ágil en las próximas fases
 
-Link del Landing Page: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/
+Link del Landing Page: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/
   
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado en el diseño, desarrollo y despliegue de la Landing Page de ElectroCorp. Asegurando que la página cumpliera con los objetivos de conversión y comunicación de nuestra propuesta de valor (IoT plug-and-play). Asimismo, se registraron los avances en la gestión del repositorio de GitHub, evidenciados en los commits y métricas de colaboración que reflejan la participación del equipo.
@@ -2862,15 +2824,140 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
 
 
 ### 5.2.2. Sprint 2 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Aspect Leaders and Collaborators
-#### 5.2.X.3. Sprint Backlog n. 
+En este Sprint se marca la transición hacia el desarrollo interactivo, enfocándonos en la construcción y despliegue de la primera versión funcional de nuestra Frontend Web Application (SPA).
+#### 5.2.2.1. Sprint Planning 2
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr>
+        <td><b>Sprint #</b></td>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+        <td><b>Date</b></td>
+        <td>2026-05-03</td>
+    </tr>
+    <tr>
+        <td><b>Time</b></td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr>
+        <td><b>Location</b></td>
+        <td>Modalidad Remota por Whatsapp / Microsoft Teams</td>
+    </tr>
+    <tr>
+        <td><b>Prepared By</b></td>
+        <td>Cabrejos Chocce, Diego Alexander</td>
+    </tr>
+    <tr>
+        <td><b>Attendees (to planning meeting)</b></td>
+        <td>Tavara Correa, Sebastian Oswaldo / Santiago Atanacio, Jairo Mathias / Cabrejos Chocce, Diego Alexander / Loa Rojas, Jean Franck / Documet Romero, Timothy</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td>El equipo logró desarrollar y desplegar la primera versión de la Landing Page en GitHub Pages exitosamente. Se completó el 100% de los Story Points comprometidos y el diseño responsivo, junto con la funcionalidad de i18n, funcionan según lo esperado.</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td>El equipo identificó que la división de tareas fue efectiva, pero se acordó mejorar el nivel de detalle en los mensajes de los commits y utilizar ramas "feature" más específicas y pequeñas para evitar conflictos de integración en GitHub en este nuevo Sprint.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Goal</b></td>
+        <td>
+            <b>Our focus is on</b> desarrollar la primera versión de la Frontend Web Application (SPA) y aplicar mejoras a la Landing Page actual.<br><br>
+            <b>We believe it delivers</b> el entorno base para que los usuarios puedan registrarse, iniciar sesión y visualizar la maqueta interactiva del dashboard principal de gestión energética de ElectroCorp.<br><br>
+            <b>This will be confirmed when</b> la Web Application esté desplegada, los flujos de navegación entre el Login, Register y Dashboard operen correctamente (ruteo) y se conecten exitosamente mediante enlaces desde los call-to-action del Landing Page.
+        </td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Velocity</b></td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td><b>Sum of Story Points</b></td>
+        <td>42</td>
+    </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de Liderazgo y Colaboración (Leadership-and-Collaboration Matrix - LACX) definida para el Sprint 2. Para esta iteración, los aspectos funcionales se han dividido en cuatro pilares principales alineados con la construcción de nuestra Single Page Application (SPA) y la mejora continua del sitio público:
+1. **Web App Setup & Routing:** Configuración inicial del framework frontend, enrutamiento (rutas protegidas y públicas) y estructura base del proyecto.
+2. **IAM Presentation (Login/Register):** Diseño e implementación de las interfaces de autenticación y registro de usuarios.
+3. **Dashboard UI Design:** Maquetación e implementación de la vista principal (Home) de la plataforma donde se visualizarán los resúmenes energéticos.
+4. **Landing Page Enhancements:** Aplicación de mejoras, corrección de bugs y conexión de los call-to-action del Landing Page hacia las nuevas rutas de la Web App.
+
+A continuación, se detalla la asignación de líderes (L) y colaboradores (C) para cada uno de estos aspectos:
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Team Member <br> (Last Name, First Name)</b></td>
+        <td><b>GitHub Username</b></td>
+        <td><b>Web App Setup & Routing <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>IAM Presentation <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Dashboard UI Design <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Landing Page Enhancements <br> Leader (L) / Collaborator (C)</b></td>
+        <td><b>Testing & QA <br> Leader (L) / Collaborator (C)</b></td>
+    </tr>
+    <tr align="left">
+        <td>Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Santiago Atanacio, Jairo Mathias</td>
+        <td align="center">Msa-ware</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Loa Rojas, Jean Franck</td>
+        <td align="center">JeanLoa</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>Documet Romero, Timothy</td>
+        <td align="center">HiApple1</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">L</td>
+    </tr>
+</table>
+
+#### 5.2.X.3. Sprint Backlog 2. 
 #### 5.2.X.4. Development Evidence for Sprint Review
 #### 5.2.X.5. Execution Evidence for Sprint Review
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review
 #### 5.2.X.8. Team Collaboration Insights during Sprint.
-### 5.2.1. Sprint 1 
+### 5.2.1. Sprint n 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
 #### 5.2.X.3. Sprint Backlog n. 
