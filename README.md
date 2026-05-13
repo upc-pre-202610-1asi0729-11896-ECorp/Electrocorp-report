@@ -2638,6 +2638,8 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
 
 - Implementación del Landing Page: Se diseño y se estructuro la landing page de ElectroCorp implementando funcionalidades claves y asegurando que cumpla con lo dictado en la rubrica, como el agregarle un boton de traduccion de idioma y que este en ingles por defecto
 
+- Video Representativo de la Landing Page https://youtu.be/7O6qqLJjxF4
+
 - Imágenes del Landing Page:
   
   * Home
