@@ -2183,11 +2183,11 @@ private int calculateWatts(int current, int voltage)
     </tr>
     <tr>
         <td><b>Sprint n - 1 Review Summary</b></td>
-        <td>No aplica. Al ser el primer Sprint del proyecto, los esfuerzos se enfocaron en la creación de repositorios, configuración del entorno y definición inicial del Product Backlog.</td>
+        <td>No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog.</td>
     </tr>
     <tr>
         <td><b>Sprint n - 1 Retrospective Summary</b></td>
-        <td>No aplica. El equipo acordó establecer canales de comunicación diarios para asegurar la correcta integración de las tareas iniciales.</td>
+        <td>No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.</td>
     </tr>
     <tr>
         <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
