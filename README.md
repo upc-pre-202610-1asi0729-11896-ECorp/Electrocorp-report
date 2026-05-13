@@ -3360,4 +3360,8 @@ Durante el Sprint 2, la colaboración del equipo se intensificó al tener que ma
 * *URL:* https://www.youtube.com/watch?v=aAg-_-4vc2c
 
 # Bibliografía 
+
+- Promart. (s.f.). Smatrul Enchufe Inteligente Wifi Compatible con Alexa Google Home. https://www.promart.pe/smatrul-enchufe-inteligente-wifi-compatible-con-alexa-google-home-1001455515/p
+- Instituto Nacional de Estadística e Informática. (2018). Perú: Características de las viviendas particulares y los hogares. Acceso a servicios básicos (Publicación Digital Lib1538). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1538/parte01.pdf
+
 # Anexos
