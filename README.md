@@ -2474,30 +2474,42 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
     
     <img src="assets/LandingPageMockUps1.png"></img><br>
   
-  * Description:
+  * Pricing:
 
     <img src="assets/LandingPageMockUps2.png"></img><br>
     
-  * Goals:
+  * FAQ:
 
     <img src="assets/LandingPageMockUps3.png"></img><br>
     
-  * Pricing
+  * Smart Plugs:
     
     <img src="assets/LandingPageMockUps4.png"></img><br>
  
-  * Reviews
+  * Reviews:
 
     <img src="assets/LandingPageMockUps5.png"></img><br>
     
-  * Smart Plugins
+  * Description:
     
     <img src="assets/LandingPageMockUps6.png"></img><br>
 
-  * Contact
+  * Goals
     
     <img src="assets/LandingPageMockUps7.png"></img><br>
-  
+
+  * About Us
+    
+    <img src="assets/LandingPageMockUps8.png"></img><br>
+
+  * Direction
+    
+    <img src="assets/LandingPageMockUps9.png"></img><br>
+
+  * Support
+    
+    <img src="assets/LandingPageMockUps10.png"></img><br>
+    
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
