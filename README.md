@@ -384,7 +384,7 @@ ElectroCorp debe proyectar una imagen de modernidad, eficiencia y simplicidad. L
 
 ###### Hipótesis 1:
 
-Nosotros creemos que la alta penetración en el mercado de viviendas antiguas y la reducción de barreras de entrada para nuevos clientes se realizara si las familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura attains automatización inmediata del hogar sin costos de instalación profesional ni daños a la propiedad con hardware IoT plug-and-play adaptable a interruptores y enchufes tradicionales.
+Nosotros creemos que la alta penetración en el mercado de viviendas antiguas y la reducción de barreras de entrada para nuevos clientes se realizara si las familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura attains automatización inmediata del hogar sin costos de instalación profesional ni daños a la propiedad con hardware IoT plug-and-play adaptable a interruptores y enchufes tradicionales en aproximadamente 1 mes.
 
 **Business Outcome:** Alta penetración en el mercado de viviendas antiguas y reducción de barreras de entrada para nuevos clientes.  
 **Users:** Familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura.  
@@ -393,7 +393,7 @@ Nosotros creemos que la alta penetración en el mercado de viviendas antiguas y 
 
 ###### Hipótesis 2:
 
-Nosotros creemos que el incremento en la retención de usuarios activos y la fidelización de marca mediante una experiencia de uso simplificada se realizara si los usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas attains acceso sencillo y seguro al control de dispositivos eléctricos sin barreras de idioma o complejidad técnica con una interfaz de usuario intuitiva con guías de configuración integradas en español.
+Nosotros creemos que el incremento en la retención de usuarios activos y la fidelización de marca mediante una experiencia de uso simplificada se realizara si los usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas attains acceso sencillo y seguro al control de dispositivos eléctricos sin barreras de idioma o complejidad técnica con una interfaz de usuario intuitiva con guías de configuración integradas en español en aproximadamente 1 mes.
 
 **Business Outcome:** Incremento en la retención de usuarios activos y fidelización de marca mediante una experiencia de uso simplificada.  
 **Users:** Usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas.  
@@ -402,7 +402,7 @@ Nosotros creemos que el incremento en la retención de usuarios activos y la fid
 
 ###### Hipótesis 3:
 
-Nosotros creemos que el crecimiento sostenido de ventas basado en un retorno de inversión positivo para el cliente y recomendaciones boca a boca se realizara si los jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía attains reducción del gasto mensual de energía y optimización del presupuesto familiar o comercial con un panel de monitoreo de consumo en tiempo real con conversión automática de Watts a Soles (S/).
+Nosotros creemos que el crecimiento sostenido de ventas basado en un retorno de inversión positivo para el cliente y recomendaciones boca a boca se realizara si los jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía attains reducción del gasto mensual de energía y optimización del presupuesto familiar o comercial con un panel de monitoreo de consumo en tiempo real con conversión automática de Watts a Soles (S/) en aproximadamente 2 meses.
 
 **Business Outcome:** Crecimiento sostenido de ventas basado en el retorno de inversión (ROI) positivo para el cliente y recomendaciones boca a boca.  
 **Users:** Jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía.  
