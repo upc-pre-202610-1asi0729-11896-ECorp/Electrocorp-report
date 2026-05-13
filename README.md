@@ -1390,7 +1390,7 @@ Este wireframe representa la pantalla de registro de usuarios. Presenta los camp
 ![Wireframe-Home](assets/Webapp-Wireframe-Home.png)
 
 **Home:**  
-Este wireframe corresponde al dashboard principal de ElectroCorp. En esta vista se organiza la información general del usuario, como dispositivos conectados, consumo actual, alertas pendientes y estado de suscripción. También se incluyen accesos rápidos hacia las funcionalidades principales de la aplicación.
+Este wireframe corresponde al dashboard principal de ElectroCorp. En esta vista se organiza la información general del usuario, como dispositivos conectados, rutinas activas, consumo actual, alertas pendientes y estado de suscripción. También se incluyen accesos rápidos hacia las funcionalidades principales de la aplicación.
 
 ---
 
@@ -1404,7 +1404,7 @@ Este wireframe muestra la sección informativa de la plataforma. Su objetivo es 
 ![Wireframe-Devices](assets/Webapp-Wireframe-Devices.png)
 
 **Devices:**  
-Este wireframe representa la vista de control de dispositivos inteligentes. Incluye un formulario para agregar nuevos dispositivos y un área destinada a listar los equipos registrados. Esta sección permite organizar la administración de enchufes, luces e interruptores inteligentes desde una sola interfaz.
+Este wireframe representa la vista de control de dispositivos inteligentes. Incluye un formulario para agregar nuevos dispositivos, tarjetas resumen y un área destinada a listar los equipos registrados. Esta sección permite organizar la administración de enchufes, luces e interruptores inteligentes desde una sola interfaz.
 
 ---
 
@@ -1418,7 +1418,7 @@ Este wireframe corresponde al módulo de rutinas automáticas. Presenta un formu
 ![Wireframe-Energy](assets/Webapp-Wireframe-Energy.png)
 
 **Energy:**  
-Este wireframe muestra la vista de monitoreo de consumo energético. Incluye indicadores clave como watts totales, promedio y pico máximo, además de filtros por fecha y un gráfico para visualizar el comportamiento del consumo. Esta sección facilita el análisis inicial de los datos energéticos.
+Este wireframe muestra la vista de monitoreo de consumo energético. Incluye indicadores clave como watts totales, promedio y pico máximo, además de filtros por fecha, recomendaciones de ahorro y un gráfico para visualizar el comportamiento del consumo. Esta sección facilita el análisis inicial de los datos energéticos.
 
 ---
 
@@ -1429,19 +1429,55 @@ Este wireframe representa el historial de consumo energético. La vista contiene
 
 ---
 
-![Wireframe-Plans](assets/Webapp-Wireframe-Plans.png)
+![Wireframe-Sites](assets/Webapp-Wireframe-Sites.png)
 
-**Plans:**  
-Este wireframe presenta la pantalla de planes de servicio. Se muestran diferentes opciones de suscripción con sus precios y características principales. Esta vista permite comparar planes y seleccionar una alternativa adecuada para las necesidades del usuario.
+**Sites:**  
+Este wireframe corresponde a la gestión de sedes y ambientes. Presenta indicadores sobre sedes, ambientes, asignaciones y cobertura, además de secciones para visualizar distribución de sedes, resumen operativo y tarjetas de ubicación. Esta vista permite organizar los espacios donde se encuentran instalados los dispositivos inteligentes.
+
+---
+
+![Wireframe-Reports](assets/Webapp-Wireframe-Reports.png)
+
+**Reports:**  
+Este wireframe muestra la sección de reportes de consumo. Incluye indicadores generales, comparación de reportes, periodo de mayor consumo y tarjetas de reportes generados. Su propósito es analizar la información energética registrada y mostrar recomendaciones basadas en el consumo.
+
+---
+
+![Wireframe-Goals](assets/Webapp-Wireframe-Goals.png)
+
+**Goals:**  
+Este wireframe representa la vista de metas energéticas. Incluye tarjetas de progreso, métricas generales y una lista de objetivos creados por el usuario. Esta sección permite definir metas de consumo y revisar el avance hacia el cumplimiento de los objetivos energéticos.
+
+---
+
+![Wireframe-Support](assets/Webapp-Wireframe-Support.png)
+
+**Support:**  
+Este wireframe corresponde al centro de soporte. Presenta indicadores de tickets, casos abiertos, casos críticos y tasa de resolución, además de una sección para visualizar el ticket más urgente y la lista de solicitudes registradas. Esta vista permite gestionar incidencias o problemas relacionados con el uso de la plataforma.
+
+---
+
+![Wireframe-Maintenance](assets/Webapp-Wireframe-Maintenance.png)
+
+**Maintenance:**  
+Este wireframe representa la sección de mantenimiento técnico. Incluye métricas sobre mantenimientos pendientes y completados, el mantenimiento más cercano, estado operativo y una lista de tareas programadas. Esta vista permite planificar revisiones preventivas o correctivas de los dispositivos inteligentes.
 
 ---
 
 ![Wireframe-Alerts](assets/Webapp-Wireframe-Alerts.png)
 
 **Alerts:**  
-Este wireframe corresponde al centro de alertas de ElectroCorp. Incluye un resumen de alertas no leídas, un formulario para crear nuevas notificaciones y una lista de alertas relacionadas con consumo elevado, sugerencias de automatización y reportes mensuales.
+Este wireframe corresponde al centro de alertas de ElectroCorp. Incluye un resumen de alertas no leídas, formularios para crear alertas y reglas, preferencias de notificación y una lista de alertas relacionadas con consumo elevado, sugerencias de automatización y eventos del sistema.
 
 ---
+
+![Wireframe-Plans](assets/Webapp-Wireframe-Plans.png)
+
+**Plans:**  
+Este wireframe presenta la pantalla de planes de servicio. Se muestran diferentes opciones de suscripción con sus precios y características principales. Esta vista permite comparar planes, visualizar la suscripción activa y revisar el resumen de facturación del usuario.
+
+---
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 El siguiente wireflow representa el flujo de navegación principal de la aplicación web de **ElectroCorp**. Este diagrama permite visualizar cómo el usuario se desplaza entre las pantallas principales del sistema, partiendo desde el proceso de autenticación hasta el acceso a los módulos funcionales de la plataforma.
@@ -1455,7 +1491,7 @@ Desde el dashboard principal, el usuario puede acceder a las secciones de **Abou
 
 ### 4.4.3. Web Applications Mock-ups
 
-Los siguientes mock-ups representan la versión de mayor fidelidad de las interfaces web de **ElectroCorp**. A diferencia de los wireframes, estos diseños incorporan colores, tipografía, estilos visuales y una distribución más cercana a la implementación final desarrollada en la aplicación.
+Los siguientes mock-ups representan la versión de mayor fidelidad de las interfaces web de **ElectroCorp**. A diferencia de los wireframes, estos diseños incorporan colores, tipografía, estilos visuales, navegación superior, botones, tarjetas y una distribución más cercana a la implementación final desarrollada en la aplicación.
 
 ---
 
@@ -1476,7 +1512,7 @@ Este mock-up representa la pantalla de registro final. La interfaz permite crear
 ![Mockup-Home](assets/Webapp-Mockup-Home.png)
 
 **Home:**  
-Este mock-up presenta el dashboard principal de la aplicación. Se muestran tarjetas resumen sobre dispositivos conectados, consumo actual, alertas pendientes y suscripción. También incluye accesos rápidos hacia módulos importantes como control de dispositivos, consumo energético, historial, alertas y planes.
+Este mock-up presenta el dashboard principal de la aplicación. Se muestran tarjetas resumen sobre dispositivos conectados, rutinas activas, consumo actual, alertas pendientes y uso del plan. También incluye accesos rápidos hacia módulos importantes como control de dispositivos, consumo energético, historial, alertas y planes.
 
 ---
 
@@ -1504,7 +1540,7 @@ Este mock-up representa la vista de rutinas automáticas. El usuario puede crear
 ![Mockup-Energy](assets/Webapp-Mockup-Energy.png)
 
 **Energy:**  
-Este mock-up corresponde al módulo de monitoreo energético. Presenta indicadores como watts totales, promedio y pico máximo. También incluye filtros por fecha y un gráfico de barras que permite analizar visualmente el historial de consumo energético.
+Este mock-up corresponde al módulo de monitoreo energético. Presenta indicadores como watts totales, promedio y pico máximo. También incluye filtros por fecha, una recomendación de ahorro y un gráfico de barras que permite analizar visualmente el historial de consumo energético.
 
 ---
 
@@ -1515,35 +1551,74 @@ Este mock-up muestra la vista de historial de consumo. La pantalla presenta una 
 
 ---
 
-![Mockup-Plans](assets/Webapp-Mockup-Plans.png)
+![Mockup-Sites](assets/Webapp-Mockup-Sites.png)
 
-**Plans:**  
-Este mock-up representa la vista de planes de servicio. Se presentan tres opciones de suscripción con sus respectivos precios y características. Esta sección permite comparar los planes disponibles y seleccionar una opción acorde al uso del sistema.
+**Sites:**  
+Este mock-up representa el módulo de gestión de sedes y ambientes. Muestra indicadores sobre sedes, ambientes y asignaciones, además de una distribución por tipo de sede y tarjetas con información de cada ubicación. Esta vista permite supervisar la organización física de los dispositivos dentro de la plataforma.
+
+---
+
+![Mockup-Reports](assets/Webapp-Mockup-Reports.png)
+
+**Reports:**  
+Este mock-up muestra la vista de reportes de consumo. Presenta indicadores de reportes generados, watts totales, pico máximo, promedio por reporte y reportes críticos. Además, incluye una comparación visual de reportes y tarjetas con recomendaciones relacionadas al consumo energético.
+
+---
+
+![Mockup-Goals](assets/Webapp-Mockup-Goals.png)
+
+**Goals:**  
+Este mock-up corresponde a la sección de metas energéticas. Permite visualizar el número de metas creadas, metas activas, completadas, fallidas y el progreso promedio. También muestra metas individuales con barras de progreso y métricas asociadas al objetivo energético.
+
+---
+
+![Mockup-Support](assets/Webapp-Mockup-Support.png)
+
+**Support:**  
+Este mock-up muestra el centro de soporte de la aplicación. Incluye métricas sobre tickets, casos abiertos, casos críticos y resolución, además de una sección para destacar el ticket más urgente. También permite visualizar solicitudes registradas con su estado y prioridad.
+
+---
+
+![Mockup-Maintenance](assets/Webapp-Mockup-Maintenance.png)
+
+**Maintenance:**  
+Este mock-up representa la vista de mantenimiento técnico. Permite revisar mantenimientos pendientes, completados y tareas programadas. También destaca el mantenimiento más cercano y muestra información asociada al dispositivo, fecha programada y estado del servicio.
 
 ---
 
 ![Mockup-Alerts](assets/Webapp-Mockup-Alerts.png)
 
 **Alerts:**  
-Este mock-up muestra el centro de alertas de la aplicación. Incluye un contador de alertas sin leer, un formulario para crear nuevas alertas y una lista de notificaciones clasificadas por nivel. Esta sección permite al usuario supervisar eventos importantes relacionados con consumo energético y automatización.
+Este mock-up muestra el centro de alertas de la aplicación. Incluye un contador de alertas sin leer, formularios para crear alertas y reglas de alerta, preferencias de notificación y una lista de eventos clasificados por nivel. Esta sección permite al usuario supervisar eventos importantes relacionados con consumo energético y automatización.
+
+---
+
+![Mockup-Plans](assets/Webapp-Mockup-Plans.png)
+
+**Plans:**  
+Este mock-up representa la vista de planes de servicio. Se presentan tres opciones de suscripción con sus respectivos precios y características. También se muestra la suscripción activa y un resumen de facturas, permitiendo al usuario comparar planes disponibles y gestionar su estado de facturación.
 
 ---
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-El siguiente diagrama de flujo de usuario representa el recorrido principal que realiza una persona al interactuar con la aplicación web de **ElectroCorp**. Este flujo inicia cuando el usuario accede a la plataforma y debe decidir si ya cuenta con una cuenta registrada. En caso no la tenga, puede dirigirse al proceso de registro para crear una nueva cuenta; si ya posee credenciales, continúa hacia la pantalla de inicio de sesión.
+El siguiente diagrama de flujo de usuario representa el recorrido principal que realiza una persona al interactuar con la aplicación web de **ElectroCorp**. Este flujo contempla el acceso desde la **Landing Page** o directamente desde la **Single Page Application (SPA)**, el proceso de autenticación, el registro de usuarios, la selección de planes, la navegación por los módulos principales y la gestión de funcionalidades como dispositivos, rutinas, consumo energético, reportes, metas, soporte, mantenimiento, alertas y facturación.
 
 ![Webapp-Userflow](assets/Webapp-Userflow.png)
 
 **Web Application User Flow:**  
-El flujo principal comienza con el acceso del usuario a la aplicación web. Luego, el sistema evalúa si el usuario cuenta con una cuenta existente. Si no tiene una cuenta, se dirige al módulo de **Register**, donde puede crearla y posteriormente iniciar sesión. Si ya posee una cuenta, accede directamente al módulo de **Login**.
+El flujo principal inicia cuando el usuario accede a ElectroCorp. Si ingresa desde la **Landing Page**, puede revisar información pública sobre la plataforma, conocer sus beneficios y seleccionar un plan. En caso seleccione un plan desde la landing, se recopilan los datos simulados de pago y se redirige al usuario hacia la SPA para completar su registro. Si el usuario accede directamente a la aplicación, puede iniciar sesión o crear una nueva cuenta.
 
-Después del inicio de sesión, se valida si las credenciales ingresadas son correctas. Si los datos no son válidos, el sistema muestra un mensaje de error y permite que el usuario vuelva a intentar el acceso. Si las credenciales son correctas, el usuario ingresa al **Home Dashboard**, que funciona como el punto central de navegación de la plataforma.
+Luego, el sistema evalúa si el usuario ya posee una cuenta registrada. Si no tiene una cuenta, se dirige al módulo de **Register**, donde ingresa su nombre completo, correo electrónico y contraseña. Si el registro proviene de una selección previa de plan desde la landing, el sistema asocia el plan seleccionado al nuevo usuario, registra el pago simulado y crea una suscripción activa. En caso contrario, el usuario se registra sin una suscripción activa. Si el usuario ya posee credenciales, accede al módulo de **Login**, donde ingresa su correo y contraseña.
 
-Desde el dashboard, el usuario puede acceder a los principales módulos funcionales de ElectroCorp: **About**, **Devices**, **Routines**, **Energy**, **History**, **Plans** y **Alerts**. Cada módulo permite realizar acciones específicas, como gestionar dispositivos, crear rutinas automáticas, visualizar métricas de consumo, revisar historial energético, comparar planes de servicio y atender alertas del sistema.
+Después del inicio de sesión, el sistema valida las credenciales ingresadas. Si los datos no son correctos, se muestra un mensaje de error y el usuario puede intentar nuevamente. Si las credenciales son válidas, el usuario ingresa al **Home Dashboard**, que funciona como el punto central de navegación de la plataforma. Desde esta vista se muestran indicadores generales como dispositivos registrados, rutinas activas, consumo actual, alertas pendientes y estado del plan.
 
-Finalmente, el flujo contempla la acción de **Logout**, mediante la cual el usuario puede cerrar sesión de forma segura. De esta manera, el diagrama permite comprender tanto el recorrido principal como los escenarios alternativos de autenticación, navegación y salida de la aplicación.
+A partir del dashboard, el usuario puede navegar hacia los principales módulos funcionales de ElectroCorp. En **Devices**, puede registrar dispositivos inteligentes, revisar su estado y encenderlos o apagarlos. En **Routines**, puede crear automatizaciones asociadas a dispositivos y horarios específicos. En **Energy**, puede visualizar métricas de consumo, filtrar lecturas por fechas, revisar recomendaciones y exportar información. En **History**, puede consultar el historial de lecturas energéticas registradas.
+
+El flujo también contempla la gestión de espacios mediante **Sites**, donde el usuario puede revisar sedes, ambientes y asignaciones de dispositivos. En **Reports**, puede generar reportes de consumo a partir de lecturas energéticas, siempre usando rangos de fechas válidos. En **Goals**, puede crear metas energéticas y monitorear su progreso. En **Support**, puede registrar tickets de ayuda y revisar casos críticos. En **Maintenance**, puede programar mantenimientos técnicos para los dispositivos. En **Alerts**, puede crear alertas, configurar reglas, actualizar preferencias y marcar notificaciones como leídas.
+
+Finalmente, el módulo de **Plans** permite visualizar los planes disponibles, revisar la suscripción activa, seleccionar un nuevo plan, procesar un pago simulado, cancelar una suscripción y consultar el resumen de facturación. El flujo termina cuando el usuario decide cerrar sesión mediante la opción **Logout**, lo que elimina la sesión local y redirige nuevamente al login. De esta manera, el diagrama permite comprender el recorrido completo del usuario dentro de la aplicación, desde el acceso inicial hasta la navegación operativa y la salida segura del sistema.
 
 ---
 
