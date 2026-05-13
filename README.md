@@ -3001,6 +3001,12 @@ El objetivo principal de este segundo Sprint es dar el salto desde el sitio est�
 
 Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento y la conexión entre ambas plataformas. A continuación, se detallan los commits más representativos de este esfuerzo extraídos de nuestros repositorios oficiales.
 
+Link de commits del repositorio del Landing Page:
+https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website/commits/main/
+
+Link de commits del repositorio de la Web App:
+https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/commits/master/
+
 <table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
   <tr>
     <td><b>Repository</b></td>
