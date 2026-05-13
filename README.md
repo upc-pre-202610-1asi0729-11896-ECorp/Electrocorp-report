@@ -2899,7 +2899,115 @@ A continuación, se detalla la asignación de líderes (L) y colaboradores (C) p
     </tr>
 </table>
 
-#### 5.2.X.3. Sprint Backlog 2. 
+#### 5.2.2.3. Sprint Backlog 2. 
+Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento (routing) y las vistas iniciales de Autenticación (Login, Register) y el Dashboard principal. A continuación, se detallan los commits más representativos de este esfuerzo en nuestros repositorios.
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/6a03f7421c316f3c5d885e7f/ATTI5a49117f1b9d8c247078bac2838d81a9E7DF4656/sprint2-electro" target="_blank">Tablero del Sprint 2 en Trello</a>
+    <br><br>
+    <img src="assets/Tablero-Sprint2.png" alt="Sprint 2 Trello Board"></img>
+</p>
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td colspan="2"><b>Sprint #</b></td>
+    <td colspan="6"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">TS-12</td>
+    <td rowspan="2">Frontend SPA Consumidor REST</td>
+    <td>T13</td>
+    <td>Inicialización de proyecto SPA</td>
+    <td>Crear la base del proyecto frontend y configurar las librerías de estilos base (Material/CSS).</td>
+    <td>5</td>
+    <td>Sebastian Tavara</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T14</td>
+    <td>Configuración de Enrutamiento (Router)</td>
+    <td>Implementar la tabla de rutas principales (/login, /register, /dashboard).</td>
+    <td>5</td>
+    <td>Sebastian Tavara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-07</td>
+    <td rowspan="2">Registro inicial del usuario</td>
+    <td>T15</td>
+    <td>Maquetación vista Register</td>
+    <td>Diseñar e implementar la estructura HTML/CSS del formulario de creación de cuenta.</td>
+    <td>6</td>
+    <td>Timothy Documet</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T16</td>
+    <td>Implementación vista Login</td>
+    <td>Construir la pantalla de inicio de sesión con sus validaciones de formulario.</td>
+    <td>6</td>
+    <td>Jairo Santiago</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-19</td>
+    <td rowspan="2">Administrar múltiples dispositivos (Dashboard)</td>
+    <td>T17</td>
+    <td>Diseño del Home / Dashboard</td>
+    <td>Estructurar el layout principal (Sidebar, Header y contenedor de contenido).</td>
+    <td>6</td>
+    <td>Diego Cabrejos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T18</td>
+    <td>Tarjetas de resumen energético</td>
+    <td>Maquetar las tarjetas de dispositivos conectados, consumo actual y alertas en el Home.</td>
+    <td>6</td>
+    <td>Diego Cabrejos</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1">US-39</td>
+    <td rowspan="1">Activar Modo Oscuro</td>
+    <td>T19</td>
+    <td>Sistema de temas UI (Dark Mode)</td>
+    <td>Implementar la lógica y variables CSS para alternar temas en las vistas de la Web App.</td>
+    <td>4</td>
+    <td>Jairo Santiago</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="1">US-05</td>
+    <td rowspan="1">Interfaz interactiva (LP)</td>
+    <td>T20</td>
+    <td>Conexión LP - Web App</td>
+    <td>Ajustar los Call-to-Action del Landing Page para redirigir correctamente a la Web App desplegada.</td>
+    <td>4</td>
+    <td>Jean Loa</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 #### 5.2.X.4. Development Evidence for Sprint Review
 #### 5.2.X.5. Execution Evidence for Sprint Review
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
