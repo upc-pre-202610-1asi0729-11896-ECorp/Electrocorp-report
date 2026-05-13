@@ -3405,6 +3405,7 @@ Durante el Sprint 2, la colaboración del equipo se intensificó al tener que ma
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
 ## 5.4. Video About-the-Product.
+* *URL:* https://youtu.be/Z5hOonQ95rI
 # Conclusiones
 ## Conclusiones y recomendaciones
 ## Video About-the-Team.
