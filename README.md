@@ -2679,11 +2679,11 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
     
     <img src="assets/LandingPageMockUps1.png"></img><br>
   
-  * Pricing:
+  * Description:
 
     <img src="assets/LandingPageMockUps2.png"></img><br>
     
-  * FAQ:
+  * Goals:
 
     <img src="assets/LandingPageMockUps3.png"></img><br>
     
@@ -2691,29 +2691,18 @@ Durante el primer sprint, se lograron varios hitos importantes en el desarrollo 
     
     <img src="assets/LandingPageMockUps4.png"></img><br>
  
-  * Reviews:
+  * Pricing:
 
     <img src="assets/LandingPageMockUps5.png"></img><br>
     
-  * Description:
+  * Reviews:
     
     <img src="assets/LandingPageMockUps6.png"></img><br>
 
-  * Goals
+  * Support:
     
     <img src="assets/LandingPageMockUps7.png"></img><br>
 
-  * About Us
-    
-    <img src="assets/LandingPageMockUps8.png"></img><br>
-
-  * Direction
-    
-    <img src="assets/LandingPageMockUps9.png"></img><br>
-
-  * Support
-    
-    <img src="assets/LandingPageMockUps10.png"></img><br>
     
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
