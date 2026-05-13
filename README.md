@@ -3161,6 +3161,16 @@ Durante este Sprint, el equipo gestionó el despliegue continuo de dos productos
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+Durante el Sprint 2, la colaboración del equipo se intensificó al tener que manejar dos repositorios en paralelo (Website y WebApp). Utilizamos GitHub para centralizar el código y organizar las ramas (features). Todos los miembros participaron activamente en la implementación de la SPA, dividiéndose componentes específicos como el layout, autenticación y vistas del dashboard, tal como se evidencia en los analíticos de la plataforma.
+
+| Team Member | Task completed |
+| :--- | :--- |
+| **Tavara Correa, Sebastian** | Configuración base del proyecto SPA y enrutamiento principal. |
+| **Loa Rojas, Jean Franck** | Implementación de las interfaces de Login y Register en la Web App. |
+| **Cabrejos Chocce, Diego** | Actualización del Landing Page y conexión de hipervínculos hacia la Web App. |
+| **Loa Rojas, Jean Franck** | Maquetación del Dashboard (Home), integración de Layout y estilos Dark Mode. |
+| **Documet Romero, Timothy y Santiago Atanacio, Jairo** | Pruebas de navegación (QA) e implementación de validaciones visuales en formularios. |
+
 ### 5.2.1. Sprint n 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
