@@ -3145,7 +3145,19 @@ Imágenes del Landing Page Actualizada:
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Para la entrega actual (TB1), los requerimientos establecen el despliegue de una nueva versión del Landing Page y la primera versión de la Frontend Web Application. La construcción y despliegue de los Web Services (RESTful API), así como su respectiva documentación mediante OpenAPI Specification (Swagger), están programados para la siguiente fase del proyecto (AV2). Por lo tanto, las evidencias de documentación de servicios no son aplicables para este Sprint.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, el equipo gestionó el despliegue continuo de dos productos distintos, asegurando que ambos estén disponibles públicamente de forma segura:
+
+1. **Landing Page (Actualización):** Se mantuvo y actualizó el despliegue estático a través de **GitHub Pages**, asegurando que los nuevos Call-to-Action apunten correctamente a la Web App.
+   * *URL:* https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/
+   <img src="assets/LandingPageMockUps2.1.png" alt="Deploy Landing Page V2">
+
+2. **Frontend Web Application (SPA):** Se configuró un nuevo entorno de despliegue en la nube utilizando **Render** (o tu proveedor en la nube correspondiente, ej. Vercel/Netlify), conectándolo directamente a la rama `main` del repositorio `electrocorp-webapp` para habilitar un flujo de Integración y Despliegue Continuo (CI/CD).
+   * *URL:* https://electrocorp-webapp.onrender.com/billing/plans
+   <img src="assets/Webapp-Mock_Ups_Planes.png" alt="Deploy Web App">
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
