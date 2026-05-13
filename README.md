@@ -3317,50 +3317,50 @@ Imagenes del Web App:
 
   * Planes:
 
-    <img src="assets/Webapp-Mock_Ups_Planesr.png"></img><br>
+    <img src="assets/Webapp-Mock_Ups_Planes.png"></img><br>
 
 
 Imágenes del Landing Page Actualizada:
   
-  * Home
-    
-    <img src="assets/LandingPageMockUps2.1.png"></img><br>
-  
-  * Pricing:
+* Home
 
-    <img src="assets/LandingPageMockUps2.2.png"></img><br>
-    
-  * FAQ:
+  <img src="assets/LandingPage-Mockup-Home.png"></img><br>
 
-    <img src="assets/LandingPageMockUps2.3.png"></img><br>
-    
-  * Smart Plugs:
-    
-    <img src="assets/LandingPageMockUps2.4.png"></img><br>
- 
-  * Reviews:
+* Pricing:
 
-    <img src="assets/LandingPageMockUps2.5.png"></img><br>
-    
-  * Description:
-    
-    <img src="assets/LandingPageMockUps2.6.png"></img><br>
+  <img src="assets/LandingPage-Mockup-Pricing.png"></img><br>
 
-  * Goals:
-    
-    <img src="assets/LandingPageMockUps2.7.png"></img><br>
+* FAQ:
 
-  * About Us:
-    
-    <img src="assets/LandingPageMockUps2.8.png"></img><br>
+  <img src="assets/LandingPage-Mockup-FAQ.png"></img><br>
 
-  * Direction:
-    
-    <img src="assets/LandingPageMockUps2.9.png"></img><br>
-    
-  * Support:
-    
-    <img src="assets/LandingPageMockUps2.10.png"></img><br>
+* Smart Plugs:
+
+  <img src="assets/LandingPage-Mockup-SmartPlugs.png"></img><br>
+
+* Reviews:
+
+  <img src="assets/LandingPage-Mockup-Reviews.png"></img><br>
+
+* Description:
+
+  <img src="assets/LandingPage-Mockup-Description.png"></img><br>
+
+* Goals:
+
+  <img src="assets/LandingPage-Mockup-Goals.png"></img><br>
+
+* About Us:
+
+  <img src="assets/LandingPage-Mockup-About.png"></img><br>
+
+* Direction:
+
+  <img src="assets/LandingPage-Mockup-Direction.png"></img><br>
+
+* Support:
+
+  <img src="assets/LandingPage-Mockup-Support.png"></img><br>
     
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
