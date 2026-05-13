@@ -3356,5 +3356,8 @@ Durante el Sprint 2, la colaboración del equipo se intensificó al tener que ma
 # Conclusiones
 ## Conclusiones y recomendaciones
 ## Video About-the-Team.
+
+* *URL:* https://www.youtube.com/watch?v=aAg-_-4vc2c
+
 # Bibliografía 
 # Anexos
