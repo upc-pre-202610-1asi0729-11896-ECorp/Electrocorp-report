@@ -2889,7 +2889,7 @@ A continuación, se detalla la asignación de líderes (L) y colaboradores (C) p
 </table>
 
 #### 5.2.2.3. Sprint Backlog 2. 
-Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento (routing) y las vistas iniciales de Autenticación (Login, Register) y el Dashboard principal. A continuación, se detallan los commits más representativos de este esfuerzo en nuestros repositorios.
+El objetivo principal de este segundo Sprint es dar el salto desde el sitio estático (Landing Page) hacia la plataforma interactiva, construyendo la primera versión de la Single Page Application (SPA) para la Web App. En este Sprint Backlog hemos priorizado las historias técnicas de inicialización del framework frontend (Angular/Vue), la creación del sistema de enrutamiento (routing) y el desarrollo de las interfaces de Autenticación (Login, Register) y el Dashboard principal (Home). Además, se incluyen tareas de refinamiento para enlazar la Landing Page con estas nuevas rutas.
 
 <p style="text-align: left; width: 90%; margin: 20px auto;">
     <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/6a03f7421c316f3c5d885e7f/ATTI5a49117f1b9d8c247078bac2838d81a9E7DF4656/sprint2-electro" target="_blank">Tablero del Sprint 2 en Trello</a>
@@ -2997,7 +2997,69 @@ Durante este Sprint, el equipo se enfocó en dos frentes principales: la actuali
   </tr>
 </table>
 
-#### 5.2.X.4. Development Evidence for Sprint Review
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo se enfocó en dos frentes principales: la actualización del Landing Page y la construcción de la primera versión de nuestra Frontend Web Application (SPA). Se implementó la estructura base del proyecto, el sistema de enrutamiento y la conexión entre ambas plataformas. A continuación, se detallan los commits más representativos de este esfuerzo extraídos de nuestros repositorios oficiales.
+
+<table align="center" border="1" width="100%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td><b>Repository</b></td>
+    <td><b>Branch</b></td>
+    <td><b>Commit Id</b></td>
+    <td><b>Commit Message</b></td>
+    <td><b>Commit Message Body</b></td>
+    <td><b>Commited on (Date)</b></td>
+  </tr>
+  <tr>
+    <td>upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website</td>
+    <td>main</td>
+    <td>`c738a6d`</td>
+    <td>feat: feat idiom pt</td>
+    <td>Se agregó soporte y traducción al idioma portugués en el i18n.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website</td>
+    <td>main</td>
+    <td>`c885153`</td>
+    <td>Flujo de compra simplificado y estilo adecuado a la webapp</td>
+    <td>Ajustes visuales y de redirección en los botones de planes de servicio.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website</td>
+    <td>main</td>
+    <td>`ef6051d`</td>
+    <td>Update from Jean: delete html files as dashboard, login, register...</td>
+    <td>Eliminación de maquetas HTML obsoletas y adición de referencias (rutas) a la nueva Web App.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp</td>
+    <td>master</td>
+    <td>`f5b061b`</td>
+    <td>Last update to WEBAPP</td>
+    <td>Ajustes finales y estabilización de componentes para el despliegue del TB1.</td>
+    <td>12/05/2026</td>
+  </tr>
+  <tr>
+    <td>upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp</td>
+    <td>master</td>
+    <td>`af4e9d1`</td>
+    <td>Diagrams updated</td>
+    <td>Actualización de la arquitectura y diagramas para la documentación del proyecto.</td>
+    <td>11/05/2026</td>
+  </tr>
+  <tr>
+    <td>upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp</td>
+    <td>master</td>
+    <td>`b0e5d6a`</td>
+    <td>Add plan restrictions and deployment-ready Angular build</td>
+    <td>Configuración de restricciones de planes y preparación del build de Angular para producción.</td>
+    <td>11/05/2026</td>
+  </tr>
+</table>
+
 #### 5.2.X.5. Execution Evidence for Sprint Review
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review
