@@ -2404,7 +2404,7 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
         <td align="center">SebastianTavara</td>
         <td align="center">C</td>
         <td align="center">-</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
         <td align="center">-</td>
         <td align="center">C</td>
     </tr>
@@ -2420,11 +2420,11 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
     <tr align="left">
         <td>- Cabrejos Chocce, Diego Alexander</td>
         <td align="center">MOTOX-357</td>
-        <td align="center">B</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
+        <td align="center">L</td>
         <td align="center">C</td>
         <td align="center">C</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
     </tr>
     <tr align="left">
         <td>- Loa Rojas, Jean Franck</td>
@@ -2432,13 +2432,13 @@ Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líde
         <td align="center">C</td>
         <td align="center">-</td>
         <td align="center">-</td>
-        <td align="center">B</td>
+        <td align="center">L</td>
         <td align="center">C</td>
     </tr>
     <tr align="left">
         <td>- Documet Romero, Timothy</td>
         <td align="center">HiApple1</td>
-        <td align="center">-</td>
+        <td align="center">C</td>
         <td align="center">-</td>
         <td align="center">-</td>
         <td align="center">-</td>
