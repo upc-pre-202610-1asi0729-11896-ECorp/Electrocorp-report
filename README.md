@@ -2739,15 +2739,73 @@ Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado 
 
 
 ### 5.2.2. Sprint 2 
-#### 5.2.X.1. Sprint Planning n
+En este Sprint se marca la transición hacia el desarrollo interactivo, enfocándonos en la construcción y despliegue de la primera versión funcional de nuestra Frontend Web Application (SPA).
+#### 5.2.X.1. Sprint Planning 2
+<table align="center" border="1" width="90%" style="text-align:left;">
+    <tr>
+        <td><b>Sprint #</b></td>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+        <td><b>Date</b></td>
+        <td>2026-05-03</td>
+    </tr>
+    <tr>
+        <td><b>Time</b></td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr>
+        <td><b>Location</b></td>
+        <td>Modalidad Remota por Whatsapp / Microsoft Teams</td>
+    </tr>
+    <tr>
+        <td><b>Prepared By</b></td>
+        <td>Cabrejos Chocce, Diego Alexander</td>
+    </tr>
+    <tr>
+        <td><b>Attendees (to planning meeting)</b></td>
+        <td>Tavara Correa, Sebastian Oswaldo / Santiago Atanacio, Jairo Mathias / Cabrejos Chocce, Diego Alexander / Loa Rojas, Jean Franck / Documet Romero, Timothy</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Review Summary</b></td>
+        <td>El equipo logró desarrollar y desplegar la primera versión de la Landing Page en GitHub Pages exitosamente. Se completó el 100% de los Story Points comprometidos y el diseño responsivo, junto con la funcionalidad de i18n, funcionan según lo esperado.</td>
+    </tr>
+    <tr>
+        <td><b>Sprint n - 1 Retrospective Summary</b></td>
+        <td>El equipo identificó que la división de tareas fue efectiva, pero se acordó mejorar el nivel de detalle en los mensajes de los commits y utilizar ramas "feature" más específicas y pequeñas para evitar conflictos de integración en GitHub en este nuevo Sprint.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Goal</b></td>
+        <td>
+            <b>Our focus is on</b> desarrollar la primera versión de la Frontend Web Application (SPA) y aplicar mejoras a la Landing Page actual.<br><br>
+            <b>We believe it delivers</b> el entorno base para que los usuarios puedan registrarse, iniciar sesión y visualizar la maqueta interactiva del dashboard principal de gestión energética de ElectroCorp.<br><br>
+            <b>This will be confirmed when</b> la Web Application esté desplegada, los flujos de navegación entre el Login, Register y Dashboard operen correctamente (ruteo) y se conecten exitosamente mediante enlaces desde los call-to-action del Landing Page.
+        </td>
+    </tr>
+    <tr>
+        <td><b>Sprint 2 Velocity</b></td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td><b>Sum of Story Points</b></td>
+        <td>42</td>
+    </tr>
+</table>
+
 #### 5.2.X.2. Aspect Leaders and Collaborators
-#### 5.2.X.3. Sprint Backlog n. 
+#### 5.2.X.3. Sprint Backlog 2. 
 #### 5.2.X.4. Development Evidence for Sprint Review
 #### 5.2.X.5. Execution Evidence for Sprint Review
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review
 #### 5.2.X.8. Team Collaboration Insights during Sprint.
-### 5.2.1. Sprint 1 
+### 5.2.1. Sprint n 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
 #### 5.2.X.3. Sprint Backlog n. 
