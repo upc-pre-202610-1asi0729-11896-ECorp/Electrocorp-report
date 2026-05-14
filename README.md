@@ -19,6 +19,7 @@
 | U202418755 | Santiago Atanacio, Jairo Mathias      |
 | U20241e014 | Cabrejos Chocco, Diego Alexander      |
 | U20241e406 | Loa Rojas, Jean Franck                |
+| U202318828 | Documet Romero, Timothy               |
 
 ### Diciembre 2025
 </div>
@@ -204,7 +205,7 @@ Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efe
 ### 1.1.1. Descripción de la StartUp
 Es una startup de tecnologia enfocada en democratizar la domótica y la eficiencia energética para los hogares peruanos. 
 <br><br>
-Actualmesnte, el convertir una casa tradicional en un "hogar inteligente" es percibido como un lujo costoso, que requiere modificar el cableado eléctrico, contratar técnicos especializados y lidiar con aplicaciones genéricas que no reflejan la realidad del consumo local o que simplemente son complicados de comprender. Además, los altos costos de energía eléctrica son una preocupación constante para las familias y negocios nuevos.
+Actualmente, el convertir una casa tradicional en un "hogar inteligente" es percibido como un lujo costoso, que requiere modificar el cableado eléctrico, contratar técnicos especializados y lidiar con aplicaciones genéricas que no reflejan la realidad del consumo local o que simplemente son complicados de comprender. Además, los altos costos de energía eléctrica son una preocupación constante para las familias y negocios nuevos.
 <br><br>
 Hemos desarrollado un ecosistema IoT (Internet de las Cosas) plug-and-play que se instala en minutos sobre los interruptores y enchufes existentes, sin necesidad de romper paredes, quebrar techos, ni alterar la red eléctrica. A través de nuestra plataforma web y móvil, los usuarios pueden controlar sus electrodomésticos de forma remota, podran programar horarios de encendido y monitorear el consumo de energia de su hogar en tiempo real.
 
@@ -226,8 +227,8 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 | Tavara Correa, Sebastian Oswaldo      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/foto-carnet-sebastian-tavara.jpg"> | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
 | Santiago Atanacio, Jairo Mathias      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Jairo_Santiago.png"> | Soy Jairo Mathias Santiago Atanacio, estudiante de 5to ciclo de Ingeniería de Software. Cuento con una base sólida en el desarrollo de algoritmos en C++, la creación de interfaces web interactivas mediante HTML, CSS y JavaScript, y el dominio de bases de datos relacionales (MySQL) y no relacionales (MongoDB). Me apasiona transformar problemas complejos en soluciones de software eficientes, escalables y con una gestión de datos versátil. Mi enfoque combina la rigurosidad técnica con habilidades blandas como la proactividad y la empatía, lo que me permite integrarme fácilmente en equipos colaborativos bajo metodologías ágiles.
 | Cabrejos Chocco, Diego Alexander      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/Diego_Cabrejos.jpg"> | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
-| Loa Rojas, Jean Franck      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| foto | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
-| Integrante 5      |carrera| foto | text
+| Loa Rojas, Jean Franck      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Jean_Loa.jpg"> | Soy Jean Franck Loa Rojas, estudiante de 5to ciclo de la carrera de Ingeniería de Software. Actualmente estoy abierto a oportunidades laborales para emplear mis conocimientos en programación y obtener experiencia trabajando de la mano con conocedores y profesionales de mi rubro académico. Estoy emocionado por todo lo que puede venir en el futuro, y las colaboraciones tecnológicas entre países para compartir conocimiento y prosperar una nación unida y pacífica.
+| Documet Romero, Timothy     |Ingeniera de software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Timothy_Documet.jpeg"> | Soy Timothy Documet Romero, estudiante de Ingeniería de Software, cuento con una base sólida en el desarrollo de algoritmos en C++, la creación de interfaces web interactivas mediante HTML, CSS y JavaScript, así como en el manejo de bases de datos relacionales (MySQL) y no relacionales (MongoDB). Me apasiona convertir problemas complejos en soluciones de software eficientes, escalables y con una gestión de datos versátil. Mi enfoque combina la rigurosidad técnica con habilidades blandas como la proactividad y la empatía, lo que le permite integrarse con facilidad en equipos colaborativos bajo metodologías ágiles.
 
 ## 1.2 *Solution Profile*
 ### 1.2.1 Antecedentes y problemática
@@ -248,9 +249,20 @@ Sin embargo, estas soluciones tecnológicas están diseñadas y comercializadas 
 | ("How much") Cuánto | ¿Cuánto costará / Cuál es el impacto? | Se requiere mantener un costo de producción y venta significativamente menor al de la domótica invasiva tradicional, garantizando que el ahorro en la factura de luz justifique la inversión del usuario a corto plazo. |
 
 ## Objetivos
+Objetivo General:
 Nuestro objetivo general es el diseñar, desarrollar e implementar un ecosistema de Internet de las Cosas (IoT) de arquitectura plug-and-play de facil entendimiento que permita a las familias y nuevo negocios en el Perú gestionar su consumo eléctrico de manera eficiente, optimizando su gasto económico y fomentando la sostenibilidad a través de una plataforma de software: una app y/o sitio web.
 
+Objetivos Específicos
+Desarrollo Tecnológico: Implementar una arquitectura de software escalable que integre una plataforma web y móvil, permitiendo el control remoto y el monitoreo en tiempo real de los dispositivos conectados con una latencia menor a 5 segundos.
+Impacto Económico: Desarrollar un algoritmo de análisis de datos que proporcione proyecciones de facturación mensual en soles, facilitando la identificación de hábitos de consumo ineficientes para reducir el gasto eléctrico del hogar.
+
 ## Restricciones
+Restricciones de Alcance (Scope)
+Integración de terceros: En su primera versión, el ecosistema IoT operará exclusivamente a través de la plataforma web y móvil propietaria de ElectroCorp. No se contemplará la integración con asistentes de voz de terceros (como Amazon Alexa, Google Assistant o Apple HomeKit) para mantener el enfoque en la robustez de la interfaz nativa.
+
+Restricciones de Tiempo y Costo
+Cronograma de Desarrollo: El ciclo de vida del proyecto está estrictamente sujeto al calendario académico regular. Todas las fases de diseño, desarrollo, pruebas y despliegue deben completarse y documentarse para coincidir con los hitos de entrega programados (TB1, TP1, TB2 y TF1).
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
 Los hogares urbanos y pequeños negocios en el Perú enfrentan grandes dificultades para modernizar su infraestructura eléctrica y adoptar tecnologías de domótica. Actualmente, convertir una vivienda tradicional en un "hogar inteligente" es percibido como un lujo costoso que requiere modificaciones invasivas en el cableado, la ruptura de paredes y la contratación de técnicos especializados. Esta situación limita el acceso a la tecnología y mantiene una preocupación constante por los altos costos de energía eléctrica, los cuales afectan directamente la economía de las familias de clase media y la rentabilidad de los nuevos emprendimientos.
@@ -652,45 +664,614 @@ Segmento 1: Hogares urbanos con viviendas antiguas
 
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
-|  |  |
+|1  | Nombre: Sonia<br>Apellido: Rojas <br>Edad: 48<br>Distrito: Ate | Sonia Rojas, es una mujer de 48 años que reside en Lima, distrito de Vitarte. Cuenta con educación secundaria completa y se desempeña en un negocio dependiente, lo que sugiere ingresos relativamente estables pero limitados.<br><br>Se percibe como una persona:<br>- Práctica y conservadora, prioriza lo funcional sobre la innovación<br>- Confiada en el estado actual de su hogar, ya que considera que sus instalaciones eléctricas cumplen con los estándares.<br>- Poco exploradora en tecnología, no ha implementado soluciones de hogar inteligente.<br><br>Contexto del hogar y uso de la energía<br>- Considera que sus instalaciones eléctricas están en buen estado y cumplen con lo requerido por la empresa proveedora <br>- Tiene un hábito de revisión mensual del recibo de luz<br>Es de denotar que no existe una preocupación activa por el consumo energético, sin embargo, si hay una oportunidad de mejora.<br><br>Necesidades y Motivaciones<br>- Interés en control remoto de dispositivos (TV, lavadora)<br>- Interés en visualizar consumo en soles en tiempo real.<br>- Necesidad de facilidad de uso para toda la familia. |<img src="assets/seg1 - img1.jpg">
+|2  | Nombre: Victor<br>Apellido: Loa <br>Edad: 59<br>Distrito: Ate | Víctor Loa, es un hombre de 59 años que reside en Lima, distrito de Ate Vitarte. Cuenta con educación secundaria completa y se desempeña como trabajador independiente.<br><br>Se percibe como una persona<br>- Tranquila y conservadora, no muestra preocupación por su consumo actual.<br>- Confiada en su entorno, considera que sus instalaciones funcionan correctamente.<br>- Precavida, especialmente frente a desconocidos (técnicos).<br>Se denota que no busca implementar tecnología, sin embargo puede adoptarla si percibe utilidad clara.<br><br>Contexto del hogar y uso de energía<br>- Considera que sus instalaciones eléctricas están en buen estado.<br>- Revisa su recibo de luz mensualmente <br>- Percibe que el consumo es estable y no varía mucho<br><br>Necesidades y Motivaciones<br>- Control remoto de dispositivos(principalmente TV).<br>- Visualización del consumo en dinero.<br>Se puede ver que su motivación principal es la comodidad, orientación y simplicidad.|<img src="assets/seg1 - img2.jpg">
+|3  | Nombre: Margarita<br>Apellido: Espinoza <br>Edad: 49<br>Distrito: Cieneguilla |Margarita representa a una ama de casa:<br>- Tener conectados los artefactos y servicios de cableado "normales"<br>- Controlar la energía empleada en ciertos artefactos<br>- Conocer técnicos especializados en mejorar experiencias de usuario|<img src="assets/Entrevista-Margarita_Espinoza.png">
+|4  | Nombre: Victor<br>Apellido: Documet <br>Edad: 52<br>Distrito: surco |Víctor Documet, es un hombre adulto (edad no especificada, pero inferida como adulto medio) que reside en un edificio con varios años de antigüedad.<br><br>Se percibe como una persona:<br>- Preocupado por los costos, espacialmente el consumo eléctrico.<br>- Realista y crítica, reconoce limitaciones en su vivienda (requiere mantenimiento).<br>- Interesada en la tecnología, pero con dificultades prácticas. <br><br>Contexto del hogar y uso de la energía<br>- Considera que sus instalaciones eléctricas son buenas en general, aunque requieren mantenimiento. <br>- Revisa su recibo de luz mensualmente.<br>- Percibe que el consumo aumenta constantemente.<br>Se percibe una preocupación activa y creciente por el gasto energético.<br><br>Necesidades y Motivaciones<br>- Control remoto de dispositivos (Microondas, Olla arrocera).<br>- Visualización del consumo.<br>- Conocer como mejorar la interfaz de usuario|<img src="assets/seg1-img3.jpg">
+
 
 Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 
+
 | N | Datos |Descripción |Imagen referencial
 |--|--|--|--|
-|1  | Nombre: Orlando<br>Apellido: Trinidad <br>Edad: 48<br>Distrito: La Victoria |Orlando representa a un microempresario tradicional, con una fuerte necesidad de:<br>- Controlar costos<br>- Reducir errores humanos<br>- Optimizar recursos energéticos<br><br>Tiene una mentalidad abierta hacia la tecnología, siempre que esta sea:<br>- Económicamente viable<br>- Fácil de implementar<br>- Orientada a resultados concretos (ahorro en dinero)|<img src="assets/seg2 - img1.png">
-|2  | Nombre: Catherine<br>Apellido: Tejada <br>Edad: 39<br>Distrito: Villa el Salvador |Catherine representa a una microempresaria del sector textil, con una fuerte necesidad de:<br>- Controlar el gasto eléctrico de máquinas de coser y luces de vitrina.<br>- Garantizar el apagado total de ambos locales al finalizar la jornada.<br>- Predecir el costo del recibo para proteger su margen de ganancia.<br><br>Tiene una mentalidad abierta hacia la tecnología, siempre que esta sea:<br>- De instalación limpia para no ensuciar ni dañar telas delicada<br>- Fácil de entender, mostrando el ahorro directamente en Soles (S/).<br>- Capaz de gestionar ambas tiendas de forma remota desde su celular.|<img src="assets/seg2_entrevista2.PNG">
+|1  | Nombre: Orlando<br>Apellido: Trinidad <br>Edad: 48<br>Distrito: La Victoria |El entrevistado Orlando Trinidad Parra, es un hombre de 48 años que reside en La Victoria. Se desempeña como microempresario del rubro textil, específicamente en la confección, operando un taller con varias máquinas industriales. Su negocio se encuentra dentro del segmento de pequeñas y medianas empresas (PYME), lo que implica recursos limitados y alta sensibilidad a los costos operativos.<br><br>Se percibe como una persona:<br>- Responsable y organizada ya que tiene trabajadores que limpian y apagan la maquina que trabajan.<br>- Abierta al cambio tecnológico, pero con criterio económico.<br><br>El taller usa diferentes equipos eléctricos tales como:<br>- Maquinas remalladoras.<br>- Maquinas rectas.<br>- Cortadora.<br>Se puede denotar que el consumo energético es alto y critico, impactando directamente la rentabilidad del negocio<br><br>Problemas detectados:<br>- Errores humanos frecuentes, especialmente en personal nuevo.<br>- Equipos que quedan encendidos o conectados innecesariamente.<br>- Desconocimiento del costo exacto por máquina, solo percibe el gasto total.<br><br>El entrevistado muestra interes en soluciones tecnologicas que le permitan:<br>- Medir el costo real por máquina (no solo consumo)<br>- Automatizar encendido/apagado<br>- Obtener reportes de desperdicio energético|<img src="assets/seg2 - img1.png">
+|2  | Nombre: Catherine<br>Apellido: Tejada <br>Edad: 39<br>Distrito: Villa el Salvador |La entrevistada, Katherine, es una mujer de 39 años que reside en Villa El Salvador. Es dueña de dos tiendas de vestidos de quinceañera, donde no solo comercializa, sino que también diseña y confecciona los productos.<br><br>Se percibe como una persona: <br>- Proactiva y emprendedora, al manejar dos tiendas y participar directamente en el diseño y confección.<br>- Organizada y preventiva, utiliza un sistema central (palanca general) para apagar todos los equipos.<br>- Digitalmente activa, aprovecha redes sociales para promoción.<br><br>Equipos electrónicos identificados:<br>- Remalladoras<br>- Maquina recta<br>- Maquina urbanera.<br>Equipos complementarios:<br>- Cámaras de seguridad.<br>- Ventiladores<br>- Reflectores y focos<br>Es de denotar que el negocio combina producción y exhibición de productos por lo que incrementa la variedad de consumo energético.<br><br>Problemas detectados:<br>- Ha tenido incidentes leves relacionados con el apagado (aunque sin consecuencias graves).<br>- Existe dependencia de un sistema manual (palanca general).<br>- No cuenta con monitoreo detallado del consumo energético.<br><br>Necesidades y motivaciones:<br>- Programación de encendido/apagado<br>- Alertas de actividad (saber cuándo se encienden equipos).<br>- Monitoreo de costos y consumo energético.|<img src="assets/seg2_entrevista2.PNG">
+|3  | Nombre: Lourdes<br>Apellido: Saldarriaga <br>Edad: 46<br>Distrito: La Victoria |Lourdes Saldarriaga, es una mujer de 46 años que reside en La Victoria. Es propietaria de una pequeña tintorería, lo que la ubica dentro del segmento de microempresas o negocios pequeños con operaciones intensivas en uso de equipos eléctricos.<br><br>Se percibe como una persona:<br>- Practica y operativa, enfocada en el funcionamiento diario del negocio más que en análisis detallados<br>- Consciente de riesgos, especialmente después de haber experimentado incidentes (recalentamiento de equipos).<br>- Precavida en inversión, muestra interés condicionado al costo.<br><br>El taller usa diferentes equipos eléctricos tales como:<br>- Lavadoras industriales<br>- Posibles secadoras<br>El negocio tiene dependencia directa de maquinaria eléctrica continua, lo que hace critico el control energético<br><br>Problemas detectados:<br>-Errores humanos: un trabajador olvidó apagar un equipo.<br>- Consecuencia directa: recalentamiento de maquinaria, lo que implica riesgo operativo y económico.<br>- Dependencia del personal para tareas críticas.<br><br>Necesidades detectadas:<br>- Programación automática de encendido y apagado (su prioridad principal)<br>- Monitoreo del consumo energético por máquina y horario<br>- Identificación de picos de consumo| <img src="assets/seg2 - img3.png">
+
 
 ### 2.2.3. Análisis de entrevistas 
+
+#### Segmento 1: Hogares urbanos con viviendas antiguas
+
+Características objetivas del segmento
+
+- Rango de edad: 48 - 59 años.
+- Ubicacion: 100% Lima
+- Nivel educativo: 100% secundaria completa
+- Ocupación: 
+-- 75% independientes
+-- 25% dependiente
+- El segmento esta compuesto por adultos de mediana a mayor edad, con nivel educativo y estabilidad laboral modera.
+<br>
+
+Infraestructura del hogar
+- 100% viviendas con mas de 10 años 
+- 100% consideran que sus instalaciones eléctricas están en buen estado.
+-- 25% menciona necesidad de mantenimiento
+- Existe una percepción de seguridad y conformidad con la infraestructura actual.
+
+Percepción del consumo
+- 25% percepción negativa (preocupados)
+- 75% percepción neutral/positiva
+
+Características subjetivas del segmento
+- 100% prácticos y orientados a lo funcional.
+- 100% conservadores en adopción tecnológica.
+- 75% confiados en su situación actual.
+- 25 % preocupados activamente por el consumo.
+
+Necesidades y motivaciones
+- Control remoto de dispositivos (100%)
+- Visualización del consumo en dinero (25%)
+
+Insights clave
+- Conformidad
+-- 75% esta conforme
+-- 25% esta preocupado.
+- Interés sin accion.
+-- 100% no usa la tecnología pero muestra interés en funciones.
+- Simplicidad ante todo
+-- el 100% pide facilidad de uso
+-- el 75% desconfía de técnicos	
+- Valor percibido en dinero
+-- El 100% quiere ver el consumo eléctrico en soles.
+#### Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+Características objetivas del segmento
+- Rango edad: 39 -48 anios
+- Ubicacion: zonas urbanas (La Vcitoria y Villa el Salvador)
+- Tipo de negocio:
+-- 33% confecction textil.
+-- 33% lavanderia/tintereria
+-- 33% moda (vestidos de Quinceaniera)
+
+Infraestructura y equipos electricos
+
+- 100% dependen de maquinaria electrica critica
+- Tipos de equipos mas comunes:
+-- 66% Maquinas de confeccion.
+-- 33% Lavadoras.
+-- 100% Equipos complementarios (planchas, secadoras, iluminacion, ventilacion).
+- El consumo energetico es estructural, el negocio no puede operar sin electricidad.
+
+Impacto economico del uso de la energia
+
+- 100 % considera el costo electrico como "alto" o "critico"
+-- Orlando: "bastante critico"
+-- Katherine: "critico"
+-- Lourdes: aunque no lo dice explicito, su preocupación por incidentes y control lo respalda.
+
+Características subjetivas del segmento
+
+- 100% utiliza metodos manuales de control energetico
+-- Apagador por personal (66%)
+-- Uso de llave/palanca general (33%)
+- Consecuencia:
+-- 67% ha tenido problemas por descuidos
+-- Olvidos por personal (66%)
+-- Incidentes menores o riesgos (recalentamiento, consumo innecesario)
+
+Necesidades y motivaciones comunes:
+
+- Programacion automatica (67%)
+- Alertas (uso/consumo) (67%)
+- Reportes de consumo (100%)
+- Visualización del gasto energético en dinero (33%)
+
+Insights clave
+
+- Control vs Desorden
+el 100% necesita control energetico, pero actualmente depende de procesos manuales vulnerables.
+- Costo como driver principal
+el 100% toma decisiones basado en impacto económico, no en métricas técnicas.
+- Tecnologia pero simple
+el 100% acepta tecnología siempre que sea fácil de implementar, económica y no invasiva.
+- Segmento en transición
+-- El 67% es tradicional (operativo)
+-- El 33% es moderno
+  
 ## 2.3. Needfinding
 ### 2.3.1. User Personas 
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+<img src="assets/User Persona - seg1 - Rosa Gutierrez.png" alt="UserPersona Rosa Gutierrez">
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+<img src="assets/User Persona - seg2 - Carlos Mendoza.png" alt="UserPersona Carlos Mendoza">
+
 ### 2.3.2. User Task Matrix 
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+| Tareas del usuario | Frecuencia | Importancia |
+|--|--|--|
+| Encender manualmente los dispositivos del hogar | Diario | Alta |
+| Apagar manualmente los dispositivos antes de salir o dormir | Diario | Alta |
+| Revisar el recibo de luz | Mensual | Alta |
+| Supervisar el uso de electrodomésticos en casa | Semanal | Media |
+| Ajustar el uso de aparatos según necesidad (uso básico) | Diario | Media |
+| Consultar sobre el consumo eléctrico | Mensual/semanal | Media |
+| Entender el monto de recibo de luz | Semanal | Alta |
+
+Segmento 2:  Pequeños negocios y talleres en zonas urbanas.
+
+| Tareas (Tasks) | Frecuencia | Importancia |
+|--|--|--|
+| Encender equipos al iniciar la jornada | Diario | Alta |
+| Operar maquinaria durante la producción | Diario | Alta |
+| Supervisar el uso correcto de equipos por el personal | Diario | Alta |
+| Apagar equipos al finalizar la jornada | Diario | Alta |
+| Verificar que todos los equipos estén apagados | Interdiario | Alta |
+| Coordinar con el personal sobre el uso de máquinas | Diario | Media |
+| Pagar el recibo de electricidad | Mensual | Alta |
+| Revisar el gasto eléctrico del negocio | Mensual | Alta |
+| Intentar identificar causas de alto consumo eléctrico | Mensual (baja) | Alta |
+| Detectar errores o descuidos (equipos encendidos, fallas) | Mensual (baja) | Alta |
+
 ### 2.3.3. User Journey Mapping 
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+<img src = "assets/UserJourneyMap - seg1.png" alt = "User Journey Map segmento 1">
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+<img src = "assets/UserJourneyMap - seg2.png" alt = "User Journey Map segmento 2">
+
 ### 2.3.4. Empathy Mapping
+
+Segmento 1: Hogares urbanos con viviendas antiguas
+
+<img src = "assets/EmpathyMap - Seg1.png" alt = "EmpathyMap Segmento 1">
+
+Segmento 2: Pequeños negocios y talleres en zonas urbanas.
+
+<img src = "assets/EmpathyMap - Seg2.png" alt = "EmpathyMap Segmento 2">
+
 ## 2.4. Big Picture Event Storming
 ## 2.5. Ubiquitous Language
 # Capitulo III: Requirements Specification
 ## 3.1. User Stories
+EP-01: Instalación y configuración inicial
+
+Como usuario de un hogar o pequeño negocio, quiero instalar y configurar fácilmente mis dispositivos inteligentes sin alterar la infraestructura eléctrica existente, para comenzar a usar la solución de forma rápida, práctica y sin necesidad de asistencia técnica especializada.
+
+Incluye (alto nivel):
+
+Registro e inicio de sesión de usuarios.
+Asistente de instalación guiada paso a paso.
+Vinculación de enchufes e interruptores inteligentes.
+Detección y verificación del dispositivo conectado.
+Personalización inicial de nombres y ubicación de equipos.
+
+Por qué es un Epic:
+
+Es el primer punto de contacto entre el usuario y la solución.
+Involucra flujo de adopción, experiencia de usuario e integración con hardware IoT.
+Requiere coordinación entre app web/móvil, backend y dispositivos físicos.
+
+Estimación: 3–5 sprints de 2 semanas.
+
+EP-02: Control y automatización de dispositivos
+
+Como usuario de un hogar o negocio, quiero controlar y automatizar mis dispositivos eléctricos desde la plataforma, para mejorar la comodidad, optimizar el uso de energía y reducir acciones manuales repetitivas.
+
+Incluye (alto nivel):
+
+Encendido y apagado remoto de dispositivos.
+Programación de horarios por día y hora.
+Creación de rutinas o automatizaciones simples.
+Visualización del estado actual de cada dispositivo.
+Control centralizado desde un solo panel.
+
+Por qué es un Epic:
+
+Representa la funcionalidad principal de la domótica ofrecida.
+Requiere sincronización entre interfaz, lógica de negocio y dispositivos conectados.
+Tiene impacto directo en la utilidad diaria del sistema.
+Permite atender tanto necesidades domésticas como operativas en negocios pequeños.
+
+Estimación: 4–6 sprints de 2 semanas.
+
+EP-03: Monitoreo y ahorro de energía
+
+Como usuario que busca reducir su consumo eléctrico, quiero visualizar, analizar y comparar el consumo de mis dispositivos en tiempo real e histórico, para identificar oportunidades de ahorro y tomar decisiones informadas.
+
+Incluye (alto nivel):
+
+Monitoreo del consumo energético en tiempo real.
+Historial de consumo por periodos.
+Reportes gráficos por dispositivo o grupo.
+Alertas ante consumo inusual o excesivo.
+Recomendaciones básicas para mejorar la eficiencia energética.
+
+Por qué es un Epic:
+
+Requiere captura y procesamiento continuo de datos energéticos.
+Aporta el valor diferencial de la propuesta: ahorro y eficiencia.
+Implica visualización clara de información para usuarios no técnicos.
+Puede crecer hacia analítica avanzada y predicción de consumo.
+
+Estimación: 4–7 sprints de 2 semanas.
+
+EP-04: Seguridad, accesos y gestión de usuarios
+
+Como usuario administrador de un hogar o negocio, quiero controlar los accesos y permisos de quienes usan la plataforma, para mantener la seguridad, la trazabilidad y el uso adecuado de los dispositivos.
+
+Incluye (alto nivel):
+
+Creación de cuentas y autenticación de usuarios.
+Asignación de roles y permisos.
+Gestión de acceso para familiares o personal autorizado.
+Registro de actividad y cambios realizados.
+Protección contra accesos no autorizados.
+
+Por qué es un Epic:
+
+Es fundamental para garantizar confianza y control del sistema.
+Requiere manejo de autenticación, autorización y trazabilidad.
+Tiene relevancia especial en entornos compartidos como hogares y negocios.
+Refuerza la seguridad operativa de la plataforma IoT.
+
+Estimación: 3–5 sprints de 2 semanas.
+| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID)
+|--|--|--|--|--|
+|US-01|Registro inicial del usuario| Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos y acceder a sus funciones.| El usuario puede registrarse con correo y contraseña, el sistema valida campos obligatorios, se confirma el registro por mensaje o pantalla de éxito. | EP-01|
+|US-02| Emparejar dispositivo plug-and-play| Como usuario, quiero vincular un enchufe o interruptor inteligente desde la app para empezar a controlarlo sin ayuda técnica.| El sistema detecta el dispositivo, la app muestra confirmación de emparejamiento, el dispositivo queda visible en la lista principal.| EP-01|
+|US-03| Asistente de instalación guiada | Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema sin modificar el cableado.| La guía muestra instrucciones ordenadas; incluye imágenes o mensajes simples, finaliza cuando el dispositivo queda operativo.| EP-01|
+|US-04| Nombrar dispositivos| Como usuario, quiero asignar nombres personalizados a mis dispositivos para identificarlos fácilmente. | El usuario puede editar el nombre, el cambio se guarda correctamente, el nombre se actualiza en toda la plataforma.  | EP-01 |
+|US-05| Ver estado en tiempo real | Como usuario, quiero ver si un dispositivo está encendido o apagado para saber su estado actual. | La app muestra el estado actual, la información se actualiza al cambiar el dispositivo, el estado coincide con el dispositivo físico. | EP-02|
+|US-06| Encender y apagar remotamente| Como usuario, quiero controlar mis dispositivos desde el celular o la web para usarlos aunque no esté en casa o en el local.| El usuario puede activar y desactivar desde la interfaz, la acción se refleja en el dispositivo, el sistema confirma la ejecución.| EP-02 |
+|US-07| Programar horarios de encendido| Como usuario, quiero programar horarios automáticos para reducir consumo y tener mayor comodidad.| El usuario puede crear una programación, puede indicar hora de inicio y fin, el sistema ejecuta la acción en el horario definido.| EP-02 |
+|US-08| Crear rutinas automáticas| Como usuario, quiero definir rutinas como “siempre apagar a cierta hora” para automatizar tareas repetitivas.| La rutina puede activarse y desactivarse, el sistema ejecuta la acción configurada, el usuario puede editar o eliminar la rutina. | EP-02 |
+|US-09| Ver consumo en tiempo real| Como usuario, quiero monitorear el consumo energético de mis dispositivos en tiempo real para entender cuánto gasto estoy generando. | El panel muestra el consumo actual, los datos se actualizan periódicamente, la información es visible de forma clara.| EP-03|
+|US-10| Consultar historial de consumo| Como usuario, quiero revisar el historial de consumo por día, semana o mes para identificar patrones de uso. | El usuario puede elegir un rango de fechas, el sistema muestra datos históricos, la información se presenta de forma gráfica o resumida.| EP-03 |
+|US-11| Recibir alertas por alto consumo | Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal para evitar gastos innecesarios. | El sistema compara con un umbral definido, se envía una alerta al usuario; la alerta indica qué dispositivo generó el aviso. | EP-03|
+|US-12| Ver recomendaciones de ahorro | Como usuario, quiero recibir sugerencias para ahorrar energía según mi consumo habitual.| El sistema genera recomendaciones, las sugerencias se basan en el uso registrado, el usuario puede verlas en su panel. | EP-03 |
+|US-13| Administrar múltiples dispositivos| Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla para gestionarlos fácilmente. | Se muestra una lista organizada, cada dispositivo tiene su estado, el usuario puede acceder al detalle de cada uno.| EP-04 |
+|US-14| Crear perfiles de acceso| Como usuario administrador, quiero dar acceso a otros miembros de la familia o empleados con permisos limitados.| El administrador puede crear usuarios, se pueden asignar permisos, cada perfil accede solo a funciones autorizadas.| EP-04 |
+|US-15| Bloquear acceso no autorizado| Como usuario, quiero proteger mi cuenta para que nadie controle mis dispositivos sin permiso.| La app solicita autenticación, el sistema cierra sesión tras inactividad, se impide el acceso sin credenciales válidas. | EP-04|
+|US-16| Registrar actividad de control| Como usuario administrador, quiero ver quién encendió, apagó o modificó una automatización para tener trazabilidad.| El sistema guarda fecha y hora, se registra el usuario que hizo el cambio, el historial puede consultarse en la plataforma.| EP-04|
+|US-17| Controlar equipos del negocio| Como dueño de negocio, quiero encender o apagar equipos del local desde mi móvil para ahorrar tiempo y energía.| El control puede realizarse remotamente, la acción se ejecuta correctamente, el sistema confirma el cambio.| EP-02  |
+|US-18| Programar equipos por horario comercial  | Como dueño de negocio, quiero automatizar el encendido y apagado de equipos según el horario de atención.| Se puede configurar por días y horas, el sistema cumple el horario indicado, la programación puede editarse. | EP-02  |
+|US-19| Revisar consumo por área o equipo| Como dueño de negocio, quiero identificar qué equipos consumen más energía para tomar decisiones de ahorro. | El sistema muestra el consumo por dispositivo, se puede comparar entre equipos, los datos están disponibles en reportes.| EP-03 |
+|US-20| Compartir acceso con personal autorizado | Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.| El administrador define permisos, el empleado solo ve dispositivos asignados, los cambios quedan registrados. | EP-04  |
+
 ## 3.2. Impact Mapping
+<img src="assets/Impact Mapping.png">
+
 ## 3.3. Product Backlog
+| # Orden | User Story ID | Título | Descripcion | Story Points(1 / 2 / 3 / 5 / 8)
+|--|--|--|--|--|
+|1|US-03|Asistente de instalación guiada|Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema sin modificar el cableado.|8|
+|2|US-02|Emparejar dispositivo plug-and-play|Como usuario, quiero vincular un enchufe o interruptor inteligente desde la app para empezar a controlarlo sin ayuda técnica.|8|
+|3|US-06|Encender y apagar remotamente|Como usuario, quiero controlar mis dispositivos desde el celular o la web para usarlos aunque no esté en casa o en el local.|5|
+|4|US-05|Ver estado en tiempo real|Como usuario, quiero ver si un dispositivo está encendido o apagado para saber su estado actual.|3|
+|5|US-08|Crear rutinas automáticas|Como usuario, quiero definir rutinas como “apagar a cierta hora” para automatizar tareas repetitivas.|5|
+|6|US-07|Programar horarios de encendido|Como usuario, quiero programar horarios automáticos para reducir consumo y tener mayor comodidad.|5|
+|7|US-13|Administrar múltiples dispositivos|Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla para gestionarlos fácilmente.|5|
+|8|US-09|Ver consumo en tiempo real|Como usuario, quiero monitorear el consumo energético de mis dispositivos en tiempo real para entender cuánto gasto estoy generando.|5|
+|9|US-10|Consultar historial de consumo|Como usuario, quiero revisar el historial de consumo por día, semana o mes para identificar patrones de uso.|5|
+|10|US-11|Recibir alertas por alto consumo|Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal para evitar gastos innecesarios.|3|
+|11|US-12|Ver recomendaciones de ahorro|Como usuario, quiero recibir sugerencias para ahorrar energía según mi consumo habitual.|3|
+|12|US-17|Controlar equipos del negocio|Como dueño de negocio, quiero encender o apagar equipos del local desde mi móvil para ahorrar tiempo y energía.|5|
+|13|US-18|Programar equipos por horario comercial|Como dueño de negocio, quiero automatizar el encendido y apagado de equipos según el horario de atención.|5|
+|14|US-19|Revisar consumo por área o equipo|Como dueño de negocio, quiero identificar qué equipos consumen más energía para tomar decisiones de ahorro.|5|
+|15|US-14|Crear perfiles de acceso|Como usuario administrador, quiero dar acceso a otros miembros de la familia o empleados con permisos limitados.|5|
+|16|US-20|Compartir acceso con personal autorizado|Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.|5|
+|17|US-16|Registrar actividad de control|Como usuario administrador, quiero ver quién encendió, apagó o modificó una automatización para tener trazabilidad.|3|
+|18|US-01|Registro inicial del usuario|Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos y acceder a sus funciones.|3|
+|19|US-04|Nombrar dispositivos|Como usuario, quiero asignar nombres personalizados a mis dispositivos para identificarlos fácilmente.|2|
+|20|US-15|Bloquear acceso no autorizado|Como usuario, quiero proteger mi cuenta para que nadie controle mis dispositivos sin permiso.|5|
+
 # Capitulo IV: Product Design
+
 ## 4.1. Style Guidelines
+
+En esta sección se detallan las bases visuales y comunicativas de ElectroCorp, orientadas a mantener una presentación consistente y profesional en todas las interfaces del ecosistema IoT.
+
 ### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
+
+**Branding:** 
+La identidad de ElectroCorp busca democratizar la domótica en el Perú. El uso de la mascota (el enchufe con capa de superhéroe) transmite que el usuario tiene el "poder" y el control sobre su consumo eléctrico de forma amigable y heroica.
+<br><br>
+FOTO DEL LOGO
+
+
+<br><br>
+**Typography:**
+La tipografía es el pilar de la comunicación digital en ElectroCorp. Hemos seleccionado una jerarquía basada en fuentes _sans-serif_ para asegurar que los datos de consumo (watts y costos) sean legibles en cualquier condición de iluminación de la interfaz.
+
+-   **Fuente Principal:** Se utiliza Roboto, tipografías de sistema diseñadas para interfaces de alta densidad de información.
+    
+-   **Jerarquía de Títulos:** Se aplica un peso de 600 (SemiBold) para transmitir solidez y autoridad en la gestión energética. El tamaño del título principal en el _Hero_ es de 3.5rem, asegurando un impacto visual inmediato.
+    
+-   **Cuerpo de Texto:** Se define en 1.1rem con un interlineado de 1.6, optimizando la lectura de párrafos largos en la descripción de la startup y testimonios.
+    
+<img src="assets/Typography.PNG">
+
+#### **Colors**
+
+La paleta de colores de **ElectroCorp** ha sido diseñada bajo una estética de "Modo Oscuro" (Dark Mode), que evoca tecnología avanzada y eficiencia operativa.
+
+<img src="assets/paleta_colores.PNG">
+
+#### **Spacing**
+
+El sistema de espaciado sigue una progresión lógica para mantener el orden y la limpieza visual, facilitando que el usuario no se sienta abrumado por los datos.
+
+-   **Secciones Principales:** Poseen un relleno (_padding_) de 80px en la parte superior e inferior con un margen lateral del 10*, creando un "respiro" visual necesario para separar los objetivos de los planes de servicio.
+    
+-   **Grillas (Grid Gap):** Se establece un espacio de 30px entre elementos del inventario y dispositivos, permitiendo una diferenciación clara entre cada unidad IoT.
+    
+-   **Separadores (hr):** Se utilizan líneas de 3px de alto y 60px de ancho en color azul eléctrico para indicar el fin de un concepto y el inicio de otro de forma minimalista.
+
+<img src="assets/spacing.PNG">
+
+
+#### **Dimensions (Tone of Voice)**
+
+El lenguaje de **ElectroCorp** ha sido calibrado para generar confianza en una audiencia que suele temer a los costos elevados de energía.
+
+-   **Enfoque:** **Formal pero Entusiasta**. Somos serios con la precisión de la medición (watts), pero entusiastas al invitar al usuario a la "Revolución Eléctrica".
+    
+-   **Lenguaje:** **Respetuoso y Profesional**. Evitamos términos excesivamente técnicos para que la microempresaria Elena o el gamer Ricardo comprendan el beneficio directo (ahorro de dinero) sin esfuerzo.
+    
+-   **Estilo de Comunicación:**
+    
+    -   **Sereno:** Transmitimos tranquilidad mediante la seguridad de que el usuario tiene el control total desde su app.
+        
+    -   **Heroico:** Usamos la narrativa de nuestra mascota (el enchufe con capa) para posicionar la tecnología como una aliada contra el desperdicio.
+
+
+### **4.1.2. Web Style Guidelines**
+
+En esta sección se establecen los estándares visuales, técnicos y de interacción aplicados a las interfaces web de ElectroCorp. El objetivo es garantizar una experiencia de usuario (UX) fluida, coherente y accesible que permita a familias y negocios peruanos gestionar su consumo energético con total confianza desde cualquier dispositivo.
+
+#### **1. Diseño Responsivo y Adaptabilidad**
+
+Priorizamos un enfoque Mobile-First para asegurar que el control de los dispositivos IoT sea efectivo en movimiento.
+
+-   **Adaptación Fluida:** El sitio utiliza un sistema de retícula flexible basado en _CSS Flexbox_ y _Media Queries_ que adapta el contenido automáticamente. En dispositivos de escritorio (desktop), se mantiene una estructura de 12 columnas con contenedores máximos de 1200px; mientras que en dispositivos móviles (smartphones), el contenido se reorganiza en una sola columna con márgenes laterales de 20px para facilitar la interacción táctil.
+    
+-   **Puntos de Ruptura (Breakpoints):** Se define un punto crítico en los 768px, donde la navegación cambia de una barra horizontal a un menú vertical optimizado, y las tarjetas de servicios (planes) pasan de una disposición en grilla (_grid_) a una lista vertical.
+    
+
+#### **2. Sistema de Layout y Patrones de Lectura**
+
+-   **Patrón en F:** En la landing page, aplicamos un patrón de escaneo visual en "F". Ubicamos el logotipo de ElectroCorp en la esquina superior izquierda (punto de entrada visual) y los llamados a la acción (CTA) en la parte superior derecha y centro del Hero para maximizar la conversión de usuarios interesados en los planes.
+    
+-   **Jerarquía Visual:** Utilizamos el contraste entre el fondo Deep Navy (`#0a0f18`) y el Electric Blue (`#00d2ff`) para dirigir la atención hacia los indicadores de ahorro y botones de compra.
+    
+
+#### **3. Elementos Visuales (Imágenes e Iconografía)**
+
+-   **Tratamiento de Imágenes:** Las imágenes ilustrativas (como el enchufe superhéroe) y fotografías de hardware deben estar optimizadas en formato WebP para garantizar una carga rápida (peso < 200kb). Se aplica una opacidad del 15% en las imágenes de fondo del Hero para no competir con la legibilidad del texto.
+    
+-   **Iconografía Funcional:** Implementamos la librería Font Awesome. Los íconos deben ser lineales y minimalistas, manteniendo un tamaño uniforme de 1.8rem en el footer y 20px en los botones de búsqueda y audio para asegurar consistencia visual.
+    
+
+#### **4. Componentes de Interacción (Botones y Estados)**
+
+Los botones son los elementos críticos para la toma de decisiones. Se definen tres categorías:
+
+-   **Botón Primario (Action):** Fondo Azul Eléctrico con texto negro. Utilizado para acciones principales como "Suscribirme" o "Empezar Gratis".
+    
+-   **Botón Secundario (Nav):** Enlaces con efecto _hover_ que activan un resplandor azul (`text-shadow`) y cambian a color blanco para confirmar la selección del usuario.
+    
+-   **Estados Visuales:** Cada elemento interactivo cuenta con estados claramente definidos (`default`, `hover`, `active`). Se aplica una transición suave de 0.3s para evitar cambios bruscos y mejorar la percepción de fluidez.
+    
+
+#### **5. Formularios y Entradas de Datos**
+
+-   **Claridad y Validación:** El formulario de suscripción y la barra de búsqueda central cuentan con bordes redondeados (30px) y _placeholders_ descriptivos.
+    
+-   **Feedback Inmediato:** Mediante JavaScript, se informa al usuario en tiempo real sobre el éxito de su suscripción o la falta de resultados en la búsqueda mediante alertas visuales y mensajes dinámicos, evitando la frustración ante errores de escritura.
+    
+
+#### **6. Accesibilidad y Estándares de Calidad**
+
+-   **Contraste y Legibilidad:** Nos aseguramos de que el texto claro (`#e0e6ed`) sobre el fondo oscuro cumpla con las pautas de accesibilidad WCAG, garantizando que usuarios con fatiga visual o en entornos de baja luz puedan leer los datos de consumo sin dificultad.
+    
+-   **Navegación Asistida:** El sitio incluye un sistema de búsqueda inteligente que interpreta palabras clave del usuario (ej. "precios", "soporte") y lo desplaza automáticamente (`smooth scroll`) hacia la sección relevante, facilitando el uso a personas que prefieren no usar el menú tradicional.
+
+
 ## 4.2. Information Architecture
+
+En ElectroCorp, la arquitectura de la información se ha diseñado para facilitar la transición hacia un hogar inteligente de forma intuitiva y sin fricciones. El objetivo es que usuarios como Elena o Ricardo puedan gestionar su consumo eléctrico y controlar sus dispositivos IoT sin necesidad de conocimientos técnicos avanzados. Organizamos el contenido mediante una jerarquía visual clara en el Landing Page y sistemas de navegación que priorizan la eficiencia energética y el ahorro económico inmediato.
+
 ### 4.2.1. Organization Systems
+
+En ElectroCorp, aplicaremos diversos sistemas de organización para garantizar que la gestión del stock y el monitoreo de energía sean accesibles:
+
+-   **Organización Visual del Contenido (Jerárquica):** Utilizaremos este sistema para guiar al usuario desde el impacto inicial en el Hero hacia la toma de decisiones en la sección de Planes. La información fluye desde la propuesta de valor ("Domina el consumo de tu hogar") hacia los detalles técnicos (Sistemas I.O.T.) y la prueba social (Testimonios).
+    
+-   **Organización Secuencial (Step-by-step):** Este sistema se emplea rigurosamente en el proceso de instalación _plug-and-play_ de los enchufes y en el flujo de suscripción al boletín informativo. Cada paso está diseñado para evitar la sobrecarga cognitiva del usuario.
+    
+-   **Esquemas de Categorización de Contenido:**
+    
+    -   **Por Tópicos:** La información se agrupa en módulos lógicos como "Nuestros Planes", "Nuestros Objetivos" y "Sistemas I.O.T.".
+        
+    -   **Según Audiencia (Grupos de usuarios):** Segmentamos el contenido para dos perfiles principales: el usuario residencial (Plan Free para departamentos) y el corporativo/microempresario (Plan Enterprise para oficinas o negocios grandes).
+        
+    -   **Cronológico:** Se utiliza en la visualización de datos de consumo en tiempo real, permitiendo comparar el gasto energético actual frente a periodos pasados para identificar patrones de ahorro.
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de ElectroCorp utiliza términos directos y familiares para reducir la confusión en usuarios no técnicos.
+
+-   **Inicio:** Sección principal que presenta la misión de democratizar la domótica.
+    
+-   **Descripción:** Detalle del ecosistema IoT y la facilidad de instalación sin obras eléctricas.
+    
+-   **Objetivos:** Resumen de las metas de sostenibilidad y eficiencia económica.
+    
+-   **Planes:** Sección de tarifas donde se diferencian las opciones "Free" y "Enterprise".
+    
+-   **Enchufes Smart:** Galería técnica de los dispositivos de hardware disponibles.
+    
+-   **Soporte:** Canal de contacto y suscripción para asistencia técnica.
+    
+-   **Suscribirme al Boletín:** Llamado a la acción (CTA) claro para la captura de nuevos _leads_.
+
 ### 4.2.3. SEO Tags and Meta Tags 
+
+Para optimizar la visibilidad en buscadores y asegurar una correcta indexación de la plataforma de gestión energética, se aplican los siguientes metadatos:
+**Landing Page:**
+
+
+- **Título:**
+```html
+<title>ElectroCorp | Gestión Energética Inteligente</title>
+```
+    
+- **Descripción:**
+```html
+<meta name="description" content="Domótica accesible para hogares peruanos. Controla tus electrodomésticos y ahorra en tu recibo de luz con nuestros enchufes inteligentes plug-and-play."/>"/>
+```
+    
+- **Palabras clave (Keywords):**
+```html
+<meta name="keywords" content="ahorro energía, domótica Perú, enchufes inteligentes, IoT hogar, eficiencia eléctrica, ElectroCorp"/>"/>
+```
+- **Autor (author):**
+```
+<meta name="author" content="ElectroCorp Team" />
+```
+- **Copyright:**
+```
+<meta name="copyright" content="© ElectroCorp.app, 2026" />
+```
+
+**Web Application (Portal de Usuario):**
+
+- **Título:**
+```html
+<title>ElectroCorp Dashboard - Monitoreo en Tiempo Real</title>
+```
+- **Descripción:**
+```html
+<meta name="description" content="Panel de control para la gestión de dispositivos inteligentes y visualización de consumo eléctrico en tiempo real."/>"/>
+```
+- **Palabras clave (Keywords):**
+```html
+<meta name="keywords" content="consumo watts, control remoto enchufes, dashboard energético, smart home dashboard"/>"/>
+```
+- **Autor (author):**
+```
+<meta name="author" content="ElectroCorp Team" />
+```
+- **Copyright:**
+```
+<meta name="copyright" content="© ElectroCorp.app, 2026" />
+```
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de ElectroCorp está optimizado para la navegación rápida dentro del sitio de una sola página (SPA):
+
+-   **Búsqueda por Palabras Clave:** Un campo de búsqueda en el Hero permite al usuario ingresar términos como "planes", "hardware" o "misión".
+    
+-   **Buscador Inteligente :** El sistema utiliza un diccionario de términos ('gratis', 'precios', 'dispositivos') que activa un desplazamiento suave (_smooth scroll_) hacia la sección exacta donde se encuentra la información buscada.
+    
+-   **Feedback de Búsqueda:** En caso de no encontrar una coincidencia, el sistema proporciona alertas con sugerencias para guiar al usuario hacia términos válidos.
+
 ### 4.2.5. Navigation Systems
+
+Diseñamos la navegación para que sea persistente y minimice los clics del usuario:
+
+-   **Barra de Navegación Persistente (Sticky Header):** El menú superior permanece visible durante todo el recorrido, permitiendo saltar entre secciones como "Testimonios" o "Planes" en cualquier momento.
+    
+-   **Enlaces de Ancla (Anchor Links):** Facilitan el movimiento fluido a través del landing page mediante desplazamientos programados por ID.
+    
+-   **Botones de Acción Rápida (CTA):** Botones prominentes como "Empezar Gratis" dirigen directamente a los puntos de conversión.
+    
+-   **Control de Audio Global:** Un botón flotante permite gestionar la experiencia sonora de la plataforma, brindando un control total sobre el entorno multimedia sin interrumpir la navegación.
+    
+-   **Navegación Móvil:** Para pantallas pequeñas, implementamos un diseño responsivo que reorganiza los elementos del menú en una lista vertical accesible para una interacción táctil eficiente.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+El wireframe define la estructura básica de la landing page en bloques principales:
+<img src="assets/LandingPageWireframe1.png">
+<img src="assets/LandingPageWireframe2.png">
+<img src="assets/LandingPageWireframe3.png">
+<img src="assets/LandingPageWireframe4.png">
+<img src="assets/LandingPageWireframe5.png">
+<img src="assets/LandingPageWireframe6.png">
+<img src="assets/LandingPageWireframe7.png">
+
 ### 4.3.2. Landing Page Mock-up
+<img src="assets/LandingPageMockUps1.png">
+<img src="assets/LandingPageMockUps2.png">
+<img src="assets/LandingPageMockUps3.png">
+<img src="assets/LandingPageMockUps4.png">
+<img src="assets/LandingPageMockUps5.png">
+<img src="assets/LandingPageMockUps6.png">
+<img src="assets/LandingPageMockUps7.png">
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.2. Web Applications Mock-ups
-### 4.4.3. Web Applications User Flow Diagrams
+
+
+### 4.4.3. Web Applications Mock-ups
+
+![Mockp-Center](assets/Application-Web-MockUp-Center.png)
+
+**Centro Energético:**  
+Este mockup representa la vista principal de la aplicación, donde el usuario puede visualizar un resumen general de su consumo energético. Se muestran indicadores clave como el consumo mensual, el gasto estimado, el porcentaje de ahorro y la cantidad de dispositivos registrados. Además, incluye un gráfico de línea que permite analizar el comportamiento del consumo durante la semana. Desde esta sección, el usuario puede agregar nuevos registros de consumo o simular datos para análisis.
+
+---
+
+![Mockp-Analitycs](assets/Application-Web-MockUp-Analytics.png)
+
+**Analítica Avanzada:**  
+En esta vista se presentan métricas más detalladas del consumo energético. El usuario puede identificar la hora pico de consumo, el día con mayor uso, el promedio diario y una predicción del gasto mensual. También se incluye un gráfico de barras que distribuye el consumo por dispositivo, facilitando la toma de decisiones informadas para optimizar el uso de energía.
+
+---
+
+![Mockp-Devices](assets/Application-Web-MockUp-Devices.png)
+
+**Gestión de Dispositivos:**  
+Este mockup muestra la interfaz para administrar los dispositivos eléctricos del usuario. Permite buscar dispositivos, agregarlos, activarlos o desactivarlos, así como eliminarlos. Cada dispositivo presenta su estado actual, lo que impacta directamente en el cálculo del consumo energético. Esta sección es clave para el control y personalización del sistema.
+
+---
+
+![Mockp-History](assets/Application-Web-MockUp-History.png)
+
+**Historial de Consumo:**  
+Aquí se visualizan los registros recientes de consumo energético organizados por día. El usuario puede revisar fácilmente su historial, exportar los datos en formato CSV para análisis externo o limpiar los registros almacenados. Esta sección permite llevar un seguimiento detallado del comportamiento energético a lo largo del tiempo.
+
+---
+
+![Mockp-Suggestions](assets/Application-Web-MockUp-Suggestions.png)
+
+**IA Energética (Insights):**  
+Este mockup presenta recomendaciones inteligentes generadas a partir del análisis de los datos de consumo. Se muestran alertas sobre consumo elevado, sugerencias para optimizar el uso de dispositivos y estimaciones de ahorro. Esta funcionalidad busca ayudar al usuario a mejorar su eficiencia energética mediante información clara y accionable.
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
+
+![UserFlowDiagram](assets/UserFlowDiagram.png)
+
+---
+
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
