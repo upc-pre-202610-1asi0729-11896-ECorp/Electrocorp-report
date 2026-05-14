@@ -21,7 +21,7 @@
 | U20241e406 | Loa Rojas, Jean Franck                |
 | U202318828 | Documet Romero, Timothy               |
 
-### Diciembre 2025
+### Mayo 2026
 </div>
 <div style="page-break-after: always;"></div>
 
@@ -30,9 +30,9 @@
 
 | Versión |  Fecha   |                                       Autor                                        |                                                  Descripción de modificación                                                   |
 | :-----: | :------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|   TB1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
+|   AV1   | 03/04/2026 | Todos | Avance del trabajo: Completando el contenido del Documento |
 |   TP1   |            |       |                                                            |
-|   TB2   |            |       |                                                            |
+|   AV2   |            |       |                                                            |
 |   TF1   |            |       |                                                            |
 
 <div style="page-break-after: always;"></div>
@@ -42,26 +42,72 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-report
 
-#### Link del repositorio de la Landing Page:
+#### Link del repositorio del Website:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website
 
-#### Link del repositorio del Frontend:
+#### Link del repositorio de la Webapp:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp
 
-#### Link del repositorio del Backend:
+#### Link del repositorio del Platform:
 
-- 
+- https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-platform
+
+
 
 ### **Entrega TB1:**
-[text]
+Durante esta entrega se elaboraron los capítulos 1 al 5 del informe. La redacción fue dividida equitativamente entre los integrantes del equipo, quienes se encargaron de desarrollar sus respectivas secciones de manera paralela. Cada miembro subió sus contribuciones directamente al repositorio de GitHub, asegurando así un seguimiento claro de los avances y la colaboración conjunta.
+
+
 
 ##### Participación por integrante:
 
-- 
+- Tavara Correa, Sebastian Oswaldo: Desarrollo de los capitulos 1, 2, 3 y 4.      <br>
+- Santiago Atanacio, Jairo Mathias: Desarrollo de los capitulos 1, 2, 4 y 5. 
+- Cabrejos Chocco, Diego Alexander: Desarrollo de los capitulos 2,4, 5 y landing page.  
+- Loa Rojas, Jean Franck: Desarrollo de los capitulos 1, 2, 4 y Aplicación web.
+- Documet Romero, Timothy: Desarrollo de capitulo 1.    
+
++ **Evidencias de colaboración y commits - Github:**
+    * **Análiticos de colaboración** <br><br>
+        + **Pulse Image of Github Insights**
+        <div align="center"><img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/top-commiters.PNG?raw=true"></div><br><br>
+
+
+        + **Contributors Image of Github Insights**
+        <div align="center"><img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/commits.PNG?raw=true"></div><br><br>
+
+
+    * **Commits**
+
+         A continuación se muestran algunos commits realizados en este entrega de TB1.
+
+        + **Sebastian Tavara**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/sebastian-commits.PNG?raw=true" >
+            </div><br>
+
+        + **Jairo Santiago**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/jairo-commits.PNG?raw=true">
+            </div><br>
+
+        + **Diego Cabrejos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/diego-commits.PNG?raw=true">
+            </div><br>
+        + **Jean Loa**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/jean-commits.PNG?raw=true">
+            </div><br>
+        + **Timothy Documet**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/timothy-commits.PNG?raw=true">
+            </div><br><br>
+
 
 # Contenido
 
@@ -194,8 +240,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Diego Cabrejos <br>TB1:<br> TP1: <br> TB2: <br> TF1: <br> <br> Jean Loa <br> TB1: <br> TP1: <br> TB2: <br> TF1: |	 |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>AV1: Realizo entrevistas clave para poder entender al usuario<br> TP1: <br> AV2: <br> TF1: <br> <br> Diego Cabrejos <br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo<br> TP1: <br> AV2: <br> TF1: <br> <br> Jean Loa <br> AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del frontend con la lógica del backend durante el desarrollo inicial del proyecto.<br> TP1: <br> AV2: <br> TF1: <br> <br> Timothy Documet <br>AV1: Realizo entrevistas clave para el proyecto, así como las user stories, el product backlog y el ubiquitous language.<br> TP1: <br> AV2: <br> TF1:<br> <br> Jairo Santiago <br> AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación para el proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores (Modelo C4) de la arquitectura del software. Además, comunicó oralmente las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo. <br> TP1: <br> AV2: <br> TF1: <br> <br>| Sebastian Tavara <br> Fue muy interesante poder estar cerca al usuario y poder tener una mejor vision del problema al que nos enfrentabamos. <br><br> Jean Loa <br> La comunicación oral en la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera mejor cómo se integraban las principales partes de la aplicación.<br> <br> Jairo Santiago <br> AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. A través de exposiciones en reuniones regulares, los integrantes lograron articular y transmitir ideas complejas sobre la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión del proyecto (ElectroCorp), resolver dudas técnicas en tiempo real y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br> TP1: <br> AV2: <br> TF1: <br> <br> |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>AV1: Analisis de entrevista, User Persona<br> TP1: <br> AV2: <br> TF1: <br> <br> Diego Cabrejos <br>AV1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br> TP1: <br> AV2: <br> TF1: <br> <br> Jean Loa <br> AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó por escrito la lógica general de los módulos implementados en el proyecto.<br> TP1: <br> AV2: <br> TF1: <br> <br> Timothy Documet <br>AV1:<br> TP1: <br> AV2: <br> TF1:<br> <br> Jairo Santiago <br> AV1: Redactó y estructuró el Product Backlog y las historias de usuario (User Stories y Technical Stories) utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema elaborando los Diagramas de Contexto y de Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java dentro del informe técnico.<br> TP1: <br> AV2: <br> TF1: <br> <br>| Sebastian Tavara <br> Ayudo muchisimo el crear el User Persona para poder modelar el modelo de cada segmento en una sola persona. <br><br> Jean Loa <br> La comunicación escrita en la etapa inicial ayudó a dejar organizada la estructura del sistema y permitió describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica. <br> <br> Jairo Santiago <br> AV1: En este primer avance, el equipo demostró una sólida capacidad para documentar técnicamente el proyecto con gran nivel de detalle y profesionalismo. Mediante la redacción de artefactos clave como el Product Backlog, las historias de usuario bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo, se logró plasmar por escrito la complejidad técnica y los requisitos del sistema. Esta documentación clara y estructurada garantiza que cualquier perfil técnico o de negocio pueda comprender el alcance y las bases del desarrollo de ElectroCorp.<br> TP1: <br> AV2: <br> TF1: <br> <br>|
 
 
 # Capitulo I: Introducción
@@ -338,7 +384,7 @@ ElectroCorp debe proyectar una imagen de modernidad, eficiencia y simplicidad. L
 
 ###### Hipótesis 1:
 
-Creemos que al ofrecer dispositivos IoT que no requieren modificar el cableado eléctrico ni realizar obras civiles, lograremos una adopción masiva en hogares urbanos con infraestructura antigua. Esto será posible gracias a un sistema de instalación externa que se coloca sobre los interruptores existentes, eliminando la necesidad de técnicos especializados.
+We believe that la alta penetración en el mercado de viviendas antiguas y la reducción de barreras de entrada para nuevos clientes will be achieved if las familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura attains automatización inmediata del hogar sin costos de instalación profesional ni daños a la propiedad with hardware IoT plug-and-play adaptable a interruptores y enchufes tradicionales.
 
 **Business Outcome:** Alta penetración en el mercado de viviendas antiguas y reducción de barreras de entrada para nuevos clientes.  
 **Users:** Familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura.  
@@ -347,7 +393,7 @@ Creemos que al ofrecer dispositivos IoT que no requieren modificar el cableado e
 
 ###### Hipótesis 2:
 
-Consideramos que si proporcionamos una plataforma digital (web y móvil) intuitiva, en español y adaptada al contexto local, los usuarios tendrán mayor confianza y utilizarán el sistema de manera regular para gestionar sus hogares y negocios.
+We believe that el incremento en la retención de usuarios activos y la fidelización de marca mediante una experiencia de uso simplificada will be achieved if los usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas attains acceso sencillo y seguro al control de dispositivos eléctricos sin barreras de idioma o complejidad técnica with una interfaz de usuario intuitiva con guías de configuración integradas en español.
 
 **Business Outcome:** Incremento en la retención de usuarios activos y fidelización de marca mediante una experiencia de uso simplificada.  
 **Users:** Usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas.  
@@ -356,7 +402,7 @@ Consideramos que si proporcionamos una plataforma digital (web y móvil) intuiti
 
 ###### Hipótesis 3:
 
-Suponemos que al demostrar un ahorro tangible en el recibo de luz mediante el monitoreo del consumo en Soles (S/) en tiempo real, los clientes estarán dispuestos a pagar por el producto y recomendarlo activamente en su entorno.
+We believe that el crecimiento sostenido de ventas basado en un retorno de inversión positivo para el cliente y recomendaciones boca a boca will be achieved if los jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía attains reducción del gasto mensual de energía y optimización del presupuesto familiar o comercial with un panel de monitoreo de consumo en tiempo real con conversión automática de Watts a Soles (S/).
 
 **Business Outcome:** Crecimiento sostenido de ventas basado en el retorno de inversión (ROI) positivo para el cliente y recomendaciones boca a boca.  
 **Users:** Jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía.  
@@ -658,7 +704,7 @@ Mitigar la desconfianza hacia los productos importados mediante la oferta de sop
 
 
 ### 2.2.2. Registro de entrevistas 
-URL del video:
+URL del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318828_upc_edu_pe/IQDU3UeTO_ZpS4S1jz04v8u-Ac14TANhydUiktFWcX_VEck?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BmEX0t](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e179_upc_edu_pe/IQDqFhKvmWPjTaD9o5B1WZKpAbqMxXwnXlRLJkqneWyPcoo?e=EHoJjH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Segmento 1: Hogares urbanos con viviendas antiguas
 
@@ -841,140 +887,192 @@ Segmento 2: Pequeños negocios y talleres en zonas urbanas.
 <img src = "assets/EmpathyMap - Seg2.png" alt = "EmpathyMap Segmento 2">
 
 ## 2.4. Big Picture Event Storming
+<img src = "assets/Big-Picture-Event-Storming.png">
+
 ## 2.5. Ubiquitous Language
+
+El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya que nos permitirá establecer un lenguaje
+común y compartido entre todos los miembros del equipo, facilitando la comunicación y la comprensión de los conceptos
+clave en nuestro proyecto.
+
+**Home User** :  A person who uses the platform to control and monitor the electricity consumption of their home through the mobile app or website.
+
+**Business Owner**: A user who manages electrical devices in a commercial establishment and uses the platform to optimize energy usage, schedules, and access permissions.
+
+**IoT Device**: A smart device connected to the system, such as a smart plug, switch, or meter, that can be monitored and controlled remotely.
+
+**Pairing**: The process through which an IoT device is successfully linked to the user’s account within the platform.
+
+**Guided Installation**: A step-by-step setup process that helps users configure the system easily without requiring technical assistance.
+
+**Custom Device Name**: A personalized label assigned by the user to easily identify each device within the platform.
+
+**Device Status**: The current condition of a device, such as turned on or turned off, displayed in real time.
+
+**Remote Control**: A feature that allows users to turn devices on, turn them off, or manage them through the mobile app or website.
+
+**Automation Routine**: A sequence of scheduled actions executed automatically at specific times, such as turning off devices at night.
+
+**Scheduled Time**: A configured time that determines when a device or routine should start or stop.
+
+**Energy Consumption**: The amount of electricity used by one or more devices during a specific period.
+
+**Consumption History**: A record of energy usage data accumulated daily, weekly, or monthly.
+
+**Consumption Alert**: A notification sent to the user when electricity usage exceeds a defined threshold.
+
+**Saving Recommendation**: A suggestion generated by the system to reduce electricity usage and optimize costs.
+
+**Access Profile**: A secondary or limited account created by the administrator to allow partial control of selected devices.
+
+**Permissions**: Rules that define what actions each user is allowed to perform within the platform.
+
+**Traceability**: A record of actions performed in the system, including who made the change, when it happened, and which device was affected.
+
+**Billing Forecast**: An estimated monthly electricity cost in Peruvian soles, calculated using historical consumption and the current tariff.
+
 # Capitulo III: Requirements Specification
-## 3.1. User Stories
-EP-01: Instalación y configuración inicial
 
-Como usuario de un hogar o pequeño negocio, quiero instalar y configurar fácilmente mis dispositivos inteligentes sin alterar la infraestructura eléctrica existente, para comenzar a usar la solución de forma rápida, práctica y sin necesidad de asistencia técnica especializada.
 
-Incluye (alto nivel):
+## 3.2. User Stories.
+En esta sección, profundizaremos en la definición y elaboración de las User Stories relacionadas con nuestro proyecto ElectroCorp.
 
-Registro e inicio de sesión de usuarios.
-Asistente de instalación guiada paso a paso.
-Vinculación de enchufes e interruptores inteligentes.
-Detección y verificación del dispositivo conectado.
-Personalización inicial de nombres y ubicación de equipos.
+**EPICS**
 
-Por qué es un Epic:
+|**Epic ID**|**Título**|**Descripción**|**Criterio de aceptación**|**Relación (EPIC ID)**|
+| - | - | - | - | - |
+|**EP-01**|**Instalación y configuración inicial**|Como usuario de un hogar o pequeño negocio, quiero instalar y configurar mis dispositivos inteligentes simulados fácilmente para comenzar a usar la solución de forma rápida.|<p>**Escenario 1: Registro de usuario**</p><p>Dado que el usuario accede a la plataforma,</p><p>Cuando completa sus datos de registro,</p><p>Entonces el sistema crea su cuenta y le permite iniciar sesión.</p><br><p>**Escenario 2: Vinculación de dispositivo**</p><p>Dado que el usuario ha iniciado sesión,</p><p>Cuando ingresa el código del dispositivo,</p><p>Entonces el sistema vincula el equipo a su cuenta.</p>||
+|**EP-02**|**Control y automatización de dispositivos**|Como usuario, quiero controlar y automatizar mis dispositivos eléctricos desde la plataforma para mejorar la comodidad y optimizar energía.|<p>**Escenario 1: Control Remoto**</p><p>Dado que el usuario está en su panel principal,</p><p>Cuando presiona el botón de encendido/apagado,</p><p>Entonces el estado del dispositivo cambia en la base de datos.</p><br><p>**Escenario 2: Programación**</p><p>Dado que el usuario selecciona un dispositivo,</p><p>Cuando define una hora de encendido automático,</p><p>Entonces el sistema guarda la rutina y la ejecuta.</p>||
+|**EP-03**|**Monitoreo y ahorro de energía**|Como usuario, quiero visualizar y comparar el consumo de mis dispositivos en tiempo real e histórico para identificar oportunidades de ahorro.|<p>**Escenario 1: Ver consumo actual**</p><p>Dado que el usuario accede al dashboard,</p><p>Cuando selecciona la pestaña de métricas,</p><p>Entonces el sistema muestra los Watts consumidos.</p><br><p>**Escenario 2: Reporte Histórico**</p><p>Dado que el usuario solicita el reporte,</p><p>Cuando selecciona el mes de interés,</p><p>Entonces se genera un gráfico comparativo.</p>||
+|**EP-04**|**Seguridad, accesos y gestión de usuarios**|Como usuario administrador, quiero controlar los accesos y permisos de quienes usan la plataforma para mantener la seguridad y trazabilidad.|<p>**Escenario 1: Creación de perfiles**</p><p>Dado que el administrador accede a la sección de accesos,</p><p>Cuando invita a un nuevo correo,</p><p>Entonces se crea un perfil con permisos restringidos.</p><br><p>**Escenario 2: Trazabilidad**</p><p>Dado que un empleado realiza una acción,</p><p>Cuando el administrador revisa el historial,</p><p>Entonces ve quién realizó el cambio.</p>||
+|**EP-05**|**Información y Navegación de Landing Page**|Como usuario visitante, deseo acceder a información, cambiar el idioma y navegar dinámicamente por la landing page mediante búsquedas inteligentes.|<p>**Escenario 1: Navegación por Búsqueda**</p><p>Dado que el visitante busca un tema específico,</p><p>Cuando usa la barra de búsqueda,</p><p>Entonces la vista se desplaza a la sección correspondiente.</p><br><p>**Escenario 2: Traducción**</p><p>Dado que el visitante prefiere otro idioma,</p><p>Cuando interactúa con el botón de idioma,</p><p>Entonces el texto cambia inmediatamente entre ES/EN.</p>||
+|**EP-06**|**Gestión de Suscripciones (Stripe)**|Como usuario, quiero gestionar mi plan de suscripción premium mediante pagos seguros para acceder a funciones avanzadas.|<p>**Escenario 1: Pago exitoso**</p><p>Dado que el usuario elige el Plan Enterprise,</p><p>Cuando ingresa los datos de su tarjeta,</p><p>Entonces su cuenta se actualiza con dispositivos ilimitados.</p><br><p>**Escenario 2: Cancelación**</p><p>Dado que el usuario es Premium,</p><p>Cuando hace clic en anular suscripción,</p><p>Entonces su plan vuelve a ser Free el próximo mes.</p>||
+|**EP-07**|**Notificaciones y Soporte (Mailchimp)**|Como usuario, quiero recibir alertas por correo electrónico y acceder a soporte técnico para resolver problemas o ver picos de consumo.|<p>**Escenario 1: Alerta de alto consumo**</p><p>Dado que un dispositivo supera el umbral configurado,</p><p>Cuando el sistema detecta la anomalía,</p><p>Entonces se envía un correo de alerta mediante Mailchimp.</p><br><p>**Escenario 2: Soporte**</p><p>Dado que el usuario tiene dudas,</p><p>Cuando ingresa a ayuda,</p><p>Entonces visualiza las FAQ y contacto.</p>||
 
-Es el primer punto de contacto entre el usuario y la solución.
-Involucra flujo de adopción, experiencia de usuario e integración con hardware IoT.
-Requiere coordinación entre app web/móvil, backend y dispositivos físicos.
+<br><br>
 
-Estimación: 3–5 sprints de 2 semanas.
+**USER STORIES**
 
-EP-02: Control y automatización de dispositivos
+|**Epic/User Story ID**|**Título**|**Descripción**|**Criterio de aceptación**|**Relación (EPIC ID)**|
+| - | - | - | - | - |
+|**US-01**|Visualizar información de la startup y testimonios|<p>Como usuario visitante, quiero acceder a la descripción de la empresa y leer opiniones de usuarios para confirmar la calidad del servicio.</p>|<p>**Escenario 1:** Información consolidada</p><p>Dado que navego en la página,</p><p>Cuando hago scroll por el contenido,</p><p>Entonces leo sobre la democratización de la domótica y los testimonios de clientes reales.</p>|**EP-05**|
+|**US-02**|Motor de búsqueda inteligente|<p>Como usuario visitante, quiero usar una barra de búsqueda para encontrar secciones de la página rápidamente.</p>|<p>**Escenario 1:** Búsqueda exitosa</p><p>Dado que busco información de costos,</p><p>Cuando escribo "precios" y doy clic a la lupa,</p><p>Entonces la página hace un scroll suave hacia "Our Plans".</p>|**EP-05**|
+|**US-03**|Cambio de idioma (ES/EN)|<p>Como usuario visitante, quiero poder cambiar el idioma de la página web para leerla en mi idioma nativo.</p>|<p>**Escenario 1:** Traducción dinámica</p><p>Dado que la página está en inglés,</p><p>Cuando doy clic al ícono del mundo (ES),</p><p>Entonces todos los textos cambian instantáneamente al español.</p>|**EP-05**|
+|**US-04**|Suscripción al boletín de noticias|<p>Como usuario visitante, quiero suscribirme al boletín en un formulario para recibir consejos de ahorro y ofertas.</p>|<p>**Escenario 1:** Envío de formulario</p><p>Dado que ingreso mi email en la sección de contacto,</p><p>Cuando presiono "Submit",</p><p>Entonces aparece un mensaje de agradecimiento temporal y la caja se limpia.</p>|**EP-05**|
+|**US-05**|Interfaz interactiva (Menú y Audio)|<p>Como usuario visitante, quiero interactuar con un menú fluido y pausar/reproducir la música de fondo a mi gusto.</p>|<p>**Escenario 1:** Navegación y control</p><p>Dado que estoy en la web,</p><p>Cuando uso el Navbar dinámico o presiono el botón flotante de audio,</p><p>Entonces la página me redirige a la sección deseada o pausa la música (ElectroCorp.mp3).</p>|**EP-05**|
+|**US-06**|Comparar planes de servicio|<p>Como usuario visitante, quiero ver las diferencias entre el plan Free y Enterprise para elegir el adecuado.</p>|<p>**Escenario 1:** Tarjetas de precio</p><p>Dado que bajo a la sección "Pricing",</p><p>Cuando visualizo las tarjetas,</p><p>Entonces noto que el plan Enterprise está resaltado como premium.</p>|**EP-05**|
+|**US-07**|Registro inicial del usuario|<p>Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos.</p>|<p>**Escenario 1:** Registro Exitoso</p><p>Dado que el usuario no tiene cuenta,</p><p>Cuando ingresa su email y contraseña,</p><p>Entonces el sistema crea la cuenta.</p>|**EP-01**|
+|**US-08**|Emparejar dispositivo|<p>Como usuario, quiero vincular un enchufe inteligente desde la app.</p>|<p>**Escenario 1:** Vinculación exitosa</p><p>Dado que el usuario está en "Agregar",</p><p>Cuando ingresa el código del equipo,</p><p>Entonces el equipo aparece en su lista.</p>|**EP-01**|
+|**US-09**|Asistente de instalación|<p>Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema.</p>|<p>**Escenario 1:** Tutorial de inicio</p><p>Dado que es el primer inicio de sesión,</p><p>Cuando el usuario entra a la app,</p><p>Entonces se muestra un tutorial de pasos básicos.</p>|**EP-01**|
+|**US-10**|Nombrar dispositivos|<p>Como usuario, quiero asignar nombres personalizados a mis dispositivos.</p>|<p>**Escenario 1:** Edición de nombre</p><p>Dado que el equipo fue vinculado,</p><p>Cuando el usuario edita el nombre a "Lámpara",</p><p>Entonces el nuevo nombre se guarda en la base de datos.</p>|**EP-01**|
+|**US-11**|Ver estado en tiempo real|<p>Como usuario, quiero ver si un dispositivo está encendido o apagado.</p>|<p>**Escenario 1:** Feedback visual</p><p>Dado que el usuario observa el dashboard,</p><p>Cuando un equipo cambia de estado físico,</p><p>Entonces el icono se actualiza en la app.</p>|**EP-02**|
+|**US-12**|Encender y apagar remotamente|<p>Como usuario, quiero controlar mis dispositivos desde el celular.</p>|<p>**Escenario 1:** Acción remota</p><p>Dado que el equipo está apagado,</p><p>Cuando el usuario hace clic en encender,</p><p>Entonces el dispositivo cambia a ON.</p>|**EP-02**|
+|**US-13**|Programar horarios de encendido|<p>Como usuario, quiero programar horarios automáticos.</p>|<p>**Escenario 1:** Creación de horario</p><p>Dado que el usuario selecciona un enchufe,</p><p>Cuando configura la hora de encendido,</p><p>Entonces el sistema respeta el horario diariamente.</p>|**EP-02**|
+|**US-14**|Crear rutinas automáticas|<p>Como usuario, quiero definir rutinas de automatización general.</p>|<p>**Escenario 1:** Rutina nocturna</p><p>Dado que el usuario crea una rutina "Dormir",</p><p>Cuando llega la hora programada,</p><p>Entonces todos los dispositivos seleccionados se apagan a la vez.</p>|**EP-02**|
+|**US-15**|Ver consumo en tiempo real|<p>Como usuario, quiero monitorear el consumo energético en vivo.</p>|<p>**Escenario 1:** Monitor de Watts</p><p>Dado que el enchufe está activo,</p><p>Cuando el usuario abre la gráfica,</p><p>Entonces visualiza los Watts consumidos actualizados.</p>|**EP-03**|
+|**US-16**|Consultar historial de consumo|<p>Como usuario, quiero revisar el historial de consumo por día o semana.</p>|<p>**Escenario 1:** Filtro de historial</p><p>Dado que el usuario está en reportes,</p><p>Cuando selecciona "Últimos 7 días",</p><p>Entonces se muestra un gráfico diario.</p>|**EP-03**|
+|**US-17**|Recibir alertas por alto consumo|<p>Como usuario, quiero recibir alertas por consumos inusuales de energía.</p>|<p>**Escenario 1:** Alerta en app</p><p>Dado que el límite es 500W,</p><p>Cuando se supera la cifra de manera sostenida,</p><p>Entonces aparece una notificación push.</p>|**EP-03**|
+|**US-18**|Ver recomendaciones de ahorro|<p>Como usuario, quiero recibir sugerencias para ahorrar energía.</p>|<p>**Escenario 1:** Tips inteligentes</p><p>Dado que el consumo es ineficiente en cierto horario,</p><p>Cuando revisa el panel de sugerencias,</p><p>Entonces el sistema recomienda crear nuevas rutinas.</p>|**EP-03**|
+|**US-19**|Administrar múltiples dispositivos|<p>Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla.</p>|<p>**Escenario 1:** Vista general</p><p>Dado que el usuario tiene 5 equipos,</p><p>Cuando ingresa al inicio,</p><p>Entonces visualiza las 5 tarjetas operables.</p>|**EP-04**|
+|**US-20**|Crear perfiles de acceso|<p>Como administrador, quiero dar acceso a familiares con permisos limitados.</p>|<p>**Escenario 1:** Rol de invitado</p><p>Dado que el administrador invita a un familiar,</p><p>Cuando este inicia sesión en su dispositivo,</p><p>Entonces solo puede apagar/encender equipos.</p>|**EP-04**|
+|**US-21**|Bloquear acceso no autorizado|<p>Como usuario, quiero proteger mi cuenta de extraños.</p>|<p>**Escenario 1:** Timeout por inactividad</p><p>Dado que la app web queda abierta sin interactuar,</p><p>Cuando pasan 30 minutos sin uso,</p><p>Entonces la sesión expira.</p>|**EP-04**|
+|**US-22**|Registrar actividad de control|<p>Como administrador, quiero ver quién controló un equipo.</p>|<p>**Escenario 1:** Log de auditoría</p><p>Dado que se ejecutó una acción,</p><p>Cuando se revisa el log de eventos,</p><p>Entonces se detalla el nombre del usuario y la hora.</p>|**EP-04**|
+|**US-23**|Controlar equipos del negocio|<p>Como dueño de negocio, quiero controlar equipos del local desde mi móvil.</p>|<p>**Escenario 1:** Control comercial</p><p>Dado que el dueño está en su domicilio,</p><p>Cuando apaga el grupo de luz del local,</p><p>Entonces se refleja instantáneamente en el negocio.</p>|**EP-02**|
+|**US-24**|Programar equipos por horario comercial|<p>Como dueño, quiero automatizar el local según el horario de atención.</p>|<p>**Escenario 1:** Automatización de horario</p><p>Dado que el horario es de 9am a 6pm,</p><p>Cuando se activa la rutina comercial,</p><p>Entonces los equipos siguen automáticamente el horario.</p>|**EP-02**|
+|**US-25**|Revisar consumo por área o equipo|<p>Como dueño, quiero identificar qué áreas consumen más.</p>|<p>**Escenario 1:** Desglose por zona</p><p>Dado que hay varios equipos registrados,</p><p>Cuando revisa el reporte corporativo,</p><p>Entonces visualiza un gráfico detallado por zonas.</p>|**EP-03**|
+|**US-26**|Compartir acceso con personal|<p>Como dueño, quiero permitir que empleados controlen ciertos equipos.</p>|<p>**Escenario 1:** Control limitado</p><p>Dado que un empleado de almacén entra a la app,</p><p>Cuando visualiza el dashboard principal,</p><p>Entonces solo ve el control de su área correspondiente.</p>|**EP-04**|
+|**US-27**|Pagar suscripción con tarjeta|<p>Como usuario, quiero ingresar mi tarjeta de forma segura para adquirir el plan Premium.</p>|<p>**Escenario 1:** Pasarela Stripe</p><p>Dado que el usuario elige el plan Enterprise,</p><p>Cuando ingresa sus datos válidos,</p><p>Entonces Stripe procesa exitosamente el cobro mensual.</p>|**EP-06**|
+|**US-28**|Cancelar suscripción Premium|<p>Como usuario, quiero anular mi suscripción para detener cobros.</p>|<p>**Escenario 1:** Detención de cobros</p><p>Dado que el usuario accede a configuración de facturación,</p><p>Cuando confirma la cancelación del servicio,</p><p>Entonces el plan se degrada a final de mes.</p>|**EP-06**|
+|**US-29**|Recibir alertas por correo|<p>Como usuario, quiero que el sistema me notifique a mi correo si algo inusual pasa con mi consumo.</p>|<p>**Escenario 1:** Despacho vía Mailchimp</p><p>Dado que hay un evento crítico registrado,</p><p>Cuando el backend lo procesa,</p><p>Entonces recibo un email de alerta inmediata.</p>|**EP-07**|
+|**US-30**|Recibir reporte mensual|<p>Como usuario, quiero recibir un resumen mensual en mi email para saber cuánto ahorré.</p>|<p>**Escenario 1:** Envío automatizado</p><p>Dado que es el último día del mes,</p><p>Cuando el cronjob se activa,</p><p>Entonces me envía un correo con mis estadísticas.</p>|**EP-07**|
+|**US-31**|Recuperar contraseña|<p>Como usuario, quiero poder restablecer mi contraseña si la olvido.</p>|<p>**Escenario 1:** Email de recuperación</p><p>Dado que el usuario hace clic en "Olvidé mi contraseña",</p><p>Cuando ingresa su email,</p><p>Entonces recibe un enlace seguro por tiempo limitado.</p>|**EP-04**|
+|**US-32**|Editar perfil de usuario|<p>Como usuario, quiero cambiar mis datos personales de perfil.</p>|<p>**Escenario 1:** Guardado de cambios</p><p>Dado que el usuario edita su nombre o teléfono,</p><p>Cuando da clic en guardar,</p><p>Entonces la información se actualiza en la base de datos MySQL.</p>|**EP-04**|
+|**US-33**|Eliminar cuenta|<p>Como usuario, quiero borrar definitivamente mi cuenta y datos.</p>|<p>**Escenario 1:** Purga de información</p><p>Dado que el usuario confirma la eliminación total,</p><p>Cuando el sistema procesa la solicitud,</p><p>Entonces sus datos se borran irreversiblemente.</p>|**EP-04**|
+|**US-34**|Configurar preferencias|<p>Como usuario, quiero elegir qué tipo de alertas me llegan.</p>|<p>**Escenario 1:** Switch de preferencias</p><p>Dado que el usuario apaga el interruptor de correos mensuales,</p><p>Cuando se guarda la preferencia,</p><p>Entonces su email es removido de la lista de envíos de resúmenes.</p>|**EP-07**|
+|**US-35**|Simular conexión de equipo|<p>Como desarrollador, quiero simular un dispositivo nuevo para pruebas de la plataforma.</p>|<p>**Escenario 1:** Inyección de dispositivo virtual</p><p>Dado que se dispara el evento simulador mediante API,</p><p>Cuando ocurre la validación,</p><p>Entonces el equipo aparece en la cuenta del usuario.</p>|**EP-01**|
+|**US-36**|Filtrar historial por fechas|<p>Como usuario, quiero establecer un rango de fechas para ver consumos pasados.</p>|<p>**Escenario 1:** Filtro de calendario</p><p>Dado que el usuario abre la herramienta de fechas,</p><p>Cuando selecciona desde y hasta,</p><p>Entonces la gráfica se redibuja excluyendo el resto de días.</p>|**EP-03**|
+|**US-37**|Exportar historial a Excel|<p>Como usuario corporativo, quiero descargar mis datos de consumo.</p>|<p>**Escenario 1:** Generación de CSV</p><p>Dado que se visualiza la tabla en pantalla,</p><p>Cuando se hace clic en Exportar,</p><p>Entonces el navegador descarga un archivo CSV estructurado.</p>|**EP-03**|
+|**US-38**|Agrupar dispositivos|<p>Como usuario, quiero agrupar mis enchufes por habitaciones.</p>|<p>**Escenario 1:** Operación masiva por grupo</p><p>Dado que el usuario ha creado el grupo "Iluminación Sala",</p><p>Cuando apaga el grupo,</p><p>Entonces todos los enchufes asignados a la sala se apagan simultáneamente.</p>|**EP-02**|
+|**US-39**|Activar Modo Oscuro|<p>Como usuario, quiero activar un tema oscuro en mi dashboard para evitar la fatiga visual nocturna.</p>|<p>**Escenario 1:** Toggle Dark Mode</p><p>Dado que el usuario entra a configuraciones de UI,</p><p>Cuando activa el switch de Modo Oscuro,</p><p>Entonces los colores de la aplicación SPA cambian a la paleta Dark.</p>|**EP-05**|
+|**US-40**|Gestionar múltiples locales|<p>Como dueño de negocio, quiero gestionar distintas sucursales desde una sola cuenta centralizada.</p>|<p>**Escenario 1:** Selector de Sucursal</p><p>Dado que el usuario posee el plan Enterprise,</p><p>Cuando despliega el menú de ubicaciones superior,</p><p>Entonces puede saltar del "Local A" al "Local B" cambiando el dashboard.</p>|**EP-04**|
 
-Como usuario de un hogar o negocio, quiero controlar y automatizar mis dispositivos eléctricos desde la plataforma, para mejorar la comodidad, optimizar el uso de energía y reducir acciones manuales repetitivas.
+<br><br>
 
-Incluye (alto nivel):
+**TECHNICAL STORIES**
 
-Encendido y apagado remoto de dispositivos.
-Programación de horarios por día y hora.
-Creación de rutinas o automatizaciones simples.
-Visualización del estado actual de cada dispositivo.
-Control centralizado desde un solo panel.
+|**Technical story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Epica**|
+| - | - | - | - | - |
+|**TS-01**|Frontend Consumidor REST API|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir endpoints REST mediante fetch/API calls</p><p>**Para** renderizar contenido dinámico y responsive desde el backend (US-01, US-06).</p>|<p>**Escenario 1: Consumo API Responsive**</p><p>Dado el endpoint de configuración visual,</p><p>Cuando la aplicación obtiene los datos del backend,</p><p>Entonces el diseño cambia dinámicamente según el tamaño de pantalla.</p>|**EP-05**|
+|**TS-02**|API REST de Traducciones i18n|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir un endpoint REST de traducciones</p><p>**Para** cambiar idiomas dinámicamente desde el servidor (US-03).</p>|<p>**Escenario 1: Traducción dinámica**</p><p>Dado el endpoint /api/v1/translations,</p><p>Cuando se llama toggleLanguage(),</p><p>Entonces la API devuelve los textos traducidos correctamente.</p>|**EP-05**|
+|**TS-03**|API REST de Búsqueda Inteligente|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir un endpoint REST con palabras clave</p><p>**Para** realizar búsquedas dinámicas y navegación automática (US-02).</p>|<p>**Escenario 1: Búsqueda desde API**</p><p>Dado el request al endpoint de búsqueda,</p><p>Cuando el término existe en la base de datos,</p><p>Entonces el backend devuelve la sección correspondiente.</p>|**EP-05**|
+|**TS-04**|API REST Newsletter|<p>**Como** desarrollador frontend</p><p>**Quiero** enviar formularios mediante peticiones HTTP POST</p><p>**Para** registrar suscripciones sin recargar la web (US-04).</p>|<p>**Escenario 1: Registro Newsletter**</p><p>Dado el formulario completado,</p><p>Cuando se envía la petición POST al backend,</p><p>Entonces la API registra el correo y devuelve una respuesta exitosa.</p>|**EP-05**|
+|**TS-05**|REST API de Configuración Multimedia|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir endpoints REST de configuración multimedia</p><p>**Para** sincronizar el estado del menú y audio de la aplicación (US-05).</p>|<p>**Escenario 1: Configuración dinámica**</p><p>Dado el request al endpoint multimedia,</p><p>Cuando el usuario interactúa con la interfaz,</p><p>Entonces el sistema actualiza el estado del audio y navegación.</p>|**EP-05**|
+|**TS-06**|Setup Spring Boot API|<p>**Como** backend developer</p><p>**Quiero** iniciar el servidor web Java</p><p>**Para** alojar los endpoints REST del sistema core.</p>|<p>**Escenario 1: Deploy inicial**</p><p>Dado el pom.xml con dependencias web,</p><p>Cuando compila el proyecto,</p><p>Entonces el contenedor Tomcat levanta en el puerto 8080.</p>|**EP-01**|
+|**TS-07**|Conexión JPA - MySQL|<p>**Como** Database Admin</p><p>**Quiero** crear entidades Java anotadas con @Entity</p><p>Para persistir la información consumida por la REST API (US-07).</p>|<p>**Escenario 1: Data Source**</p><p>Dado el application.properties configurado,</p><p>Cuando inicia el contexto de Spring,</p><p>Entonces Hibernate realiza la migración DDL en el esquema MySQL.</p>|**EP-01**|
+|**TS-08**|Integración Stripe REST API|<p>**Como** backend developer</p><p>**Quiero** incorporar las librerías oficiales de Stripe</p><p>**Para** validar pagos mediante endpoints REST seguros (US-27).</p>|<p>**Escenario 1: Charge API**</p><p>Dado un payload de pago válido,</p><p>Cuando invoca el endpoint createCharge(),</p><p>Entonces Stripe retorna el id de transacción HTTP 200.</p>|EP-06|
+|**TS-09**|Integración Mailchimp REST|<p>**Como** backend developer</p><p>**Quiero** programar servicios REST de integración</p><p>**Para** disparar emails automatizados desde la API (US-29).</p>|<p>**Escenario 1: Post Payload**</p><p>Dado que se dispara una alerta,</p><p>Cuando se construye el JSON del email,</p><p>Entonces hace un POST a la API de Mailchimp y se registra el envío.</p>|**EP-07**|
+|**TS-10**|REST API de Telemetría|<p>**Como** backend developer</p><p>**Quiero** usar anotaciones @Scheduled en Spring Boot</p><p>**Para** exponer datos simulados de consumo mediante endpoints REST (US-35).</p>|<p>Escenario 1: Tarea en background</p><p>Dado el servidor en ejecución,</p><p>Cuando pasa el tiempo definido en el cron,</p><p>Entonces se insertan registros consumidos posteriormente por la API.</p>|**EP-03**|
+|**TS-11**|Endpoints CRUD Dispositivos|<p>**Como** backend developer</p><p>**Quiero** programar controladores @RestController</p><p>**Para** manejar el listado y actualización de enchufes (US-19).</p>|<p>**Escenario 1: GetMapping**</p><p>Dado el request a /api/v1/devices,</p><p>Cuando se procesa la solicitud,</p><p>Entonces devuelve un ResponseEntity con el JSON del listado.</p>|**EP-02**|
+|**TS-12**|Frontend SPA Consumidor REST|<p>**Como** frontend developer</p><p>**Quiero** iniciar el framework SPA (Angular/React)</p><p>**Para** consumir endpoints REST del dashboard de monitoreo.</p>|<p>**Escenario 1: Router Guard**</p><p>Dado el acceso a /dashboard,</p><p>Cuando el token no existe,</p><p>Entonces el sistema redirige al /login.</p>|**EP-04**|
+|**TS-13**|Generación y Filtro de JWT|<p>**Como** fullstack developer</p><p>**Quiero** configurar Spring Security con un filtro JWT</p><p>**Para** autenticar cada petición HTTP de la REST API (US-07).</p>|**<p>Escenario 1: Token Auth**</p><p>Dado el Bearer token en el Header,</p><p>Cuando pasa por el filtro de seguridad,</p><p>Entonces desencripta la firma y autoriza el request.</p>|EP-04|
+|**TS-14**|Dashboard REST con Chart.js|<p>**Como** frontend developer</p><p>**Quiero** consumir datos desde la REST API usando Chart.js</p><p>**Para** visualizar gráficamente el consumo eléctrico (US-15).</p>|<p>Escenario 1: Render del Canvas</p><p>Dado el array numérico obtenido desde la API,</p><p>Cuando se pasan como datasets,</p><p>Entonces Chart.js dibuja visualmente la progresión.</p>|**EP-03**|
+|**TS-15**|Cifrado BCrypt para REST API|<p>**Como** backend developer</p><p>**Quiero** usar BCryptPasswordEncoder</p><p>**Para** proteger las credenciales consumidas por la REST API (US-07).</p>|<p>**Escenario 1: Hash**</p><p>Dado el formulario de registro,</p><p>Cuando llega la clave 123456,</p><p>Entonces se guarda como un hash seguro tipo $2a$10$....</p>|**EP-04**|
+|**TS-16**|REST API Configuración UI|<p>**Como** frontend developer</p><p>**Quiero** consumir configuraciones visuales desde endpoints REST</p><p>**Para** alternar dinámicamente el modo oscuro en la aplicación (US-39).</p>|<p>**Escenario 1: Clase global**</p><p>Dado que el usuario presiona el switch,</p><p>Cuando la configuración cambia en el backend,</p><p>Entonces se añade la clase .dark-theme al document root.</p>|**EP-05**|
 
-Por qué es un Epic:
 
-Representa la funcionalidad principal de la domótica ofrecida.
-Requiere sincronización entre interfaz, lógica de negocio y dispositivos conectados.
-Tiene impacto directo en la utilidad diaria del sistema.
-Permite atender tanto necesidades domésticas como operativas en negocios pequeños.
 
-Estimación: 4–6 sprints de 2 semanas.
+<br><br>
 
-EP-03: Monitoreo y ahorro de energía
-
-Como usuario que busca reducir su consumo eléctrico, quiero visualizar, analizar y comparar el consumo de mis dispositivos en tiempo real e histórico, para identificar oportunidades de ahorro y tomar decisiones informadas.
-
-Incluye (alto nivel):
-
-Monitoreo del consumo energético en tiempo real.
-Historial de consumo por periodos.
-Reportes gráficos por dispositivo o grupo.
-Alertas ante consumo inusual o excesivo.
-Recomendaciones básicas para mejorar la eficiencia energética.
-
-Por qué es un Epic:
-
-Requiere captura y procesamiento continuo de datos energéticos.
-Aporta el valor diferencial de la propuesta: ahorro y eficiencia.
-Implica visualización clara de información para usuarios no técnicos.
-Puede crecer hacia analítica avanzada y predicción de consumo.
-
-Estimación: 4–7 sprints de 2 semanas.
-
-EP-04: Seguridad, accesos y gestión de usuarios
-
-Como usuario administrador de un hogar o negocio, quiero controlar los accesos y permisos de quienes usan la plataforma, para mantener la seguridad, la trazabilidad y el uso adecuado de los dispositivos.
-
-Incluye (alto nivel):
-
-Creación de cuentas y autenticación de usuarios.
-Asignación de roles y permisos.
-Gestión de acceso para familiares o personal autorizado.
-Registro de actividad y cambios realizados.
-Protección contra accesos no autorizados.
-
-Por qué es un Epic:
-
-Es fundamental para garantizar confianza y control del sistema.
-Requiere manejo de autenticación, autorización y trazabilidad.
-Tiene relevancia especial en entornos compartidos como hogares y negocios.
-Refuerza la seguridad operativa de la plataforma IoT.
-
-Estimación: 3–5 sprints de 2 semanas.
-| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID)
-|--|--|--|--|--|
-|US-01|Registro inicial del usuario| Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos y acceder a sus funciones.| El usuario puede registrarse con correo y contraseña, el sistema valida campos obligatorios, se confirma el registro por mensaje o pantalla de éxito. | EP-01|
-|US-02| Emparejar dispositivo plug-and-play| Como usuario, quiero vincular un enchufe o interruptor inteligente desde la app para empezar a controlarlo sin ayuda técnica.| El sistema detecta el dispositivo, la app muestra confirmación de emparejamiento, el dispositivo queda visible en la lista principal.| EP-01|
-|US-03| Asistente de instalación guiada | Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema sin modificar el cableado.| La guía muestra instrucciones ordenadas; incluye imágenes o mensajes simples, finaliza cuando el dispositivo queda operativo.| EP-01|
-|US-04| Nombrar dispositivos| Como usuario, quiero asignar nombres personalizados a mis dispositivos para identificarlos fácilmente. | El usuario puede editar el nombre, el cambio se guarda correctamente, el nombre se actualiza en toda la plataforma.  | EP-01 |
-|US-05| Ver estado en tiempo real | Como usuario, quiero ver si un dispositivo está encendido o apagado para saber su estado actual. | La app muestra el estado actual, la información se actualiza al cambiar el dispositivo, el estado coincide con el dispositivo físico. | EP-02|
-|US-06| Encender y apagar remotamente| Como usuario, quiero controlar mis dispositivos desde el celular o la web para usarlos aunque no esté en casa o en el local.| El usuario puede activar y desactivar desde la interfaz, la acción se refleja en el dispositivo, el sistema confirma la ejecución.| EP-02 |
-|US-07| Programar horarios de encendido| Como usuario, quiero programar horarios automáticos para reducir consumo y tener mayor comodidad.| El usuario puede crear una programación, puede indicar hora de inicio y fin, el sistema ejecuta la acción en el horario definido.| EP-02 |
-|US-08| Crear rutinas automáticas| Como usuario, quiero definir rutinas como “siempre apagar a cierta hora” para automatizar tareas repetitivas.| La rutina puede activarse y desactivarse, el sistema ejecuta la acción configurada, el usuario puede editar o eliminar la rutina. | EP-02 |
-|US-09| Ver consumo en tiempo real| Como usuario, quiero monitorear el consumo energético de mis dispositivos en tiempo real para entender cuánto gasto estoy generando. | El panel muestra el consumo actual, los datos se actualizan periódicamente, la información es visible de forma clara.| EP-03|
-|US-10| Consultar historial de consumo| Como usuario, quiero revisar el historial de consumo por día, semana o mes para identificar patrones de uso. | El usuario puede elegir un rango de fechas, el sistema muestra datos históricos, la información se presenta de forma gráfica o resumida.| EP-03 |
-|US-11| Recibir alertas por alto consumo | Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal para evitar gastos innecesarios. | El sistema compara con un umbral definido, se envía una alerta al usuario; la alerta indica qué dispositivo generó el aviso. | EP-03|
-|US-12| Ver recomendaciones de ahorro | Como usuario, quiero recibir sugerencias para ahorrar energía según mi consumo habitual.| El sistema genera recomendaciones, las sugerencias se basan en el uso registrado, el usuario puede verlas en su panel. | EP-03 |
-|US-13| Administrar múltiples dispositivos| Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla para gestionarlos fácilmente. | Se muestra una lista organizada, cada dispositivo tiene su estado, el usuario puede acceder al detalle de cada uno.| EP-04 |
-|US-14| Crear perfiles de acceso| Como usuario administrador, quiero dar acceso a otros miembros de la familia o empleados con permisos limitados.| El administrador puede crear usuarios, se pueden asignar permisos, cada perfil accede solo a funciones autorizadas.| EP-04 |
-|US-15| Bloquear acceso no autorizado| Como usuario, quiero proteger mi cuenta para que nadie controle mis dispositivos sin permiso.| La app solicita autenticación, el sistema cierra sesión tras inactividad, se impide el acceso sin credenciales válidas. | EP-04|
-|US-16| Registrar actividad de control| Como usuario administrador, quiero ver quién encendió, apagó o modificó una automatización para tener trazabilidad.| El sistema guarda fecha y hora, se registra el usuario que hizo el cambio, el historial puede consultarse en la plataforma.| EP-04|
-|US-17| Controlar equipos del negocio| Como dueño de negocio, quiero encender o apagar equipos del local desde mi móvil para ahorrar tiempo y energía.| El control puede realizarse remotamente, la acción se ejecuta correctamente, el sistema confirma el cambio.| EP-02  |
-|US-18| Programar equipos por horario comercial  | Como dueño de negocio, quiero automatizar el encendido y apagado de equipos según el horario de atención.| Se puede configurar por días y horas, el sistema cumple el horario indicado, la programación puede editarse. | EP-02  |
-|US-19| Revisar consumo por área o equipo| Como dueño de negocio, quiero identificar qué equipos consumen más energía para tomar decisiones de ahorro. | El sistema muestra el consumo por dispositivo, se puede comparar entre equipos, los datos están disponibles en reportes.| EP-03 |
-|US-20| Compartir acceso con personal autorizado | Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.| El administrador define permisos, el empleado solo ve dispositivos asignados, los cambios quedan registrados. | EP-04  |
 
 ## 3.2. Impact Mapping
 <img src="assets/Impact Mapping.png">
 
 ## 3.3. Product Backlog
-| # Orden | User Story ID | Título | Descripcion | Story Points(1 / 2 / 3 / 5 / 8)
+
+| # Orden | User Story ID | Título | Descripción | Story Points |
 |--|--|--|--|--|
-|1|US-03|Asistente de instalación guiada|Como usuario nuevo, quiero seguir una guía paso a paso para instalar el sistema sin modificar el cableado.|8|
-|2|US-02|Emparejar dispositivo plug-and-play|Como usuario, quiero vincular un enchufe o interruptor inteligente desde la app para empezar a controlarlo sin ayuda técnica.|8|
-|3|US-06|Encender y apagar remotamente|Como usuario, quiero controlar mis dispositivos desde el celular o la web para usarlos aunque no esté en casa o en el local.|5|
-|4|US-05|Ver estado en tiempo real|Como usuario, quiero ver si un dispositivo está encendido o apagado para saber su estado actual.|3|
-|5|US-08|Crear rutinas automáticas|Como usuario, quiero definir rutinas como “apagar a cierta hora” para automatizar tareas repetitivas.|5|
-|6|US-07|Programar horarios de encendido|Como usuario, quiero programar horarios automáticos para reducir consumo y tener mayor comodidad.|5|
-|7|US-13|Administrar múltiples dispositivos|Como usuario, quiero visualizar todos mis dispositivos en una sola pantalla para gestionarlos fácilmente.|5|
-|8|US-09|Ver consumo en tiempo real|Como usuario, quiero monitorear el consumo energético de mis dispositivos en tiempo real para entender cuánto gasto estoy generando.|5|
-|9|US-10|Consultar historial de consumo|Como usuario, quiero revisar el historial de consumo por día, semana o mes para identificar patrones de uso.|5|
-|10|US-11|Recibir alertas por alto consumo|Como usuario, quiero recibir alertas cuando un dispositivo consuma más de lo normal para evitar gastos innecesarios.|3|
-|11|US-12|Ver recomendaciones de ahorro|Como usuario, quiero recibir sugerencias para ahorrar energía según mi consumo habitual.|3|
-|12|US-17|Controlar equipos del negocio|Como dueño de negocio, quiero encender o apagar equipos del local desde mi móvil para ahorrar tiempo y energía.|5|
-|13|US-18|Programar equipos por horario comercial|Como dueño de negocio, quiero automatizar el encendido y apagado de equipos según el horario de atención.|5|
-|14|US-19|Revisar consumo por área o equipo|Como dueño de negocio, quiero identificar qué equipos consumen más energía para tomar decisiones de ahorro.|5|
-|15|US-14|Crear perfiles de acceso|Como usuario administrador, quiero dar acceso a otros miembros de la familia o empleados con permisos limitados.|5|
-|16|US-20|Compartir acceso con personal autorizado|Como dueño de negocio, quiero permitir que ciertos empleados controlen solo algunos dispositivos del local.|5|
-|17|US-16|Registrar actividad de control|Como usuario administrador, quiero ver quién encendió, apagó o modificó una automatización para tener trazabilidad.|3|
-|18|US-01|Registro inicial del usuario|Como usuario del hogar, quiero crear una cuenta en la plataforma para vincular mis dispositivos y acceder a sus funciones.|3|
-|19|US-04|Nombrar dispositivos|Como usuario, quiero asignar nombres personalizados a mis dispositivos para identificarlos fácilmente.|2|
-|20|US-15|Bloquear acceso no autorizado|Como usuario, quiero proteger mi cuenta para que nadie controle mis dispositivos sin permiso.|5|
+| 1 | US-01 | Visualizar info y testimonios | Como visitante, quiero acceder a la descripción de ElectroCorp. | 3 |
+| 2 | US-02 | Motor de búsqueda inteligente | Como visitante, quiero buscar por palabras clave y hacer scroll automático. | 5 |
+| 3 | US-03 | Cambio de idioma (ES/EN) | Como visitante, quiero cambiar el texto entero de la página mediante el DOM. | 5 |
+| 4 | US-04 | Suscripción al boletín | Como visitante, quiero llenar un input de email sin recargar la web. | 3 |
+| 5 | US-05 | Interfaz interactiva | Como visitante, quiero navegar fluído y pausar la música con un botón. | 3 |
+| 6 | US-06 | Comparar planes de servicio | Como visitante, quiero leer las diferencias del plan Free y Enterprise. | 2 |
+| 7 | US-07 | Registro inicial del usuario | Como usuario, quiero crear una cuenta en la plataforma base de datos. | 5 |
+| 8 | US-08 | Emparejar dispositivo plug-and-play | Como usuario, quiero vincular mi enchufe inteligente simulado. | 8 |
+| 9 | US-09 | Asistente de instalación guiada | Como usuario, quiero un tutorial rápido para empezar. | 5 |
+| 10 | US-10 | Nombrar dispositivos | Como usuario, quiero asignarle un alias a mi equipo. | 2 |
+| 11 | US-11 | Ver estado en tiempo real | Como usuario, quiero verificar si mi foco virtual está ON u OFF. | 3 |
+| 12 | US-12 | Encender y apagar remotamente | Como usuario, quiero enviar señales de apagado por internet. | 5 |
+| 13 | US-13 | Programar horarios de encendido | Como usuario, quiero definir a qué hora se enciende mi luz. | 5 |
+| 14 | US-14 | Crear rutinas automáticas | Como usuario, quiero configurar grupos de acciones masivas. | 5 |
+| 15 | US-15 | Ver consumo en tiempo real | Como usuario, quiero ver una gráfica con el consumo de Watts vivo. | 5 |
+| 16 | US-16 | Consultar historial de consumo | Como usuario, quiero ver cómo varió mi consumo durante los 7 días. | 5 |
+| 17 | US-17 | Recibir alertas por alto consumo | Como usuario, quiero notificaciones si mis aparatos gastan demasiado. | 3 |
+| 18 | US-18 | Ver recomendaciones de ahorro | Como usuario, quiero leer pequeños tips basados en mis propios datos. | 5 |
+| 19 | US-19 | Administrar múltiples dispositivos | Como usuario, quiero ver la lista completa de lo que he enlazado. | 3 |
+| 20 | US-20 | Crear perfiles de acceso | Como administrador, quiero que otros en casa puedan apagar las luces. | 5 |
+| 21 | US-21 | Bloquear acceso no autorizado | Como usuario, quiero que la plataforma se cierre si me olvido abierta. | 3 |
+| 22 | US-22 | Registrar actividad de control | Como administrador, quiero revisar un registro de qué se prendió. | 3 |
+| 23 | US-23 | Controlar equipos del negocio | Como dueño, quiero gestionar mi pequeño local desde la casa. | 3 |
+| 24 | US-24 | Programar equipos por horario comercial | Como dueño, quiero que el local se active de 9 a 6 automatizado. | 5 |
+| 25 | US-25 | Revisar consumo por área o equipo | Como dueño, quiero saber si un sector de la oficina consume más luz. | 5 |
+| 26 | US-26 | Compartir acceso con personal | Como dueño, quiero aislar los permisos de los empleados a sus sectores. | 5 |
+| 27 | US-27 | Pagar suscripción con tarjeta | Como usuario, quiero contratar el Enterprise plan con Stripe. | 8 |
+| 28 | US-28 | Cancelar suscripción Premium | Como usuario, quiero regresar al plan Free sin que me sigan cobrando. | 3 |
+| 29 | US-29 | Recibir alertas por correo | Como usuario, quiero que un pico de consumo me llegue vía Mailchimp. | 5 |
+| 30 | US-30 | Recibir reporte mensual | Como usuario, quiero que en fin de mes se manden mis estadísticas al mail. | 5 |
+| 31 | US-31 | Recuperar contraseña | Como usuario, quiero que se envíe un token de reset a mi correo. | 5 |
+| 32 | US-32 | Editar perfil de usuario | Como usuario, quiero rectificar mi número de contacto o nombre de perfil. | 2 |
+| 33 | US-33 | Eliminar cuenta | Como usuario, quiero un botón rojo para purgar absolutamente todos mis datos. | 3 |
+| 34 | US-34 | Configurar preferencias | Como usuario, quiero poder rechazar los boletines desde mi perfil. | 2 |
+| 35 | US-35 | Simular conexión de equipo | Como desarrollador, quiero inyectar equipos falsos para probar el sistema. | 5 |
+| 36 | US-36 | Filtrar historial por fechas | Como usuario, quiero un calendario de inicio y fin para mis reportes. | 3 |
+| 37 | US-37 | Exportar historial a Excel | Como usuario corporativo, quiero bajar una tabla de mis métricas en CSV. | 3 |
+| 38 | US-38 | Agrupar dispositivos | Como usuario, quiero juntar varios enchufes bajo la etiqueta "Sala". | 5 |
+| 39 | US-39 | Activar Modo Oscuro | Como usuario, quiero activar tema oscuro para descansar mis ojos de noche. | 3 |
+| 40 | US-40 | Gestionar múltiples locales | Como dueño Enterprise, quiero saltar entre varias de mis tiendas. | 8 |
+
+
 
 # Capitulo IV: Product Design
 
@@ -1225,71 +1323,1423 @@ El wireframe define la estructura básica de la landing page en bloques principa
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
+Los siguientes wireframes representan la estructura de baja fidelidad de las principales vistas de la aplicación web de **ElectroCorp**. Estos diseños permiten visualizar la distribución general de los componentes, la jerarquía de información y el flujo de navegación antes de aplicar estilos visuales finales.
 
+---
+
+![Wireframe-Login](assets/Webapp-Wireframe-Login.png)
+
+**Login:**  
+Este wireframe muestra la pantalla de inicio de sesión de la aplicación web. Incluye los campos principales para ingresar correo electrónico y contraseña, así como las acciones para iniciar sesión o dirigirse al registro de una nueva cuenta. Esta vista funciona como punto de acceso inicial al sistema.
+
+---
+
+![Wireframe-Register](assets/Webapp-Wireframe-Register.png)
+
+**Register:**  
+Este wireframe representa la pantalla de registro de usuarios. Presenta los campos necesarios para crear una cuenta, como nombre completo, correo electrónico y contraseña. Además, incluye una opción para volver al login en caso el usuario ya tenga una cuenta registrada.
+
+---
+
+![Wireframe-Home](assets/Webapp-Wireframe-Home.png)
+
+**Home:**  
+Este wireframe corresponde al dashboard principal de ElectroCorp. En esta vista se organiza la información general del usuario, como dispositivos conectados, consumo actual, alertas pendientes y estado de suscripción. También se incluyen accesos rápidos hacia las funcionalidades principales de la aplicación.
+
+---
+
+![Wireframe-About](assets/Webapp-Wireframe-About.png)
+
+**About:**  
+Este wireframe muestra la sección informativa de la plataforma. Su objetivo es presentar una descripción breve de ElectroCorp, explicando su propósito como solución para monitoreo energético, gestión de dispositivos, configuración de rutinas y recepción de alertas.
+
+---
+
+![Wireframe-Devices](assets/Webapp-Wireframe-Devices.png)
+
+**Devices:**  
+Este wireframe representa la vista de control de dispositivos inteligentes. Incluye un formulario para agregar nuevos dispositivos y un área destinada a listar los equipos registrados. Esta sección permite organizar la administración de enchufes, luces e interruptores inteligentes desde una sola interfaz.
+
+---
+
+![Wireframe-Routines](assets/Webapp-Wireframe-Routines.png)
+
+**Routines:**  
+Este wireframe corresponde al módulo de rutinas automáticas. Presenta un formulario para crear automatizaciones y una lista de rutinas registradas. Su finalidad es permitir que el usuario programe acciones como encender o apagar dispositivos en horarios definidos.
+
+---
+
+![Wireframe-Energy](assets/Webapp-Wireframe-Energy.png)
+
+**Energy:**  
+Este wireframe muestra la vista de monitoreo de consumo energético. Incluye indicadores clave como watts totales, promedio y pico máximo, además de filtros por fecha y un gráfico para visualizar el comportamiento del consumo. Esta sección facilita el análisis inicial de los datos energéticos.
+
+---
+
+![Wireframe-History](assets/Webapp-Wireframe-History.png)
+
+**History:**  
+Este wireframe representa el historial de consumo energético. La vista contiene una tabla con registros organizados por dispositivo, consumo en watts, fecha y estado. También incluye una opción para exportar los datos en formato CSV, lo que permite generar reportes o análisis externos.
+
+---
+
+![Wireframe-Plans](assets/Webapp-Wireframe-Plans.png)
+
+**Plans:**  
+Este wireframe presenta la pantalla de planes de servicio. Se muestran diferentes opciones de suscripción con sus precios y características principales. Esta vista permite comparar planes y seleccionar una alternativa adecuada para las necesidades del usuario.
+
+---
+
+![Wireframe-Alerts](assets/Webapp-Wireframe-Alerts.png)
+
+**Alerts:**  
+Este wireframe corresponde al centro de alertas de ElectroCorp. Incluye un resumen de alertas no leídas, un formulario para crear nuevas notificaciones y una lista de alertas relacionadas con consumo elevado, sugerencias de automatización y reportes mensuales.
+
+---
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+El siguiente wireflow representa el flujo de navegación principal de la aplicación web de **ElectroCorp**. Este diagrama permite visualizar cómo el usuario se desplaza entre las pantallas principales del sistema, partiendo desde el proceso de autenticación hasta el acceso a los módulos funcionales de la plataforma.
+
+![Webapp-Wireflow](assets/Webapp-Wireflow.png)
+
+**Web Application Wireflow:**  
+El flujo inicia en la pantalla de **Login**, desde donde el usuario puede iniciar sesión o acceder al formulario de **Register** para crear una nueva cuenta. Una vez autenticado, el usuario ingresa al **Home Dashboard**, que funciona como el punto central de navegación de la aplicación.
+
+Desde el dashboard principal, el usuario puede acceder a las secciones de **About**, **Devices**, **Routines**, **Energy**, **History**, **Plans** y **Alerts**. Cada una de estas vistas representa un módulo funcional del sistema y mantiene una navegación de retorno hacia el dashboard o mediante el menú superior. Esta estructura permite que la experiencia de usuario sea clara, centralizada y coherente con los objetivos de la plataforma.
 
 ### 4.4.3. Web Applications Mock-ups
 
-![Mockp-Center](assets/Application-Web-MockUp-Center.png)
-
-**Centro Energético:**  
-Este mockup representa la vista principal de la aplicación, donde el usuario puede visualizar un resumen general de su consumo energético. Se muestran indicadores clave como el consumo mensual, el gasto estimado, el porcentaje de ahorro y la cantidad de dispositivos registrados. Además, incluye un gráfico de línea que permite analizar el comportamiento del consumo durante la semana. Desde esta sección, el usuario puede agregar nuevos registros de consumo o simular datos para análisis.
+Los siguientes mock-ups representan la versión de mayor fidelidad de las interfaces web de **ElectroCorp**. A diferencia de los wireframes, estos diseños incorporan colores, tipografía, estilos visuales y una distribución más cercana a la implementación final desarrollada en la aplicación.
 
 ---
 
-![Mockp-Analitycs](assets/Application-Web-MockUp-Analytics.png)
+![Mockup-Login](assets/Webapp-Mockup-Login.png)
 
-**Analítica Avanzada:**  
-En esta vista se presentan métricas más detalladas del consumo energético. El usuario puede identificar la hora pico de consumo, el día con mayor uso, el promedio diario y una predicción del gasto mensual. También se incluye un gráfico de barras que distribuye el consumo por dispositivo, facilitando la toma de decisiones informadas para optimizar el uso de energía.
-
----
-
-![Mockp-Devices](assets/Application-Web-MockUp-Devices.png)
-
-**Gestión de Dispositivos:**  
-Este mockup muestra la interfaz para administrar los dispositivos eléctricos del usuario. Permite buscar dispositivos, agregarlos, activarlos o desactivarlos, así como eliminarlos. Cada dispositivo presenta su estado actual, lo que impacta directamente en el cálculo del consumo energético. Esta sección es clave para el control y personalización del sistema.
+**Login:**  
+Este mock-up muestra la pantalla final de inicio de sesión. Presenta una interfaz moderna con soporte para cambio de idioma y modo visual. La vista permite que el usuario acceda a la plataforma mediante correo electrónico y contraseña, manteniendo una experiencia clara y directa.
 
 ---
 
-![Mockp-History](assets/Application-Web-MockUp-History.png)
+![Mockup-Register](assets/Webapp-Mockup-Register.png)
 
-**Historial de Consumo:**  
-Aquí se visualizan los registros recientes de consumo energético organizados por día. El usuario puede revisar fácilmente su historial, exportar los datos en formato CSV para análisis externo o limpiar los registros almacenados. Esta sección permite llevar un seguimiento detallado del comportamiento energético a lo largo del tiempo.
+**Register:**  
+Este mock-up representa la pantalla de registro final. La interfaz permite crear una cuenta nueva ingresando nombre completo, correo electrónico y contraseña. Además, mantiene una navegación sencilla hacia el login para usuarios que ya poseen una cuenta.
 
 ---
 
-![Mockp-Suggestions](assets/Application-Web-MockUp-Suggestions.png)
+![Mockup-Home](assets/Webapp-Mockup-Home.png)
 
-**IA Energética (Insights):**  
-Este mockup presenta recomendaciones inteligentes generadas a partir del análisis de los datos de consumo. Se muestran alertas sobre consumo elevado, sugerencias para optimizar el uso de dispositivos y estimaciones de ahorro. Esta funcionalidad busca ayudar al usuario a mejorar su eficiencia energética mediante información clara y accionable.
+**Home:**  
+Este mock-up presenta el dashboard principal de la aplicación. Se muestran tarjetas resumen sobre dispositivos conectados, consumo actual, alertas pendientes y suscripción. También incluye accesos rápidos hacia módulos importantes como control de dispositivos, consumo energético, historial, alertas y planes.
+
+---
+
+![Mockup-About](assets/Webapp-Mockup-About.png)
+
+**About:**  
+Este mock-up corresponde a la sección informativa de ElectroCorp. La vista resume el propósito de la plataforma, explicando que permite monitorear consumo energético, gestionar dispositivos inteligentes, configurar rutinas automáticas y recibir alertas.
+
+---
+
+![Mockup-Devices](assets/Webapp-Mockup-Devices.png)
+
+**Devices:**  
+Este mock-up muestra el módulo de gestión de dispositivos inteligentes. Permite agregar nuevos equipos mediante un formulario y visualizar el estado general de los dispositivos registrados. Además, presenta métricas como total de dispositivos, dispositivos activos y consumo actual.
+
+---
+
+![Mockup-Routines](assets/Webapp-Mockup-Routines.png)
+
+**Routines:**  
+Este mock-up representa la vista de rutinas automáticas. El usuario puede crear nuevas rutinas, seleccionar dispositivos, definir una acción y establecer un horario. También se muestra una lista de rutinas existentes con opciones para activarlas, desactivarlas o eliminarlas.
+
+---
+
+![Mockup-Energy](assets/Webapp-Mockup-Energy.png)
+
+**Energy:**  
+Este mock-up corresponde al módulo de monitoreo energético. Presenta indicadores como watts totales, promedio y pico máximo. También incluye filtros por fecha y un gráfico de barras que permite analizar visualmente el historial de consumo energético.
+
+---
+
+![Mockup-History](assets/Webapp-Mockup-History.png)
+
+**History:**  
+Este mock-up muestra la vista de historial de consumo. La pantalla presenta una tabla con lecturas energéticas registradas, indicando dispositivo, consumo, fecha y estado. También incluye una opción para exportar la información en formato CSV.
+
+---
+
+![Mockup-Plans](assets/Webapp-Mockup-Plans.png)
+
+**Plans:**  
+Este mock-up representa la vista de planes de servicio. Se presentan tres opciones de suscripción con sus respectivos precios y características. Esta sección permite comparar los planes disponibles y seleccionar una opción acorde al uso del sistema.
+
+---
+
+![Mockup-Alerts](assets/Webapp-Mockup-Alerts.png)
+
+**Alerts:**  
+Este mock-up muestra el centro de alertas de la aplicación. Incluye un contador de alertas sin leer, un formulario para crear nuevas alertas y una lista de notificaciones clasificadas por nivel. Esta sección permite al usuario supervisar eventos importantes relacionados con consumo energético y automatización.
+
+---
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-El flujo inicia con el acceso del usuario a la plataforma, seguido de procesos clave como la navegación entre secciones, la interacción con funcionalidades principales y la obtención de resultados esperados. Asimismo, se contemplan escenarios alternativos y puntos de decisión que influyen en la experiencia del usuario, permitiendo comprender cómo se gestionan diferentes situaciones dentro del sistema.
+El siguiente diagrama de flujo de usuario representa el recorrido principal que realiza una persona al interactuar con la aplicación web de **ElectroCorp**. Este flujo inicia cuando el usuario accede a la plataforma y debe decidir si ya cuenta con una cuenta registrada. En caso no la tenga, puede dirigirse al proceso de registro para crear una nueva cuenta; si ya posee credenciales, continúa hacia la pantalla de inicio de sesión.
 
-![UserFlowDiagram](assets/UserFlowDiagram.png)
+![Webapp-Userflow](assets/Webapp-Userflow.png)
+
+**Web Application User Flow:**  
+El flujo principal comienza con el acceso del usuario a la aplicación web. Luego, el sistema evalúa si el usuario cuenta con una cuenta existente. Si no tiene una cuenta, se dirige al módulo de **Register**, donde puede crearla y posteriormente iniciar sesión. Si ya posee una cuenta, accede directamente al módulo de **Login**.
+
+Después del inicio de sesión, se valida si las credenciales ingresadas son correctas. Si los datos no son válidos, el sistema muestra un mensaje de error y permite que el usuario vuelva a intentar el acceso. Si las credenciales son correctas, el usuario ingresa al **Home Dashboard**, que funciona como el punto central de navegación de la plataforma.
+
+Desde el dashboard, el usuario puede acceder a los principales módulos funcionales de ElectroCorp: **About**, **Devices**, **Routines**, **Energy**, **History**, **Plans** y **Alerts**. Cada módulo permite realizar acciones específicas, como gestionar dispositivos, crear rutinas automáticas, visualizar métricas de consumo, revisar historial energético, comparar planes de servicio y atender alertas del sistema.
+
+Finalmente, el flujo contempla la acción de **Logout**, mediante la cual el usuario puede cerrar sesión de forma segura. De esta manera, el diagrama permite comprender tanto el recorrido principal como los escenarios alternativos de autenticación, navegación y salida de la aplicación.
 
 ---
 
 ## 4.5. Web Applications Prototyping
+
+En esta sección se presenta el prototipo funcional de la aplicación web de **ElectroCorp**, incluyendo la integración entre la webapp y el servicio temporal `electrocorp-platform`. El video muestra el flujo general de uso de la plataforma, desde el acceso del usuario hasta la navegación por los principales módulos del sistema.
+
+El prototipo permite validar visualmente la experiencia de usuario, la navegación entre vistas, el consumo de datos desde la Fake API desplegada en Render y la separación entre frontend y plataforma de datos. Asimismo, evidencia el avance funcional de módulos como autenticación, dashboard principal, gestión de dispositivos, rutinas, monitoreo energético, historial, planes y alertas.
+
+**Video de presentación del prototipo:**  
+[Ver video del prototipo de ElectroCorp](https://1drv.ms/v/c/0e85bddd31a5a6b2/IQCP8SBS3IW5S5o6jAGWF7XLAfQNWdWKiPXAHFVbyPx7g6s?e=eU1usI)
+
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level Event Storming
+
+<img src="assets/designLevelEventStorming.png">
+
 ### 4.6.2. Software Architecture Context Diagram
+
+En esta sección se presenta el Diagrama de Contexto correspondiente al Nivel 1 del modelo C4 para la arquitectura de ElectroCorp. Este diagrama permite visualizar el ecosistema general de la solución, identificando al usuario principal, el sistema ElectroCorp y los servicios externos que complementan sus funcionalidades.
+
+<img src="assets/context-diagram.png">
+
+El entorno del sistema ElectroCorp se compone de los siguientes elementos principales:
+
+**- ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. El usuario utiliza ElectroCorp para gestionar dispositivos inteligentes, configurar rutinas automáticas, monitorear el consumo energético, revisar reportes, definir metas energéticas, recibir alertas, gestionar su suscripción y solicitar soporte o mantenimiento técnico.
+
+**- ElectroCorp System (Sistema Principal):** Es la plataforma central del proyecto. Integra las funcionalidades principales relacionadas con autenticación, planes y facturación, control de dispositivos, monitoreo energético, gestión de sedes, reportes, metas, notificaciones, soporte y mantenimiento. Para el alcance del proyecto, el sistema simula el comportamiento y la información de dispositivos inteligentes mediante una API y una base de datos, sin depender de hardware físico real.
+
+**- Stripe (Sistema Externo de Soporte):** Servicio externo utilizado como pasarela de pagos. ElectroCorp se comunica con Stripe para procesar pagos de suscripciones y operaciones relacionadas con la facturación de los usuarios.
+
+**- Mailchimp (Sistema Externo de Soporte):** Servicio externo utilizado para el envío de correos electrónicos. ElectroCorp delega en Mailchimp el despacho de notificaciones, alertas críticas y reportes relacionados con el consumo energético del usuario.
+
+En conjunto, este diagrama evidencia que ElectroCorp actúa como el sistema principal que centraliza la experiencia del usuario, mientras se apoya en servicios externos para resolver procesos especializados como pagos y notificaciones.
+
 ### 4.6.3. Software Architecture Container Diagrams
+
+A continuación, se presenta el Diagrama de Contenedores correspondiente al Nivel 2 del modelo C4. Este diagrama detalla los principales contenedores técnicos que conforman ElectroCorp y muestra el flujo general desde la interacción del usuario hasta el procesamiento de la información en el backend y la persistencia de datos.
+
+<img src="assets/container-diagram.png">
+
+La arquitectura de ElectroCorp se basa en una separación clara entre presentación, aplicación cliente, lógica de negocio, persistencia y servicios externos. Los contenedores principales son los siguientes:
+
+**1. Contenedores de Aplicación Frontend**
+
+**- Landing Page:** Representa la página pública de presentación de ElectroCorp. Su finalidad es mostrar información general del producto, beneficios, planes y llamadas a la acción. Desde esta página, el usuario puede dirigirse hacia la aplicación principal.
+
+**- ElectroCorp Single Page Application (SPA):** Representa la aplicación cliente desarrollada con Angular. Se denomina SPA porque permite navegar entre distintas vistas sin recargar completamente la página. Desde esta aplicación, el usuario interactúa con funcionalidades como dispositivos, rutinas, energía, historial, sedes, reportes, metas, alertas, planes, soporte y mantenimiento.
+
+**- ElectroCorp Web App:** Representa el contenedor funcional web que conecta la aplicación frontend con los servicios de backend. En el flujo definido para la arquitectura, el usuario puede ingresar directamente a la SPA o llegar desde la Landing Page; posteriormente, la SPA se comunica con la Web App y esta consume los servicios de la API.
+
+**2. Contenedor de Lógica Central Backend**
+
+**- ElectroCorp API:** Es el núcleo de la solución backend, desarrollado en Java con Spring Boot. Implementa la lógica de negocio organizada bajo principios de Domain-Driven Design. La API expone servicios REST para los bounded contexts de IAM, Billing, Device Control, Energy Monitoring, Notifications, Workplace, Reporting y Service Management.
+
+**3. Contenedor de Persistencia**
+
+**- ElectroCorp Database:** Es la base de datos relacional encargada de almacenar la información principal del sistema. Contiene datos de usuarios, perfiles de acceso, dispositivos, rutinas, planes, suscripciones, pagos, facturas, sedes, ambientes, asignaciones, lecturas energéticas, reportes, metas, alertas, reglas de alerta, preferencias de notificación, tickets de soporte y tickets de mantenimiento.
+
+**4. Servicios Externos**
+
+**- Stripe:** Servicio externo utilizado para procesar pagos y suscripciones de forma segura.
+
+**- Mailchimp:** Servicio externo utilizado para enviar notificaciones, reportes y alertas críticas por correo electrónico.
+
+El flujo principal de la arquitectura queda representado de la siguiente forma: el usuario puede acceder directamente a la SPA o pasar primero por la Landing Page; la Landing Page redirige hacia la SPA; la SPA interactúa con la Web App; la Web App consume la API; y la API se comunica con la base de datos y con servicios externos como Stripe y Mailchimp.
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+Los siguientes diagramas de componentes representan la arquitectura interna de ElectroCorp a nivel frontend. Estos diagramas permiten observar cómo la aplicación se organiza modularmente por bounded contexts, separando responsabilidades de presentación, aplicación, dominio e infraestructura.
+
+Para una mejor comprensión, los diagramas se han dividido en tres tipos:
+
+- **Tipo 1:** Diagrama general de componentes de toda la aplicación frontend.
+- **Tipo 2:** Diagramas de componentes por bounded context.
+- **Tipo 3:** Diagramas de componentes enfocados en la capa de presentación de cada bounded context.
+
+#### 4.6.4.1. Frontend Components Diagram - Type 1: General Application View
+
+![Frontend General Components Diagram](assets/frontend-general-components.png)
+
+El diagrama general de componentes del frontend muestra la estructura global de la aplicación web de ElectroCorp. En esta vista se observa cómo el usuario interactúa con el `App Layout`, el sistema de rutas y el `Language Switcher`, además de cómo la aplicación organiza sus funcionalidades en bounded contexts.
+
+Los módulos principales considerados son `Shared`, `IAM`, `Billing`, `Device Control`, `Energy Monitoring`, `Notifications`, `Workplace`, `Reporting` y `Service Management`. Cada uno de estos módulos representa una sección funcional de la aplicación y se comunica con servicios de infraestructura encargados de consumir la API backend.
+
+Este diagrama evidencia que la aplicación frontend mantiene una arquitectura modular, donde cada bounded context encapsula sus responsabilidades y utiliza elementos compartidos como servicios de sesión, preferencias de interfaz, base API service, base assembler y componentes comunes.
+
+#### 4.6.4.2. Frontend Components Diagram - Type 2: Bounded Context Design
+
+Los diagramas de componentes de Tipo 2 detallan el diseño interno de cada bounded context. En estos diagramas se muestra la relación entre las capas de presentación, aplicación, dominio e infraestructura.
+
+##### Shared Components Diagram
+
+![Frontend Shared Components Diagram](assets/frontend-shared-components.png)
+
+El módulo `Shared` funciona como un kernel compartido dentro del frontend. Contiene componentes comunes como `App Layout`, `Footer` y `Language Switcher`, además de servicios transversales como `Auth Session Service`, `UI Preferences Service`, guards, servicios base de API y ensambladores base. Su propósito es evitar duplicidad y proporcionar funcionalidades reutilizables a los demás bounded contexts.
+
+##### IAM Components Diagram
+
+![Frontend IAM Components Diagram](assets/frontend-iam-components.png)
+
+El bounded context `IAM` se encarga de la autenticación, registro, gestión de sesión y perfiles de acceso. Su capa de presentación contiene las páginas de login y registro, mientras que su capa de aplicación utiliza un facade para coordinar los casos de uso. La infraestructura se comunica con la API mediante servicios especializados y transforma los datos usando assemblers.
+
+##### Billing Components Diagram
+
+![Frontend Billing Components Diagram](assets/frontend-billing-components.png)
+
+El bounded context `Billing` gestiona planes, suscripciones, pagos e invoices. Este módulo permite visualizar planes disponibles, suscribirse, cancelar una suscripción, procesar pagos simulados y revisar el resumen de facturación. Además, incorpora entidades como `Plan`, `Subscription`, `Payment` e `Invoice`, junto con servicios de dominio para políticas de suscripción y permisos según el plan contratado.
+
+##### Device Control Components Diagram
+
+![Frontend Device Control Components Diagram](assets/frontend-device-components.png)
+
+El bounded context `Device Control` administra dispositivos, rutinas y grupos de dispositivos. Su facade coordina la carga, creación, actualización y eliminación de dispositivos y rutinas. También se apoya en servicios de dominio para calcular consumo activo y detectar conflictos entre rutinas programadas.
+
+##### Energy Monitoring Components Diagram
+
+![Frontend Energy Monitoring Components Diagram](assets/frontend-energy-monitoring-components.png)
+
+El bounded context `Energy Monitoring` se encarga de mostrar lecturas energéticas, métricas, historial y gráficos de consumo. Este módulo permite observar el comportamiento energético de los dispositivos y, en función del plan del usuario, habilitar funcionalidades como historial energético, analítica avanzada y exportación de datos.
+
+##### Notifications Components Diagram
+
+![Frontend Notifications Components Diagram](assets/frontend-notification-components.png)
+
+El bounded context `Notifications` administra alertas, reglas de alerta y preferencias de notificación. Permite listar alertas, marcar alertas como leídas, configurar reglas y aplicar criterios de prioridad. Este módulo se relaciona con el monitoreo energético, ya que ciertas lecturas pueden activar alertas según las reglas configuradas.
+
+##### Workplace Components Diagram
+
+![Frontend Workplace Components Diagram](assets/frontend-workplace-components.png)
+
+El bounded context `Workplace` gestiona sedes, ambientes y asignaciones de dispositivos. Permite organizar los dispositivos dentro de ubicaciones físicas como hogares, oficinas, tiendas o almacenes. Su diseño facilita visualizar la distribución de ambientes, cobertura de asignaciones y sedes con mayor actividad.
+
+##### Reporting Components Diagram
+
+![Frontend Reporting Components Diagram](assets/frontend-reporting-components.png)
+
+El bounded context `Reporting` gestiona reportes de consumo y metas energéticas. Este módulo muestra indicadores como consumo total, picos máximos, reportes críticos, progreso promedio de metas y metas completadas. También permite organizar la información para analizar la evolución del consumo energético.
+
+##### Service Management Components Diagram
+
+![Frontend Service Management Components Diagram](assets/frontend-service-management-components.png)
+
+El bounded context `Service Management` administra tickets de soporte y tickets de mantenimiento. Permite visualizar solicitudes de ayuda, casos críticos, tasa de resolución, mantenimientos pendientes y mantenimientos completados. Su objetivo es dar soporte operativo al usuario y controlar incidencias relacionadas con el sistema o los dispositivos.
+
+#### 4.6.4.3. Frontend Components Diagram - Type 3: Presentation Layer Design
+
+Los diagramas de componentes de Tipo 3 se enfocan específicamente en la capa de presentación de cada bounded context. Estos diagramas permiten visualizar cómo se organizan las páginas, componentes visuales, pipes de traducción y facades consumidos desde la interfaz.
+
+##### Shared Presentation Components Diagram
+
+![Frontend Shared Presentation Components Diagram](assets/frontend-presentation-shared-components.png)
+
+La capa de presentación de `Shared` incluye el layout principal, el componente de cambio de idioma, el footer y páginas generales como Home, About y Not Found. Esta capa proporciona la estructura visual común de toda la aplicación y permite que los demás módulos se rendericen mediante el sistema de rutas.
+
+##### IAM Presentation Components Diagram
+
+![Frontend IAM Presentation Components Diagram](assets/frontend-presentation-iam-components.png)
+
+La capa de presentación de `IAM` contiene las páginas de login y registro. Estas páginas construyen los DTOs correspondientes y llaman al `IAM Facade` para ejecutar los casos de uso de autenticación y creación de cuenta. También utiliza traducciones para soportar los idiomas disponibles en la aplicación.
+
+##### Billing Presentation Components Diagram
+
+![Frontend Billing Presentation Components Diagram](assets/frontend-presentation-billing-components.png)
+
+La capa de presentación de `Billing` contiene la página de planes, tarjetas de plan y formulario de pago. Desde esta vista, el usuario puede ver su plan activo, seleccionar un nuevo plan, confirmar un pago simulado y revisar sus facturas. La página se comunica con el `Billing Facade`, que proporciona los datos y acciones necesarias.
+
+##### Device Control Presentation Components Diagram
+
+![Frontend Device Control Presentation Components Diagram](assets/frontend-presentation-device-components.png)
+
+La capa de presentación de `Device Control` contiene las páginas de dispositivos y rutinas, además de componentes como listas y tarjetas de dispositivos. Su objetivo es mostrar el estado de los dispositivos, permitir acciones como encender o apagar, y gestionar rutinas automáticas.
+
+##### Energy Monitoring Presentation Components Diagram
+
+![Frontend Energy Monitoring Presentation Components Diagram](assets/frontend-presentation-energy-monitoring-components.png)
+
+La capa de presentación de `Energy Monitoring` contiene las páginas de dashboard energético e historial. También incluye componentes de métricas y gráficos, los cuales permiten visualizar el consumo total, consumo promedio, picos máximos y evolución histórica.
+
+##### Notifications Presentation Components Diagram
+
+![Frontend Notifications Presentation Components Diagram](assets/frontend-presentation-notification-components.png)
+
+La capa de presentación de `Notifications` incluye la página de alertas y el listado de alertas. Esta vista permite observar alertas ordenadas por prioridad, revisar notificaciones pendientes y ejecutar acciones como marcar alertas como leídas.
+
+##### Workplace Presentation Components Diagram
+
+![Frontend Workplace Presentation Components Diagram](assets/frontend-presentation-workplace-components.png)
+
+La capa de presentación de `Workplace` contiene la página de gestión de sedes y ambientes. Esta vista muestra KPIs, insights operativos, distribución de sedes, ambientes registrados y estado de asignaciones de dispositivos. Utiliza el `Workplace Facade` para obtener y calcular la información mostrada.
+
+##### Reporting Presentation Components Diagram
+
+![Frontend Reporting Presentation Components Diagram](assets/frontend-presentation-reporting-components.png)
+
+La capa de presentación de `Reporting` contiene las páginas de reportes y metas. La página de reportes muestra análisis de consumo, tendencias y reportes críticos, mientras que la página de metas muestra progreso, estado de metas y métricas de seguimiento energético.
+
+##### Service Management Presentation Components Diagram
+
+![Frontend Service Management Presentation Components Diagram](assets/frontend-presentation-service-management-components.png)
+
+La capa de presentación de `Service Management` contiene las páginas de soporte y mantenimiento. La página de soporte muestra tickets, casos críticos y tasa de resolución. La página de mantenimiento muestra atenciones pendientes, mantenimientos completados y una línea de tiempo de mantenimientos técnicos.
+
+
 ## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
+
+Los siguientes diagramas de clases presentan el diseño orientado a objetos del sistema ElectroCorp, separados en una vista de frontend y una vista de backend. Ambos diagramas se renderizan de forma online a partir de los archivos fuente PlantUML almacenados en el repositorio, utilizando la versión raw de GitHub.
+
+#### Frontend Class Diagram
+
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/frontend-class-diagram.puml)
+
+El diagrama de clases del frontend representa la estructura interna de la webapp de ElectroCorp, organizada por bounded contexts. Cada módulo conecta sus vistas y componentes con stores de Pinia, servicios de aplicación, endpoints de infraestructura, ensambladores y modelos de dominio.
+
+La conexión principal sigue el flujo: las vistas invocan acciones del store, el store utiliza facades para coordinar la lógica de aplicación, las facades consumen endpoints de infraestructura, y los responses recibidos desde la API son transformados en entidades de dominio mediante assemblers. Esta estructura permite mantener una separación clara entre presentación, aplicación, infraestructura y dominio, facilitando la futura conexión con el backend real de ElectroCorp Platform.
+
+#### Backend Class Diagram
+
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/backend-class-diagram.puml)
+
+El diagrama de clases del backend representa la arquitectura propuesta para ElectroCorp Platform, planteada como una aplicación Spring Boot organizada por bounded contexts y capas. El diseño contempla módulos como IAM, Device Control, Energy Monitoring, Notifications y Billing.
+
+Cada bounded context se estructura mediante controladores REST, servicios de aplicación, entidades de dominio, repositorios, adaptadores de persistencia, entidades JPA y mappers. Esta organización permite separar responsabilidades entre la capa de presentación de API, la lógica de aplicación, el modelo de dominio y la infraestructura de persistencia.
+
+El flujo principal parte desde los controladores REST, los cuales reciben requests y delegan la ejecución a servicios de aplicación. Estos servicios coordinan la lógica del caso de uso, interactúan con entidades de dominio y consumen interfaces de repositorio. Finalmente, los adaptadores de persistencia implementan dichas interfaces utilizando Spring Data JPA y transforman la información entre entidades de dominio, entidades JPA y DTOs de respuesta.
+
 ## 4.8. Database Design
-### 4.8.1. Database Diagrams.
+
+### 4.8.1. Database Diagrams
+
+El diagrama de base de datos de ElectroCorp representa las principales entidades necesarias para el funcionamiento de la plataforma. Se incluyen entidades relacionadas con la gestión de usuarios, perfiles de acceso, permisos, dispositivos inteligentes, rutinas automáticas, lecturas de consumo energético, alertas, planes de servicio y suscripciones.
+
+La estructura permite modelar la relación entre usuarios y dispositivos, así como el registro de lecturas energéticas generadas por cada dispositivo. Además, contempla la gestión de rutinas programadas, alertas asociadas al consumo o estado de los equipos, y la administración de planes de suscripción. Este diseño está alineado con una futura implementación backend en Spring Boot, donde las entidades podrán persistirse en una base de datos relacional.
+
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/database-diagram.puml)
+
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
+
+A continuación, se presentará un repositorio central y organizado que servirá como guía para el desarrollo enfocado y consistente de nuestra solución.
+
+### 5.1.1 Software Development Environment Configuration
+
+En esta sección se incluye los links de las aplicaciónes, productos de software realizadas durante el ciclo del proyecto en los programas que se utilizaron. <br>
+
++ **Project Management**<br>
+Esta área se centra en la planificación, organización, coordinación y control de los recursos y actividades necesarias para completar un proyecto de software con éxito. Incluye la gestión del alcance, el tiempo, el costo, la calidad, los riesgos, los recursos humanos y la comunicación para garantizar que el proyecto se entregue dentro del tiempo y el presupuesto establecidos, cumpliendo con los requisitos y objetivos definidos.
+
+  +	<b>Jira Software:</b> Herramienta líder en la industria para la gestión ágil de proyectos. Permite a los equipos planificar, priorizar y realizar un seguimiento del trabajo de manera colaborativa mediante tableros Scrum o Kanban. <br>https://www.atlassian.com/es/software/jira<br><br>
+
++ **Requirements Management**<br>
+Se refiere al proceso de identificar, documentar, verificar y gestionar los requisitos del sistema y del software. Implica entender las necesidades de los usuarios y las partes interesadas, traduciéndolas en requisitos funcionales y no funcionales claros y específicos. El objetivo es garantizar que el software desarrollado satisfaga las necesidades y expectativas de los usuarios finales.
+
+  + **Jira Software:**
+Plataforma de gestión centrada en Historias de Usuario (User Stories), que se organizan en Épicas (Epics) y se clasifican por puntaje de esfuerzo (Story Points). Es utilizada para mantener a todos los miembros del equipo al tanto del progreso del Backlog del producto, ofreciendo una vista en tiempo real compartida que facilita la colaboración eficiente.
+<br> https://www.atlassian.com/es/software/jira<br><br>
+
++ **Product UX/UI Design**<br>
+Este aspecto se enfoca en el diseño de la experiencia del usuario (UX) y la interfaz de usuario (UI) del producto de software. UX se centra en comprender y mejorar la experiencia general del usuario al interactuar con el software, mientras que UI se refiere al diseño visual y la usabilidad de la interfaz de usuario. En este caso realizar un modelo de sitio web para computadoras y celulares.
+
+  + **Figma:**<br>Herramienta de prototipado web y editor de gráficos vectoriales que se aloja en la web, permitiendo establecer los modelos interactivos para versión en Web Browser y Mobile Browser de manera colaborativa.
+https://www.figma.com/design/ 
+
+  + **UXPressia:**<br> Herramienta en línea para el mapeo de la trayectoria del cliente. Sus herramientas nos permitieron establecer las bases del modelado de User Persona, Empathy Map y Journey Map.<br>https://uxpressia.com/ 
+
+  + **MIRO:**<br>Pizarra digital colaborativa en línea, usada para la investigación, la ideación, mapas mentales, flujos as-is / to-be y una variedad de otras actividades colaborativas.<br>https://miro.com/app/dashboard/ 
+
+  + **Lucid Chart:**<br> Es una herramienta de diagramación basada en la web, que permite a los usuarios colaborar y trabajar juntos en tiempo real, creando diseños UML, mapas mentales, prototipos de software y muchos otros tipos de diagrama.
+https://lucid.app/documents#/dashboard 
+
+  + **dbdiagram.io:**<br> Herramienta gratuita y basada en la web diseñada para dibujar esquemas de bases de datos de forma rápida e intuitiva mediante código (DBML). Se utilizará para diseñar visualmente el modelo Entidad-Relación (ERD), definir las estructuras de las tablas y exportar ágilmente los scripts SQL necesarios para implementar nuestra base de datos en MySQL.
+https://dbdiagram.io/
+
+  + **Structurizr:**<br> Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución. 
+https://structurizr.com/ 
+
++ **Software Development**<br>
+Es el proceso de crear, diseñar, programar, probar y mantener el software. Incluye la implementación de los requisitos definidos utilizando diferentes lenguajes de programación, herramientas y tecnologías.
+
+  + **GitHub:**<br>Repositorio comunitario basado en la nube cuya función es almacenar, versionar y gestionar los avances del código fuente elaborado por el equipo. <br>
+https://github.com/upc-pre-202610-1asi0729-11896-ECorp
+
+
+  + **Visual Studio Code:**<br> Editor de código fuente potente y ligero que brinda extensiones personalizables, permitiendo que la función del desarrollador sea más eficiente.<br>
+https://code.visualstudio.com/ 
+
+  + **HTML:**<br>  Lenguaje estándar para crear y diseñar sitios web. Utiliza etiquetas para estructurar el contenido. Este lenguaje será utilizado en el presente proyecto para implementar la estructura de la página web.<br>
+https://www.jetbrains.com/help/webstorm/editing-html-files.html 
+
+  + **CSS:**<br> : Lenguaje de hojas de estilo utilizado para controlar el diseño y la presentación de páginas web. Permite establecer colores, fuentes y animaciones. Se utilizará para la implementación del diseño visual de nuestra plataforma.<br>
+https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion 
+
+  + **JavaScript:**<br> Lenguaje de programación de alto nivel que se utiliza para agregar interactividad y dinamismo a los sitios web (validar formularios, animar elementos, etc.). Se utilizará para la elaboración de la lógica frontend de la plataforma.<br>
+https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html 
+
+
+  +  **Java:**<br> Es un lenguaje de programación de alto nivel, robusto y orientado a objetos, diseñado para tener la menor cantidad posible de dependencias de implementación. Es ideal para aplicaciones empresariales, desarrollo de apps móviles (Android) y sistemas de escritorio. Se utilizará para gestionar la lógica de servidor y el procesamiento de datos del proyecto.<br>
+https://www.oracle.com/java/technologies/downloads/
+
++ **Software Testing**<br>
+Se refiere a la actividad de verificar y validar el software para garantizar su calidad y funcionamiento correcto. Involucra la ejecución de pruebas funcionales y no funcionales para identificar errores, defectos o problemas en el software antes de su lanzamiento. El objetivo es asegurar que el software sea confiable, robusto y cumpla con los requisitos y expectativas del usuario final.
+
+  + **Lenguaje Gherkin:**<br>Es un lenguaje de dominio específico (DSL) utilizado en el desarrollo de software para escribir pruebas de aceptación en un formato legible por humanos. Utiliza palabras clave como Given, When y Then para describir el estado inicial, la acción y el resultado esperado de un escenario de prueba, lo que facilita la colaboración entre equipos al definir requisitos y pruebas.<br>https://cucumber.io/
+
++ **Software Deployment**<br>
+Es el proceso de implementar y poner en funcionamiento el software en un entorno de producción o en los dispositivos de los usuarios finales. Incluye actividades como la instalación, configuración, migración de datos y puesta en marcha del software. El objetivo es garantizar una implementación exitosa y sin problemas del software en el entorno de producción.
+
+  + **Github Pages:**<br> Servicio de Github que nos permitió alojar nuestra Landing page y nos permitirá alojar nuestro web applications.<br>
+https://pages.github.com/ <br>
+
+
++	**Software Documentation**<br>Se refiere a la creación y mantenimiento de documentos que describen el software, incluyendo su arquitectura, diseño, funcionamiento, instalación, configuración, uso y mantenimiento. La documentación proporciona información útil y detallada sobre el software para desarrolladores, usuarios finales, administradores de sistemas y otras partes interesadas. 
+
+    + **Markdown:**<br>Es un lenguaje de marcado ligero que permite escribir texto con un formato fácil de leer y escribir, que luego puede ser convertido a HTML u otros formatos de presentación. Es ampliamente utilizado para documentar proyectos de software debido a su simplicidad y versatilidad. Markdown permite agregar formato básico como encabezados, listas, enlaces e imágenes utilizando una sintaxis sencilla y fácil de recordar.<br>https://www.markdownguide.org/getting-started/<br><br>
+
+
 ### 5.1.2. Source Code Management
+
+Para administrar el progreso del código de manera efectiva, hemos decidido adoptar la metodología Git Flow. Esta estrategia se enfoca en el uso de ramas para facilitar la gestión de archivos durante el proceso de programación. En resumen, Git Flow nos permite mantener una rama principal ('main') que contiene una versión estable del proyecto en un punto determinado. Al mismo tiempo, utilizamos otra rama de desarrollo para incorporar nuevas características al código base sin afectar la versión estable actual. Esto nos permite avanzar en el desarrollo de nuestra página de destino mientras realizamos pruebas relacionadas con las nuevas modificaciones introducidas en la rama de desarrollo.
+
+Además, hemos optado por utilizar GitHub debido a su función específica llamada GitHub Pages. Esta función permite la visualización eficiente del proyecto mediante la ejecución de archivos '.html' y la generación de un enlace web.
+
+En cuanto a nuestros archivos feature, creamos una nueva rama “feature/sprint-1” para cada nueva funcionalidad que deseamos agregar. Este enfoque modular y organizado asegura un desarrollo progresivo, ya que cada rama “feature/sprint-1” actúa como un espacio aislado para desarrollar y probar una característica específica antes de fusionarla con la rama de desarrollo.<br><br>
+
+Enlace de la Landing Page en GitHub Pages: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/electrocorp-website/<br><br> 
+
+<img src="assets/landing-page-link-prueba-1.PNG"></img><br>
+
+Repositorio GitHub de la Landing Page: https://github.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-website <br><br> 
+
+<img src="assets/respositorio-landing.PNG"></img><br>
+
+Repositorio GitHub de los archivos feature: https://github.com/upc-pre-202610-1asi0729-11896-ecorp/Acceptance-Test/tree/feature/sprint-1 <br><br> 
+
+<img src="assets/repositorio-acceptance-test.PNG"></img><br>
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.3 Source Code Style Guide & Conventions
+
+En esta sección del proyecto, nos enfocaremos en establecer un conjunto coherente de referencias y convenciones para el estilo de código y las convenciones de programación que usaremos para la creación de nuestra aplicación web ElectroCorp. Estas prácticas son cruciales para el desarrollo de la aplicación puesto a que garantizan la coherencia, la legibilidad y la calidad estructural del código. En consecuencia, nos facilitarán su mantenimiento y escalabilidad a lo largo del ciclo de vida del proyecto. 
+
+En este proyecto, se emplearán HTML, CSS, JavaScript y Java para desarrollar la plataforma web, mientras que Gherkin se utilizará en el proceso de prueba del programa. A continuación, se presentarán y explicarán las reglas y recomendaciones generales que se considerarán al utilizar estos lenguajes.
+
+**Nomenclatura en Inglés y uso de Minúsculas**
+
+Los términos utilizados para nombrar variables, objetos, elementos y funciones estarán en inglés y relacionados con la función o descripción de lo que representan. En el desarrollo web se evitará el uso de mayúsculas, ya que la combinación de mayúsculas y minúsculas puede afectar la legibilidad del código, según lo señalado por Google. Se dará preferencia al uso exclusivo de minúsculas para mejorar la legibilidad del código.
+
+Ejemplo: 
+```css
+.btn-s {}  /* Mala práctica, el nombre de esta clase no nos dice nada */
+
+.btn-start {} /* Buena práctica, el nombre de esta clase nos dice que representa al botón de inicio */
+```
+
+**Identación o Sangría**
+
+La indentación o sangría en el código es esencial para mejorar la legibilidad y comprensión del mismo. Proporciona una estructura visual clara que refleja la lógica del código, facilitando su mantenimiento y reduciendo la probabilidad de errores.
+
+Según Google para facilitar la lectura, se debe agregar dos espacios de sangría y no utilizar la tecla de tabulación, por lo que seguiremos esta práctica para nuestro proyecto.
+
+Ejemplos:
+
+**En HTML:**
+```html
+<ul class="device-list">
+  <li>Smart Plug</li>
+  <li>Smart Switch</li>
+  <li>Light Sensor</li>
+</ul>
+```
+
+**En CSS:**
+```css
+body {
+  background: #0a0f18;
+  color: #ffffff;
+}
+```
+
+**En JavaScript:**
+```javascript
+function calculateWatts(amps) {
+  return amps * 220;
+}
+```
+
+A continuación se mostrarán las reglas específicas para cada lenguaje que utilizaremos:
+
+<br><br>
+
+**HTML**
+
+Para nuestro proyecto utilizaremos HTML5, el estándar más reciente de HTML que ofrece una amplia gama de nuevas características y mejoras. A continuación se mostrarán las características y pautas que seguiremos para el desarrollo:
+
++ **Document Type**
+
+En nuestro proyecto, nos adherimos a las mejores prácticas recomendadas por Google al utilizar HTML. Por lo tanto, emplearemos la declaración de tipo de documento (DOCTYPE) específica de HTML5, que se define como `<!DOCTYPE html>`. 
+
++ **Semantics**
+
+Utilizaremos los elementos HTML para lo que han sido diseñados. Por ejemplo, emplearemos elementos de encabezado para encabezados, elementos de párrafo (`<p>`) para párrafos, elementos de anchor (`<a>`) para enlaces, y así sucesivamente, tal y como nos indica Google.
+
+Ejemplo:
+```html
+<div onclick="goToDashboard();">Go to Dashboard</div>
+
+<a href="dashboard/">Go to Dashboard</a>
+```
+
++ **Blank Lines**
+
+Para mejorar la legibilidad del código, W3Schools recomienda agregar líneas en blanco para separar bloques de código grandes o lógicos. Esta práctica ayuda a dividir visualmente el código en secciones más manejables y facilita la identificación de la estructura y la lógica del programa.
+
+```html
+<body>
+
+<h1>Control de Dispositivos</h1>
+
+<h2>Lámpara de Sala</h2>
+<p>Estado actual: Encendido. Consumo: 15W.</p>
+
+<h2>Aire Acondicionado</h2>
+<p>Estado actual: Apagado. Programado para las 18:00 hrs.</p>
+
+</body>
+```
+
++ **Multimedia Fallback**
+
+Es fundamental proporcionar contenido alternativo para elementos multimedia, como imágenes, videos y objetos animados a través de canvas. Esto implica utilizar texto alternativo (`alt`) significativo para las imágenes, videos y audios. Según Google, la inclusión de contenido alternativo es crucial por razones de accesibilidad y además es importante en caso de que estos objetos multimedia fallen al cargar. 
+
+Ejemplo:
+```html
+<img src="smart-plug.png">
+
+<img src="smart-plug.png" alt="Fotografía del enchufe inteligente de ElectroCorp.">
+```
+
++ **HTML Quotation Marks**
+
+Según las recomendaciones de Google, al citar los valores de los atributos en HTML, se deben utilizar comillas dobles ("") en lugar de comillas simples (''). Esta práctica es preferible ya que las comillas dobles son el estándar recomendado en la especificación de HTML.
+
+Ejemplo: 
+```html
+<a class='btn-login'>Sign in</a>
+
+<a class="btn-login">Sign in</a> 
+```
+
+<br><br>
+
+**CSS**
+
+Para nuestro proyecto, optaremos por CSS3, la versión más reciente de CSS que ofrece una amplia variedad de nuevas características y mejoras en comparación con las versiones anteriores. A continuación, se presentarán las características y directrices que seguiremos para el desarrollo:
+
++ **Property Name Stops**
+
+Para mantener la consistencia en el código CSS, se recomienda utilizar un espacio después de los dos puntos que siguen al nombre de la propiedad. Además, es importante utilizar un solo espacio entre la propiedad y el valor asignado a esa propiedad, tal y como nos indica Google.
+
+Ejemplo:
+```css
+/* Not recommended */
+h2 {
+  font-weight:bold;
+}
+
+/* Recommended */
+h2 {
+  font-weight: bold;
+}
+```
+
++ **Declaration Stops**
+
+Según las recomendaciones de Google, se debe utilizar un punto y coma (;) al final de cada declaración en CSS. Esto ayuda a mantener la consistencia y la extensibilidad del código.
+
+```css
+/* Not recommended */
+.box {
+  display: block;
+  width: 100px
+}
+
+/* Recommended */
+.box {
+  display: block;
+  width: 100px;
+}
+```
+
++ **Shorthand Properties**
+
+Se debe utilizar propiedades abreviadas (shorthand properties) siempre que sea posible en CSS. Google afirma que estas propiedades abreviadas, como font o margin, ofrecen una forma más concisa de definir múltiples valores en una sola declaración, incluso en casos donde solo se establece un valor de manera explícita.
+
+Ejemplo: 
+```css
+/* Not recommended */
+border-top-style: none;
+padding-bottom: 2em;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0;
+
+/* Recommended */
+border-top: 0;
+padding: 0 1em 2em;
+```
+
++ **CSS Quotation Marks**
+
+Google nos dice la recomendación de que se deben utilizar comillas simples ('') en lugar de comillas dobles ("") para selectores de atributos y valores de propiedades en CSS. No se deben utilizar comillas en valores de URI (`url()`).
+
+Ejemplo: 
+```css
+/* Not recommended */
+@import url("[https://fonts.googleapis.com/css?family=Roboto](https://fonts.googleapis.com/css?family=Roboto)");
+
+html {
+  font-family: "open sans", sans-serif;
+}
+
+/* Recommended */
+@import url([https://fonts.googleapis.com/css?family=Roboto](https://fonts.googleapis.com/css?family=Roboto));
+
+html {
+  font-family: 'open sans', sans-serif;
+}
+```
+
++ **Declaration Block Separation**
+
+Se debe utilizar un espacio entre el último selector y el bloque de declaración en CSS. Google indica que siempre se debe utilizar un solo espacio entre el último selector y la llave de apertura que inicia el bloque de declaración. La llave de apertura debe estar en la misma línea que el último selector en una regla dada.
+
+Ejemplo:
+```css
+/* Not recommended: missing space */
+.nav{
+  margin-bottom: 1em;
+}
+
+/* Not recommended: unnecessary line break */
+.nav
+{
+  margin-bottom: 1em;
+}
+
+/* Recommended */
+.nav {
+  margin-bottom: 1em;
+}
+```
+
+<br><br>
+
+**JAVASCRIPT**
+
+Para nuestro proyecto, seleccionaremos JavaScript, un lenguaje de programación fundamental para el desarrollo web. Se utiliza para agregar interactividad y dinamismo a las páginas web, permitiendo a los desarrolladores crear aplicaciones web complejas y altamente funcionales. Usaremos las siguientes indicaciones de JavaScript para nuestro proyecto:
+
++ **Spaces Around Operators**
+
+Según W3Schools, se recomienda siempre colocar espacios alrededor de los operadores (=, +, -, *, /) y después de las comas al escribir código JavaScript. Esto ayuda a mejorar la legibilidad y la claridad del código, facilitando su comprensión y mantenimiento.
+
+Ejemplo: 
+```javascript
+let totalWatts = wattsA + wattsB;
+const activeDevices = ["Lamp", "TV", "Fan"];
+```
+
++ **End of the simple declaration**
+
+Según W3Schools, siempre se debe terminar una declaración simple con un punto y coma (;) al escribir código JavaScript. Esto incluye la declaración de variables, asignaciones y declaraciones de objetos.
+
+Ejemplo:
+```javascript
+const devices = ["Lamp", "TV", "Fan"];
+
+const deviceProfile = {
+  id: "DEV-01",
+  name: "Living Room Light",
+  watts: 15,
+  status: "ON"
+};
+```
+
++ **General Rules for Complex Statements**
+
+Según la recomendación de W3Schools, para declaraciones complejas (compuestas) se deben seguir las siguientes pautas:
+
+1. Colocar la llave de apertura al final de la primera línea.
+2. Utilizar un espacio antes de la llave de apertura.
+3. Colocar la llave de cierre en una nueva línea, sin espacios previos.
+4. No terminar una declaración compleja con un punto y coma.
+
+Ejemplo:
+```javascript
+function calculateConsumption(watts) {
+  return watts * 24;
+}
+
+for (let i = 0; i < 5; i++) {
+  total += i;
+}
+
+if (time < 20) {
+  status = "Encendido";
+} else {
+  status = "Apagado";
+}
+```
+
++ **Object Rules**
+
+Según la recomendación de W3Schools, las reglas generales para definir objetos son las siguientes:
+
+1. Colocar la llave de apertura en la misma línea que el nombre del objeto.
+2. Utilizar dos puntos seguidos de un espacio entre cada propiedad y su valor.
+3. Utilizar comillas alrededor de los valores de cadena, pero no alrededor de los valores numéricos.
+4. No agregar una coma después del último par propiedad-valor.
+5. Colocar la llave de cierre en una nueva línea, sin espacios previos.
+6. Siempre terminar la definición del objeto con un punto y coma.
+
+Ejemplo:
+```javascript
+const deviceProfile = {
+  id: "DEV-01",
+  name: "Living Room Light",
+  watts: 15,
+  status: "ON"
+};
+```
+
+<br><br>
+
+**GHERKIN**
+
+Gherkin es un Lenguaje Específico de Dominio (DSL) diseñado para abordar problemas específicos al generar casos de validación de características en diversos escenarios. Este lenguaje se utiliza para describir el comportamiento deseado de un software de manera comprensible para personas no técnicas. Gherkin presenta varios elementos, entre los que se destacan Feature, Scenario, Example, Given, When y Then, los cuales son ampliamente utilizados para definir las características y los pasos de las pruebas de comportamiento.
+
+Las pautas a tener en cuenta al utilizar Gherkin en nuestro código incluyen:
+
+* **Discernible Given-When-Then Blocks**
+
+Según la sugerencia de Keiblinger, para facilitar la comprensión y la organización de los escenarios en Gherkin, se recomienda indentar los pasos que comienzan con "And" después de cada Given, When o Then. Esto permite distinguir claramente dónde termina un bloque y comienza otro, incluso en escenarios con múltiples pasos.
+
+Ejemplo de Sophie Keiblinger:
+```gherkin
+Scenario: Discernible Given-When-Then Blocks
+
+In order to quickly spot where one block ends and another one begins, you can indent the steps starting with “And”
+
+Given I need to prepare some data for my scenario
+  And this is more complex so I need a second step
+  And this is more complex so I need a third step
+When I trigger some action
+Then I can see the expected outcome
+  And this outcome also has a second step
+  And this outcome also has a third step
+```
+
+* **Steps with Tables**
+
+Keiblinger nos sugiere utilizar un colon (:) al final de los pasos que requieren más entrada de una tabla. Esto ayuda a hacer inmediatamente reconocible que se espera una tabla como parte de la entrada del paso.
+
+Ejemplo de Sophie Keiblinger:
+```gherkin
+Given I need to prepare the following data for my scenario:
+
+|  column 1  | column 2 |
+| necessary  |   data   |
+```
+
+* **Reducing Noise**
+
+Keiblinger sugiere utilizar valores por defecto para campos que el sistema requiere pero que no son pertinentes para el escenario en cuestión. Por ejemplo, al probar la validación del encendido de un equipo, no es necesario especificar la marca del router de internet del usuario. Esta inclusión no afecta al resultado del escenario. Esta práctica ayuda a simplificar los escenarios y a enfocarse en las características específicas que se están probando.
+
+Ejemplo:
+```gherkin
+When el visitante se acerque a la sección 'Comunícate con nosotros'
+```
+
+* **Newlines between scenarios and separator comments**
+
+Keiblinger nos dice que para mantener la claridad en los archivos de escenarios de Gherkin, especialmente cuando estos son extensos o contienen múltiples escenarios, se recomienda agregar dos líneas en blanco entre cada escenario. Esto ayuda a distinguir claramente dónde termina un escenario y comienza otro. Además, es común añadir un comentario separador para brindar una guía visual adicional y facilitar la navegación en el archivo.
+
+Ejemplo:
+```gherkin
+#-----------------------------------------------------------------------------------
+Scenario: Acceso a la historia de ElectroCorp
+        Given que soy un visitante de la landing page
+        When navegue por la página de inicio
+        And encuentre la sección titulada "¿Quiénes Somos?"
+        Then podré obtener información detallada sobre la historia de la startup.
+
+#-----------------------------------------------------------------------------------
+
+    Scenario: Acceso a las redes sociales de ElectroCorp
+        Given que el visitante se encuentra en la landing page
+        When el visitante de click en la etiqueta "Contáctanos"
+        And encuentre los botones con los logos de las redes sociales
+        And de click encima del botón con el logo de la red social que desee ver
+        Then el usuario será redireccionado a la red social que seleccionó previamente.
+```
+
+<br><br>
+
+**JAVA**
+
+Java es un lenguaje de programación versátil y potente, ampliamente utilizado en una variedad de aplicaciones. Ofrece una amplia gama de características y funcionalidades, como la portabilidad, la orientación a objetos y la robustez, lo que lo convierte en una opción popular para el desarrollo backend. Con Java, construiremos la API principal de ElectroCorp. A continuación, se presentarán las características y directrices que seguiremos para el desarrollo utilizando este lenguaje.
+
+* **Name Conventions**
+
+Para identificar una variable, método, función o clase, es importante utilizar nombres significativos que mejoren la legibilidad del código. A continuación, se detallan las convenciones para diferentes tipos de identificadores:
+
+Nombre de una clase: Debe comenzar con una letra mayúscula (PascalCase).
+Ejemplo:
+```java
+public class Device
+{
+}
+```
+
+Nombre de función o método: Debe comenzar con una letra minúscula (camelCase).
+Ejemplo:
+```java
+private int calculateWatts(int current, int voltage)
+{
+}
+```
+
+Nombre de variable: Debe comenzar con una letra minúscula (camelCase).
+Ejemplo:
+```java
+int totalConsumption = 100;
+```
+
+Nombre de final o constante: Debe estar en letras mayúsculas separadas por guiones bajos (UPPER_CASE).
+Ejemplo:
+```java
+public final int MAX_WATT_LIMIT = 2000;
+```
+
+* **Uso de paréntesis y llaves en las expresiones**
+
+Codecademy sugiere utilizar paréntesis y llaves para hacer las cláusulas en una expresión más evidentes. Esta práctica mejora la claridad y la legibilidad del código, especialmente en expresiones complejas como la que se mostrará a continuación:
+
+Ejemplo:
+```java
+if ((watts > limit) && (deviceStatus == true))
+{
+   // Ejecutar alerta
+}
+```
+
+* **Identación y espaciado**
+
+Codecademy recomienda seguir ciertos estándares para mejorar la legibilidad del código en Java. Esto incluye utilizar sangrías y asegurarse de que haya una sangría cada vez que se abre un nuevo bloque. Además, sugiere agregar espacios antes y después de las palabras clave y operadores para mejorar la claridad del código.
+
+Ejemplo:
+```java
+currentWatts = 15;
+voltage = 220;
+```
+
+* **Comment Style**
+
+Google nos recomienda utilizar comentarios con `//` y `/* */`. Es preferible evitar comentarios en varias líneas para explicaciones más largas dentro de la lógica, ya que los comentarios no están localizados y pueden dificultar la lectura del código. En su lugar, se sugiere incluir explicaciones más extensas en documentación externa y usar comentarios simples para métodos puntuales.
+
+Ejemplo:
+```java
+// Funcion que calcula el consumo total del dispositivo
+private int calculateWatts(int current, int voltage)
+{
+}
+```
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint n 
+### 5.2.1. Sprint 1 
+#### 5.2.1.1. Sprint Planning 1
+<table align="center" border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            19/04/2026         
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            11:00         
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad Remota por Whatsapp
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            ElectroCorp Team    
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Attendees (to planning meeting)</b>
+        </td>
+        <td>
+            - Tavara Correa, Sebastian Oswaldo <br>
+            - Santiago Atanacio, Jairo Mathias <br>
+            - Cabrejos Chocco, Diego Alexander  <br>
+            - Loa Rojas, Jean Franck <br>
+            - Documet Romero, Timothy <br>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b> <br>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            No existe Spring anterior para realizar una retrospectiva. Sin embargo se debe de desarrollar en la brevedad posible las User Stories y la planificación del Product Backlog  
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b> <br>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+            No existe un sprint anterior para realizar una retrospectiva. Sin embargo, basándonos en lo avanzado, debemos priorizar la correcta definición y desarrollo de las User Stories y una planificación eficiente del Product Backlog.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>SPRINT GOAL & USER STORIES</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 1 Goal</b>
+        </td>
+        <td>
+            El objetivo para este Sprint 1, es el desarrollar una landing page para ElectroCorp que cumpla con los requisitos dictados en la guía, garantizando una experiencia de usuario (UX) fluida y un diseño visual atractivo (Dark Mode), que comunique eficazmente nuestra propuesta de valor: democratizar la domótica en los hogares peruanos mediante un ecosistema IoT plug-and-play que permite gestionar el consumo eléctrico en tiempo real, reduciendo los altos costos de los recibos de luz y fomentando la eficiencia energética 
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            8
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            8
+        </td>
+    </tr>
+</table>
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificacion de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborador y organizado para el avance del proyecto
+
+<p style="text-align: justify; width: 90%; margin: 20px auto;">
+    Al momento de realizar el sprint 1, el equipo ElectroCorp decidió asignar Líderes (B Boss) y Colaboradores (C Collaborator) para los aspectos esenciales como diseño de la interfaz, desarrollo de la landing page, planificación de los sprints, documentación y las pruebas iniciales. Gracias a esta distribución se permitió un trabajo más colaborativo y organizado para el avance del proyecto.
+</p>
+
+<table align="center" border="1" width="90%" style="text-align:center; border-collapse: collapse;">
+    <tr align="center">
+        <td><b>Miembro del Equipo</b></td>
+        <td><b>Github Username</b></td>
+        <td><b>UI/UX</b></td>
+        <td><b>Landing Page</b></td>
+        <td><b>Sprint Planning</b></td>
+        <td><b>Documentation</b></td>
+        <td><b>Testing</b></td>
+    </tr>
+    <tr align="left">
+        <td>- Tavara Correa, Sebastian Oswaldo</td>
+        <td align="center">SebastianTavara</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">B</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Santiago Atanacio, Jairo Mathias</td>
+        <td align="center">Msa-ware</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Cabrejos Chocce, Diego Alexander</td>
+        <td align="center">MOTOX-357</td>
+        <td align="center">B</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+        <td align="center">C</td>
+        <td align="center">B</td>
+    </tr>
+    <tr align="left">
+        <td>- Loa Rojas, Jean Franck</td>
+        <td align="center">JeanLoa</td>
+        <td align="center">C</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">B</td>
+        <td align="center">C</td>
+    </tr>
+    <tr align="left">
+        <td>- Documet Romero, Timothy</td>
+        <td align="center">HiApple1</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
+        <td align="center">C</td>
+    </tr>
+</table>
+
+#### 5.2.1.3. Sprint Backlog 1.
+<p style="text-align: justify; width: 90%; margin: 20px auto;">
+    El primer objetivo del Sprint Backlog fue el establecer los cimientos del proyecto ElectroCorp centrando los esfuerzos en el diseño de la interfaz (UI/UX), la construcción total de la landing page, la definición de los Sprints en la herramienta de gestión y el desarrollo de documentación base. También se incluyeron tareas generales como configuración de repositorios, organización del equipo y avances del trabajo.
+</p>
+
+<p style="text-align: left; width: 90%; margin: 20px auto;">
+    <b>Enlace de Seguimiento:</b> <a href="https://trello.com/invite/b/69ea69db3f7579b973a8f0d9/ATTIc10bfb6ee54361e0d44f1e36131317e252842AF0/sprint1-electrocorp" target="_blank">Tablero del Sprint 1 en Trello</a>
+    <br><br>
+    <img src="assets/Tablero-Sprint1.png"></img>
+</p>
+
+<table align="center" border="1" width="95%" style="text-align:center; border-collapse: collapse;">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="8"><b>Sprint 1</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="7"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Student Code</b></td>
+    <td><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-01</td>
+    <td rowspan="2">Visualizar información y testimonios</td>
+    <td>T01</td>
+    <td>Maquetación HTML de contenido</td>
+    <td>Estructurar en HTML5 las secciones de descripción, objetivos y testimonios de la startup.</td>
+    <td>2</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Aplicar estilos CSS base</td>
+    <td>Configurar paleta de colores Dark Mode y tipografías para la sección informativa.</td>
+    <td>2</td>
+    <td>Jairo Santiago</td>
+    <td>U202418755</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-02</td>
+    <td rowspan="2">Motor de búsqueda inteligente</td>
+    <td>T03</td>
+    <td>Diseño de barra de búsqueda</td>
+    <td>Crear el layout del input y botón de búsqueda en el header de la web.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T04</td>
+    <td>Lógica JS de búsqueda</td>
+    <td>Implementar diccionario de palabras clave y smooth scroll hacia las secciones.</td>
+    <td>3</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-03</td>
+    <td rowspan="2">Cambio de idioma (ES/EN)</td>
+    <td>T05</td>
+    <td>Configuración de diccionario JSON/JS</td>
+    <td>Crear los arreglos de texto en inglés y español para la landing page.</td>
+    <td>3</td>
+    <td>Jean Loa</td>
+    <td>U20241e406</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T06</td>
+    <td>Integración en el DOM</td>
+    <td>Crear la función JS que reemplace dinámicamente los textos al clickear el botón.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-04</td>
+    <td rowspan="2">Suscripción al boletín</td>
+    <td>T07</td>
+    <td>Diseño del formulario</td>
+    <td>Maquetar el input de email y el botón de submit en la sección final.</td>
+    <td>2</td>
+    <td>Jairo Santiago</td>
+    <td>U202418755</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T08</td>
+    <td>Validación de formulario JS</td>
+    <td>Interceptar el evento submit con preventDefault y mostrar alerta de éxito temporal.</td>
+    <td>2</td>
+    <td>Timothy Documet</td>
+    <td>U202318828</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-05</td>
+    <td rowspan="2">Interfaz interactiva (Menú y Audio)</td>
+    <td>T09</td>
+    <td>Creación de Navbar y Responsive</td>
+    <td>Configurar el menú pegadizo (sticky) y su adaptación a dispositivos móviles.</td>
+    <td>3</td>
+    <td>Sebastian Tavara</td>
+    <td>U20241e179</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T10</td>
+    <td>Botón flotante de audio</td>
+    <td>Configurar etiqueta de audio HTML y lógica JS para pausar/reproducir la música de fondo.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US-06</td>
+    <td rowspan="2">Comparar planes de servicio</td>
+    <td>T11</td>
+    <td>Maquetación de tarjetas (Grid)</td>
+    <td>Construir la vista de los planes Free y Enterprise usando CSS Flexbox/Grid.</td>
+    <td>2</td>
+    <td>Jean Loa</td>
+    <td>U20241e406</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T12</td>
+    <td>Estilización del plan Premium</td>
+    <td>Agregar efectos hover, bordes brillantes y escala para destacar la tarjeta Enterprise.</td>
+    <td>2</td>
+    <td>Diego Cabrejos</td>
+    <td>U20241e014</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+En el presente sprint se logró desarrollar la primera versión del Landing Page de ElectroCorp, la cual presenta de manera clara el propósito de la plataforma y las problemáticas que busca resolver en el ámbito de la domótica y eficiencia energética. La información mostrada fue organizada de forma comprensible y acompañada de elementos visuales (Dark Mode) que refuerzan el mensaje. Asimismo, se consideró un diseño atractivo, responsivo e intuitivo que busca captar la atención de los usuarios y transmitir confianza en la solución propuesta.
+
+<p align="left" style="width: 95%; margin: 20px auto; font-family: Arial, sans-serif;">
+    <b>Link de commits del repositorio del landing page:</b> <br>
+    <a href="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main" target="_blank" style="color: #00d2ff;">
+        https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main
+    </a>
+</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| Landing Page | main | `c324853` | feat(plataform): add plataform section | added platform section content | 19/04/2026 |
+| | main | `e88e22d` | feat(plataform): add plataform section and section head | added platform section and section head | 19/04/2026 |
+| | main | `0e78fe2` | feat(about): add contenido-web section | added contenido-web section | 19/04/2026 |
+| | main | `e0680a8` | feat(about): add desciption section | added description section | 19/04/2026 |
+| | main | `96414fb` | feat(about): add goals section | added goals section | 19/04/2026 |
+| | main | `5900f01` | feat(about): add service section | added service section | 19/04/2026 |
+| | main | `b7b6ca1` | feat(about): add reviews section | added reviews section | 19/04/2026 |
+| | main | `fe9c165` | feat(about): add contact and musical-background section | added contact and musical-background section | 19/04/2026 |
+| | main | `41e520b` | fix(head): fix html styles.css and scripts.js | fixed html styles.css and scripts.js | 19/04/2026 |
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+Durante el primer sprint, se lograron varios hitos importantes en el desarrollo del landing page de la StartUp ElectroCorp. Por lo consiguiente, presentamos un resumen de los logros alcanzados hasta la fecha: <br>
+
+- Establecimiento de repositorios: Se crearon y configuraron repositorios en GitHub para gestionar el código y las pruebas, asegurando una correcta organización y control de versiones, ademas de separar en main y developer para evitar posibles errores. <br>
+
+<img src="assets/Repositorios.png"></img><br>
+
+- Implementación del Landing Page: Se diseño y se estructuro la landing page de ElectroCorp implementando funcionalidades claves y asegurando que cumpla con lo dictado en la rubrica, como el agregarle un boton de traduccion de idioma y que este en ingles por defecto
+
+- Imágenes del Landing Page:
+  
+  * Home
+    
+    <img src="assets/LandingPageMockUps1.png"></img><br>
+  
+  * Description:
+
+    <img src="assets/LandingPageMockUps2.png"></img><br>
+    
+  * Goals:
+
+    <img src="assets/LandingPageMockUps3.png"></img><br>
+    
+  * Pricing
+    
+    <img src="assets/LandingPageMockUps4.png"></img><br>
+ 
+  * Reviews
+
+    <img src="assets/LandingPageMockUps5.png"></img><br>
+    
+  * Smart Plugins
+    
+    <img src="assets/LandingPageMockUps6.png"></img><br>
+
+  * Contact
+    
+    <img src="assets/LandingPageMockUps7.png"></img><br>
+  
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante el primer sprint, se desarrolló el Landing Page del proyecto de ElectroCorp como una primera entrega visual y detallando algunos aspectos. Esta implementación se centró únicamente en la estructura, diseño, la traduccion de ingles a español y viceversa, y uno que otro toque personal como la implementacion de una musica de fondo. Aunque no se han implementado accesos de inicio de sesion por el momento.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint1 se llevaron a cabo las siguientes actividades relacionadas con el despliegue de la Landing Page.
+
+Creación de Repositorios y Configuración en GitHub
+* Gestión de Versiones: Se implementaron repositorios en GitHub para centralizar el control del código fuente, asegurando un historial detallado de los cambios realizados en la Landing Page y demás componentes.
+* Preparación del Entorno: Se realizó la configuración técnica de los repositorios para automatizar los flujos de despliegue mediante el uso de GitHub Pages.
+* GitHub Pages:: Se utilizó GitHub Pages como infraestructura de hosting estático, permitiendo que la Landing Page sea accesible de forma pública y segura directamente desde la rama principal del repositorio.
+
+  <img src="assets/GitHubPages1.png"></img><br>
+
+Proceso de Despliegue
+Despliegue de la Landing Page:
+* Se subió el código de la Landing Page al repositorio correspondiente en GitHub.
+* Se configuró GitHub Pages para publicar el sitio en línea.
+
+  <img src="assets/GitHubPages2.png"></img><br>
+
+Verificación del Despliegue:
+Se hizo una comprobacion sitio publicado en GitHub Pages para asegurar que todos los elementos funcionaran correctamente.
+Se ejecutaron pruebas de funcionalidad para verificar la correcta carga del sitio y la ausencia de errores en el contenido desplegado
+
+  <img src="assets/LandingPageMockUps1.png"></img><br>
+
+Durante el Sprint 1, logramos consolidar la infraestructura de publicación del proyecto mediante la implementación de GitHub Pages. Este flujo de trabajo no solo optimizó el despliegue, sino que estableció un ciclo de integración continua eficiente, dejando el camino preparado para escalar la aplicación web de manera ágil en las próximas fases
+
+Link del Landing Page: https://upc-pre-202610-1asi0729-11896-ecorp.github.io/ElectroCorp-website/
+  
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+Durante este Sprint 1, el equipo llevó a cabo un trabajo colaborativo enfocado en el diseño, desarrollo y despliegue de la Landing Page de ElectroCorp. Asegurando que la página cumpliera con los objetivos de conversión y comunicación de nuestra propuesta de valor (IoT plug-and-play). Asimismo, se registraron los avances en la gestión del repositorio de GitHub, evidenciados en los commits y métricas de colaboración que reflejan la participación del equipo.
+
+| Author | Task completed |
+| :--- | :--- |
+| **Cabrejos Chocce, Diego** | Integration of landing page sections, UI/UX core development, and interactive features (i18n, navigation). |
+| **Tavara Correa, Sebastian** | HTML5 semantic structuring and GitHub Pages deployment configuration. |
+| **Cabrejos Chocce, Diego** | Implementation of global CSS, Dark Mode styling, and Responsive Design adjustments. |
+| **Loa Rojas, Jean Franck** | Report documentation development and code refactoring. |
+| **Cabrejos Chocce, Diego** | Cross-browser testing, QA, and broken-link verification. |
+
+* **Link de commits del repositorio del reporte:** [https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/commits/develop/README.md]
+* **Link de commits del repositorio del landing page:** [https://github.com/upc-pre-202610-1asi0729-11896-ECorp/ElectroCorp-website/commits/main/]
+
+   <img src="assets/ContributorsRep.png"></img><br>
+   <img src="assets/Commits1.png"></img><br>
+   <img src="assets/Commits2.png"></img><br>
+   <img src="assets/Commits3.png"></img><br>
+   <img src="assets/Commits4.png"></img><br>
+   <br>
+   <img src="assets/ContributorsRep.png"></img><br>
+   <img src="assets/ComitsWeb1.png"></img><br>
+   <img src="assets/ComitsWeb2.png"></img><br>
+
+
+### 5.2.2. Sprint 2 
+#### 5.2.X.1. Sprint Planning n
+#### 5.2.X.2. Aspect Leaders and Collaborators
+#### 5.2.X.3. Sprint Backlog n. 
+#### 5.2.X.4. Development Evidence for Sprint Review
+#### 5.2.X.5. Execution Evidence for Sprint Review
+#### 5.2.X.6. Services Documentation Evidence for Sprint Review
+#### 5.2.X.7. Software Deployment Evidence for Sprint Review
+#### 5.2.X.8. Team Collaboration Insights during Sprint.
+### 5.2.1. Sprint 1 
 #### 5.2.X.1. Sprint Planning n
 #### 5.2.X.2. Aspect Leaders and Collaborators
 #### 5.2.X.3. Sprint Backlog n. 
