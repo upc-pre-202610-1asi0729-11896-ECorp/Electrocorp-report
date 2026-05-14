@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="UPC_logo_transparente.png"></img><br>
+<img src="assets/UPC_logo_transparente.png"></img><br>
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 <h4>Facultad de Ingeniería</h4>
@@ -222,9 +222,9 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Nombre Completo del integrante**    |	**Descripcion de la carrera** | **Fotografia** | **Conocimientos y habilidades**
 | :------------------------------------ |:------------------------------------ |:------------------------------------ |:------------------------------------ |
-| Tavara Correa, Sebastian Oswaldo      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
-| Santiago Atanacio, Jairo Mathias      |carrera| foto | text
-| Cabrejos Chocco, Diego Alexander      |Ingenieria de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
+| Tavara Correa, Sebastian Oswaldo      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | <img src="assets/foto-carnet-sebastian-tavara.jpg"> | Soy Sebastian Oswaldo Tavara Correa estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, me considero una persona estudiosa y muy colaborativa al trabajar en grupo. Me adapto rápidamente a cualquier entorno. Me interesa desarrollar soluciones tecnológicas que tengan un impacto positivo. Creo que el desarrollo de software no debe limitarse en buscar la mayor funcionalidad, sino que también en generar bienestar en la sociedad.
+| Santiago Atanacio, Jairo Mathias      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas| <img src="assets/Jairo_Santiago.png"> | Soy Jairo Mathias Santiago Atanacio, estudiante de 5to ciclo de Ingeniería de Software. Cuento con una base sólida en el desarrollo de algoritmos en C++ y la creación de interfaces web interactivas mediante HTML, CSS y JavaScript. Me apasiona transformar problemas complejos en soluciones de software eficientes y escalables. Mi enfoque combina la rigurosidad técnica con habilidades blandas como la proactividad y la empatía, lo que me permite integrarme fácilmente en equipos colaborativos bajo metodologías ágiles.
+| Cabrejos Chocco, Diego Alexander      |Ingeniería de Software Universidad Peruana de Ciencias Aplicadas | foto | Soy Diego Alexander Cabrejos Chocco estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo, soy una persona sociable, creativa, que trabaja bien en equipo y busco que todo el equipo participe en las actividades activamente. Me adapto rapidamente a la modalidad de trabajo. Mi meta es poder crear y desarrollar proyectos tecnologicos que tenga un impacto positivo y que sea entretenido. Lo mas interesante de la Software es que cada vez se va expandiendo, y las opciones para poder desarrollar algun proyecto por mas interesante o loco que paresca el tema, no es impedimento para desarrollar lo que desees. (claro que siempre siguiendo el tema legal)
 | Integrante 4      |carrera| foto | text
 | Integrante 5      |carrera| foto | text
 
@@ -235,14 +235,32 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 ## Restricciones
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
+- Los hogares peruanos no cuentan con infraestructura eléctrica diseñada para la domótica, lo que encarece la modernización tecnológica.
+- Los usuarios no tienen acceso a soluciones simples y de bajo costo que les permitan controlar dispositivos eléctricos remotamente.
+- La oferta actual de dispositivos IoT en Perú se percibe como costosa, compleja y poco accesible para la clase media.
 #### 1.2.2.1 Lean UX Assumptions
+- Los usuarios prefieren soluciones fáciles de instalar que no requieran técnicos ni modificaciones en su infraestructura.
+- El precio accesible será un factor decisivo frente a marcas internacionales más costosas.
+- La conectividad Wi-Fi en los hogares urbanos peruanos es suficiente para garantizar el control remoto confiable.
+
 #### 1.2.2.1 Lean UX Hypothesis Statements
+- Creemos que, si ofrecemos un dispositivo IoT que no requiere modificar el cableado eléctrico, entonces los hogares peruanos lo adoptarán más rápido que otras soluciones de domótica.
+- Creemos que, si proporcionamos una aplicación móvil sencilla y en español, entonces los usuarios tendrán mayor confianza y usarán el sistema regularmente.
+- Creemos que, si demostramos que SmartHome Control reduce el consumo energético en hogares y pequeños negocios, entonces los clientes estarán dispuestos a pagar por el producto y recomendarlo.
+
 #### 1.2.2.1 Lean UX Canvas
 ## 1.3 Segmentos objetivo
+El proyecto busca atender a usuarios que requieren soluciones de automatización accesibles y no invasivas, con un enfoque en dos segmentos principales:
+
+- Hogares urbanos con viviendas antiguas (más de 10 años de construcción).  
+Este segmento comprende familias de clase media que residen en departamentos y casas en zonas urbanas, donde la infraestructura eléctrica fue instalada hace más de una década y no está diseñada para la domótica. Según el Censo Nacional 2017 del INEI, aproximadamente 79,3 % de la población peruana vive en áreas urbanas (INEI, 2017). Dada la antigüedad de gran parte de estas viviendas, existe una alta necesidad de modernización mediante soluciones que no requieran remodelaciones eléctricas costosas. Nuestro producto responde directamente a esta problemática al ofrecer automatización sin modificaciones en el cableado.
+- Pequeños negocios y talleres en zonas urbanas.  
+Este segmento incluye comercios, oficinas, talleres y restaurantes que buscan optimizar el uso de sus dispositivos eléctricos, reducir costos operativos y mejorar la seguridad. En el Perú, las micro y pequeñas empresas representan el 99,2 % del tejido empresarial nacional (Ministerio de la Producción, 2023) y más del 91 % de ellas operan en zonas urbanas (ComexPerú, 2022). Estos negocios generalmente se establecen en locales con instalaciones tradicionales, lo que dificulta la implementación de domótica. SmartHome Control ofrece una solución práctica y económica, adaptada a su infraestructura y a sus necesidades de ahorro energético.
 # Capitulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
+En este apartado, examinamos el ecosistema de soluciones existentes en el mercado peruano que ofrecen servicios de automatización residencial y gestión de dispositivos eléctricos. 
 ### 2.1.1 Análisis Competitivo
-
+A través de esta comparativa, buscamos determinar el valor diferencial de ElectroCorp frente a las alternativas globales. El análisis se enfoca en detectar necesidades no resueltas por las grandes marcas, especialmente en lo que respecta a la adaptabilidad a la infraestructura eléctrica peruana (instalación sin obra civil) y la interpretación financiera del consumo energético en moneda local.
 
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
@@ -254,22 +272,22 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   </tr>
   <tr>
     <td colspan="2">Nombre y logo de competidor</td>
-    <td><b>Smart <img src="" alt="Smart" width="120" height="120" /> </b></td>
-    <td><b> Sonoff Peru</b> <img src="" width="120" height="120" /> </td>
-    <td><b>Xiaomi Mi Smart Plug</b> <img src="" width="120" height="120" /> </td>
-    <td><b>Smart Plugs</b> <img src="Smart Plugs" width="120" height="120" /> </td>
+    <td><b>ElectroCorp <img src="assets/logo_electrocorp.jpeg" alt="Smart" width="120" height="120" /> </b></td>
+    <td><b> Sonoff Peru</b> <img src="assets/sonoff.png" width="120" height="120" /> </td>
+    <td><b>Xiaomi Mi Smart Plug</b> <img src="assets/xiaomi.png" width="120" height="120" /> </td>
+    <td><b>Smart Plugs</b> <img src="assets/promart.png" width="120" height="120" /> </td>
   </tr>
   <tr>
     <td rowspan="2"><b>Perfil</b></td>
     <td><b>Overview</b></td>
-    <td> text </td>
+    <td> Startup peruana de tecnología enfocada en democratizar la domótica mediante un ecosistema IoT plug-and-play que se instala sobre interruptores y enchufes existentes sin modificar el cableado eléctrico. </td>
     <td> Ofrece variedad en enchufes, interruptores, relés WIFI y dispositivos para automatización del hogar. Su funcionamiento es simple, se conecta directamente a la red electrica y se controla mediante la app eWeLink.</td>
     <td>Es un enchufre inteligente que convierte cualquier dispositivo electrico en un aparato “inteligente”. Permitiendo asi: encender/apagar remotamente, programar horarios y controlar el consumo electrico desde la app llamada “Xiaomi Home”.</td>
     <td>Promart entre muchos otros productos comercializa enchufes inteligentes (Smart Plugs) Con la funcion de poder encender/apagar remotamente, temporizador, conexion WIFI y control mediante la app.</td>
   </tr>
   <tr>
     <td><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td>
-    <td>text</td>
+    <td> - Instalación no invasiva (sin técnicos ni obras civiles).<br> - Monitoreo de consumo en Soles (S/) en tiempo real<br>- Una plataforma diseñada específicamente para la realidad del consumo eléctrico en Perú. </td>
     <td> - Variedad en productos que se adaptan a distintos aparatos y situaciones (no solo enchufes, también interruptores y relés). <br> -Precio accesible <br> -Soporte local y venta directa en Perú.</td>
     <td> -Marca reconocida a nivel mundial por su calidad y confiabilidad<br>-Integración directa con el ecosistema Xiaomi (atractivo para personas que cuenten con dispositivos Xiaomi).</td>
     <td> -Disponibilidad, hay tiendas fisicas a nivel nacional<br>-Facilidad de compra y confianza al ser una cadena de empresas conocida en Peru.<br>-Precios competitivos en relacion a productos similares</td>
@@ -277,14 +295,14 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   <tr>
     <td rowspan="2"><b>Perfil de Marketing</b></td>
     <td><b>Mercado objetivo</b></td>
-    <td>text</td>
+    <td>- Familias de clase media en zonas urbanas con viviendas de más de 10 años de antigüedad.<br>- Micro/pequeñas empresas (talleres, restaurantes) que buscan reducir costos operativos.</td>
     <td>-Personas interesadas en automatizar su vivienda a bajo precio y sin necesidad de conocimientos tecnicos.<br>- Personas jovenes y familias que buscan comodidad (encender/apagar)<br>- Emprendedores pequeños (restaurantes, oficinas, talleres).</td>
     <td>-Consumidores que ya tengan productos xiami, ya sea celulares, camaras, aspiradoras)<br>-Jovenes y familias que tengan alto uso de tecnologia y preferencia por marcas reconocidas<br>- Personas que valoran la calidad y seguridad certificada.</td>
     <td>-Familias que son clientes recurrentes de Promart ya se para compras del hogar.<br>- Personas que no tienen conocimiento en tecnologia y buscan algo facil de instalar.</td>
   </tr>
   <tr>
     <td><b>Estrategias de marketing</b></td>
-    <td>text.</td>
+    <td>- Marketing de contenidos sobre ahorro energético.<br>- Enfoque en la facilidad de autoinstalación ("Hazlo tú mismo").<br>- Presencia activa en canales digitales dirigidos a emprendedores y jefes de hogar.</td>
     <td>-Venta directa online en su tienda web.<br>- Marketing digital por medio de redes sociales (Facebook, Instagram).<br>- Estrategia de precios accesibles al consumidor.</td>
     <td>-Integracion de un dispositivo mas al ecosistema de Xiaomi<br>
 - Branding Fuerte, Xiaomi al ser una marca con reconocimiento global, hace transmitir confianza al cliente.</td>
@@ -296,21 +314,21 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   <tr>
     <td rowspan="3"><b>Perfil de Producto</b></td>
     <td><b>Productos y Servicios</b></td>
-    <td>text</td>
+    <td>- Adaptadores IoT para interruptores y enchufes, aplicación móvil en español y plataforma web para programación de horarios y gestión de eficiencia energética. </td>
     <td>-Ofrece enchufes inteligentes, interruptores WIFI, relés, sensores, etc. También ofrece soporte técnico local, tutorías y asesoría de uso básico.</td>
     <td>Su producto principal es el enchufe inteligente compacto, se integra con la app “Xiaomi Home” y con el ecosistema Xiaomi</td>
     <td>-Encufhes inteligentes importados (marcas genéricas).</td>
   </tr>
   <tr>
     <td><b>Precios y Costos</b></td>
-    <td>text</td>
+    <td> Rango de precios accesible para la clase media (aprox. S/ 70 - S/ 120), posicionándose como una inversión de rápido retorno mediante el ahorro de luz.</td>
     <td> Enchufes desde S/ 60 – S/ 100</td>
     <td>Desde S/ 90 a S/ 130.</td>
     <td>Desde S/ 60  a S/ 100</td>
   </tr>
   <tr>
     <td><b>Canales de distribución (Web y/o móvil)</b></td>
-    <td>Plataforma web y app móvil.</td>
+    <td>- Plataforma web oficial.<br>-Aplicación móvil propia y posibles alianzas estratégicas con ferreterías locales.</td>
     <td>-Web Principal (sonoffperu.com)<br>
 - Distribución en redes sociales y Marketplace peruano</td>
     <td>
@@ -327,7 +345,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   </tr>
   <tr>
     <td><b>Fortalezas</b></td>
-    <td>text</td>
+    <td>- Instalación simple sin obra civil.<br>-Conocimiento profundo del mercado local (tarifas en Soles).<br> -Solución adaptada a infraestructura antigua.</td>
     <td>- Variedad de productos. <br>
     - Precios accesibles<br>
 - Soporte tecnico y garantia local<br>
@@ -342,7 +360,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   </tr>
   <tr>
     <td><b>Debilidades</b></td>
-    <td>text</td>
+    <td>- Marca nueva con presupuesto limitado para publicidad masiva frente a gigantes globales.</td>
     <td>- Depende de importacion (no produce localmente)</td>
     <td>
 - Precios más altos que competidores locales.<br>
@@ -354,7 +372,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   </tr>
   <tr>
     <td><b>Oportunidades</b></td>
-    <td>text</td>
+    <td>- Incremento constante de las tarifas eléctricas en el mercado peruano.<br> -Gran volumen de viviendas urbanas que necesitan modernización.</td>
     <td>
 - Mercado local con poca competencia especializada<br>
 - Posibilidad de diferenciarse ofreciendo instalación y soporte</td>
@@ -367,7 +385,7 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
   </tr>
   <tr>
     <td><b>Amenazas</b></td>
-    <td>text</td>
+    <td>- Ingreso de nuevos dispositivos genéricos de bajo costo.<br> -Inestabilidad en los precios de componentes electrónicos y módulos Wi-Fi importados.</td>
     <td>
 - Competencia de marcas globales con mayor presupuesto de marketing<br>
 - Cambios en regulaciones eléctricas o certificaciones necesarias.</td>
@@ -379,11 +397,94 @@ Queremos que ElectroCorp sea el referente en el Perú en gestión energética re
 - Clientes que buscan marcas con ecosistemas establecidos.</td>
   </tr>
 </table>
-
 ### 2.1.2 Estrategias y tácticas frente a competidores
+A partir del análisis competitivo realizado, se han definido las siguientes estrategias y tácticas para posicionar a ElectroCorp en el mercado peruano y afrontar las fortalezas de la competencia.
 
+##### **1. Aprovechar la Fortaleza: Instalación No Invasiva y Enfoque en Hogares Peruanos**
+**Estrategia**
+
+Posicionarse como la única alternativa de automatización que no requiere modificaciones en el cableado eléctrico ni contratar técnicos especializados, diferenciándose de competidores como Sonoff que exigen instalaciones complejas.
+
+**Tácticas**
+
+- **Guías de Autoinstalación:** Producción de tutoriales en video enfocados en la instalación del sistema sobre interruptores y enchufes estándar de viviendas peruanas.
+- **Kits para Departamentos Alquilados:** Desarrollo de paquetes de dispositivos diseñados específicamente para usuarios que no tienen permiso para romper paredes o techos.
+- **Demostraciones en Tiendas Locales:** Realización de exhibiciones en ferreterías para mostrar que el hardware se instala en minutos sobre la red eléctrica existente.
+
+**Valor Añadido**
+
+- Eliminación de costos adicionales por contratación de electricistas o técnicos externos.
+- Facilidad para retirar los dispositivos y llevarlos a una nueva vivienda sin dejar daños en la infraestructura.
+
+##### **2.  Aprovechar la Oportunidad: Incremento de Tarifas Eléctricas y Necesidad de Ahorro**
+**Estrategia**
+
+Centrar la propuesta de valor en el control del presupuesto familiar mediante el monitoreo del consumo de energía en tiempo real y en moneda local (Soles).
+
+**Tácticas**
+
+- **Panel de Control en Soles:** Implementación de una interfaz en la aplicación que traduzca el consumo de Watts a Soles basándose en el pliego tarifario local.
+- **Sistema de Alertas de Presupuesto:** Configuración de notificaciones móviles que avisen al usuario cuando el consumo se acerque a un límite de gasto mensual establecido.
+- **Reportes de Consumo Real:** Generación de resúmenes semanales que identifiquen qué electrodomésticos generan el mayor gasto energético en el hogar.
+
+**Valor Añadido**
+
+- Gestión eficiente de la economía del hogar mediante información financiera clara y directa.
+- Capacidad de tomar acciones preventivas para reducir el monto del recibo de luz antes de que termine el mes.
+
+##### **3.  Afrontar la Amenaza: Presencia de Marcas Globales y Soluciones Genéricas**
+**Estrategia**
+
+Mitigar la desconfianza hacia los productos importados mediante la oferta de soporte técnico local y una plataforma adaptada a la realidad del consumo peruano.
+
+**Tácticas**
+
+- **Soporte Técnico por WhatsApp:** Establecimiento de un canal de atención directa en español para resolver dudas sobre la configuración inicial de la plataforma.
+- **Garantía de Reemplazo Inmediato:** Implementación de un servicio de cambio de hardware rápido en Lima ante cualquier falla de fábrica, evitando esperas de importación.
+- **Actualizaciones Basadas en el Usuario:** Desarrollo de nuevas funcionalidades en la plataforma web y móvil a partir de las sugerencias de los clientes locales.
+
+**Valor Añadido**
+
+- Respaldo y seguridad de una marca con presencia física y técnica en el país.
+- Reducción de la incertidumbre al configurar dispositivos inteligentes gracias al acompañamiento personalizado.
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+##### Preguntas Generales
+
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene usted?
+- ¿En qué ciudad y distrito reside?
+- ¿A qué se dedica y cuál es su formación académica?
+- ¿Qué dispositivos electrónicos utiliza con mayor frecuencia (smartphone, laptop, otros)?  
+- ¿Qué aplicaciones o redes sociales utiliza para informarse sobre tecnología o mejoras para el hogar/negocio
+- ¿Qué marcas de tecnología o electrodomésticos prefiere por su confiabilidad?
+- ¿Se considera una persona que se adapta rápido a la tecnología o prefiere lo tradicional?
+##### Preguntas Específicas
+
+###### Segmento 1: Hogares urbanos con viviendas antiguas (mayor a 10 años de construcción)
+
+1. ¿Cómo es el estado de las instalaciones eléctricas en su hogar actualmente?
+2. ¿Qué tan seguido revisa su recibo de luz y qué siente al ver el monto final?
+3. ¿Ha intentado implementar soluciones de "hogar inteligente"?
+4. ¿Cuál es su mayor temor al pensar en contratar a un técnico para remodelar su casa?
+5. ¿Qué electrodoméstico le gustaría poder apagar desde su celular si olvida hacerlo al salir?
+6. ¿Cuánto tiempo estaría dispuesto a invertir en instalar una solución por su cuenta si no requiere herramientas?
+7. ¿Le interesaría ver su consumo de energía traducido a Soles en tiempo real?
+8. ¿Qué características buscaría en una aplicación para que sea fácil de usar para toda su familia?
+
+###### Segmento 2: Pequeños negocios y talleres en zonas urbanas
+
+1. ¿Qué equipos eléctricos son críticos para la operación diaria de su negocio o taller?
+2. ¿Cómo asegura que todos los equipos queden apagados al cerrar el local?
+3. ¿Qué impacto económico tiene el recibo de luz en la rentabilidad de su negocio o taller (bajo, moderado, crítico)?
+4. ¿Ha tenido problemas por dejar equipos encendidos accidentalmente después del horario de cierre?
+5. ¿Qué canales digitales utiliza para gestionar o promover su negocio actualmente?
+6. ¿Qué funciones le darían más tranquilidad: programar horarios de encendido o recibir alertas de sobrecosto?
+7. ¿Estaría dispuesto a invertir en una solución tecnológica que no requiera detener sus actividades para su instalación?
+8. ¿Cuánto valoraría contar con un reporte que identifique los puntos críticos de desperdicio de energía en su local?
+
+
 ### 2.2.2. Registro de entrevistas 
 ### 2.2.3. Análisis de entrevistas 
 ## 2.3. Needfinding
