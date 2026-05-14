@@ -62,8 +62,54 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 Durante esta entrega se elaboraron los capítulos 1 al 5 del informe. La redacción fue dividida equitativamente entre los integrantes del equipo, quienes se encargaron de desarrollar sus respectivas secciones de manera paralela. Cada miembro subió sus contribuciones directamente al repositorio de GitHub, asegurando así un seguimiento claro de los avances y la colaboración conjunta.
 
 
+Durante esta entrega se elaboraron los capítulos 1 al 5 del informe. La redacción fue dividida equitativamente entre los integrantes del equipo, quienes se encargaron de desarrollar sus respectivas secciones de manera paralela. Cada miembro subió sus contribuciones directamente al repositorio de GitHub, asegurando así un seguimiento claro de los avances y la colaboración conjunta.
+
+
 
 ##### Participación por integrante:
+
+- Tavara Correa, Sebastian Oswaldo: Desarrollo de los capitulos 1, 2, 3 y 4.      <br>
+- Santiago Atanacio, Jairo Mathias: Desarrollo de los capitulos 1, 2, 4 y 5. 
+- Cabrejos Chocco, Diego Alexander: Desarrollo de los capitulos 2,4, 5 y landing page.  
+- Loa Rojas, Jean Franck: Desarrollo de los capitulos 1, 2, 4 y Aplicación web.
+- Documet Romero, Timothy: Desarrollo de capitulo 1.    
+
++ **Evidencias de colaboración y commits - Github:**
+    * **Análiticos de colaboración** <br><br>
+        + **Pulse Image of Github Insights**
+        <div align="center"><img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/top-commiters.PNG?raw=true"></div><br><br>
+
+
+        + **Contributors Image of Github Insights**
+        <div align="center"><img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/commits.PNG?raw=true"></div><br><br>
+
+
+    * **Commits**
+
+         A continuación se muestran algunos commits realizados en este entrega de TB1.
+
+        + **Sebastian Tavara**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/sebastian-commits.PNG?raw=true" >
+            </div><br>
+
+        + **Jairo Santiago**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/jairo-commits.PNG?raw=true">
+            </div><br>
+
+        + **Diego Cabrejos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/diego-commits.PNG?raw=true">
+            </div><br>
+        + **Jean Loa**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/jean-commits.PNG?raw=true">
+            </div><br>
+        + **Timothy Documet**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/upc-pre-202610-1asi0729-11896-ECorp/Electrocorp-report/blob/main/assets/timothy-commits.PNG?raw=true">
+            </div><br><br>
 
 - Tavara Correa, Sebastian Oswaldo: Desarrollo de los capitulos 1, 2, 3 y 4.      <br>
 - Santiago Atanacio, Jairo Mathias: Desarrollo de los capitulos 1, 2, 4 y 5. 
@@ -240,8 +286,8 @@ Durante esta entrega se elaboraron los capítulos 1 al 5 del informe. La redacci
 Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
 | Criterio Especifico | Acciones realizadas | Conclusiones |
 |--|--|--|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>AV1: Realizo entrevistas clave para poder entender al usuario<br> TP1: <br> AV2: <br> TF1: <br> <br> Diego Cabrejos <br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo<br> TP1: <br> AV2: <br> TF1: <br> <br> Jean Loa <br> AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del frontend con la lógica del backend durante el desarrollo inicial del proyecto.<br> TP1: <br> AV2: <br> TF1: <br> <br> Timothy Documet <br>AV1: Realizo entrevistas clave para el proyecto, así como las user stories, el product backlog y el ubiquitous language.<br> TP1: <br> AV2: <br> TF1:<br> <br> Jairo Santiago <br> AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación para el proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores (Modelo C4) de la arquitectura del software. Además, comunicó oralmente las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo. <br> TP1: <br> AV2: <br> TF1: <br> <br>| Sebastian Tavara <br> Fue muy interesante poder estar cerca al usuario y poder tener una mejor vision del problema al que nos enfrentabamos. <br><br> Jean Loa <br> La comunicación oral en la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera mejor cómo se integraban las principales partes de la aplicación.<br> <br> Jairo Santiago <br> AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. A través de exposiciones en reuniones regulares, los integrantes lograron articular y transmitir ideas complejas sobre la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión del proyecto (ElectroCorp), resolver dudas técnicas en tiempo real y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br> TP1: <br> AV2: <br> TF1: <br> <br> |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>AV1: Analisis de entrevista, User Persona<br> TP1: <br> AV2: <br> TF1: <br> <br> Diego Cabrejos <br>AV1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br> TP1: <br> AV2: <br> TF1: <br> <br> Jean Loa <br> AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó por escrito la lógica general de los módulos implementados en el proyecto.<br> TP1: <br> AV2: <br> TF1: <br> <br> Timothy Documet <br>AV1:<br> TP1: <br> AV2: <br> TF1:<br> <br> Jairo Santiago <br> AV1: Redactó y estructuró el Product Backlog y las historias de usuario (User Stories y Technical Stories) utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema elaborando los Diagramas de Contexto y de Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java dentro del informe técnico.<br> TP1: <br> AV2: <br> TF1: <br> <br>| Sebastian Tavara <br> Ayudo muchisimo el crear el User Persona para poder modelar el modelo de cada segmento en una sola persona. <br><br> Jean Loa <br> La comunicación escrita en la etapa inicial ayudó a dejar organizada la estructura del sistema y permitió describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica. <br> <br> Jairo Santiago <br> AV1: En este primer avance, el equipo demostró una sólida capacidad para documentar técnicamente el proyecto con gran nivel de detalle y profesionalismo. Mediante la redacción de artefactos clave como el Product Backlog, las historias de usuario bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo, se logró plasmar por escrito la complejidad técnica y los requisitos del sistema. Esta documentación clara y estructurada garantiza que cualquier perfil técnico o de negocio pueda comprender el alcance y las bases del desarrollo de ElectroCorp.<br> TP1: <br> AV2: <br> TF1: <br> <br>|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Sebastian Tavara <br>AV1: Realizo entrevistas clave para poder entender al usuario<br> TP1: Comunicó al equipo los hallazgos de las pruebas iniciales sobre la App Web desplegada, sugiriendo ajustes desde la perspectiva del usuario final.<br> AV2: <br> TF1: <br> <br> Diego Cabrejos <br>AV1: Expuso la estructura y los avances del desarrollo de la Landing Page durante las reuniones del equipo<br> TP1: Expuso las actualizaciones implementadas en la Landing Page de ElectroCorp, explicando las correcciones de errores y las mejoras visuales realizadas para esta entrega.<br> AV2: <br> TF1: <br> <br> Jean Loa <br> AV1: Expuso la estructura general de la aplicación, explicó la función de los módulos principales del sistema y comunicó al equipo cómo se relacionaban las secciones del frontend con la lógica del backend durante el desarrollo inicial del proyecto.<br> TP1: Explicó el proceso y la configuración técnica requerida para realizar el primer despliegue de la App Web, asegurando que el equipo comprendiera el entorno de producción.<br> AV2: <br> TF1: <br> <br> Timothy Documet <br>AV1: Realizo entrevistas clave para el proyecto, así como las user stories, el product backlog y el ubiquitous language.<br> TP1: Comunicó el estado de avance de las historias de usuario durante la revisión del sprint, validando qué requerimientos se cumplieron con el despliegue.<br> AV2: <br> TF1:<br> <br> Jairo Santiago <br> AV1: Expuso en las reuniones de equipo la estructura de las historias de usuario y los criterios de aceptación para el proyecto ElectroCorp. Explicó detalladamente el diseño y las interacciones de los Diagramas de Contexto y Contenedores (Modelo C4) de la arquitectura del software. Además, comunicó oralmente las normativas de la Guía de Estilos de Código, asegurando que todos los miembros comprendieran las convenciones a seguir durante el desarrollo. <br> TP1: Sustentó los ajustes arquitectónicos necesarios durante el paso a producción de la App Web, guiando al equipo para mantener los estándares técnicos.<br> AV2: <br> TF1: <br> <br>| Sebastian Tavara <br> Fue muy interesante poder estar cerca al usuario y poder tener una mejor vision del problema al que nos enfrentabamos. <br><br> Jean Loa <br> La comunicación oral en la etapa inicial permitió transmitir con claridad la estructura funcional del sistema y facilitó que el equipo comprendiera mejor cómo se integraban las principales partes de la aplicación.<br> <br> Jairo Santiago <br> AV1: Durante esta primera etapa, el equipo logró establecer un canal de comunicación oral constante y efectivo. A través de exposiciones en reuniones regulares, los integrantes lograron articular y transmitir ideas complejas sobre la arquitectura del sistema, el flujo de desarrollo y las normas de codificación. Esto permitió alinear la visión del proyecto (ElectroCorp), resolver dudas técnicas en tiempo real y asegurar que todos los miembros compartieran un entendimiento claro de los objetivos iniciales.<br><br> TP1 (Grupal): El primer despliegue de la App Web y la actualización de la Landing Page exigieron una coordinación oral precisa. El equipo logró discutir y resolver en tiempo real los retos técnicos de llevar el proyecto a producción, manteniendo una división de tareas clara y efectiva entre el código estático y la lógica desplegada.<br> AV2: <br> TF1: <br> <br> |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Sebastian Tavara <br>AV1: Analisis de entrevista, User Persona<br> TP1: Documentó los reportes de usabilidad y los posibles bugs encontrados al interactuar con el primer despliegue de la aplicación.<br> AV2: <br> TF1: <br> <br> Diego Cabrejos <br>AV1: Redactó y estructuró la documentación técnica del Sprint 1 (Sprint Planning y Sprint Backlog) en el informe del proyecto. Además, comunicó el progreso del desarrollo a través de código semántico y descriptivo en la Landing Page, documentando los cambios mediante mensajes de commit claros en el repositorio de GitHub.<br> TP1: Documentó los cambios y correcciones de la Landing Page mediante mensajes de commit claros en el repositorio, y actualizó la documentación técnica de la interfaz.<br> AV2: <br> TF1: <br> <br> Jean Loa <br> AV1: Redactó contenido técnico relacionado con la estructura funcional de la aplicación, describió la organización inicial del sistema y documentó por escrito la lógica general de los módulos implementados en el proyecto.<br> TP1: Redactó la documentación técnica sobre el despliegue de la App Web, incluyendo las configuraciones de entorno y dependencias utilizadas en producción.<br> AV2: <br> TF1: <br> <br> Timothy Documet <br>AV1:<br> TP1: Actualizó el Sprint Backlog marcando las tareas completadas y redactó las notas de la versión (Release Notes) correspondientes a esta primera entrega.<br> AV2: <br> TF1:<br> <br> Jairo Santiago <br> AV1: Redactó y estructuró el Product Backlog y las historias de usuario (User Stories y Technical Stories) utilizando el lenguaje Gherkin para asegurar la claridad de los requisitos. Diseñó y documentó la arquitectura del sistema elaborando los Diagramas de Contexto y de Contenedores. También redactó la Guía de Estilos y Convenciones de Código para estandarizar el desarrollo del proyecto en HTML, CSS, JavaScript y Java dentro del informe técnico.<br> TP1: Actualizó los diagramas de arquitectura para reflejar el entorno de despliegue y registró las nuevas normativas de código adoptadas en esta fase.<br> AV2: <br> TF1: <br> <br>| Sebastian Tavara <br> Ayudo muchisimo el crear el User Persona para poder modelar el modelo de cada segmento en una sola persona. <br><br> Jean Loa <br> La comunicación escrita en la etapa inicial ayudó a dejar organizada la estructura del sistema y permitió describir con claridad la función de los módulos principales, facilitando la comprensión del proyecto desde una perspectiva técnica y académica. <br> <br> Jairo Santiago <br> AV1: En este primer avance, el equipo demostró una sólida capacidad para documentar técnicamente el proyecto con gran nivel de detalle y profesionalismo. Mediante la redacción de artefactos clave como el Product Backlog, las historias de usuario bajo el estándar Gherkin, los diagramas de arquitectura C4 y las guías de estilo, se logró plasmar por escrito la complejidad técnica y los requisitos del sistema. Esta documentación clara y estructurada garantiza que cualquier perfil técnico o de negocio pueda comprender el alcance y las bases del desarrollo de ElectroCorp.<br><br> TP1 (Grupal): La comunicación escrita fue fundamental para el control de versiones en esta etapa. Registrar las actualizaciones del código, los pasos de despliegue y la actualización del backlog permitió mantener la trazabilidad del proyecto y asegurar la replicabilidad técnica del entorno.<br> AV2: <br> TF1: <br> <br>|
 
 
 # Capitulo I: Introducción
@@ -384,7 +430,7 @@ ElectroCorp debe proyectar una imagen de modernidad, eficiencia y simplicidad. L
 
 ###### Hipótesis 1:
 
-Nosotros creemos que la alta penetración en el mercado de viviendas antiguas y la reducción de barreras de entrada para nuevos clientes se realizara si las familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura attains automatización inmediata del hogar sin costos de instalación profesional ni daños a la propiedad con hardware IoT plug-and-play adaptable a interruptores y enchufes tradicionales.
+Nosotros creemos que la alta penetración en el mercado de viviendas antiguas y la reducción de barreras de entrada para nuevos clientes se realizara si las familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura attains automatización inmediata del hogar sin costos de instalación profesional ni daños a la propiedad con hardware IoT plug-and-play adaptable a interruptores y enchufes tradicionales en aproximadamente 1 mes.
 
 **Business Outcome:** Alta penetración en el mercado de viviendas antiguas y reducción de barreras de entrada para nuevos clientes.  
 **Users:** Familias de clase media en viviendas urbanas antiguas e inquilinos que no pueden modificar su infraestructura.  
@@ -393,7 +439,7 @@ Nosotros creemos que la alta penetración en el mercado de viviendas antiguas y 
 
 ###### Hipótesis 2:
 
-Nosotros creemos que el incremento en la retención de usuarios activos y la fidelización de marca mediante una experiencia de uso simplificada se realizara si los usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas attains acceso sencillo y seguro al control de dispositivos eléctricos sin barreras de idioma o complejidad técnica con una interfaz de usuario intuitiva con guías de configuración integradas en español.
+Nosotros creemos que el incremento en la retención de usuarios activos y la fidelización de marca mediante una experiencia de uso simplificada se realizara si los usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas attains acceso sencillo y seguro al control de dispositivos eléctricos sin barreras de idioma o complejidad técnica con una interfaz de usuario intuitiva con guías de configuración integradas en español en aproximadamente 1 mes.
 
 **Business Outcome:** Incremento en la retención de usuarios activos y fidelización de marca mediante una experiencia de uso simplificada.  
 **Users:** Usuarios residenciales y dueños de pequeños negocios con diversos niveles de habilidades tecnológicas.  
@@ -402,7 +448,7 @@ Nosotros creemos que el incremento en la retención de usuarios activos y la fid
 
 ###### Hipótesis 3:
 
-Nosotros creemos que el crecimiento sostenido de ventas basado en un retorno de inversión positivo para el cliente y recomendaciones boca a boca se realizara si los jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía attains reducción del gasto mensual de energía y optimización del presupuesto familiar o comercial con un panel de monitoreo de consumo en tiempo real con conversión automática de Watts a Soles (S/).
+Nosotros creemos que el crecimiento sostenido de ventas basado en un retorno de inversión positivo para el cliente y recomendaciones boca a boca se realizara si los jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía attains reducción del gasto mensual de energía y optimización del presupuesto familiar o comercial con un panel de monitoreo de consumo en tiempo real con conversión automática de Watts a Soles (S/) en aproximadamente 2 meses.
 
 **Business Outcome:** Crecimiento sostenido de ventas basado en el retorno de inversión (ROI) positivo para el cliente y recomendaciones boca a boca.  
 **Users:** Jefes de hogar y administradores de pequeños negocios preocupados por los altos costos fijos de energía.  
@@ -1002,22 +1048,24 @@ En esta sección, profundizaremos en la definición y elaboración de las User S
 
 |**Technical story ID**|**Título**|**Descripción**|**Criterios de Aceptación**|**Epica**|
 | - | - | - | - | - |
-|**TS-01**|Maquetación y Responsive CSS|<p>**Como** desarrollador frontend</p><p>**Quiero** usar variables `:root` y media queries</p><p>**Para** un diseño escalable y móvil (US-01, US-06).</p>|<p>**Escenario 1: Estructura HTML/CSS**</p><p>Dado el código base de la landing,</p><p>Cuando se renderiza en 768px,</p><p>Entonces el diseño cambia de Flex-Row a Flex-Column.</p>|**EP-05**|
-|**TS-02**|Sistema de Traducción i18n|<p>**Como** desarrollador frontend</p><p>**Quiero** un diccionario JSON y JS DOM manipulation</p><p>**Para** cambiar idiomas al instante (US-03).</p>|<p>**Escenario 1: Función applyTranslations**</p><p>Dado que corre el JS,</p><p>Cuando se llama `toggleLanguage()`,</p><p>Entonces los atributos `data-i18n` cambian su texto.</p>|**EP-05**|
-|**TS-03**|Motor Búsqueda Inteligente|<p>**Como** desarrollador frontend</p><p>**Quiero** una función JS con diccionario de palabras clave</p><p>**Para** hacer scroll automático (US-02).</p>|<p>**Escenario 1: ScrollIntoView**</p><p>Dado que el evento listener recibe un "Enter",</p><p>Cuando el término existe en el array,</p><p>Entonces hace un `scrollIntoView({ behavior: 'smooth' })`.</p>|**EP-05**|
-|**TS-04**|Eventos de Formulario (Newsletter)|<p>**Como** desarrollador frontend</p><p>**Quiero** interceptar el submit con JS</p><p>**Para** mostrar mensajes sin recargar la web (US-04).</p>|<p>**Escenario 1: preventDefault()**</p><p>Dado el clic en Enviar,</p><p>Cuando corre el event listener,</p><p>Entonces usa `e.preventDefault()`, muestra un `div` y hace `.reset()`.</p>|**EP-05**|
-|**TS-05**|Controlador de Menú y Audio|<p>**Como** desarrollador frontend</p><p>**Quiero** instanciar un navbar dinámico y un `<audio>`</p><p>**Para** interactuar con la vista y la música (US-05).</p>|<p>**Escenario 1: DOM Events**</p><p>Dado el clic en el botón de música o scroll,</p><p>Cuando cambian los estados booleanos,</p><p>Entonces JS ejecuta `.play()` o altera el background del Header.</p>|**EP-05**|
+|**TS-01**|Frontend Consumidor REST API|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir endpoints REST mediante fetch/API calls</p><p>**Para** renderizar contenido dinámico y responsive desde el backend (US-01, US-06).</p>|<p>**Escenario 1: Consumo API Responsive**</p><p>Dado el endpoint de configuración visual,</p><p>Cuando la aplicación obtiene los datos del backend,</p><p>Entonces el diseño cambia dinámicamente según el tamaño de pantalla.</p>|**EP-05**|
+|**TS-02**|API REST de Traducciones i18n|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir un endpoint REST de traducciones</p><p>**Para** cambiar idiomas dinámicamente desde el servidor (US-03).</p>|<p>**Escenario 1: Traducción dinámica**</p><p>Dado el endpoint /api/v1/translations,</p><p>Cuando se llama toggleLanguage(),</p><p>Entonces la API devuelve los textos traducidos correctamente.</p>|**EP-05**|
+|**TS-03**|API REST de Búsqueda Inteligente|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir un endpoint REST con palabras clave</p><p>**Para** realizar búsquedas dinámicas y navegación automática (US-02).</p>|<p>**Escenario 1: Búsqueda desde API**</p><p>Dado el request al endpoint de búsqueda,</p><p>Cuando el término existe en la base de datos,</p><p>Entonces el backend devuelve la sección correspondiente.</p>|**EP-05**|
+|**TS-04**|API REST Newsletter|<p>**Como** desarrollador frontend</p><p>**Quiero** enviar formularios mediante peticiones HTTP POST</p><p>**Para** registrar suscripciones sin recargar la web (US-04).</p>|<p>**Escenario 1: Registro Newsletter**</p><p>Dado el formulario completado,</p><p>Cuando se envía la petición POST al backend,</p><p>Entonces la API registra el correo y devuelve una respuesta exitosa.</p>|**EP-05**|
+|**TS-05**|REST API de Configuración Multimedia|<p>**Como** desarrollador frontend</p><p>**Quiero** consumir endpoints REST de configuración multimedia</p><p>**Para** sincronizar el estado del menú y audio de la aplicación (US-05).</p>|<p>**Escenario 1: Configuración dinámica**</p><p>Dado el request al endpoint multimedia,</p><p>Cuando el usuario interactúa con la interfaz,</p><p>Entonces el sistema actualiza el estado del audio y navegación.</p>|**EP-05**|
 |**TS-06**|Setup Spring Boot API|<p>**Como** backend developer</p><p>**Quiero** iniciar el servidor web Java</p><p>**Para** alojar los endpoints REST del sistema core.</p>|<p>**Escenario 1: Deploy inicial**</p><p>Dado el pom.xml con dependencias web,</p><p>Cuando compila el proyecto,</p><p>Entonces el contenedor Tomcat levanta en el puerto 8080.</p>|**EP-01**|
-|**TS-07**|Conexión JPA - MySQL|<p>**Como** Database Admin</p><p>**Quiero** crear entidades Java anotadas con `@Entity`</p><p>**Para** que JPA cree automáticamente las tablas en MySQL (US-07).</p>|<p>**Escenario 1: Data Source**</p><p>Dado el application.properties configurado,</p><p>Cuando inicia el contexto de Spring,</p><p>Entonces Hibernate realiza la migración DDL en el esquema MySQL.</p>|**EP-01**|
-|**TS-08**|Integración Stripe SDK|<p>**Como** backend developer</p><p>**Quiero** incorporar las librerías oficiales de Stripe</p><p>**Para** validar los tokens de pago de forma segura (US-27).</p>|<p>**Escenario 1: Charge API**</p><p>Dado un payload de pago válido,</p><p>Cuando invoca el método createCharge(),</p><p>Entonces Stripe retorna el id de transacción HTTP 200.</p>|**EP-06**|
-|**TS-09**|Integración Mailchimp REST|<p>**Como** backend developer</p><p>**Quiero** programar un servicio de RestTemplate</p><p>**Para** disparar emails automatizados (US-29).</p>|<p>**Escenario 1: Post Payload**</p><p>Dado que se dispara una alerta,</p><p>Cuando se construye el JSON del email,</p><p>Entonces hace un POST a la API de Mailchimp y se registra el envío.</p>|**EP-07**|
-|**TS-10**|Simulación Telemetría Cronjob|<p>**Como** backend developer</p><p>**Quiero** usar anotaciones `@Scheduled` en Spring Boot</p><p>**Para** inyectar falsos consumos eléctricos (US-35).</p>|<p>**Escenario 1: Tarea en background**</p><p>Dado el servidor en ejecución,</p><p>Cuando pasa el tiempo definido en el cron,</p><p>Entonces se insertan N registros aleatorios en la tabla de telemetría.</p>|**EP-03**|
-|**TS-11**|Endpoints CRUD Dispositivos|<p>**Como** backend developer</p><p>**Quiero** programar controladores `@RestController`</p><p>**Para** manejar el listado y actualización de enchufes (US-19).</p>|<p>**Escenario 1: GetMapping**</p><p>Dado el request a `/api/v1/devices`,</p><p>Cuando se procesa la solicitud,</p><p>Entonces devuelve un ResponseEntity con el JSON del listado.</p>|**EP-02**|
-|**TS-12**|Setup Angular SPA|<p>**Como** frontend developer</p><p>**Quiero** iniciar el framework SPA (Angular/React)</p><p>**Para** construir el dashboard de monitoreo interno.</p>|<p>**Escenario 1: Router Guard**</p><p>Dado el acceso a `/dashboard`,</p><p>Cuando el token no existe,</p><p>Entonces el sistema redirige al `/login`.</p>|**EP-04**|
-|**TS-13**|Generación y Filtro de JWT|<p>**Como** fullstack developer</p><p>**Quiero** configurar Spring Security con un filtro JWT</p><p>**Para** autenticar cada petición HTTP (US-07).</p>|<p>**Escenario 1: Token Auth**</p><p>Dado el Bearer token en el Header,</p><p>Cuando pasa por el filtro de seguridad,</p><p>Entonces desencripta la firma y autoriza el request.</p>|**EP-04**|
-|**TS-14**|Implementación librería Chart.js|<p>**Como** frontend developer</p><p>**Quiero** usar la API de Chart.js con un Canvas</p><p>**Para** dibujar las barras de consumo de Watts (US-15).</p>|<p>**Escenario 1: Render del Canvas**</p><p>Dado el array numérico de la API,</p><p>Cuando se pasan como `datasets`,</p><p>Entonces Chart.js dibuja visualmente la progresión.</p>|**EP-03**|
-|**TS-15**|Cifrado de Contraseñas BCrypt|<p>**Como** backend developer</p><p>**Quiero** usar BCryptPasswordEncoder</p><p>**Para** no guardar las contraseñas en texto plano (US-07).</p>|<p>**Escenario 1: Hash**</p><p>Dado el formulario de registro,</p><p>Cuando llega la clave `123456`,</p><p>Entonces se guarda como un hash seguro tipo `$2a$10$...`.</p>|**EP-04**|
-|**TS-16**|Modo Oscuro Angular UI|<p>**Como** frontend developer</p><p>**Quiero** crear un servicio Angular que modifique la clase del `body`</p><p>**Para** alternar las variables CSS globales (US-39).</p>|<p>**Escenario 1: Clase global**</p><p>Dado que el usuario presiona el switch,</p><p>Cuando el Subject cambia a `true`,</p><p>Entonces se añade la clase `.dark-theme` al document root.</p>|**EP-05**|
+|**TS-07**|Conexión JPA - MySQL|<p>**Como** Database Admin</p><p>**Quiero** crear entidades Java anotadas con @Entity</p><p>Para persistir la información consumida por la REST API (US-07).</p>|<p>**Escenario 1: Data Source**</p><p>Dado el application.properties configurado,</p><p>Cuando inicia el contexto de Spring,</p><p>Entonces Hibernate realiza la migración DDL en el esquema MySQL.</p>|**EP-01**|
+|**TS-08**|Integración Stripe REST API|<p>**Como** backend developer</p><p>**Quiero** incorporar las librerías oficiales de Stripe</p><p>**Para** validar pagos mediante endpoints REST seguros (US-27).</p>|<p>**Escenario 1: Charge API**</p><p>Dado un payload de pago válido,</p><p>Cuando invoca el endpoint createCharge(),</p><p>Entonces Stripe retorna el id de transacción HTTP 200.</p>|EP-06|
+|**TS-09**|Integración Mailchimp REST|<p>**Como** backend developer</p><p>**Quiero** programar servicios REST de integración</p><p>**Para** disparar emails automatizados desde la API (US-29).</p>|<p>**Escenario 1: Post Payload**</p><p>Dado que se dispara una alerta,</p><p>Cuando se construye el JSON del email,</p><p>Entonces hace un POST a la API de Mailchimp y se registra el envío.</p>|**EP-07**|
+|**TS-10**|REST API de Telemetría|<p>**Como** backend developer</p><p>**Quiero** usar anotaciones @Scheduled en Spring Boot</p><p>**Para** exponer datos simulados de consumo mediante endpoints REST (US-35).</p>|<p>Escenario 1: Tarea en background</p><p>Dado el servidor en ejecución,</p><p>Cuando pasa el tiempo definido en el cron,</p><p>Entonces se insertan registros consumidos posteriormente por la API.</p>|**EP-03**|
+|**TS-11**|Endpoints CRUD Dispositivos|<p>**Como** backend developer</p><p>**Quiero** programar controladores @RestController</p><p>**Para** manejar el listado y actualización de enchufes (US-19).</p>|<p>**Escenario 1: GetMapping**</p><p>Dado el request a /api/v1/devices,</p><p>Cuando se procesa la solicitud,</p><p>Entonces devuelve un ResponseEntity con el JSON del listado.</p>|**EP-02**|
+|**TS-12**|Frontend SPA Consumidor REST|<p>**Como** frontend developer</p><p>**Quiero** iniciar el framework SPA (Angular/React)</p><p>**Para** consumir endpoints REST del dashboard de monitoreo.</p>|<p>**Escenario 1: Router Guard**</p><p>Dado el acceso a /dashboard,</p><p>Cuando el token no existe,</p><p>Entonces el sistema redirige al /login.</p>|**EP-04**|
+|**TS-13**|Generación y Filtro de JWT|<p>**Como** fullstack developer</p><p>**Quiero** configurar Spring Security con un filtro JWT</p><p>**Para** autenticar cada petición HTTP de la REST API (US-07).</p>|**<p>Escenario 1: Token Auth**</p><p>Dado el Bearer token en el Header,</p><p>Cuando pasa por el filtro de seguridad,</p><p>Entonces desencripta la firma y autoriza el request.</p>|EP-04|
+|**TS-14**|Dashboard REST con Chart.js|<p>**Como** frontend developer</p><p>**Quiero** consumir datos desde la REST API usando Chart.js</p><p>**Para** visualizar gráficamente el consumo eléctrico (US-15).</p>|<p>Escenario 1: Render del Canvas</p><p>Dado el array numérico obtenido desde la API,</p><p>Cuando se pasan como datasets,</p><p>Entonces Chart.js dibuja visualmente la progresión.</p>|**EP-03**|
+|**TS-15**|Cifrado BCrypt para REST API|<p>**Como** backend developer</p><p>**Quiero** usar BCryptPasswordEncoder</p><p>**Para** proteger las credenciales consumidas por la REST API (US-07).</p>|<p>**Escenario 1: Hash**</p><p>Dado el formulario de registro,</p><p>Cuando llega la clave 123456,</p><p>Entonces se guarda como un hash seguro tipo $2a$10$....</p>|**EP-04**|
+|**TS-16**|REST API Configuración UI|<p>**Como** frontend developer</p><p>**Quiero** consumir configuraciones visuales desde endpoints REST</p><p>**Para** alternar dinámicamente el modo oscuro en la aplicación (US-39).</p>|<p>**Escenario 1: Clase global**</p><p>Dado que el usuario presiona el switch,</p><p>Cuando la configuración cambia en el backend,</p><p>Entonces se añade la clase .dark-theme al document root.</p>|**EP-05**|
+
+
 
 <br><br>
 
@@ -1683,50 +1731,54 @@ El prototipo permite validar visualmente la experiencia de usuario, la navegaci�
 <img src="assets/designLevelEventStorming.png">
 
 ### 4.6.2. Software Architecture Context Diagram
-En esta sección se presenta el Diagrama de Contexto (Context Level Diagram) correspondiente al Nivel 1 del Modelo C4 para la arquitectura de ElectroCorp. Este diagrama ilustra el panorama general del ecosistema, posicionando al sistema propuesto en el centro para demostrar cómo interactúa directamente con los usuarios finales y los sistemas de software de terceros que complementan su funcionalidad.
 
-<img src="assets/Context-diagram.png">
+En esta sección se presenta el Diagrama de Contexto correspondiente al Nivel 1 del modelo C4 para la arquitectura de ElectroCorp. Este diagrama permite visualizar el ecosistema general de la solución, identificando al usuario principal, el sistema ElectroCorp y los servicios externos que complementan sus funcionalidades.
 
-El entorno del sistema ElectroCorp se compone de los siguientes elementos clave:
+<img src="assets/context-diagram.png">
 
-**-ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. Su objetivo es monitorear su consumo de energía, configurar límites de presupuesto y establecer rutinas automáticas para sus dispositivos. Adicionalmente, el usuario interactúa con la pasarela de pagos para mantener activa su suscripción mensual y es el receptor final de las alertas del sistema.
+El entorno del sistema ElectroCorp se compone de los siguientes elementos principales:
 
-**-ElectroCorp System (Sistema Principal):** Es la plataforma integral de software (Web y Móvil) que centraliza la lógica de negocio. Para este alcance del proyecto, el sistema absorbe la responsabilidad de simular el comportamiento y la telemetría de los dispositivos IoT, orquestando las reglas de automatización y el cálculo de tarifas energéticas sin depender de hardware físico externo.
+**- ElectroCorp User (Actor Principal):** Representa a los propietarios de viviendas o dueños de negocios que interactúan con la plataforma. El usuario utiliza ElectroCorp para gestionar dispositivos inteligentes, configurar rutinas automáticas, monitorear el consumo energético, revisar reportes, definir metas energéticas, recibir alertas, gestionar su suscripción y solicitar soporte o mantenimiento técnico.
 
-**-Stripe (Sistema Externo de Soporte):** Plataforma comercial externa utilizada como pasarela de pagos. ElectroCorp se comunica con este sistema para delegar el procesamiento seguro de las transacciones financieras y la gestión de las suscripciones de los usuarios.
+**- ElectroCorp System (Sistema Principal):** Es la plataforma central del proyecto. Integra las funcionalidades principales relacionadas con autenticación, planes y facturación, control de dispositivos, monitoreo energético, gestión de sedes, reportes, metas, notificaciones, soporte y mantenimiento. Para el alcance del proyecto, el sistema simula el comportamiento y la información de dispositivos inteligentes mediante una API y una base de datos, sin depender de hardware físico real.
 
-**-Mailchimp (Sistema Externo de Soporte):** Servicio comercial de envío de correos electrónicos. ElectroCorp le delega el despacho automatizado de reportes mensuales de consumo y la emisión de alertas críticas (por ejemplo, cuando el consumo simulado excede los límites configurados), asegurando que las notificaciones lleguen de manera confiable a la bandeja de entrada del usuario.
+**- Stripe (Sistema Externo de Soporte):** Servicio externo utilizado como pasarela de pagos. ElectroCorp se comunica con Stripe para procesar pagos de suscripciones y operaciones relacionadas con la facturación de los usuarios.
+
+**- Mailchimp (Sistema Externo de Soporte):** Servicio externo utilizado para el envío de correos electrónicos. ElectroCorp delega en Mailchimp el despacho de notificaciones, alertas críticas y reportes relacionados con el consumo energético del usuario.
+
+En conjunto, este diagrama evidencia que ElectroCorp actúa como el sistema principal que centraliza la experiencia del usuario, mientras se apoya en servicios externos para resolver procesos especializados como pagos y notificaciones.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-A continuación, se detalla el ecosistema técnico de ElectroCorp, destacando el flujo de información desde que el usuario solicita contenido estático hasta que se procesan las reglas de negocio y se persiste la información
+A continuación, se presenta el Diagrama de Contenedores correspondiente al Nivel 2 del modelo C4. Este diagrama detalla los principales contenedores técnicos que conforman ElectroCorp y muestra el flujo general desde la interacción del usuario hasta el procesamiento de la información en el backend y la persistencia de datos.
 
 <img src="assets/container-diagram.png">
 
-La arquitectura se basa en una separación clara entre la lógica de presentación y la lógica de negocio, estructurada de la siguiente manera:
+La arquitectura de ElectroCorp se basa en una separación clara entre presentación, aplicación cliente, lógica de negocio, persistencia y servicios externos. Los contenedores principales son los siguientes:
 
-**1. Contenedores de Aplicación (Frontend):**
+**1. Contenedores de Aplicación Frontend**
 
-**-ElectroCorp Web App:** Actúa como el servidor de contenido estático (HTML, CSS y JS). Su única responsabilidad es entregar los archivos necesarios al navegador del usuario para inicializar la aplicación.
+**- Landing Page:** Representa la página pública de presentación de ElectroCorp. Su finalidad es mostrar información general del producto, beneficios, planes y llamadas a la acción. Desde esta página, el usuario puede dirigirse hacia la aplicación principal.
 
-**-ElectroCorp Single Page Application (SPA):** Desarrollada en Angular (TypeScript), es la aplicación que corre directamente en el cliente. Maneja el renderizado dinámico del dashboard, permitiendo que el usuario interactúe con las gráficas de consumo y configure sus dispositivos sin recargar la página.
+**- ElectroCorp Single Page Application (SPA):** Representa la aplicación cliente desarrollada con Angular. Se denomina SPA porque permite navegar entre distintas vistas sin recargar completamente la página. Desde esta aplicación, el usuario interactúa con funcionalidades como dispositivos, rutinas, energía, historial, sedes, reportes, metas, alertas, planes, soporte y mantenimiento.
 
-**-ElectroCorp Mobile Application:** Construida en Flutter, ofrece una interfaz nativa para dispositivos móviles, consumiendo los mismos servicios que la versión web.
+**- ElectroCorp Web App:** Representa el contenedor funcional web que conecta la aplicación frontend con los servicios de backend. En el flujo definido para la arquitectura, el usuario puede ingresar directamente a la SPA o llegar desde la Landing Page; posteriormente, la SPA se comunica con la Web App y esta consume los servicios de la API.
 
-**2. Contenedor de Lógica Central (Backend):**
+**2. Contenedor de Lógica Central Backend**
 
-**-Backend API:** Es el núcleo del sistema, desarrollado en Java con Spring Boot. Implementa los principios de Domain-Driven Design (DDD) y expone endpoints REST. Se encarga de la autenticación de usuarios, la lógica de simulación de consumo energético y la coordinación de alertas.
+**- ElectroCorp API:** Es el núcleo de la solución backend, desarrollado en Java con Spring Boot. Implementa la lógica de negocio organizada bajo principios de Domain-Driven Design. La API expone servicios REST para los bounded contexts de IAM, Billing, Device Control, Energy Monitoring, Notifications, Workplace, Reporting y Service Management.
 
-**3. Contenedores de Persistencia e Infraestructura:**
+**3. Contenedor de Persistencia**
 
-**-Database (MySQL):** Motor de base de datos relacional encargado de la persistencia de perfiles, configuraciones de horarios y el histórico de telemetría de los enchufes inteligentes.
+**- ElectroCorp Database:** Es la base de datos relacional encargada de almacenar la información principal del sistema. Contiene datos de usuarios, perfiles de acceso, dispositivos, rutinas, planes, suscripciones, pagos, facturas, sedes, ambientes, asignaciones, lecturas energéticas, reportes, metas, alertas, reglas de alerta, preferencias de notificación, tickets de soporte y tickets de mantenimiento.
 
-**4. Interacciones con Sistemas Externos:**
+**4. Servicios Externos**
 
-**-Stripe (Payment Gateway):** Se integra con la Backend API mediante HTTPS/JSON para gestionar el flujo de pagos de suscripciones de manera segura.
+**- Stripe:** Servicio externo utilizado para procesar pagos y suscripciones de forma segura.
 
-**-Mailchimp (Notification Service):** Servicio externo utilizado para el despacho de correos electrónicos transaccionales, como alertas de picos de voltaje o resúmenes de consumo mensual.
+**- Mailchimp:** Servicio externo utilizado para enviar notificaciones, reportes y alertas críticas por correo electrónico.
 
+El flujo principal de la arquitectura queda representado de la siguiente forma: el usuario puede acceder directamente a la SPA o pasar primero por la Landing Page; la Landing Page redirige hacia la SPA; la SPA interactúa con la Web App; la Web App consume la API; y la API se comunica con la base de datos y con servicios externos como Stripe y Mailchimp.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
@@ -1741,7 +1793,7 @@ Para una mejor comprensión, los diagramas se han dividido en dos grupos princip
 
 ![ElectroCorp - Frontend General Components Diagram](assets/frontend-general-components.png)
 
-![Backend Components Diagram](assets/component-diagram-Backend.png)
+El diagrama general de componentes del frontend muestra la estructura global de la aplicación web de ElectroCorp. En esta vista se observa cómo el usuario interactúa con el `App Layout`, el sistema de rutas y el `Language Switcher`, además de cómo la aplicación organiza sus funcionalidades en bounded contexts.
 
 Los módulos principales considerados son `Shared`, `IAM`, `Billing`, `Device Control`, `Energy Monitoring`, `Notifications`, `Workplace`, `Reporting` y `Service Management`. Cada uno de estos módulos representa una sección funcional de la aplicación y se comunica con servicios de infraestructura encargados de consumir la API backend.
 
@@ -1958,7 +2010,7 @@ Los siguientes diagramas de clases presentan el diseño orientado a objetos del 
 
 #### Frontend Class Diagram
 
-![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/frontend-class-diagram.puml)
+![Frontend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/frontend-class-diagram.puml)
 
 El diagrama de clases del frontend representa la estructura interna de la webapp de ElectroCorp, organizada por bounded contexts. Cada módulo conecta sus vistas y componentes con stores de Pinia, servicios de aplicación, endpoints de infraestructura, ensambladores y modelos de dominio.
 
@@ -1966,7 +2018,7 @@ La conexión principal sigue el flujo: las vistas invocan acciones del store, el
 
 #### Backend Class Diagram
 
-![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/backend-class-diagram.puml)
+![Backend Class Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/backend-class-diagram.puml)
 
 El diagrama de clases del backend representa la arquitectura propuesta para ElectroCorp Platform, planteada como una aplicación Spring Boot organizada por bounded contexts y capas. El diseño contempla módulos como IAM, Device Control, Energy Monitoring, Notifications y Billing.
 
@@ -1982,7 +2034,7 @@ El diagrama de base de datos de ElectroCorp representa las principales entidades
 
 La estructura permite modelar la relación entre usuarios y dispositivos, así como el registro de lecturas energéticas generadas por cada dispositivo. Además, contempla la gestión de rutinas programadas, alertas asociadas al consumo o estado de los equipos, y la administración de planes de suscripción. Este diseño está alineado con una futura implementación backend en Spring Boot, donde las entidades podrán persistirse en una base de datos relacional.
 
-![Database Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/database-diagram.puml)
+![Database Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-ecorp/electrocorp-webapp/master/docs/database-diagram.puml)
 
 # Capitulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
